@@ -1,0 +1,80 @@
+{
+  "schema_version": "article_results_v1",
+  "counts": {
+    "observations": 60088,
+    "inputs": 41193,
+    "responses": 52197
+  },
+  "scope": "full final report plus published three-model Braw comparison and legacy comparison",
+  "excluded": [
+    "pilot",
+    "smoke",
+    "mock",
+    "superseded analyses",
+    "journal event histories",
+    "duplicate Braw core rows"
+  ],
+  "metric_policy": "Individual valid-task scores; invalid metrics remain null. Primary averages sum valid scores / planned N.",
+  "missing_raw_responses": "Gemma controlled core/size/calibration/incremental: metrics cache only; no generated replacement answers",
+  "network_requests_made": 0,
+  "stats": {
+    "frozen_core": 9100,
+    "frozen_size": 2200,
+    "frozen_calibration": 400
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2561,
+      "sha256": "183190f3c0a49b1282fe0ba5fede89e4be242dd20f7949c36f21fad533af3113"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 78894,
+      "sha256": "6ebc6a3e9ff95a69efe509e0ae524a00d7ffe9586f5763dbbd7175b4a7bd7e99"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 601,
+      "sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867"
+    },
+    {
+      "path": "coverage.csv",
+      "bytes": 1120,
+      "sha256": "9ac36606bb3e50e21cd4904263b134577084f88d9b50ddef4ca736cf70033b22"
+    },
+    {
+      "path": "inputs.jsonl.gz",
+      "bytes": 92407544,
+      "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68"
+    },
+    {
+      "path": "observations.jsonl.gz",
+      "bytes": 34952089,
+      "sha256": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d"
+    },
+    {
+      "path": "panel_counts.csv",
+      "bytes": 2881,
+      "sha256": "1804c3ae389090dfb6a3bd900c516bd8a7389a76af68c46fc487c88ac2930eaf"
+    },
+    {
+      "path": "responses.jsonl.gz",
+      "bytes": 9531670,
+      "sha256": "2a1261b9b7aaed7221db6d211453367b90d02edcf32ce5080c95090ddffd6369"
+    },
+    {
+      "path": "task_specs_native.jsonl.gz",
+      "bytes": 36583,
+      "sha256": "ace1f74373d4961947cabddad630e89ecf7ba9bfe6d144a8b2a1a404bc783d4e"
+    }
+  ],
+  "generator": {
+    "path": "scripts/collect_article_results.py",
+    "sha256": "8e487bf9802f790884aff1c3c9b92dc99e69cb3bdda0452a4a858f3602803ec0"
+  },
+  "auxiliary_counts": {
+    "native_question_specifications": 700
+  },
+  "documentation_revision": "Current English data dictionary; experimental payloads and source evidence unchanged."
+}

@@ -1,0 +1,10 @@
+{
+  "model": {
+    "alias": "local-model",
+    "provider": "openai-compatible",
+    "model": "replace-with-served-model-id",
+    "base_url": "http://localhost:8000/v1",
+    "api_key_env": "LOCAL_LLM_API_KEY"
+  },
+  "execution": {"concurrency": 2, "max_attempts": 3, "timeout_s": 120, "max_turns": 26}
+}

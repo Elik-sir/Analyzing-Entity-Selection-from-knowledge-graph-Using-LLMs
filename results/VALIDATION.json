@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "observations": 60088,
+  "inputs": 41193,
+  "responses": 52197,
+  "individual_scores_recomputed": 45904,
+  "series_counts": {
+    "full_braw": 20400,
+    "native_d": 6288,
+    "legacy": 2800,
+    "core": 27300,
+    "size": 2200,
+    "incremental": 700,
+    "calibration": 400
+  },
+  "payload_coverage": {
+    "input_available": 60088,
+    "response_available": 47673,
+    "question_available": 60088,
+    "response_missing": 12415
+  },
+  "actual_requests_reconstructed": 31800,
+  "native_question_specifications": 700,
+  "network_requests_made": 0
+}

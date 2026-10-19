@@ -1,0 +1,15 @@
+{
+  "model": {
+    "alias": "qwen3.6-flash",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.6-flash",
+    "api_key_env": "OPENROUTER_API_KEY",
+    "parameters": {
+      "extra_body": {
+        "reasoning": {"enabled": false}, "transforms": [], "plugins": [],
+        "provider": {"allow_fallbacks": false, "require_parameters": true}
+      }
+    }
+  },
+  "execution": {"concurrency": 5, "max_attempts": 3, "timeout_s": 120, "max_turns": 26}
+}

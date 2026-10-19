@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.mplconfig/
+tmp/
+build/
+dist/
+*.lock.tmp
+
+# Generated datasets, model calls, and reports.
+runs/
+reproduced/
+data/
+!**/uv.lock

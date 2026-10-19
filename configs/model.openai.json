@@ -1,0 +1,9 @@
+{
+  "model": {
+    "alias": "new-model",
+    "provider": "openai",
+    "model": "replace-with-model-id",
+    "api_key_env": "OPENAI_API_KEY"
+  },
+  "execution": {"concurrency": 5, "max_attempts": 3, "timeout_s": 120, "max_turns": 26}
+}

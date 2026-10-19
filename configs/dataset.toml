@@ -1,0 +1,35 @@
+# Main configuration: full Neo4j graph, all informative node properties, no edges to LLM.
+[neo4j]
+uri = "neo4j://localhost:7687"
+database = "neo4j"
+fetch_size = 1000
+
+[ingestion]
+name_fields = ["name", "headline", "title", "ticker"]
+ignore_labels = ["Searchable"]
+type_priority = ["Company", "News", "Person", "Fund", "City", "State", "Country", "Industry", "Sector", "Product", "Resource"]
+
+[metadata]
+enabled = true
+mode = "all" # "allowlist" to use metadata.fields below
+include_labels = true
+# IDs and explicit graph structure are always excluded, recursively.
+exclude_fields = ["embedding", "embeddings", "vector", "last_updated"]
+max_chars_per_field = 2000 # 0 = preserve complete text
+max_list_items = 50
+default_fields = []
+
+[metadata.fields]
+Company = ["ticker", "wiki_summary", "description"]
+News = ["headline", "url", "date", "domain", "language", "sourcecountry", "raw_text"]
+
+[sampling]
+seed = 0
+candidate_size = 25
+per_cell = 100
+max_tries = 20000
+max_per_anchor = 2
+adjacent_max = 10
+variants = ["disconnected", "adjacent"]
+cells = ["chain:3", "chain:4", "chain:5", "chain:6", "star_in:3", "star_in:4", "star_in:5", "star_in:6", "star_in:7", "star_in:8", "star_in:9", "star_in:10", "star_out:3", "star_out:4", "star_out:5", "star_out:6", "star_out:7", "star_out:8", "star_out:9", "star_out:10", "tree_in:5", "tree_in:6", "tree_in:7", "tree_in:8", "tree_in:9", "tree_in:10", "tree_out:5", "tree_out:6", "tree_out:7", "tree_out:8", "tree_out:9", "tree_out:10", "rhombus:4", "hourglass:5"]
+
