@@ -23,6 +23,15 @@ def main():
         command.add_argument("--condition", action="append", default=[])
         command.add_argument("--motif", action="append", default=[])
         command.add_argument("--limit", type=int)
+        sampling = command.add_mutually_exclusive_group()
+        sampling.add_argument(
+            "--subgraphs-per-cell", type=int,
+            help="Base graphs per series/motif/size, retaining conditions/noise; calibration examples per type",
+        )
+        sampling.add_argument(
+            "--subgraphs-per-motif", type=int,
+            help="Base graphs per series/motif across sizes, retaining conditions/noise; calibration per type",
+        )
         command.add_argument(
             "--mock", action="store_true", help="Offline transport only; never a scientific model result"
         )
@@ -63,6 +72,8 @@ def main():
             conditions=args.condition,
             motifs=args.motif,
             limit=args.limit,
+            subgraphs_per_cell=args.subgraphs_per_cell,
+            subgraphs_per_motif=args.subgraphs_per_motif,
             mock=args.mock,
         )
         print(

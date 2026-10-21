@@ -73,7 +73,10 @@ def versions():
     return result
 
 
-def freeze(results, output, config, *, series, conditions=(), motifs=(), limit=None, mock=False):
+def freeze(
+    results, output, config, *, series, conditions=(), motifs=(), limit=None,
+    subgraphs_per_cell=None, subgraphs_per_motif=None, mock=False,
+):
     config = normalize_config(config)
     output = Path(output).resolve()
     if (output / "run.json").exists() or (output.exists() and any(output.iterdir())):
@@ -84,11 +87,15 @@ def freeze(results, output, config, *, series, conditions=(), motifs=(), limit=N
         "conditions": list(conditions),
         "motifs": list(motifs),
         "limit": limit,
+        "subgraphs_per_cell": subgraphs_per_cell,
+        "subgraphs_per_motif": subgraphs_per_motif,
     }
     if limit is not None and (type(limit) is not int or limit < 1):
         raise ValueError("limit must be positive")
     info = freeze_tasks(
-        results, output / "tasks.sqlite", series=series, conditions=conditions, motifs=motifs, limit=limit
+        results, output / "tasks.sqlite", series=series, conditions=conditions, motifs=motifs, limit=limit,
+        subgraphs_per_cell=subgraphs_per_cell,
+        subgraphs_per_motif=subgraphs_per_motif,
     )
     # Validate EVERY request locally before any model can be contacted.
     for task in tasks(output / "tasks.sqlite"):

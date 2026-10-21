@@ -1,15 +1,22 @@
 {
   "model": {
-    "alias": "qwen3.6-flash",
+    "alias": "gemma-4-31b",
     "provider": "openrouter",
-    "model": "qwen/qwen3.6-flash",
+    "model": "google/gemma-4-31b-it",
     "api_key_env": "OPENROUTER_API_KEY",
     "parameters": {
       "extra_body": {
-        "reasoning": {"enabled": false}, "transforms": [], "plugins": [],
-        "provider": {"allow_fallbacks": false, "require_parameters": true}
+        "reasoning": { "enabled": false },
+        "transforms": [],
+        "plugins": [],
+        "provider": { "allow_fallbacks": false, "require_parameters": true }
       }
     }
   },
-  "execution": {"concurrency": 5, "max_attempts": 3, "timeout_s": 120, "max_turns": 26}
+  "execution": {
+    "concurrency": 50,
+    "max_attempts": 3,
+    "timeout_s": 120,
+    "max_turns": 26
+  }
 }

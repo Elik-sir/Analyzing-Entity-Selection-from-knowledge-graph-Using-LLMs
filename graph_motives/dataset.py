@@ -31,12 +31,21 @@ def gold_names(payload):
     raise ValueError("Missing private scoring reference")
 
 
-def select_rows(results, series, conditions=(), motifs=(), limit=None):
+def select_rows(
+    results, series, conditions=(), motifs=(), limit=None,
+    subgraphs_per_cell=None, subgraphs_per_motif=None,
+):
     """Choose ONE historical model per logical task, preferring authenticated Qwen inputs.
 
     Legacy uses Gemma first because its Chain+Tree population is larger. The
     source model is provenance, never the new model being evaluated.
     """
+    for name, count in (("subgraphs_per_cell", subgraphs_per_cell),
+                        ("subgraphs_per_motif", subgraphs_per_motif)):
+        if count is not None and (type(count) is not int or count < 1):
+            raise ValueError(f"{name} must be a positive integer")
+    if subgraphs_per_cell is not None and subgraphs_per_motif is not None:
+        raise ValueError("Choose subgraphs_per_cell or subgraphs_per_motif")
     selected = {}
     for row in records(Path(results) / "observations.jsonl.gz"):
         if row["series_id"] not in series or (conditions and row["condition"] not in conditions):
@@ -52,6 +61,35 @@ def select_rows(results, series, conditions=(), motifs=(), limit=None):
         rank = preference.index(row["model"]) if row["model"] in preference else len(preference)
         if key not in selected or rank < selected[key][0]:
             selected[key] = (rank, row)
+    if subgraphs_per_cell is not None or subgraphs_per_motif is not None:
+        # Sample base graphs, not individual conditions: keep paired variants together.
+        # Calibration has no motif/size, so sample each microtask type separately.
+        def cell(row):
+            return (
+                row["series_id"], row["motif"],
+                row["size"] if subgraphs_per_cell is not None else None,
+                row["condition"] if row["series_id"] == "calibration" else None,
+            )
+
+        populations = defaultdict(lambda: defaultdict(set))
+        for _, row in selected.values():
+            populations[cell(row)][row["size"]].add(row["base_id"])
+        sampled = {}
+        count = subgraphs_per_cell if subgraphs_per_cell is not None else subgraphs_per_motif
+        for key, sizes in populations.items():
+            # Alternate sizes when the cap applies to an entire motif.
+            queues = deque(deque(sorted(sizes[size])) for size in sorted(sizes, key=canonical))
+            base_ids = set()
+            while queues and len(base_ids) < count:
+                queue = queues.popleft()
+                base_ids.add(queue.popleft())
+                if queue:
+                    queues.append(queue)
+            sampled[key] = base_ids
+        selected = {
+            key: value for key, value in selected.items()
+            if value[1]["base_id"] in sampled[cell(value[1])]
+        }
     # A limited pilot alternates across series/condition/noise/motif/size groups.
     groups = defaultdict(deque)
     for key, (_, row) in sorted(selected.items()):
@@ -75,7 +113,10 @@ def select_rows(results, series, conditions=(), motifs=(), limit=None):
     return chosen
 
 
-def freeze_tasks(results, destination, *, series, conditions=(), motifs=(), limit=None):
+def freeze_tasks(
+    results, destination, *, series, conditions=(), motifs=(), limit=None,
+    subgraphs_per_cell=None, subgraphs_per_motif=None,
+):
     results, destination = Path(results).resolve(), Path(destination)
     manifest_path = results / "MANIFEST.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -86,7 +127,7 @@ def freeze_tasks(results, destination, *, series, conditions=(), motifs=(), limi
         if actual != expected["sha256"] or (results / name).stat().st_size != expected["bytes"]:
             raise ValueError("Article input checksum mismatch: " + name)
         source_hashes[name] = actual
-    chosen = select_rows(results, series, conditions, motifs, limit)
+    chosen = select_rows(results, series, conditions, motifs, limit, subgraphs_per_cell, subgraphs_per_motif)
     by_input = defaultdict(list)
     for number, row in enumerate(chosen):
         by_input[row["input_id"]].append((number, row))
