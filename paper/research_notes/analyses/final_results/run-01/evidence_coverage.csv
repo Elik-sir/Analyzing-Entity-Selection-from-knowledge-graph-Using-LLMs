@@ -1,0 +1,14 @@
+series_id,model,request_evidence,response_evidence,N
+calibration,gemma-4-31b,frozen_input_not_authenticated_api_request,metrics_cache_only_no_raw_response,400
+core,gemma-4-31b,frozen_input_not_authenticated_api_request,metrics_cache_only_no_raw_response,9100
+core,ministral-14b,recorded_api_journal,recorded_api_journal,9100
+core,qwen3.6-flash,recorded_api_journal,recorded_api_journal,9100
+full_braw,gemma-4-31b,hash_verified_exported_job,saved_individual_outcome_with_raw_output,6800
+full_braw,ministral-14b,recorded_api_journal,recorded_api_journal,6785
+full_braw,ministral-14b,recorded_api_journal,unavailable,15
+full_braw,qwen3.6-flash,recorded_api_journal,recorded_api_journal,6800
+incremental,gemma-4-31b,frozen_initial_context_only,metrics_cache_only_no_raw_response,700
+legacy,gemma-4-31b,recorded_legacy_trace,recorded_legacy_trace,2000
+legacy,qwen3.6-flash,recorded_legacy_trace,recorded_legacy_trace,800
+native_d,gemma-4-31b,exported_job_hash_bound_to_saved_response,saved_raw_response,6288
+size,gemma-4-31b,frozen_input_not_authenticated_api_request,metrics_cache_only_no_raw_response,2200

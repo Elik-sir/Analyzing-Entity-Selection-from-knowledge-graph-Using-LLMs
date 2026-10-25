@@ -1,0 +1,277 @@
+{
+  "generated_at_utc": "2026-10-25T16:18:56.489528+00:00",
+  "revision": "1a569e57ce90cc2f8fbc09c2adc8c1e56dd7eab2",
+  "python": "3.12.11",
+  "numpy": "2.5.4",
+  "seed": 20261025,
+  "replicates": 10000,
+  "observations": 60088,
+  "condition_groups": 66,
+  "detailed_groups": 608,
+  "metric_policy": "sum valid per-task score / all planned N; invalid contributes zero",
+  "quantile_method": "numpy linear",
+  "delta": "right minus left, score units",
+  "main_simultaneous_family": {
+    "effects": 78,
+    "panel_family_coverage": 0.975,
+    "combined_nominal_coverage_at_least": 0.95,
+    "method": "separate centered max-standardized-deviation bands; two-panel union bound"
+  },
+  "bootstrap": {
+    "core": {
+      "anchor": {
+        "mode": "anchor",
+        "replicates": 10000,
+        "seed": 20261025,
+        "base_tasks": 700,
+        "anchor_clusters": 628,
+        "strata": 7,
+        "rejected_empty_stratum_draws": 0,
+        "stratum_counts": {
+          "chain:6": 100,
+          "hourglass:5": 100,
+          "rhombus:4": 100,
+          "star_in:6": 100,
+          "star_out:6": 100,
+          "tree_in:6": 100,
+          "tree_out:6": 100
+        }
+      },
+      "task": {
+        "mode": "task",
+        "replicates": 10000,
+        "seed": 20261026,
+        "base_tasks": 700,
+        "anchor_clusters": 628,
+        "strata": 7,
+        "rejected_empty_stratum_draws": 0,
+        "stratum_counts": {
+          "chain:6": 100,
+          "hourglass:5": 100,
+          "rhombus:4": 100,
+          "star_in:6": 100,
+          "star_out:6": 100,
+          "tree_in:6": 100,
+          "tree_out:6": 100
+        }
+      },
+      "simultaneous": {
+        "coverage": 0.975,
+        "critical_value": 3.6884987004593,
+        "effects": 72,
+        "active_effects": 72,
+        "degenerate_effects": 0,
+        "method": "centered bootstrap maximum absolute deviation / fixed bootstrap SD"
+      },
+      "first_half_vs_second_half_pointwise_endpoint_max_abs_difference": 0.0025963540352459125
+    },
+    "raw": {
+      "anchor": {
+        "mode": "anchor",
+        "replicates": 10000,
+        "seed": 20261125,
+        "base_tasks": 3400,
+        "anchor_clusters": 2425,
+        "strata": 34,
+        "rejected_empty_stratum_draws": 0,
+        "stratum_counts": {
+          "chain:3": 100,
+          "chain:4": 100,
+          "chain:5": 100,
+          "chain:6": 100,
+          "hourglass:5": 100,
+          "rhombus:4": 100,
+          "star_in:10": 100,
+          "star_in:3": 100,
+          "star_in:4": 100,
+          "star_in:5": 100,
+          "star_in:6": 100,
+          "star_in:7": 100,
+          "star_in:8": 100,
+          "star_in:9": 100,
+          "star_out:10": 100,
+          "star_out:3": 100,
+          "star_out:4": 100,
+          "star_out:5": 100,
+          "star_out:6": 100,
+          "star_out:7": 100,
+          "star_out:8": 100,
+          "star_out:9": 100,
+          "tree_in:10": 100,
+          "tree_in:5": 100,
+          "tree_in:6": 100,
+          "tree_in:7": 100,
+          "tree_in:8": 100,
+          "tree_in:9": 100,
+          "tree_out:10": 100,
+          "tree_out:5": 100,
+          "tree_out:6": 100,
+          "tree_out:7": 100,
+          "tree_out:8": 100,
+          "tree_out:9": 100
+        }
+      },
+      "task": {
+        "mode": "task",
+        "replicates": 10000,
+        "seed": 20261126,
+        "base_tasks": 3400,
+        "anchor_clusters": 2425,
+        "strata": 34,
+        "rejected_empty_stratum_draws": 0,
+        "stratum_counts": {
+          "chain:3": 100,
+          "chain:4": 100,
+          "chain:5": 100,
+          "chain:6": 100,
+          "hourglass:5": 100,
+          "rhombus:4": 100,
+          "star_in:10": 100,
+          "star_in:3": 100,
+          "star_in:4": 100,
+          "star_in:5": 100,
+          "star_in:6": 100,
+          "star_in:7": 100,
+          "star_in:8": 100,
+          "star_in:9": 100,
+          "star_out:10": 100,
+          "star_out:3": 100,
+          "star_out:4": 100,
+          "star_out:5": 100,
+          "star_out:6": 100,
+          "star_out:7": 100,
+          "star_out:8": 100,
+          "star_out:9": 100,
+          "tree_in:10": 100,
+          "tree_in:5": 100,
+          "tree_in:6": 100,
+          "tree_in:7": 100,
+          "tree_in:8": 100,
+          "tree_in:9": 100,
+          "tree_out:10": 100,
+          "tree_out:5": 100,
+          "tree_out:6": 100,
+          "tree_out:7": 100,
+          "tree_out:8": 100,
+          "tree_out:9": 100
+        }
+      },
+      "simultaneous": {
+        "coverage": 0.975,
+        "critical_value": 2.8132829104164427,
+        "effects": 6,
+        "active_effects": 6,
+        "degenerate_effects": 0,
+        "method": "centered bootstrap maximum absolute deviation / fixed bootstrap SD"
+      },
+      "first_half_vs_second_half_pointwise_endpoint_max_abs_difference": 0.0011045020645521486
+    },
+    "size": {
+      "anchor": {
+        "mode": "anchor",
+        "replicates": 10000,
+        "seed": 20261225,
+        "base_tasks": 1100,
+        "anchor_clusters": 1011,
+        "strata": 11,
+        "rejected_empty_stratum_draws": 0,
+        "stratum_counts": {
+          "chain:3": 100,
+          "chain:4": 100,
+          "chain:5": 100,
+          "star_in:10": 100,
+          "star_in:3": 100,
+          "star_out:10": 100,
+          "star_out:3": 100,
+          "tree_in:10": 100,
+          "tree_in:5": 100,
+          "tree_out:10": 100,
+          "tree_out:5": 100
+        }
+      },
+      "task": {
+        "mode": "task",
+        "replicates": 10000,
+        "seed": 20261226,
+        "base_tasks": 1100,
+        "anchor_clusters": 1011,
+        "strata": 11,
+        "rejected_empty_stratum_draws": 0,
+        "stratum_counts": {
+          "chain:3": 100,
+          "chain:4": 100,
+          "chain:5": 100,
+          "star_in:10": 100,
+          "star_in:3": 100,
+          "star_out:10": 100,
+          "star_out:3": 100,
+          "tree_in:10": 100,
+          "tree_in:5": 100,
+          "tree_out:10": 100,
+          "tree_out:5": 100
+        }
+      },
+      "simultaneous": null,
+      "first_half_vs_second_half_pointwise_endpoint_max_abs_difference": 0.0002298488370041686
+    },
+    "matched_incremental": {
+      "anchor": {
+        "mode": "anchor",
+        "replicates": 10000,
+        "seed": 20261235,
+        "base_tasks": 350,
+        "anchor_clusters": 336,
+        "strata": 7,
+        "rejected_empty_stratum_draws": 0,
+        "stratum_counts": {
+          "chain:6": 50,
+          "hourglass:5": 50,
+          "rhombus:4": 50,
+          "star_in:6": 50,
+          "star_out:6": 50,
+          "tree_in:6": 50,
+          "tree_out:6": 50
+        }
+      },
+      "task": {
+        "mode": "task",
+        "replicates": 10000,
+        "seed": 20261236,
+        "base_tasks": 350,
+        "anchor_clusters": 336,
+        "strata": 7,
+        "rejected_empty_stratum_draws": 0,
+        "stratum_counts": {
+          "chain:6": 50,
+          "hourglass:5": 50,
+          "rhombus:4": 50,
+          "star_in:6": 50,
+          "star_out:6": 50,
+          "tree_in:6": 50,
+          "tree_out:6": 50
+        }
+      },
+      "simultaneous": null,
+      "first_half_vs_second_half_pointwise_endpoint_max_abs_difference": 0.0010581878256615274
+    }
+  },
+  "source_sha256": {
+    "results/observations.jsonl.gz": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+    "results/inputs.jsonl.gz": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+    "results/MANIFEST.json": "6ecac4024acd023cd8259af47cf51fb63303f8d0aade3a6558a8298a6b2b6adf",
+    "graph_motives/report.py": "e1f059ec38fb765af4e67ac609a3e2ad1c01e869687d3ae277c8febad59a8fd0"
+  },
+  "script_sha256": {
+    "analyze_results.py": "ab4bcd3c4de0e1d1999bade0098e9be71bd2378fc3654b4f66b2af04cda81274",
+    "uncertainty.py": "560115da934d181e5a31e8aa8ae658f4b0db7041cd7fa7edd778a432004286d9"
+  },
+  "analysis_kind": "exploratory reanalysis of archived cached scores; no new LLM experiments",
+  "limitations": [
+    "Anchor-cluster independence is an assumption; shared entities link most tasks.",
+    "Intervals condition on one fixed KG, frozen task grid and saved model outcomes.",
+    "Bootstrap variation does not represent repeated API generations or unseen graphs.",
+    "Valid-only comparisons condition on success and can select different/easier populations.",
+    "Zero-variance bootstrap intervals are not guarantees of zero population error.",
+    "No p-values, causal effects or downstream QA improvements are inferred."
+  ]
+}

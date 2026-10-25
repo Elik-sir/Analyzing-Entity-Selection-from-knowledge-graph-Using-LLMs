@@ -1,0 +1,96 @@
+{
+  "means": [
+    [
+      "gemma-4-31b",
+      "Braw",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "Braw",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "Braw+E",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "Braw+E",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "Braw",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "Braw",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "Braw+E",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "Braw+E",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "Braw",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "Braw",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "Braw+E",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "Braw+E",
+      "exact"
+    ]
+  ],
+  "effects": [
+    {
+      "contrast": "raw_explicit",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "raw_explicit",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "raw_explicit",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "raw_explicit",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "raw_explicit",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "raw_explicit",
+      "model": "ministral-14b",
+      "metric": "exact"
+    }
+  ]
+}

@@ -1,0 +1,756 @@
+{
+  "means": [
+    [
+      "gemma-4-31b",
+      "K0",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "K0",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "K1",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "K1",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "K2",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "K2",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "K3",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "K3",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "K4",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "K4",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "K5",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "K5",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "K6",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "K6",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "K7",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "K7",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "K8",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "K8",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "K5k",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "K5k",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "R0",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "R0",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "R1-matched",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "R1-matched",
+      "exact"
+    ],
+    [
+      "gemma-4-31b",
+      "R2-matched",
+      "f1"
+    ],
+    [
+      "gemma-4-31b",
+      "R2-matched",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "K0",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "K0",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "K1",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "K1",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "K2",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "K2",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "K3",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "K3",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "K4",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "K4",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "K5",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "K5",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "K6",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "K6",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "K7",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "K7",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "K8",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "K8",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "K5k",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "K5k",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "R0",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "R0",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "R1-matched",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "R1-matched",
+      "exact"
+    ],
+    [
+      "qwen3.6-flash",
+      "R2-matched",
+      "f1"
+    ],
+    [
+      "qwen3.6-flash",
+      "R2-matched",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "K0",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "K0",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "K1",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "K1",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "K2",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "K2",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "K3",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "K3",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "K4",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "K4",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "K5",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "K5",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "K6",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "K6",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "K7",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "K7",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "K8",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "K8",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "K5k",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "K5k",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "R0",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "R0",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "R1-matched",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "R1-matched",
+      "exact"
+    ],
+    [
+      "ministral-14b",
+      "R2-matched",
+      "f1"
+    ],
+    [
+      "ministral-14b",
+      "R2-matched",
+      "exact"
+    ]
+  ],
+  "effects": [
+    {
+      "contrast": "format_slots",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "format_slots",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "format_slots",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "format_slots",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "format_slots",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "format_slots",
+      "model": "ministral-14b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "format_goal",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "format_goal",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "format_goal",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "format_goal",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "format_goal",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "format_goal",
+      "model": "ministral-14b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "noise_triples",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "noise_triples",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "noise_triples",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "noise_triples",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "noise_triples",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "noise_triples",
+      "model": "ministral-14b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "noise_text",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "noise_text",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "noise_text",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "noise_text",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "noise_text",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "noise_text",
+      "model": "ministral-14b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "placement_object",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "placement_object",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "placement_object",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "placement_object",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "placement_object",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "placement_object",
+      "model": "ministral-14b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "placement_both",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "placement_both",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "placement_both",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "placement_both",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "placement_both",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "placement_both",
+      "model": "ministral-14b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "question_triples",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "question_triples",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "question_triples",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "question_triples",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "question_triples",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "question_triples",
+      "model": "ministral-14b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "question_text",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "question_text",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "question_text",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "question_text",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "question_text",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "question_text",
+      "model": "ministral-14b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "names_disconnected",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "names_disconnected",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "names_disconnected",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "names_disconnected",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "names_disconnected",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "names_disconnected",
+      "model": "ministral-14b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "names_adjacent",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "names_adjacent",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "names_adjacent",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "names_adjacent",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "names_adjacent",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "names_adjacent",
+      "model": "ministral-14b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "names_closed",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "names_closed",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "names_closed",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "names_closed",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "names_closed",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "names_closed",
+      "model": "ministral-14b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "text_keys",
+      "model": "gemma-4-31b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "text_keys",
+      "model": "gemma-4-31b",
+      "metric": "exact"
+    },
+    {
+      "contrast": "text_keys",
+      "model": "qwen3.6-flash",
+      "metric": "f1"
+    },
+    {
+      "contrast": "text_keys",
+      "model": "qwen3.6-flash",
+      "metric": "exact"
+    },
+    {
+      "contrast": "text_keys",
+      "model": "ministral-14b",
+      "metric": "f1"
+    },
+    {
+      "contrast": "text_keys",
+      "model": "ministral-14b",
+      "metric": "exact"
+    }
+  ]
+}

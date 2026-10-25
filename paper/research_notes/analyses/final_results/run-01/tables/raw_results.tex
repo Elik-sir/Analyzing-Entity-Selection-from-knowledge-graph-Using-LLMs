@@ -1,0 +1,11 @@
+% Numeric fragment only; requires booktabs.
+\begin{tabular}{lrrrr}
+\toprule
+Model & Raw F1 & Raw+E F1 & $\Delta$F1 & Both valid $N$ \\
+\midrule
+Gemma-4-31B & 0.305 & 0.978 & 0.674 [0.664, 0.683] & 3314 \\
+Qwen3.6-Flash & 0.386 & 0.852 & 0.466 [0.453, 0.479] & 3099 \\
+Ministral-14B & 0.275 & 0.847 & 0.572 [0.554, 0.590] & 3100 \\
+\bottomrule
+\end{tabular}
+% Delta uses all 3,400 pairs, not only both-valid pairs. Brackets: simultaneous main-family band.

@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "anchor_pairing_and_seed_reproducibility",
+      "status": "passed"
+    },
+    {
+      "check": "task_pairing_and_seed_reproducibility",
+      "status": "passed"
+    },
+    {
+      "check": "fixed_stratum_weights_and_empty_stratum_rejection",
+      "status": "passed"
+    },
+    {
+      "check": "degenerate_band_is_explicit",
+      "status": "passed"
+    },
+    {
+      "check": "analytical_random_baseline_matches_finite_enumeration",
+      "status": "passed"
+    },
+    {
+      "check": "all_66_condition_groups_independently_recomputed",
+      "status": "passed"
+    },
+    {
+      "check": "all_main_delta_intervals_and_bands_match_saved_draws",
+      "status": "passed"
+    },
+    {
+      "check": "all_figure_rows_and_asset_hashes_match_sources",
+      "status": "passed"
+    }
+  ],
+  "scope": "Software and numerical reproducibility checks; not an empirical coverage simulation or validation of anchor independence."
+}

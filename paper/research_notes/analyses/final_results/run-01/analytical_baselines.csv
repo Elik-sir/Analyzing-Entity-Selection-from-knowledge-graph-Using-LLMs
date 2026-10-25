@@ -1,0 +1,7 @@
+series_id,baseline,N_bases,scope,precision,recall,f1,exact
+core,select_all,700,"analytical set-selection reference, not an executed LLM",0.22285714285714286,1.0,0.36352561046665605,0.0
+core,select_named_anchor,700,"analytical set-selection reference, not an executed LLM",1.0,0.18333333333333335,0.30884353741496595,0.0
+core,uniform_random_k6_expectation,700,"analytical set-selection reference, not an executed LLM",0.22285714285714286,0.24,0.230025974025974,4.0332338468984436e-06
+full_braw,select_all,3400,"analytical set-selection reference, not an executed LLM",0.26,1.0,0.405133663929962,0.0
+full_braw,select_named_anchor,3400,"analytical set-selection reference, not an executed LLM",1.0,0.17497665732959852,0.2924921483745013,0.0
+full_braw,uniform_random_k6_expectation,3400,"analytical set-selection reference, not an executed LLM",0.26,0.24,0.24235529176705647,8.303716743614443e-07

@@ -282,6 +282,156 @@
         "E-inputs-archive"
       ],
       "limitations": "One deterministic artifact example, not a population estimate or new model experiment."
+    },
+    {
+      "id": "E-final-stats-code",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/final_results/analyze_results.py",
+      "locator": "metric/summarize; paired_panel/analyze_panel; analytical_baselines; run",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "ab4bcd3c4de0e1d1999bade0098e9be71bd2378fc3654b4f66b2af04cda81274"
+    },
+    {
+      "id": "E-final-bootstrap-code",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/final_results/uncertainty.py",
+      "locator": "bootstrap_means; percentile_interval; simultaneous_bands",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "560115da934d181e5a31e8aa8ae658f4b0db7041cd7fa7edd778a432004286d9"
+    },
+    {
+      "id": "E-final-statistical-plan",
+      "kind": "configuration",
+      "path": "paper/research_notes/analyses/final_results/analysis_plan.md",
+      "locator": "Estimands; dependence/bootstrap; 78-effect family; limitations",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "37ee8f9e00847c873a4e1b8f494c023b8fd54b65fec699fbecf2bea2d9dbc170"
+    },
+    {
+      "id": "E-final-stat-provenance",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+      "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "ffcbaea871f941edd824f873811f8cfedc128bd63a7499c65119ded31d7701d2",
+      "upstream_evidence_ids": [
+        "E-final-stats-code",
+        "E-final-bootstrap-code",
+        "E-final-statistical-plan",
+        "E-observations",
+        "E-inputs-archive"
+      ],
+      "limitations": "Exploratory fixed-KG analysis; independent anchor clusters assumed, not demonstrated."
+    },
+    {
+      "id": "E-final-condition-results",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/condition_metrics.csv",
+      "locator": "Rows selected by series_id/model/condition/noise; N/valid/precision/recall/f1/exact",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "08062c89adc62665ced36484dd19e955a938032c575e30977253c1ff1280295f",
+      "upstream_evidence_ids": [
+        "E-final-stat-provenance"
+      ]
+    },
+    {
+      "id": "E-final-paired-results",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+      "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "d68325eb20a95e08cdeb3efde2ba91ea8522658efe82b8bfcb70fa3b4d0f38ac",
+      "upstream_evidence_ids": [
+        "E-final-stat-provenance"
+      ],
+      "limitations": "Main 78 effects have approximate two-panel simultaneous bands; supplementary intervals are pointwise only."
+    },
+    {
+      "id": "E-final-dependence",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/dependence_audit.json",
+      "locator": "core/full_braw: base_tasks; anchors; largest_reference_overlap_component",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "a4c1164d25f358396aba2697748b39ff075f16e78016e336d3aa1cfc690279bb",
+      "upstream_evidence_ids": [
+        "E-final-stat-provenance"
+      ]
+    },
+    {
+      "id": "E-final-analytical-baselines",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/analytical_baselines.csv",
+      "locator": "series_id/baseline; expected set metrics",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "2c9b1845d7857e54c1ae326c7b3ddf56a36f8326b66bde5d3a80558c238518b7",
+      "upstream_evidence_ids": [
+        "E-final-stats-code",
+        "E-final-stat-provenance"
+      ],
+      "limitations": "Analytical rules/expectations, not executed LLM experiments."
+    },
+    {
+      "id": "E-final-figure-sources",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/figure_sources.json",
+      "locator": "figure; data_source; exact included rows; captions; PNG/SVG SHA-256",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "9a9b5e990013227b9ec5b981ed48fb319333bfc144220f791cad4904343efe37",
+      "upstream_evidence_ids": [
+        "E-final-condition-results",
+        "E-final-paired-results"
+      ]
+    },
+    {
+      "id": "E-final-findings-code",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/final_results/derive_findings.py",
+      "locator": "CSV-derived headline records and both-valid sensitivity",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "18deff18adf40bc4dec324ef1fd6761bf8f4c2eb06999b5d30bb20803ebc098a"
+    },
+    {
+      "id": "E-final-findings",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+      "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "f654a2400305a3b4116ea805e1c4aa303e09d27fd8f7673ba43a806a8eb9b0e8",
+      "upstream_evidence_ids": [
+        "E-final-paired-results",
+        "E-final-analytical-baselines",
+        "E-final-findings-code"
+      ]
+    },
+    {
+      "id": "E-final-numerical-validation",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/validation.json",
+      "locator": "status; checks (eight grouped checks)",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "96204a3430bb93f76a7a86dd7c253d2a5356a9350199e107f374cca066486f91",
+      "limitations": "Software/numerical verification; not an empirical confidence-coverage simulation or validation of cluster independence."
+    },
+    {
+      "id": "E-cluster-inference-context",
+      "kind": "literature",
+      "url": "https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015.pdf",
+      "locator": "Abstract and Introduction: within-cluster dependence versus independence across clusters; inference motivation",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Context for cluster assumptions; not the exact estimator/band algorithm used in this analysis."
     }
   ]
 }

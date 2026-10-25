@@ -1,0 +1,14 @@
+{
+  "matplotlib": "3.11.2",
+  "formats": [
+    "PNG 300 dpi",
+    "SVG vector"
+  ],
+  "render_script_sha256": "5865b7f74fb8bcf1b6d22fde1fef4dae7dfbde2c30cffd9b3882489ddfe13b97",
+  "figures": "C:\\Users\\ekurm\\projects\\Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs\\paper\\figures\\final_results",
+  "source_csv_sha256": {
+    "motif_size_metrics.csv": "4d6cc43141f4877ce29430cef66afd50d64c78be949e1e7c2aef32ceb53a93a5",
+    "mean_intervals.csv": "fff0194ea83eddd3507856a0a4661acb8b6a94962a2d8c0088c31997cb9bf536",
+    "paired_contrasts.csv": "d68325eb20a95e08cdeb3efde2ba91ea8522658efe82b8bfcb70fa3b4d0f38ac"
+  }
+}

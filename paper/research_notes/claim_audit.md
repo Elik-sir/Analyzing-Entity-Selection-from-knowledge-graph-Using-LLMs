@@ -14,3 +14,7 @@ The initial forward test stopped at the account usage limit. A subsequent fresh 
 ## Completed reference and pairing analysis
 
 The user-requested first research step is now recorded in [reference_pairing_report.md](reference_pairing_report.md). Four new scoped empirical claims cover frozen reference/witness consistency, Core pairing, Raw/Raw+E overlay equality, and Native D typed-goal references. Their counts, denominators, selectors, source hashes and limitations are in the production ledger. The ledger now contains 8 claims and 26 evidence records; structural validation passed. This expands the audited evidence scope while leaving complete prose/caption/table coverage and native-description sufficiency unclaimed.
+
+## Completed numerical-results analysis
+
+The next research step is recorded in [final_results_report.md](final_results_report.md). Seven scoped claim families now cover Raw F1 differences, distractor effects, representation/placement effects, supplementary diagnostics, analytical baselines and dependence limits. All numerical values point to exact result selectors and the bootstrap provenance. The current ledger contains 15 claims and 39 evidence records and passes structural validation. Independence across anchors is explicitly an assumption, not an empirically verified claim; manuscript-wide assertion coverage remains future work.

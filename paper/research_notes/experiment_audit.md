@@ -36,3 +36,7 @@ Native-description answerability must be audited before interpreting low agreeme
 ## Completed reference/pairing follow-up, 2026-10-25
 
 The initially pending reference and pairing work is now completed for saved-input consistency. See [reference_pairing_report.md](reference_pairing_report.md): fresh archive verification, independent visible-graph target reconstruction, actual Core/Raw/Size contrast checks, Native D semantic-goal checks, and legacy pairing. No target or unintended input-invariant mismatch was found in the tested scope. Pairing is complete; dependence-aware uncertainty analysis remains future work. Native-prose semantic sufficiency and full incremental histories remain explicit limits.
+
+## Completed final-results follow-up, 2026-10-25
+
+The uncertainty work identified above is now completed within a conditional fixed-KG scope. See [final_results_report.md](final_results_report.md): 66 condition groups, 608 detailed groups, paired cluster/task bootstrap diagnostics, simultaneous main-family bands, simple analytical baselines and four verified PNG/SVG figures. Cross-anchor shared-entity dependence remains an explicit assumption/limitation. The next work is literature/contribution positioning and manuscript claim selection, not another rerun of the same saved-data checks.
