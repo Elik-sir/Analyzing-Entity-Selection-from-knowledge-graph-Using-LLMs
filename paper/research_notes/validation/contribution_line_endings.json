@@ -1,0 +1,108 @@
+{
+  "checked_on": "2026-10-25",
+  "method": "SHA256(current bytes with LF converted to CRLF) equals registered previous hash; files untouched",
+  "records": [
+    {
+      "id": "E-manifest",
+      "path": "results/MANIFEST.json",
+      "previous_crlf_sha256": "6ecac4024acd023cd8259af47cf51fb63303f8d0aade3a6558a8298a6b2b6adf",
+      "current_lf_sha256": "0f5f7156b2bd11c712c4d9c51d4a46df6536c74ec3f5448293b78dbaf63e2902"
+    },
+    {
+      "id": "E-saved-validation",
+      "path": "results/VALIDATION.json",
+      "previous_crlf_sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867",
+      "current_lf_sha256": "4822d1241ad22042a79f6df53b0ce66c31e25738777523cadffcec6f30728ae6"
+    },
+    {
+      "id": "E-coverage",
+      "path": "results/coverage.csv",
+      "previous_crlf_sha256": "9ac36606bb3e50e21cd4904263b134577084f88d9b50ddef4ca736cf70033b22",
+      "current_lf_sha256": "461c17780df5f5e2b62cac2129d12fa36d86f3cf024025f6b49851541e49d588"
+    },
+    {
+      "id": "E-summary",
+      "path": "paper/research_notes/analyses/archive_audit/summary.json",
+      "previous_crlf_sha256": "67d22f47f0e310dc4d0d25452b1045f651e0207348033fe1ae53871a5e77f356",
+      "current_lf_sha256": "9547ca0f8c3a3c3ea47b1b980bbb6928d1713f35d1734f142812561797bd8d91"
+    },
+    {
+      "id": "E-reference-audit-final",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
+      "previous_crlf_sha256": "bc9d9d3b487c7dc12c9eddde5ca7294629e0630988e38a0bbd889053bc38125b",
+      "current_lf_sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6"
+    },
+    {
+      "id": "E-archive-verification-fresh",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/archive_verification.json",
+      "previous_crlf_sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867",
+      "current_lf_sha256": "4822d1241ad22042a79f6df53b0ce66c31e25738777523cadffcec6f30728ae6"
+    },
+    {
+      "id": "E-protocol-verification-fresh",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/protocol_verification.json",
+      "previous_crlf_sha256": "aa83d298d8c186937f8b3bf108868068ab8fb5b4bdcd02ea325a846c4a92ad59",
+      "current_lf_sha256": "dc80c757b4ad43bc9d16eee2884e7a8d033e69268c61ca0b96b7d28525d6f05c"
+    },
+    {
+      "id": "E-native-audit-final",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/supplement.json",
+      "previous_crlf_sha256": "77aa408448d5ee7349da25f6ce7eee4c676143631c3fd6138e183ae43382572b",
+      "current_lf_sha256": "b08bc5bdd40754c72a364057348159d1964dfc4ae7feb6facbc27465d6eedc54"
+    },
+    {
+      "id": "E-support-example",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/support_example.json",
+      "previous_crlf_sha256": "392c83e178ad0fe2138a217427e04b7b6a0e1ba2af5760ccb57f062b6bd250cb",
+      "current_lf_sha256": "d2a2e3787dfdb45bb73db0824135885e550924b3e2a38a587450c6e53f73f7db"
+    },
+    {
+      "id": "E-final-stat-provenance",
+      "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+      "previous_crlf_sha256": "ffcbaea871f941edd824f873811f8cfedc128bd63a7499c65119ded31d7701d2",
+      "current_lf_sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
+    },
+    {
+      "id": "E-final-condition-results",
+      "path": "paper/research_notes/analyses/final_results/run-01/condition_metrics.csv",
+      "previous_crlf_sha256": "08062c89adc62665ced36484dd19e955a938032c575e30977253c1ff1280295f",
+      "current_lf_sha256": "f8f02d3a4461654ec447aff2c7761dc5d1701066aee8058011b119e7ebc59f86"
+    },
+    {
+      "id": "E-final-paired-results",
+      "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+      "previous_crlf_sha256": "d68325eb20a95e08cdeb3efde2ba91ea8522658efe82b8bfcb70fa3b4d0f38ac",
+      "current_lf_sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e"
+    },
+    {
+      "id": "E-final-dependence",
+      "path": "paper/research_notes/analyses/final_results/run-01/dependence_audit.json",
+      "previous_crlf_sha256": "a4c1164d25f358396aba2697748b39ff075f16e78016e336d3aa1cfc690279bb",
+      "current_lf_sha256": "3a7084d8b70265287e635dbe6e0f84c27c0b1ca9d95c42a159965fd7784cf582"
+    },
+    {
+      "id": "E-final-analytical-baselines",
+      "path": "paper/research_notes/analyses/final_results/run-01/analytical_baselines.csv",
+      "previous_crlf_sha256": "2c9b1845d7857e54c1ae326c7b3ddf56a36f8326b66bde5d3a80558c238518b7",
+      "current_lf_sha256": "97996518c780152f8bab5bc51cb6a3080cf9210b2ef091abfb3870ae9dae91ac"
+    },
+    {
+      "id": "E-final-figure-sources",
+      "path": "paper/research_notes/analyses/final_results/run-01/figure_sources.json",
+      "previous_crlf_sha256": "9a9b5e990013227b9ec5b981ed48fb319333bfc144220f791cad4904343efe37",
+      "current_lf_sha256": "f00d92bec5d705633983506aae3f6c71dda8c59191dfe27e1b7b16e68129688b"
+    },
+    {
+      "id": "E-final-findings",
+      "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+      "previous_crlf_sha256": "f654a2400305a3b4116ea805e1c4aa303e09d27fd8f7673ba43a806a8eb9b0e8",
+      "current_lf_sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c"
+    },
+    {
+      "id": "E-final-numerical-validation",
+      "path": "paper/research_notes/analyses/final_results/run-01/validation.json",
+      "previous_crlf_sha256": "96204a3430bb93f76a7a86dd7c253d2a5356a9350199e107f374cca066486f91",
+      "current_lf_sha256": "d201c8413ae01177a33e7f8d63f15b7fdf7d47f7aae4fe92b190b83f2991e81c"
+    }
+  ]
+}

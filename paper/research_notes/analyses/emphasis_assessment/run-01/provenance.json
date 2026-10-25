@@ -1,0 +1,11 @@
+{
+  "source_revision": "3f4b7b9baccd1a369a9665507883a7c0152f52e3",
+  "working_tree": "Prior contribution/outline edits retained; new assessment derived separately",
+  "files": {
+    "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
+    "results/observations.jsonl.gz": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+    "results/SOURCES.json": "9721a32d5f493dd8d667bac19645574a3a6832b4d09ac9dda78cf128f230ae53",
+    "paper/research_notes/analyses/emphasis_assessment/assess_scope.py": "31cc854021af543c87c70aa0f0c9230b0788a2d1585adf6f28b7a7e5cc0a9d52"
+  },
+  "method": "Stream saved observations; aggregate cached F1 and fp/fn; select existing motif/size rows; no independence tests or fitted regression"
+}

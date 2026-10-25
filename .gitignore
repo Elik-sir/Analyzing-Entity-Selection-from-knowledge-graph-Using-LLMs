@@ -19,3 +19,6 @@ runs/
 reproduced/
 data/
 !**/uv.lock
+
+# macOS directory metadata
+.DS_Store

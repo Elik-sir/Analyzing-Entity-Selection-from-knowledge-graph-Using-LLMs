@@ -20,7 +20,9 @@
       "verification": "inspected",
       "checked_on": "2026-10-25",
       "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
-      "sha256": "6ecac4024acd023cd8259af47cf51fb63303f8d0aade3a6558a8298a6b2b6adf"
+      "sha256": "0f5f7156b2bd11c712c4d9c51d4a46df6536c74ec3f5448293b78dbaf63e2902",
+      "previous_crlf_sha256": "6ecac4024acd023cd8259af47cf51fb63303f8d0aade3a6558a8298a6b2b6adf",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-saved-validation",
@@ -30,8 +32,10 @@
       "verification": "reported",
       "checked_on": "2026-10-25",
       "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
-      "sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867",
-      "limitations": "Saved earlier verifier output, not rerun in this task."
+      "sha256": "4822d1241ad22042a79f6df53b0ce66c31e25738777523cadffcec6f30728ae6",
+      "limitations": "Saved earlier verifier output, not rerun in this task.",
+      "previous_crlf_sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-coverage",
@@ -41,7 +45,9 @@
       "verification": "inspected",
       "checked_on": "2026-10-25",
       "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
-      "sha256": "9ac36606bb3e50e21cd4904263b134577084f88d9b50ddef4ca736cf70033b22"
+      "sha256": "461c17780df5f5e2b62cac2129d12fa36d86f3cf024025f6b49851541e49d588",
+      "previous_crlf_sha256": "9ac36606bb3e50e21cd4904263b134577084f88d9b50ddef4ca736cf70033b22",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-audit-script",
@@ -61,14 +67,16 @@
       "verification": "recomputed",
       "checked_on": "2026-10-25",
       "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
-      "sha256": "67d22f47f0e310dc4d0d25452b1045f651e0207348033fe1ae53871a5e77f356",
+      "sha256": "9547ca0f8c3a3c3ea47b1b980bbb6928d1713f35d1734f142812561797bd8d91",
       "upstream_evidence_ids": [
         "E-observations",
         "E-manifest",
         "E-audit-script"
       ],
       "command": "python paper/research_notes/scripts/audit_saved_archive.py --root .",
-      "limitations": "No raw-response rescore, paired intervals or significance test."
+      "limitations": "No raw-response rescore, paired intervals or significance test.",
+      "previous_crlf_sha256": "67d22f47f0e310dc4d0d25452b1045f651e0207348033fe1ae53871a5e77f356",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-aggregate-code",
@@ -201,13 +209,15 @@
       "locator": "checks; coverage; pairs[*]; cross_model; issues",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "bc9d9d3b487c7dc12c9eddde5ca7294629e0630988e38a0bbd889053bc38125b",
+      "sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6",
       "upstream_evidence_ids": [
         "E-reference-audit-code",
         "E-inputs-archive",
         "E-observations"
       ],
-      "limitations": "Frozen-input consistency; original full-graph completeness and native-prose answerability not certified."
+      "limitations": "Frozen-input consistency; original full-graph completeness and native-prose answerability not certified.",
+      "previous_crlf_sha256": "bc9d9d3b487c7dc12c9eddde5ca7294629e0630988e38a0bbd889053bc38125b",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-archive-verification-fresh",
@@ -216,12 +226,14 @@
       "locator": "status; observations; individual_scores_recomputed; actual_requests_reconstructed",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867",
+      "sha256": "4822d1241ad22042a79f6df53b0ce66c31e25738777523cadffcec6f30728ae6",
       "upstream_evidence_ids": [
         "E-inputs-archive",
         "E-observations"
       ],
-      "limitations": "Fresh offline rerun; metric count is recalculation from saved selections, not all raw-response reparsing."
+      "limitations": "Fresh offline rerun; metric count is recalculation from saved selections, not all raw-response reparsing.",
+      "previous_crlf_sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-protocol-verification-fresh",
@@ -230,12 +242,14 @@
       "locator": "checks.core_prompts_equal_recorded_requests; checks.archived_valid_selections_and_scores_equal",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "aa83d298d8c186937f8b3bf108868068ab8fb5b4bdcd02ea325a846c4a92ad59",
+      "sha256": "dc80c757b4ad43bc9d16eee2884e7a8d033e69268c61ca0b96b7d28525d6f05c",
       "upstream_evidence_ids": [
         "E-inputs-archive",
         "E-observations"
       ],
-      "limitations": "Chosen logical-task population of the existing verifier, not all model transcripts."
+      "limitations": "Chosen logical-task population of the existing verifier, not all model transcripts.",
+      "previous_crlf_sha256": "aa83d298d8c186937f8b3bf108868068ab8fb5b4bdcd02ea325a846c4a92ad59",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-native-specs-archive",
@@ -262,13 +276,15 @@
       "locator": "counts; pairs; failures",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "77aa408448d5ee7349da25f6ce7eee4c676143631c3fd6138e183ae43382572b",
+      "sha256": "b08bc5bdd40754c72a364057348159d1964dfc4ae7feb6facbc27465d6eedc54",
       "upstream_evidence_ids": [
         "E-inputs-archive",
         "E-native-specs-archive",
         "E-native-audit-code"
       ],
-      "limitations": "Typed public overlay evaluated; prose sufficiency remains untested."
+      "limitations": "Typed public overlay evaluated; prose sufficiency remains untested.",
+      "previous_crlf_sha256": "77aa408448d5ee7349da25f6ce7eee4c676143631c3fd6138e183ae43382572b",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-support-example",
@@ -277,11 +293,13 @@
       "locator": "input_id; reference_names; endpoint_names; single_card_fact_ablations",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "392c83e178ad0fe2138a217427e04b7b6a0e1ba2af5760ccb57f062b6bd250cb",
+      "sha256": "d2a2e3787dfdb45bb73db0824135885e550924b3e2a38a587450c6e53f73f7db",
       "upstream_evidence_ids": [
         "E-inputs-archive"
       ],
-      "limitations": "One deterministic artifact example, not a population estimate or new model experiment."
+      "limitations": "One deterministic artifact example, not a population estimate or new model experiment.",
+      "previous_crlf_sha256": "392c83e178ad0fe2138a217427e04b7b6a0e1ba2af5760ccb57f062b6bd250cb",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-final-stats-code",
@@ -317,7 +335,7 @@
       "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "ffcbaea871f941edd824f873811f8cfedc128bd63a7499c65119ded31d7701d2",
+      "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68",
       "upstream_evidence_ids": [
         "E-final-stats-code",
         "E-final-bootstrap-code",
@@ -325,7 +343,9 @@
         "E-observations",
         "E-inputs-archive"
       ],
-      "limitations": "Exploratory fixed-KG analysis; independent anchor clusters assumed, not demonstrated."
+      "limitations": "Exploratory fixed-KG analysis; independent anchor clusters assumed, not demonstrated.",
+      "previous_crlf_sha256": "ffcbaea871f941edd824f873811f8cfedc128bd63a7499c65119ded31d7701d2",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-final-condition-results",
@@ -334,10 +354,12 @@
       "locator": "Rows selected by series_id/model/condition/noise; N/valid/precision/recall/f1/exact",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "08062c89adc62665ced36484dd19e955a938032c575e30977253c1ff1280295f",
+      "sha256": "f8f02d3a4461654ec447aff2c7761dc5d1701066aee8058011b119e7ebc59f86",
       "upstream_evidence_ids": [
         "E-final-stat-provenance"
-      ]
+      ],
+      "previous_crlf_sha256": "08062c89adc62665ced36484dd19e955a938032c575e30977253c1ff1280295f",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-final-paired-results",
@@ -346,11 +368,13 @@
       "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "d68325eb20a95e08cdeb3efde2ba91ea8522658efe82b8bfcb70fa3b4d0f38ac",
+      "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e",
       "upstream_evidence_ids": [
         "E-final-stat-provenance"
       ],
-      "limitations": "Main 78 effects have approximate two-panel simultaneous bands; supplementary intervals are pointwise only."
+      "limitations": "Main 78 effects have approximate two-panel simultaneous bands; supplementary intervals are pointwise only.",
+      "previous_crlf_sha256": "d68325eb20a95e08cdeb3efde2ba91ea8522658efe82b8bfcb70fa3b4d0f38ac",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-final-dependence",
@@ -359,10 +383,12 @@
       "locator": "core/full_braw: base_tasks; anchors; largest_reference_overlap_component",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "a4c1164d25f358396aba2697748b39ff075f16e78016e336d3aa1cfc690279bb",
+      "sha256": "3a7084d8b70265287e635dbe6e0f84c27c0b1ca9d95c42a159965fd7784cf582",
       "upstream_evidence_ids": [
         "E-final-stat-provenance"
-      ]
+      ],
+      "previous_crlf_sha256": "a4c1164d25f358396aba2697748b39ff075f16e78016e336d3aa1cfc690279bb",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-final-analytical-baselines",
@@ -371,12 +397,14 @@
       "locator": "series_id/baseline; expected set metrics",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "2c9b1845d7857e54c1ae326c7b3ddf56a36f8326b66bde5d3a80558c238518b7",
+      "sha256": "97996518c780152f8bab5bc51cb6a3080cf9210b2ef091abfb3870ae9dae91ac",
       "upstream_evidence_ids": [
         "E-final-stats-code",
         "E-final-stat-provenance"
       ],
-      "limitations": "Analytical rules/expectations, not executed LLM experiments."
+      "limitations": "Analytical rules/expectations, not executed LLM experiments.",
+      "previous_crlf_sha256": "2c9b1845d7857e54c1ae326c7b3ddf56a36f8326b66bde5d3a80558c238518b7",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-final-figure-sources",
@@ -385,11 +413,13 @@
       "locator": "figure; data_source; exact included rows; captions; PNG/SVG SHA-256",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "9a9b5e990013227b9ec5b981ed48fb319333bfc144220f791cad4904343efe37",
+      "sha256": "f00d92bec5d705633983506aae3f6c71dda8c59191dfe27e1b7b16e68129688b",
       "upstream_evidence_ids": [
         "E-final-condition-results",
         "E-final-paired-results"
-      ]
+      ],
+      "previous_crlf_sha256": "9a9b5e990013227b9ec5b981ed48fb319333bfc144220f791cad4904343efe37",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-final-findings-code",
@@ -407,12 +437,14 @@
       "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "f654a2400305a3b4116ea805e1c4aa303e09d27fd8f7673ba43a806a8eb9b0e8",
+      "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c",
       "upstream_evidence_ids": [
         "E-final-paired-results",
         "E-final-analytical-baselines",
         "E-final-findings-code"
-      ]
+      ],
+      "previous_crlf_sha256": "f654a2400305a3b4116ea805e1c4aa303e09d27fd8f7673ba43a806a8eb9b0e8",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-final-numerical-validation",
@@ -421,8 +453,10 @@
       "locator": "status; checks (eight grouped checks)",
       "verification": "recomputed",
       "checked_on": "2026-10-25",
-      "sha256": "96204a3430bb93f76a7a86dd7c253d2a5356a9350199e107f374cca066486f91",
-      "limitations": "Software/numerical verification; not an empirical confidence-coverage simulation or validation of cluster independence."
+      "sha256": "d201c8413ae01177a33e7f8d63f15b7fdf7d47f7aae4fe92b190b83f2991e81c",
+      "limitations": "Software/numerical verification; not an empirical confidence-coverage simulation or validation of cluster independence.",
+      "previous_crlf_sha256": "96204a3430bb93f76a7a86dd7c253d2a5356a9350199e107f374cca066486f91",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
     },
     {
       "id": "E-cluster-inference-context",
@@ -432,6 +466,229 @@
       "verification": "inspected",
       "checked_on": "2026-10-25",
       "limitations": "Context for cluster assumptions; not the exact estimator/band algorithm used in this analysis."
+    },
+    {
+      "id": "E-toolgraph-appendix-o-detailed",
+      "kind": "literature",
+      "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+      "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+      "locator": "Appendix O, PDF pp. 30–31, Tables 32–33; Introduction pp. 1–4; Sections 5.1–5.3 pp. 7–8; reproducibility p. 10",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Anonymous supplied under-review manuscript; public metadata and external result archive not independently verified. Literature counts/results only."
+    },
+    {
+      "id": "E-contribution-positioning",
+      "kind": "draft",
+      "path": "paper/research_notes/contribution_comparison.md",
+      "sha256": "5382e33f6f9a3d6ac09b865844e94838387d62293020b0510cb0572bb586c256",
+      "locator": "Task/data/protocol comparison; Defensible contribution; Reuse, limits and decision",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Scoped synthesis, not evidence of novelty or independent populations."
+    },
+    {
+      "id": "E-outline-selection-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/main_text_selection/select_assets.py",
+      "locator": "unique; raw-row checks; Figure 2 hashes; table and asset-plan selection",
+      "sha256": "d98804d5c6a8bc94c51cf23092119b3d3c4f3a566caa3d3bdd79a9537e0e09e7",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Outline/selection only; no new model responses, no full manuscript or independent review."
+    },
+    {
+      "id": "E-main-text-asset-selection",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_text_selection/run-01/asset_plan.json",
+      "locator": "$.table1; $.table2; $.figure1; $.figure2; $.source_hashes",
+      "sha256": "766f8f2d2de233f954bde7732af17209cee4f8cc6e11311b1e207ca624f70a9b",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Outline/selection only; no new model responses, no full manuscript or independent review."
+    },
+    {
+      "id": "E-paper-outline",
+      "kind": "draft",
+      "path": "paper/research_notes/paper_outline.md",
+      "locator": "Selected RQs; structure/space budget; H1–H5; Tables 1–2 and Figures 1–2; appendix decisions",
+      "sha256": "7bda4074a730737a0a9993086109bbf02351075850af248ec8beb75e9e338dd3",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Outline/selection only; no new model responses, no full manuscript or independent review."
+    },
+    {
+      "id": "E-structure-detailed-results",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+      "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
+      "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-emphasis-assessment-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/emphasis_assessment/assess_scope.py",
+      "sha256": "31cc854021af543c87c70aa0f0c9230b0788a2d1585adf6f28b7a7e5cc0a9d52",
+      "locator": "coverage; endpoints; error category aggregation; independent cached-F1 cross-check",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-emphasis-assessment-results",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
+      "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
+      "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-emphasis-provenance",
+      "kind": "configuration",
+      "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
+      "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
+      "locator": "$.files; $.method; $.working_tree",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-appendix-author-context",
+      "kind": "draft",
+      "path": "paper/research_notes/author_context_appendix_o.md",
+      "sha256": "302f6b5ef3be73f4579c061a4d078dd117b101d287f52d4771f4b6c185e56dc9",
+      "locator": "Author statement of team participation and limits",
+      "verification": "reported",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-emphasis-decision",
+      "kind": "draft",
+      "path": "paper/research_notes/emphasis_assessment.md",
+      "sha256": "4925698410f83dbfdf14f4de2e6afaa74453741df34b34438ff511675e60f7df",
+      "locator": "Two-path comparison; recommended emphasis; limitations and next work",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-research-summary",
+      "kind": "draft",
+      "path": "paper/research_notes/RESEARCH_SUMMARY.md",
+      "sha256": "0f78d1473d7ab80ec1db92ea3513fa9891813006e20d48bfebd4a817f48544ff",
+      "locator": "Sections 1–15: scope, archive, result tables, Appendix O, alternatives, recommendation and remaining work",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Consolidated report, not new empirical evidence or full novelty/readiness certification; numerical claims remain bound to original result records.",
+      "upstream_evidence_ids": [
+        "E-structure-detailed-results",
+        "E-emphasis-assessment-results",
+        "E-final-paired-results",
+        "E-final-stat-provenance",
+        "E-reference-audit-final",
+        "E-toolgraph-appendix-o-detailed",
+        "E-appendix-author-context"
+      ],
+      "previous_draft_sha256": "e4d5d6061775fdaad09dea334bb8ebe4871cf8ec58835c225ec344dadc37fc3c",
+      "inspection_update": "Only a local editorial insertion in the opening sentence differs; reverse-substitution reproduces the previous hash. File retained as edited."
+    },
+    {
+      "id": "E-manuscript-assets",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/manuscript_assets/run-01/asset_sources.json",
+      "sha256": "af0f4a603eb15849a7685bc5078a2a9d361a65642011982f221cec1f8ddf61c2",
+      "locator": "$.figures[*].rows; $.tables; $.sources",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Display selection of existing audited CSVs, not new inference.",
+      "previous_draft_sha256": "3fd053319979b8f3a12f5112c7cd722ce6d20917e1dd54377210574805294e35",
+      "inspection_update": "Final artifact manifest adds final figure paths, current script hash and explicit half-up endpoint rounding; scientific source rows unchanged."
+    },
+    {
+      "id": "E-manuscript-asset-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/manuscript_assets/build_assets.py",
+      "sha256": "26bcd37558eac3f72e3f7221a295b2bc9a877a1c303e954572b9852a72a190a7",
+      "locator": "read; one; save; motif/size rendering and five table selectors",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "No model calls or new inference; Matplotlib dependency installed in temporary directory.",
+      "previous_draft_sha256": "3f5febbb7e84c55913fb4a1cab7e325bbb8cd64e6b539dec4a87b1a2c8e92e31",
+      "inspection_update": "Finalized table row endings, final-figure copies and decimal half-up endpoint formatting; no new inference."
+    },
+    {
+      "id": "E-manuscript-request-settings",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/manuscript_assets/run-01/request_settings_summary.json",
+      "sha256": "67c4aa737dc08b3957467501e23e1522b9147ea49d675792ad72c98dd63ab532",
+      "locator": "$.groups[*].records; $.source_sha256",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Recorded metadata, not authentication of unavailable Gemma calls."
+    },
+    {
+      "id": "E-author-cypher",
+      "kind": "implementation",
+      "path": "paper/manuscript/queries/author_supplied_motif_extraction.cypher",
+      "sha256": "d7d72f39075a985202a3d21386c7a53f5d0deecc6fc2034abe1d0f10395b0f7f",
+      "locator": "CALL UNION branches; distinct-node filter; typed extra-edge filter; global LIMIT 100",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Author-supplied specification; whitespace normalized; no execution/log or full size-grid provenance established."
+    },
+    {
+      "id": "E-manuscript-bibliography",
+      "kind": "literature",
+      "path": "paper/manuscript/references.bib",
+      "sha256": "95489c16c02675e58d08e64aa98c769d61a41f6ce7c03e9e4b11474f9ae7448e",
+      "locator": "All seven entries; anonymousToolGraph has deliberately no publication date",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Metadata checked in primary proceedings/arXiv/docs and supplied PDFs; no inferred DOI/pages/acceptance.",
+      "previous_draft_sha256": "5400ec332382a2c3825229699bfbbde566f5780ec7f55bf39d6ac5f0660aad55",
+      "inspection_update": "Removed source-verification process wording from bibliography notes; seven citation keys and verified bibliographic identity fields retained."
+    },
+    {
+      "id": "E-manuscript-scope",
+      "kind": "draft",
+      "path": "paper/research_notes/structure_decision.md",
+      "sha256": "f09f3dd9c7a73e13c86e5eda49e6505bcf3b00ab2c0fbdf061e11dddd19eb3dd",
+      "locator": "RQ1–RQ3; main assets; writing-gate rationale",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Draft authorization, not submission or independent novelty certification."
+    },
+    {
+      "id": "E-acmart-local",
+      "kind": "configuration",
+      "path": "paper/manuscript/acmart.cls",
+      "sha256": "2f949e6e3f2a79f2cdc218b9dcdbaa7dd451adb4ee0be1af6dc7ebe00b318ea7",
+      "locator": "ProvidesClass: 2026/06/27 v2.19",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Unmodified copy of locally tracked paper/acmart/acmart.cls; official Overleaf advertises same version, not remote bytewise authentication."
+    },
+    {
+      "id": "E-talk-graph-proceedings",
+      "kind": "literature",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/bf72f65f30eedf5d48da6980ee02b589-Abstract-Conference.html",
+      "locator": "Title, three authors, ICLR 2024 conference identity",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-cypher-primary-doc",
+      "kind": "literature",
+      "url": "https://neo4j.com/docs/cypher-manual/current/clauses/match/",
+      "locator": "MATCH syntax reference; no query execution evidence",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
     }
   ]
 }

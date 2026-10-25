@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-25",
+  "scope": "Pre-writing outline/asset map; not completed manuscript assertion coverage",
+  "outline_sha256": "7bda4074a730737a0a9993086109bbf02351075850af248ec8beb75e9e338dd3",
+  "source_revision": "3f4b7b9baccd1a369a9665507883a7c0152f52e3",
+  "working_tree": "Prior contribution edits retained; outline and asset-selection edits uncommitted",
+  "entries": [
+    {
+      "locator": "Section 1 and eventual abstract: H1",
+      "claim_ids": [
+        "C-final-raw-f1"
+      ],
+      "status": "selected_supported_scope",
+      "note": "Abstract drafted last; rounded deltas only; no causality/QA/novelty assertion.",
+      "evidence": [
+        {
+          "id": "E-final-findings",
+          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c",
+          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines"
+        },
+        {
+          "id": "E-final-paired-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e",
+          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy"
+        }
+      ]
+    },
+    {
+      "locator": "Section 2: Appendix O overlap",
+      "claim_ids": [
+        "C-toolgraph-kg-overlap"
+      ],
+      "status": "selected_supported_scope",
+      "note": "Broader citation propositions need paragraph-level verification before inclusion; anonymous citation metadata pending.",
+      "evidence": [
+        {
+          "id": "E-contribution-positioning",
+          "path": "paper/research_notes/contribution_comparison.md",
+          "sha256": "5382e33f6f9a3d6ac09b865844e94838387d62293020b0510cb0572bb586c256",
+          "locator": "Task/data/protocol comparison; Defensible contribution; Reuse, limits and decision"
+        },
+        {
+          "id": "E-graph-patterns-primary",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/9316da9c25ab559ba678f2fe52217a64-Abstract-Conference.html",
+          "locator": "Title, author list, ICLR 2025 metadata and abstract; task comparison inspected in arXiv:2410.05298v2 Sections 2-5"
+        },
+        {
+          "id": "E-kg-understanding-primary",
+          "url": "https://arxiv.org/html/2402.11541v4",
+          "locator": "Sections 3-5: KG formats, triple organization, QA and noise/incompleteness; metadata at arXiv abstract page"
+        },
+        {
+          "id": "E-talk-graph-primary",
+          "url": "https://arxiv.org/abs/2310.04560",
+          "locator": "Title, authors and v1 metadata; supplied local PDF pages 1-2 for encoding formulation"
+        },
+        {
+          "id": "E-toolgraph-appendix-o-detailed",
+          "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+          "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+          "locator": "Appendix O, PDF pp. 30–31, Tables 32–33; Introduction pp. 1–4; Sections 5.1–5.3 pp. 7–8; reproducibility p. 10"
+        }
+      ]
+    },
+    {
+      "locator": "Section 3: target/reference and Figure 1",
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-outline-target-example"
+      ],
+      "status": "selected_supported_scope",
+      "note": "Figure 1 not rendered; single-example scope; endpoint/card necessity distinguished.",
+      "evidence": [
+        {
+          "id": "E-inputs-archive",
+          "path": "results/inputs.jsonl.gz",
+          "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+          "locator": "input_id joins; candidate_names; messages/frozen_public; reference; private task_spec"
+        },
+        {
+          "id": "E-reference-audit-code",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/audit_references.py",
+          "sha256": "00a56889518a1442778d67ad409fa38513ac920bd323867f42cf12f9e0afb81e",
+          "locator": "Independent decode/oracle functions and paired invariant checks; no project module imports"
+        },
+        {
+          "id": "E-reference-audit-final",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
+          "sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6",
+          "locator": "checks; coverage; pairs[*]; cross_model; issues"
+        },
+        {
+          "id": "E-support-example",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/support_example.json",
+          "sha256": "d2a2e3787dfdb45bb73db0824135885e550924b3e2a38a587450c6e53f73f7db",
+          "locator": "input_id; reference_names; endpoint_names; single_card_fact_ablations"
+        }
+      ]
+    },
+    {
+      "locator": "Section 4 and Table 1: design",
+      "claim_ids": [
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "status": "selected_supported_scope",
+      "note": "Design rows linked to actual frozen input audit; no current-default historical inference.",
+      "evidence": [
+        {
+          "id": "E-main-text-asset-selection",
+          "path": "paper/research_notes/analyses/main_text_selection/run-01/asset_plan.json",
+          "sha256": "766f8f2d2de233f954bde7732af17209cee4f8cc6e11311b1e207ca624f70a9b",
+          "locator": "$.table1; $.table2; $.figure1; $.figure2; $.source_hashes"
+        },
+        {
+          "id": "E-native-audit-final",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/supplement.json",
+          "sha256": "b08bc5bdd40754c72a364057348159d1964dfc4ae7feb6facbc27465d6eedc54",
+          "locator": "counts; pairs; failures"
+        },
+        {
+          "id": "E-reference-audit-final",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
+          "sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6",
+          "locator": "checks; coverage; pairs[*]; cross_model; issues"
+        }
+      ]
+    },
+    {
+      "locator": "Section 4: metric/inference policy",
+      "claim_ids": [
+        "C-final-raw-f1",
+        "C-final-dependence-scope"
+      ],
+      "status": "selected_supported_scope",
+      "note": "All planned N; exact secondary; conditional bootstrap; family unchanged.",
+      "evidence": [
+        {
+          "id": "E-final-dependence",
+          "path": "paper/research_notes/analyses/final_results/run-01/dependence_audit.json",
+          "sha256": "3a7084d8b70265287e635dbe6e0f84c27c0b1ca9d95c42a159965fd7784cf582",
+          "locator": "core/full_braw: base_tasks; anchors; largest_reference_overlap_component"
+        },
+        {
+          "id": "E-final-findings",
+          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c",
+          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines"
+        },
+        {
+          "id": "E-final-paired-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e",
+          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy"
+        },
+        {
+          "id": "E-final-statistical-plan",
+          "path": "paper/research_notes/analyses/final_results/analysis_plan.md",
+          "sha256": "37ee8f9e00847c873a4e1b8f494c023b8fd54b65fec699fbecf2bea2d9dbc170",
+          "locator": "Estimands; dependence/bootstrap; 78-effect family; limitations"
+        }
+      ]
+    },
+    {
+      "locator": "Section 5.1 and Table 2A: every model F1 mean/delta/band",
+      "claim_ids": [
+        "C-final-raw-f1"
+      ],
+      "status": "selected_supported_scope",
+      "note": "asset_plan.table2: left.f1, right.f1, contrast.delta/simultaneous_low/simultaneous_high; three decimals.",
+      "evidence": [
+        {
+          "id": "E-final-condition-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/condition_metrics.csv",
+          "sha256": "f8f02d3a4461654ec447aff2c7761dc5d1701066aee8058011b119e7ebc59f86",
+          "locator": "Rows selected by series_id/model/condition/noise; N/valid/precision/recall/f1/exact"
+        },
+        {
+          "id": "E-final-findings",
+          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c",
+          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines"
+        },
+        {
+          "id": "E-final-paired-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e",
+          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy"
+        },
+        {
+          "id": "E-main-text-asset-selection",
+          "path": "paper/research_notes/analyses/main_text_selection/run-01/asset_plan.json",
+          "sha256": "766f8f2d2de233f954bde7732af17209cee4f8cc6e11311b1e207ca624f70a9b",
+          "locator": "$.table1; $.table2; $.figure1; $.figure2; $.source_hashes"
+        }
+      ]
+    },
+    {
+      "locator": "Section 5.1 and Table 2B: every exact/validity cell",
+      "claim_ids": [
+        "C-main-raw-exact-validity"
+      ],
+      "status": "selected_supported_scope",
+      "note": "Atomic field/model selectors in claim numbers; preview is selected existing CSV rows.",
+      "evidence": [
+        {
+          "id": "E-final-condition-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/condition_metrics.csv",
+          "sha256": "f8f02d3a4461654ec447aff2c7761dc5d1701066aee8058011b119e7ebc59f86",
+          "locator": "Rows selected by series_id/model/condition/noise; N/valid/precision/recall/f1/exact"
+        },
+        {
+          "id": "E-main-text-asset-selection",
+          "path": "paper/research_notes/analyses/main_text_selection/run-01/asset_plan.json",
+          "sha256": "766f8f2d2de233f954bde7732af17209cee4f8cc6e11311b1e207ca624f70a9b",
+          "locator": "$.table1; $.table2; $.figure1; $.figure2; $.source_hashes"
+        }
+      ]
+    },
+    {
+      "locator": "Section 5.2 and Figure 2: H2/H3",
+      "claim_ids": [
+        "C-final-representation-f1",
+        "C-final-placement-f1"
+      ],
+      "status": "selected_supported_scope",
+      "note": "Four contrast rows per model; CSV units multiplied by 100 in graphic; no interaction/equivalence claim.",
+      "evidence": [
+        {
+          "id": "E-final-figure-sources",
+          "path": "paper/research_notes/analyses/final_results/run-01/figure_sources.json",
+          "sha256": "f00d92bec5d705633983506aae3f6c71dda8c59191dfe27e1b7b16e68129688b",
+          "locator": "figure; data_source; exact included rows; captions; PNG/SVG SHA-256"
+        },
+        {
+          "id": "E-final-findings",
+          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c",
+          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines"
+        },
+        {
+          "id": "E-final-paired-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e",
+          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy"
+        },
+        {
+          "id": "E-main-text-asset-selection",
+          "path": "paper/research_notes/analyses/main_text_selection/run-01/asset_plan.json",
+          "sha256": "766f8f2d2de233f954bde7732af17209cee4f8cc6e11311b1e207ca624f70a9b",
+          "locator": "$.table1; $.table2; $.figure1; $.figure2; $.source_hashes"
+        }
+      ]
+    },
+    {
+      "locator": "Section 5.3 and Figure 2: H4",
+      "claim_ids": [
+        "C-final-noise-f1",
+        "C-toolgraph-kg-overlap"
+      ],
+      "status": "selected_supported_scope",
+      "note": "Both noise contrasts for each model; contextual result, no new-phenomenon claim.",
+      "evidence": [
+        {
+          "id": "E-final-findings",
+          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c",
+          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines"
+        },
+        {
+          "id": "E-final-paired-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e",
+          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy"
+        },
+        {
+          "id": "E-main-text-asset-selection",
+          "path": "paper/research_notes/analyses/main_text_selection/run-01/asset_plan.json",
+          "sha256": "766f8f2d2de233f954bde7732af17209cee4f8cc6e11311b1e207ca624f70a9b",
+          "locator": "$.table1; $.table2; $.figure1; $.figure2; $.source_hashes"
+        },
+        {
+          "id": "E-toolgraph-appendix-o-detailed",
+          "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+          "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+          "locator": "Appendix O, PDF pp. 30–31, Tables 32–33; Introduction pp. 1–4; Sections 5.1–5.3 pp. 7–8; reproducibility p. 10"
+        }
+      ]
+    },
+    {
+      "locator": "Sections 4/6: baseline interpretation",
+      "claim_ids": [
+        "C-final-analytical-baselines"
+      ],
+      "status": "selected_supported_scope",
+      "note": "Brief context; full baseline table appendix. Analytical expectations, not executed retrievers.",
+      "evidence": [
+        {
+          "id": "E-final-analytical-baselines",
+          "path": "paper/research_notes/analyses/final_results/run-01/analytical_baselines.csv",
+          "sha256": "97996518c780152f8bab5bc51cb6a3080cf9210b2ef091abfb3870ae9dae91ac",
+          "locator": "series_id/baseline; expected set metrics"
+        },
+        {
+          "id": "E-final-stats-code",
+          "path": "paper/research_notes/analyses/final_results/analyze_results.py",
+          "sha256": "ab4bcd3c4de0e1d1999bade0098e9be71bd2378fc3654b4f66b2af04cda81274",
+          "locator": "metric/summarize; paired_panel/analyze_panel; analytical_baselines; run"
+        }
+      ]
+    },
+    {
+      "locator": "Section 6: dependence and evidence limits",
+      "claim_ids": [
+        "C-final-dependence-scope"
+      ],
+      "status": "selected_supported_scope",
+      "note": "Historical provider metadata and absent raw evidence not silently filled.",
+      "evidence": [
+        {
+          "id": "E-author-decisions",
+          "path": "paper/research_notes/author_decisions.md",
+          "sha256": "b88c9831b3d311e142e9b0cfadbd14d3df74f1d549afa4e5acb60a3a8916fc76",
+          "locator": "Source graph: direct user confirmation of unchanged snapshot reuse; Cypher appendix and required literature decisions"
+        },
+        {
+          "id": "E-coverage",
+          "path": "results/coverage.csv",
+          "sha256": "461c17780df5f5e2b62cac2129d12fa36d86f3cf024025f6b49851541e49d588",
+          "locator": "series_id, model, request_evidence, response_evidence, N"
+        },
+        {
+          "id": "E-final-dependence",
+          "path": "paper/research_notes/analyses/final_results/run-01/dependence_audit.json",
+          "sha256": "3a7084d8b70265287e635dbe6e0f84c27c0b1ca9d95c42a159965fd7784cf582",
+          "locator": "core/full_braw: base_tasks; anchors; largest_reference_overlap_component"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy"
+        },
+        {
+          "id": "E-main-text-asset-selection",
+          "path": "paper/research_notes/analyses/main_text_selection/run-01/asset_plan.json",
+          "sha256": "766f8f2d2de233f954bde7732af17209cee4f8cc6e11311b1e207ca624f70a9b",
+          "locator": "$.table1; $.table2; $.figure1; $.figure2; $.source_hashes"
+        }
+      ]
+    },
+    {
+      "locator": "Section 6: cross-paper independence",
+      "claim_ids": [
+        "C-toolgraph-independent-populations"
+      ],
+      "status": "pending_assertion_excluded; unknown_to_be_disclosed",
+      "note": "This claim is not asserted; retain explicit unknown/provenance limitation.",
+      "evidence": [
+        {
+          "id": "E-contribution-positioning",
+          "path": "paper/research_notes/contribution_comparison.md",
+          "sha256": "5382e33f6f9a3d6ac09b865844e94838387d62293020b0510cb0572bb586c256",
+          "locator": "Task/data/protocol comparison; Defensible contribution; Reuse, limits and decision"
+        },
+        {
+          "id": "E-toolgraph-appendix-o-detailed",
+          "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+          "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+          "locator": "Appendix O, PDF pp. 30–31, Tables 32–33; Introduction pp. 1–4; Sections 5.1–5.3 pp. 7–8; reproducibility p. 10"
+        }
+      ]
+    },
+    {
+      "locator": "Section 7: bounded recap",
+      "claim_ids": [
+        "C-final-raw-f1",
+        "C-final-representation-f1",
+        "C-final-placement-f1",
+        "C-final-noise-f1"
+      ],
+      "status": "selected_supported_scope",
+      "note": "No new conclusion-level claims beyond H1–H4.",
+      "evidence": [
+        {
+          "id": "E-final-findings",
+          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c",
+          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines"
+        },
+        {
+          "id": "E-final-paired-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e",
+          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy"
+        }
+      ]
+    }
+  ]
+}

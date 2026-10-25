@@ -1,0 +1,33 @@
+\documentclass[sigconf,anonymous,review]{acmart}
+\usepackage{booktabs}
+\usepackage{listings}
+% Allow a final line-breaking pass for narrow columns; no margin/font changes.
+\setlength{\emergencystretch}{1em}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,keepspaces=true,showstringspaces=false,frame=single,captionpos=b}
+\setcopyright{none}
+\acmConference[WWW '27]{The ACM Web Conference 2027}{May 10--14, 2027}{Dublin, Ireland}
+\acmYear{2027}
+\acmDOI{}
+\acmISBN{}
+\title[Graph Patterns and Size in KG Entity Selection]{Graph Patterns and Size in Knowledge-Graph Entity Selection: Evidence-Conditional Profiles of Large Language Models}
+\begin{document}
+\begin{abstract}
+Selecting entities that support a knowledge-graph query requires recovering intermediate context as well as plausible endpoints. We analyze archived evaluations of three language models on seven graph-pattern task families with 25 candidates. A controlled panel compares families at common or explicitly distinguished sizes; a second panel covers 34 motif-size cells per model under native entity cards and an explicit relation overlay. At six nodes, exact recovery for outward stars is 1.00, 0.99, and 0.99 for Gemma, Qwen, and Ministral, compared with 0.87, 0.15, and 0.54 for inward trees. Size profiles depend on family and model: several chains and trees lose quality, while outward-star profiles can remain near ceiling. Adding relations increases mean graph-reference F1 by 0.674, 0.466, and 0.572, respectively; adjacent distractors still reduce selection quality. We distinguish route coverage from minimum sufficient evidence and answer correctness, retain invalid outcomes in planned denominators, and qualify conditional uncertainty and historical evidence limits. The findings support evaluating structural profiles under explicit evidence conditions rather than a universal node-count or topology difficulty law.
+\end{abstract}
+\ccsdesc[500]{Information systems~Information retrieval}
+\ccsdesc[300]{Computing methodologies~Natural language processing}
+\keywords{knowledge graphs, entity selection, graph patterns, language models, evaluation}
+\maketitle
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_method}
+\input{sections/04_setup}
+\input{sections/05_results}
+\input{sections/06_discussion}
+\input{sections/07_conclusion}
+\clearpage
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+\clearpage
+\input{sections/08_appendix}
+\end{document}

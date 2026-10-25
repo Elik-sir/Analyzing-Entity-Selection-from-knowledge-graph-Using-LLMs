@@ -54,3 +54,7 @@ These URLs originated as leads in the existing article plan. For Talk like a Gra
 Run dated primary-source searches for entity selection, evidence selection, KG QA, graph serialization, structural distractors, support-path coverage, sufficiency and naming effects. For each included paper record metadata verification, inspected sections, task/metric/input differences, overlapping interventions, and the narrow distinction this work can defend. Follow citation chains to closer studies rather than treating this seed list as exhaustive.
 
 The likely contribution is an empirical diagnostic study and reusable evaluation evidence; whether any particular component is new remains open. No “first”, “novel method” or state-of-the-art claim is authorized by this note.
+
+## Completed Appendix O positioning comparison
+
+The detailed task/data/protocol/result matrix and scoped contribution decision are in [contribution_comparison.md](contribution_comparison.md). Appendix O directly overlaps KG selection, motifs, size, explicit relations and adjacent distractors; those are not standalone new contributions. The supported increment is the within-KG native/overlay intervention and audited controlled rendering/placement contrasts. Shared-resource/task/response provenance relative to Appendix O is unresolved; no independence or new-dataset claim is permitted. Broader reference leads and anonymous citation metadata remain pending.

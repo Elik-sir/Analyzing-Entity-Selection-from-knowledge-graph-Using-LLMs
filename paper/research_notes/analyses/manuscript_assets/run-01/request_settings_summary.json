@@ -1,0 +1,70 @@
+{
+  "scope": "Whitelisted recorded observation metadata only; not authentication of missing original calls",
+  "source_sha256": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+  "groups": [
+    {
+      "series_id": "core",
+      "model": "ministral-14b",
+      "records": [
+        {
+          "metadata": {
+            "max_tokens": 1024,
+            "provider": "openrouter",
+            "request_evidence": "recorded_api_journal",
+            "response_format": "json_object",
+            "temperature": 0
+          },
+          "N": 9100
+        }
+      ]
+    },
+    {
+      "series_id": "core",
+      "model": "qwen3.6-flash",
+      "records": [
+        {
+          "metadata": {
+            "max_tokens": 1024,
+            "provider": "openrouter",
+            "request_evidence": "recorded_api_journal",
+            "response_format": "json_object",
+            "temperature": 0
+          },
+          "N": 9100
+        }
+      ]
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "records": [
+        {
+          "metadata": {
+            "max_tokens": 1024,
+            "provider": "openrouter",
+            "request_evidence": "recorded_api_journal",
+            "response_format": "json_object",
+            "temperature": 0
+          },
+          "N": 6800
+        }
+      ]
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "records": [
+        {
+          "metadata": {
+            "max_tokens": 1024,
+            "provider": "openrouter",
+            "request_evidence": "recorded_api_journal",
+            "response_format": "json_object",
+            "temperature": 0
+          },
+          "N": 6800
+        }
+      ]
+    }
+  ]
+}

@@ -18,3 +18,15 @@ The user-requested first research step is now recorded in [reference_pairing_rep
 ## Completed numerical-results analysis
 
 The next research step is recorded in [final_results_report.md](final_results_report.md). Seven scoped claim families now cover Raw F1 differences, distractor effects, representation/placement effects, supplementary diagnostics, analytical baselines and dependence limits. All numerical values point to exact result selectors and the bootstrap provenance. The current ledger contains 15 claims and 39 evidence records and passes structural validation. Independence across anchors is explicitly an assumption, not an empirically verified claim; manuscript-wide assertion coverage remains future work.
+
+## Contribution-comparison audit, 2026-10-25
+
+Scoped semantic review covers the new comparison matrix, literature-result paragraph and proposed positioning in [contribution_comparison.md](contribution_comparison.md), against PDF pp. 1–4, 7–10, 30–31 and the existing archive result/pairing records. Literature numbers remain attributed to their source; success, exact and F1 are separated. Removed broad originality, independence, QA and minimality assertions by narrowing. Cross-paper population identity is pending, not inferred from labels/counts. This was a single-agent scoped check, not an independent scientific review or manuscript-wide verification. New ledger entries document Appendix O design/results and the unresolved independence claim.
+
+## Outline and main-asset scope audit, 2026-10-25
+
+Reviewed `paper_outline.md`, its H1–H5, selected RQs, section allocations and main/appendix asset choices. Existing result/pairing claims support the selected contrasts; H2/H3 avoid equivalence and untested interaction assertions. Table 2 exact/validity cells and the single archived Figure 1 example now have explicit scoped claim records. `outline_claim_map.json` records section/asset claims, hashes and pending independence exclusion. The bounded selection checked 3 Raw model rows, 18 controlled contrast rows and existing Figure 2 bytes; it recomputed no inference. The SVG hash differs from the archived rendering hash only by proven LF/CRLF conversion, recorded in `asset_plan.json`; PNG bytes match. Figure 1 is a planned rendering, not an existing artifact. This is a single-agent pre-writing audit, not independent review or full manuscript coverage.
+
+## Emphasis reassessment scope
+
+Reviewed the recommendation in `emphasis_assessment.md` against detailed saved results and fresh cached-F1/fp/fn aggregation. Added four descriptive claim families for all-model size coverage/base overlap, common-size motif profiles, nonuniform size endpoints and selected error-category examples. No topology causality, universal size law, mechanistic explanation or statistical interaction is claimed. Corrected the earlier conversational claim that size evidence was generally Gemma-only. Team participation in Appendix O is author-reported; exact cross-paper reuse remains unknown. This remains a single-agent scoped analysis, not an independent review.

@@ -27,3 +27,19 @@ Initial register, 2026-10-25. “Blocking” means blocking the named claim, not
 ## Optional strengthening
 
 Additional model repetitions, more graph domains, downstream QA evaluation and new complex retrieval baselines can strengthen scope, but are not existing findings. Propose cost, required data and scientific purpose before requesting authorization to run them.
+
+## Contribution clarification follow-up, 2026-10-25
+
+G10 is resolved for the direct Appendix O comparison and narrowed contribution wording; see [contribution_comparison.md](contribution_comparison.md). Broader literature leads and anonymous bibliographic metadata remain open.
+
+- **G14 — reuse relative to Appendix O:** snapshot/task/input/response overlap is unknown. Do not claim an independent benchmark or replication. Resolve any such proposed claim by author provenance and, where accessible, fingerprint/task/run matching; otherwise retain restricted wording and disclose known reuse. No external archive was independently audited in this update.
+
+## Updated emphasis/provenance scope
+
+G14: user confirms team participation in Appendix O, and SOURCES.json identifies an AgentGraphBench source root. Independent external-work framing is inappropriate; precise shared task/response/table-row counts are still unverified. Distinguish authorship/project provenance from row identity.
+
+For a structural emphasis, any new inferential motif/size/ranking claim needs a declared exploratory analysis and appropriate common support/confound/dependence handling; the existing 78-effect condition family does not automatically cover it. Descriptive family/size profiles can already be reported with their scope. Full Braw/Raw+E size coverage is all-model, not Gemma-only.
+
+## Manuscript drafting update
+
+A full descriptive, structure-led English draft is now under `paper/manuscript/`. The author has supplied the Cypher extraction specification; Appendix B reproduces it with English comments and token equivalence. G01 is resolved as to provision of concrete queries, but historical execution/full-grid sampling coverage is not inferred from its fixed sizes/global LIMIT. The draft narrows this description accordingly. Local tracked acmart 2.19 was found and used, resolving the earlier missing-class issue G12 at assembly scope. G14 precise Appendix O row overlap and independent scientific/novelty review remain open; no submission readiness is implied.

@@ -50,3 +50,68 @@ foreach ($skill in Get-ChildItem -LiteralPath '.agents/skills' -Directory) {
 ```
 
 The bundled validator's absolute path is specific to this installation. Archive audit reproduction is `python paper/research_notes/scripts/audit_saved_archive.py --root .`; capture stdout to a new output file. If registered sources change, inspect the changes before refreshing ledger hashes.
+
+## Contribution clarification, 2026-10-25
+
+Inspected `article` at `3f4b7b9`, clean at entry. Scoped comparison and wording audit: `contribution_comparison.md`; primary PDF title/Introduction/related work, Sections 5.1–5.3, limitations/reproducibility and Appendix O, including Tables 32–33. No full manuscript or independent scientific review claimed. Existing result selectors were reused without new model runs or re-estimating archived scores.
+
+Commands:
+
+```text
+/Users/ivan_kirpichev/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 paper/research_notes/scripts/validate_research_artifacts.py --root .
+git diff --check
+```
+
+Initial validation detected 17 pre-existing byte-hash differences. Each was exactly explained by LF versus CRLF conversion, verified by hashing converted bytes; the files themselves were untouched. Old hashes were retained as `previous_crlf_sha256`, current hashes registered with a provenance note. Full per-file proof is in `validation/contribution_line_endings.json`. This is a checkout-byte reconciliation, not fresh scientific verification of historical reports.
+
+Final structural result: passed, 41 evidence records, 18 claims, no errors. `git diff --check`: passed. Semantic conclusion: supported scoped contrasts are evidence availability and controlled rendering/placement; KG motifs, size and adjacent noise overlap prior Appendix O. Cross-paper resource/task/response independence remains pending and is excluded from the contribution. Broader literature completion, bibliography metadata and full manuscript coverage are not certified.
+
+## Main-text structure and principal-claim selection, 2026-10-25
+
+Created `paper_outline.md`, `outline_claim_map.json`, and bounded selection outputs under `analyses/main_text_selection/run-01/`. Existing manuscript drafts and numerical-analysis artifacts were preserved. The selection script reads existing CSVs and writes a design-table preview, Raw/Raw+E F1/exact/validity preview and machine-readable selectors/values/hashes. No bootstrap rerun, model call or new scientific experiment was performed.
+
+Commands:
+
+```text
+/Users/ivan_kirpichev/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 paper/research_notes/analyses/main_text_selection/select_assets.py
+/Users/ivan_kirpichev/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 paper/research_notes/scripts/validate_research_artifacts.py --root .
+git diff --check
+```
+
+The first selection attempt stopped at a figure-hash check before writing deliverables. The stored SVG render hash was proven exactly equivalent to current bytes under LF-to-CRLF conversion; PNG matched directly. The completed selection records both current/archived SVG hashes and the conversion proof, without changing either source figure. Final selection check passed: 3 Raw model rows, 18 controlled contrast/model rows, 2 figure-file byte checks, unchanged declared 78-effect family.
+
+Structural validator passed with 44 evidence records and 20 claims; `git diff --check` passed. Additional bounded map check passed: 13 outline entries resolve to known claims/evidence, local hashes match, pending independence is explicitly excluded, numeric source hashes match and section budgets sum to 8.0 pages. Result: `analyses/main_text_selection/run-01/validation.json`. Page budgets are editorial allocations, not a compiled compliance result.
+
+Visually inspected the existing `controlled_contrasts.png` for asset selection and retained its complete six-row/three-model display; final printed legibility still needs manuscript layout QA. Figure 1 remains specified but not rendered. H1–H5 and main assets were reviewed against registered evidence; no independent review, full-text assertion coverage or final writing-gate approval is claimed.
+
+## Scientific-emphasis reassessment, 2026-10-25
+
+The author clarified team participation in Appendix O and asked to weigh structure/size versus evidence/presentation emphasis. Preserved the existing outline as an alternative. Added `emphasis_assessment.md`, `author_context_appendix_o.md` and bounded derived analysis under `analyses/emphasis_assessment/`.
+
+Commands:
+
+```text
+/Users/ivan_kirpichev/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 paper/research_notes/analyses/emphasis_assessment/assess_scope.py
+/Users/ivan_kirpichev/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 paper/research_notes/scripts/validate_research_artifacts.py --root .
+git diff --check
+```
+
+Results: 499 detailed Core/Size/Full Braw groups independently aggregated from cached observation F1 agree with existing detailed CSV values (maximum absolute difference 1.3322676295501878e-15). Error categories preserve all planned outcomes and separate invalids; source hashes, selectors and base-ID intersections are recorded. This is not reparsing raw replies or fitting/testing motif or size effects. Initial exploratory inventory code encountered blank size fields in out-of-scope archive panels; the retained script explicitly selects Core/Size/Full Braw before numerical size conversion.
+
+Structural validator passed: 50 evidence records, 24 claims, no errors. `git diff --check` passed. Corrected the earlier conversational overgeneralization that size evidence is Gemma-only: the restriction applies to the controlled additional-size series, while Full Braw/Raw+E has a complete all-model grid. Recommendation is structure-led and condition-aware; no new independent-replication, topology-causality, universal size-law or interaction significance claim is made. No new model calls, database export, complete manuscript or independent review.
+
+## Consolidated research report, 2026-10-25
+
+Created `RESEARCH_SUMMARY.md` as the single Russian-language synthesis of inspected implementation, archive coverage, reference/pair audits, final results, literature search status, detailed Appendix O comparison, author clarifications, the two competing emphases, the current structural recommendation and remaining work. Preserved existing detailed notes and the earlier presentation-first outline. No new empirical analysis or internet search was claimed in assembling this report.
+
+Checked all 52 local Markdown links: no missing targets. All inline C-* identifiers resolve to existing claim records. The source manifest `validation/research_summary_sources.json` records 32 source-file hashes and the report hash; mutable workflow/evidence/validation logs are excluded from its frozen source hashes. This structural link/hash check does not re-verify source scientific truth or extend literature-search coverage.
+
+Final command: `/Users/ivan_kirpichev/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 paper/research_notes/scripts/validate_research_artifacts.py --root .` — passed, 51 evidence records, 24 claims, no errors. `git diff --check` — passed. Full manuscript writing, layout, independent review and submission readiness remain unclaimed.
+
+## Git checkpoint after manuscript drafting
+
+2026-10-25. Before committing all work, inspected and reconciled four changed draft-source hashes. The report change was a single local editorial insertion (reversing that insertion reproduces its old hash); preserved the edited file. Other changes are the known final asset/script rounding/copy changes and bibliography note cleanup. Previous hashes and inspection reasons remain in the evidence register.
+
+Structural validation passed: 60 evidence records, 27 claims, no errors. `git diff --check` passed. PDF build verification: 9 pages, no overfull boxes or undefined citation keys; final paragraph-level claim-map completion and independent scientific review remain pending. macOS `.DS_Store` metadata is excluded through `.gitignore`; research artifacts, source queries, PDF and analysis/QA materials are included in the checkpoint.
+
+The staged whitespace check additionally reports renderer-generated SVG whitespace, unchanged vendored ACM class/style whitespace, raw compiler-log whitespace, and two intentional Markdown hard-break spaces in the report. These bytes are preserved rather than rewriting vendor/source-hashed generated artifacts just to silence a formatting diagnostic. No whitespace findings occur in the authored Python, TeX, Cypher or BibTeX content.

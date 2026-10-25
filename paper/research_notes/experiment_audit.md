@@ -40,3 +40,7 @@ The initially pending reference and pairing work is now completed for saved-inpu
 ## Completed final-results follow-up, 2026-10-25
 
 The uncertainty work identified above is now completed within a conditional fixed-KG scope. See [final_results_report.md](final_results_report.md): 66 condition groups, 608 detailed groups, paired cluster/task bootstrap diagnostics, simultaneous main-family bands, simple analytical baselines and four verified PNG/SVG figures. Cross-anchor shared-entity dependence remains an explicit assumption/limitation. The next work is literature/contribution positioning and manuscript claim selection, not another rerun of the same saved-data checks.
+
+## Motif/size scope reassessment
+
+Fresh bounded cached-score aggregation and scope inventory are in `analyses/emphasis_assessment/run-01/summary.json` with source hashes and script. All 499 detailed Core/Size/Full Braw groups match existing F1 summaries within numerical rounding; no raw-response rescore or inferential test was run. Full Braw covers 34 motif-size cells for every model/condition. Core K1 base IDs are a subset of Full Braw+E IDs per model, not an independent task population. Exact/omission/inclusion/mixed/invalid categories were separately counted from cached fp/fn; invalid cases are not interpreted as reasoning errors. Recommendation and limits: [emphasis_assessment.md](emphasis_assessment.md).

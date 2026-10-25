@@ -5,13 +5,23 @@
   "overleaf_advertised_version": "2.19",
   "production_package_page": "https://ctan.org/pkg/acmart?lang=en",
   "ctan_advertised_version": "2.20",
-  "bundle_available_locally": false,
-  "actual_class_version": null,
+  "bundle_available_locally": true,
+  "actual_class_version": "2026/06/27 v2.19",
   "actual_bundle_sha256": null,
   "attempts": [
-    {"url": "https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip", "outcome": "ACM Cloudflare access block; no valid archive"},
-    {"url": "https://mirrors.ctan.org/macros/latex/contrib/acmart.zip", "outcome": "HTML bot challenge returned; ZIP signature check failed; rejected content removed"}
+    {
+      "url": "https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip",
+      "outcome": "ACM Cloudflare access block; no valid archive"
+    },
+    {
+      "url": "https://mirrors.ctan.org/macros/latex/contrib/acmart.zip",
+      "outcome": "HTML bot challenge returned; ZIP signature check failed; rejected content removed"
+    }
   ],
   "compiled": false,
-  "next_action": "Acquire the official production bundle via an accessible supported route; inspect class version and hash before use."
+  "next_action": "Preserve unmodified class; compile and inspect scoped manuscript. Submission readiness is separate.",
+  "class_source": "Locally tracked paper/acmart/acmart.cls; unmodified copy used in paper/manuscript/acmart.cls",
+  "actual_class_sha256": "2f949e6e3f2a79f2cdc218b9dcdbaa7dd451adb4ee0be1af6dc7ebe00b318ea7",
+  "official_overleaf_version_rechecked": "2.19 on 2026-10-25",
+  "local_discovery_note": "Earlier download failures retained as history; local tracked package discovered during manuscript assembly. No successful fresh official ZIP download or remote bytewise class comparison claimed."
 }
