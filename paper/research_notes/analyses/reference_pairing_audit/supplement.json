@@ -1,0 +1,99 @@
+{
+  "counts": {
+    "raw_baseline_inputs_checked_for_explicit_relations": 3400,
+    "native_primary_inputs_parsed": 6288,
+    "native_overlay_typed_goal_reference_checked": 2096
+  },
+  "pairs": [
+    {
+      "series": "native_d",
+      "left": "D200",
+      "right": "D200+E",
+      "pairing_key": [
+        "noise",
+        "base_id"
+      ],
+      "left_N": 2096,
+      "right_N": 2096,
+      "paired_N": 2096,
+      "left_only": 0,
+      "right_only": 0,
+      "checks": {
+        "question_equal": 2096,
+        "candidates_equal": 2096,
+        "reference_equal": 2096,
+        "types_equal": 2096,
+        "system_equal": 2096,
+        "metadata_prefix200_equal": 2096,
+        "user_without_overlay_equal": 2096
+      }
+    },
+    {
+      "series": "native_d",
+      "left": "D200",
+      "right": "Dfull",
+      "pairing_key": [
+        "noise",
+        "base_id"
+      ],
+      "left_N": 2096,
+      "right_N": 2096,
+      "paired_N": 2096,
+      "left_only": 0,
+      "right_only": 0,
+      "checks": {
+        "question_equal": 2096,
+        "candidates_equal": 2096,
+        "reference_equal": 2096,
+        "types_equal": 2096,
+        "system_equal": 2096,
+        "metadata_prefix200_different": 2089,
+        "each_short_metadata_is_prefix_of_full": 2096,
+        "metadata_prefix200_equal": 7
+      }
+    },
+    {
+      "series": "legacy",
+      "model": "gemma-4-31b",
+      "paired_N": 1000,
+      "left_N": 1000,
+      "right_N": 1000,
+      "left_only": 0,
+      "right_only": 0,
+      "checks": {
+        "question_equal": 1000,
+        "reference_equal": 1000,
+        "pattern_equal": 1000,
+        "anchor_equal": 1000,
+        "system_equal": 1000
+      }
+    },
+    {
+      "series": "legacy",
+      "model": "qwen3.6-flash",
+      "paired_N": 400,
+      "left_N": 400,
+      "right_N": 400,
+      "left_only": 0,
+      "right_only": 0,
+      "checks": {
+        "question_equal": 400,
+        "reference_equal": 400,
+        "pattern_equal": 400,
+        "anchor_equal": 400,
+        "system_equal": 400
+      }
+    }
+  ],
+  "failures": [],
+  "source_sha256": {
+    "results/inputs.jsonl.gz": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+    "results/task_specs_native.jsonl.gz": "ace1f74373d4961947cabddad630e89ecf7ba9bfe6d144a8b2a1a404bc783d4e"
+  },
+  "script_sha256": "a4fc2d61c4572bbae069416de840209f62ac6f163b747d742c8de01a9cb30feb",
+  "limitations": [
+    "Native raw-description semantic sufficiency is not evaluated by typed-edge traversal.",
+    "Native D200+E verification evaluates the displayed overlay against the separately saved typed goal paths.",
+    "Dfull prefix checks certify truncation consistency, not factual completeness of prose."
+  ]
+}

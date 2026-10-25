@@ -128,6 +128,160 @@
       "locator": "Formatting Requirements; Anonymity; track relevance",
       "verification": "inspected",
       "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-tool-graph-pdf",
+      "kind": "literature",
+      "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+      "locator": "Title page; Introduction; Section 1.1; Appendix O, PDF pages 30-31",
+      "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Anonymous supplied manuscript under review; public citation metadata not verified. No numerical results adopted as project results."
+    },
+    {
+      "id": "E-graph-patterns-primary",
+      "kind": "literature",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/9316da9c25ab559ba678f2fe52217a64-Abstract-Conference.html",
+      "locator": "Title, author list, ICLR 2025 metadata and abstract; task comparison inspected in arXiv:2410.05298v2 Sections 2-5",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-kg-understanding-primary",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2402.11541v4",
+      "locator": "Sections 3-5: KG formats, triple organization, QA and noise/incompleteness; metadata at arXiv abstract page",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Verified arXiv version; publisher page inaccessible, journal metadata not used."
+    },
+    {
+      "id": "E-talk-graph-primary",
+      "kind": "literature",
+      "url": "https://arxiv.org/abs/2310.04560",
+      "locator": "Title, authors and v1 metadata; supplied local PDF pages 1-2 for encoding formulation",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Uses verified preprint metadata; conference-page inspection blocked by browser challenge."
+    },
+    {
+      "id": "E-author-decisions",
+      "kind": "configuration",
+      "path": "paper/research_notes/author_decisions.md",
+      "locator": "Source graph: direct user confirmation of unchanged snapshot reuse; Cypher appendix and required literature decisions",
+      "sha256": "b88c9831b3d311e142e9b0cfadbd14d3df74f1d549afa4e5acb60a3a8916fc76",
+      "verification": "reported",
+      "checked_on": "2026-10-25",
+      "limitations": "Direct author statements recorded from chat; not independent bytewise snapshot verification."
+    },
+    {
+      "id": "E-inputs-archive",
+      "kind": "result",
+      "path": "results/inputs.jsonl.gz",
+      "locator": "input_id joins; candidate_names; messages/frozen_public; reference; private task_spec",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+      "limitations": "Inputs/references, not necessarily raw responses or authenticated provider calls."
+    },
+    {
+      "id": "E-reference-audit-code",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/audit_references.py",
+      "locator": "Independent decode/oracle functions and paired invariant checks; no project module imports",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "00a56889518a1442778d67ad409fa38513ac920bd323867f42cf12f9e0afb81e"
+    },
+    {
+      "id": "E-reference-audit-final",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
+      "locator": "checks; coverage; pairs[*]; cross_model; issues",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "bc9d9d3b487c7dc12c9eddde5ca7294629e0630988e38a0bbd889053bc38125b",
+      "upstream_evidence_ids": [
+        "E-reference-audit-code",
+        "E-inputs-archive",
+        "E-observations"
+      ],
+      "limitations": "Frozen-input consistency; original full-graph completeness and native-prose answerability not certified."
+    },
+    {
+      "id": "E-archive-verification-fresh",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/archive_verification.json",
+      "locator": "status; observations; individual_scores_recomputed; actual_requests_reconstructed",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867",
+      "upstream_evidence_ids": [
+        "E-inputs-archive",
+        "E-observations"
+      ],
+      "limitations": "Fresh offline rerun; metric count is recalculation from saved selections, not all raw-response reparsing."
+    },
+    {
+      "id": "E-protocol-verification-fresh",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/protocol_verification.json",
+      "locator": "checks.core_prompts_equal_recorded_requests; checks.archived_valid_selections_and_scores_equal",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "aa83d298d8c186937f8b3bf108868068ab8fb5b4bdcd02ea325a846c4a92ad59",
+      "upstream_evidence_ids": [
+        "E-inputs-archive",
+        "E-observations"
+      ],
+      "limitations": "Chosen logical-task population of the existing verifier, not all model transcripts."
+    },
+    {
+      "id": "E-native-specs-archive",
+      "kind": "result",
+      "path": "results/task_specs_native.jsonl.gz",
+      "locator": "record_id; anchor_name; goals with relation/direction/target_type",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "ace1f74373d4961947cabddad630e89ecf7ba9bfe6d144a8b2a1a404bc783d4e"
+    },
+    {
+      "id": "E-native-audit-code",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/audit_supplement.py",
+      "locator": "native_cards; native_witnesses; Native D and legacy pair checks",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "a4fc2d61c4572bbae069416de840209f62ac6f163b747d742c8de01a9cb30feb"
+    },
+    {
+      "id": "E-native-audit-final",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/supplement.json",
+      "locator": "counts; pairs; failures",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "77aa408448d5ee7349da25f6ce7eee4c676143631c3fd6138e183ae43382572b",
+      "upstream_evidence_ids": [
+        "E-inputs-archive",
+        "E-native-specs-archive",
+        "E-native-audit-code"
+      ],
+      "limitations": "Typed public overlay evaluated; prose sufficiency remains untested."
+    },
+    {
+      "id": "E-support-example",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/support_example.json",
+      "locator": "input_id; reference_names; endpoint_names; single_card_fact_ablations",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "392c83e178ad0fe2138a217427e04b7b6a0e1ba2af5760ccb57f062b6bd250cb",
+      "upstream_evidence_ids": [
+        "E-inputs-archive"
+      ],
+      "limitations": "One deterministic artifact example, not a population estimate or new model experiment."
     }
   ]
 }

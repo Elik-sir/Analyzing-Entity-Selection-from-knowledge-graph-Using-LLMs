@@ -1,0 +1,84 @@
+{
+  "scope": "One recorded K1 rhombus, not a population-wide card-necessity estimate or model experiment.",
+  "input_id": "80be0fc812928c4d1dfa4eb78151265340dac81ddddaebf5b13b79bbe87030b6",
+  "observation_id": "00fccd6d4d75334a19adc2a6d96ea8bda7f6f13cb075b6046851c37347862258",
+  "selector": {
+    "series_id": "core",
+    "model": "qwen3.6-flash",
+    "condition": "K1",
+    "noise": "disconnected",
+    "base_id": "6be2f17b5acec799bf6e7ee7",
+    "motif": "rhombus"
+  },
+  "question": "Starting from Fund 'Rezamamu': (1) Follow every outgoing link once. (2) From each reached entity follow every further outgoing link, stopping after a total of 2 links; retain a one-link endpoint only if no further permitted link is available. (3) Report all distinct endpoints, explaining the supporting links. Consider only the provided candidates and their supported directed links. Do not revisit an entity within a route. Return the endpoint names and explain the supporting links; the named starting entity is not an additional required answer.",
+  "reference_names": [
+    "Lalesemu",
+    "Raragamu",
+    "Rezamamu",
+    "Rukomida"
+  ],
+  "endpoint_names": [
+    "Raragamu"
+  ],
+  "witness_names": [
+    "Lalesemu",
+    "Raragamu",
+    "Rezamamu",
+    "Rukomida"
+  ],
+  "support_routes": 2,
+  "reference_induced_edges": [
+    [
+      "Lalesemu",
+      "OPERATES_IN_INDUSTRY",
+      "Raragamu"
+    ],
+    [
+      "Rezamamu",
+      "OWNS",
+      "Lalesemu"
+    ],
+    [
+      "Rezamamu",
+      "OWNS",
+      "Rukomida"
+    ],
+    [
+      "Rukomida",
+      "OPERATES_IN_INDUSTRY",
+      "Raragamu"
+    ]
+  ],
+  "single_card_fact_ablations": [
+    {
+      "removed_card_name": "Rukomida",
+      "original_endpoint_answer_preserved": false,
+      "answer_after_removal": [
+        "Raragamu",
+        "Rukomida"
+      ]
+    },
+    {
+      "removed_card_name": "Raragamu",
+      "original_endpoint_answer_preserved": true,
+      "answer_after_removal": [
+        "Raragamu"
+      ]
+    },
+    {
+      "removed_card_name": "Lalesemu",
+      "original_endpoint_answer_preserved": false,
+      "answer_after_removal": [
+        "Lalesemu",
+        "Raragamu"
+      ]
+    },
+    {
+      "removed_card_name": "Rezamamu",
+      "original_endpoint_answer_preserved": false,
+      "answer_after_removal": []
+    }
+  ],
+  "policy": "Remove only one card's facts; keep the full name/type catalogue available.",
+  "interpretation": "The archived reference is all-route entity coverage, not a minimal indispensable-card set."
+}

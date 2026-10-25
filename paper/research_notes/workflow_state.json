@@ -4,19 +4,25 @@
   "source_revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
   "analysis_complete": false,
   "full_writing_ready": false,
-  "gate_rationale": "Initial repository audit is complete, but historical method discrepancies, reference/pair validity, intended claim coverage and literature positioning require triage before a full manuscript. Evidence-backed outlines and template preparation may proceed.",
+  "gate_rationale": "Frozen reference consistency and declared paired-input invariants are verified. Final result/uncertainty scope, literature/contribution comparison and planned manuscript claim coverage remain before full writing; Cypher appendix material is expected from the author. Evidence-backed outlines may proceed.",
   "stages": {
     "inventory": "initial_audit_complete",
     "implementation": "initial_audit_complete_with_gaps",
-    "experiments": "archive_hashes_and_descriptive_aggregation_checked; deeper_audit_pending",
-    "literature": "leads_collected; verification_pending",
+    "experiments": "integrity_references_and_declared_pairing_checked; final_result_uncertainty_analysis_pending",
+    "literature": "user_sources_partially_verified; Tool_Graph_mandatory; complete_positioning_pending",
     "methodology": "provisional",
-    "claim_verification": "bootstrap_scope_only",
+    "claim_verification": "bootstrap_and_reference_pairing_claims_verified; full_manuscript_coverage_pending",
     "full_manuscript": "not_started",
     "template": "requirements_verified; official_bundle_download_blocked",
     "manuscript_build": "not_applicable_no_manuscript",
-    "scientific_review": "not_yet_performed"
+    "scientific_review": "not_yet_performed",
+    "reference_pairing": "complete_for_frozen_archive_consistency; native_prose_and_full_incremental_history_limits_retained"
   },
   "external_actions_authorized": false,
-  "new_experiments_authorized": false
+  "new_experiments_authorized": false,
+  "author_confirmations": {
+    "source_kg_snapshot": "Same snapshot as Kirpichev et al., unchanged; user confirmed 2026-10-25",
+    "cypher_appendix": "User will provide queries later",
+    "mandatory_reference": "Tool Graph Complexity"
+  }
 }

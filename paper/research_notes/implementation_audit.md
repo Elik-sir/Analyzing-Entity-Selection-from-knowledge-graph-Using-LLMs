@@ -25,3 +25,7 @@ All paths abbreviated above are under `graph_motives/` unless stated otherwise. 
 5. No full source snapshot was located. Replaying frozen candidates is different from reproducing graph construction, sampling, and exhaustive reference validity.
 
 These issues are recorded in `gaps.md`; none is silently repaired in the existing draft.
+
+Author clarification on 2026-10-25: the study used the same unchanged KG snapshot as the Kirpichev paper, and the user will add the Cypher queries to the appendix later. This resolves the intended source-snapshot identity by author confirmation and makes the queries an expected appendix deliverable, while preserving the distinction from independent bytewise/history verification. See `author_decisions.md`; no need to repeat graph construction in the main paper or stop unrelated analysis while waiting for the queries.
+
+Completed archive follow-up: saved motif/reference IDs coincide with all-route witnesses in the audited structured main panels, and the actual archived Raw/Raw+E pairs have identical residual public inputs after removing only the explicit relation fields. Thus items 3–4 above are now resolved at frozen-archive scope; their distinction from current builders/general mathematical invariants remains relevant. See `reference_pairing_report.md`.

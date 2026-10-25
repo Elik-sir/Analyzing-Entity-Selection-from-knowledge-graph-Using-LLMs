@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "checked_on": "2026-10-25",
+  "canonical_result": "final/summary.json",
+  "supplement": "supplement.json",
+  "superseded_exploratory_outputs": [
+    "run-01",
+    "run-02"
+  ],
+  "scientific_scope": "Frozen-reference consistency and declared input pairing, not full graph reconstruction/prose sufficiency/model reruns",
+  "evidence_records_added": 9,
+  "claims_added": 4
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "unique_task_population": {
+    "calibration": 400,
+    "core": 9100,
+    "full_braw": 6800,
+    "incremental": 700,
+    "legacy": 2000,
+    "native_d": 6288,
+    "size": 2200
+  },
+  "checks": {
+    "public_requests_built": 36588,
+    "core_prompts_equal_recorded_requests": 9100,
+    "archived_valid_selections_and_scores_equal": 23127
+  },
+  "network_requests_made": 0
+}

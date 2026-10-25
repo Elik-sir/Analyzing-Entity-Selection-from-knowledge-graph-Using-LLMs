@@ -27,7 +27,11 @@ The primary agent verified byte-level preservation of 93 original research/confi
 
 The system has structural validation and two completed independent behavioral scenarios. This does not certify every existing scientific claim, finish the literature review, or certify a manuscript for submission. The historical-scorer limitation and full-material analysis remain research work, not failed scenario checks.
 
-## Template limitation
+## Research-analysis follow-up
+
+After the scenario validation, the first research step was completed on the saved archive; see [reference_pairing_report.md](reference_pairing_report.md). Fresh archive and offline protocol verification passed, independent reference traversal and paired-input invariants had no mismatches, supplemental Native D/legacy checks passed, and ten isolated oracle/decoder correctness fixtures passed. The expanded production ledger passed structural validation with 26 evidence records and 8 claims. Original tracked research source/config/results/drafts showed no changes. These are scoped archive-analysis checks, separate from the earlier skill scenarios and from manuscript readiness.
+
+## Template limitation (unchanged)
 
 Official WWW requirements and official ACM template locations were verified. ACM returned a Cloudflare block; the CTAN download returned HTML rather than ZIP and was rejected/removed. No official bundle was cached and no manuscript/PDF was compiled. See `conference_requirements.md` and `paper/template/provenance.json`.
 

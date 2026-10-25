@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "parallel_routes_cover_both_branches",
+      "status": "passed"
+    },
+    {
+      "case": "incoming_direction_and_early_dead_end",
+      "status": "passed"
+    },
+    {
+      "case": "terminal_type_stops_first_match_and_ignores_unmatched_deadend",
+      "status": "passed"
+    },
+    {
+      "case": "simple_routes_do_not_revisit_anchor",
+      "status": "passed"
+    },
+    {
+      "case": "incoming_outgoing_neighbors_keep_direction",
+      "status": "passed"
+    },
+    {
+      "case": "out_of_pool_edges_are_excluded",
+      "status": "passed"
+    },
+    {
+      "case": "path_cap_is_explicit",
+      "status": "passed"
+    },
+    {
+      "case": "decode_explicit_preserves_directed_edge",
+      "status": "passed"
+    },
+    {
+      "case": "decode_text_preserves_directed_edge",
+      "status": "passed"
+    },
+    {
+      "case": "decode_keys_preserves_directed_edge",
+      "status": "passed"
+    }
+  ],
+  "scope": "Hand-constructed oracle/decoder correctness fixtures; excluded from all scientific results."
+}

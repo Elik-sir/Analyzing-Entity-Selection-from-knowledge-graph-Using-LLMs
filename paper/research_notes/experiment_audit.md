@@ -32,3 +32,7 @@ Native-description answerability must be audited before interpreting low agreeme
 ## Next handoff
 
 `$scientific-methodology` should choose a claim scope supported by the archive. `$experiment-analyzer` can then perform paired uncertainty/reference checks on saved data with explicit scripts and provenance. Expensive experiments and new API/judge calls remain unapproved.
+
+## Completed reference/pairing follow-up, 2026-10-25
+
+The initially pending reference and pairing work is now completed for saved-input consistency. See [reference_pairing_report.md](reference_pairing_report.md): fresh archive verification, independent visible-graph target reconstruction, actual Core/Raw/Size contrast checks, Native D semantic-goal checks, and legacy pairing. No target or unintended input-invariant mismatch was found in the tested scope. Pairing is complete; dependence-aware uncertainty analysis remains future work. Native-prose semantic sufficiency and full incremental histories remain explicit limits.

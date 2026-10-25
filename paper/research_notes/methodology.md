@@ -4,7 +4,7 @@ Status: provisional synthesis of existing materials, not an approved final scien
 
 ## Definitions to settle
 
-Distinguish candidate pool C, sampled motif M, endpoint answer A, and all-route witness set W. Current controlled prompts/oracles support all-route coverage; archive-specific equivalence between M and W needs checking. Minimal graph support and indispensable visible cards are additional notions. Native metadata is not automatically sufficient for a graph reference; final answer correctness is separate from selection quality.
+Distinguish candidate pool C, sampled motif/reference M, endpoint answer A, and all-route witness set W. The saved-input audit now confirms equality of the saved reference IDs and W in the structured main panels and independently reproduces the target from visible controlled/overlay facts. This is an empirical property of accepted archived tasks, not a general identity. The target is all-route coverage including the anchor, not minimal graph support or indispensable visible cards. Native metadata is not automatically sufficient for a graph reference; final answer correctness is separate from selection quality. See `reference_pairing_report.md`.
 
 ## RQs and evidence routes
 
@@ -23,4 +23,4 @@ These candidates require literature comparison. Prior corporate KG construction 
 
 ## Decision
 
-Keep the full-writing gate closed while the first-pass discrepancies are triaged, reference/input matching is audited, planned claims receive coverage, and literature positioning is verified. A supported outline may be prepared now. Missing historical material can be handled by narrower claims and transparent limitations; not every gap requires a new experiment.
+Reference consistency and paired-input comparability are now audited for the frozen panels, as detailed in `reference_pairing_report.md`. Continue final result/uncertainty preparation, literature/contribution comparison and planned-claim coverage before opening the full-writing gate. A supported outline may be prepared now. Missing historical material can be handled by narrower claims and transparent limitations; not every gap requires a new experiment.
