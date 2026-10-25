@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-25",
+  "source_revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+  "analysis_complete": false,
+  "full_writing_ready": false,
+  "gate_rationale": "Initial repository audit is complete, but historical method discrepancies, reference/pair validity, intended claim coverage and literature positioning require triage before a full manuscript. Evidence-backed outlines and template preparation may proceed.",
+  "stages": {
+    "inventory": "initial_audit_complete",
+    "implementation": "initial_audit_complete_with_gaps",
+    "experiments": "archive_hashes_and_descriptive_aggregation_checked; deeper_audit_pending",
+    "literature": "leads_collected; verification_pending",
+    "methodology": "provisional",
+    "claim_verification": "bootstrap_scope_only",
+    "full_manuscript": "not_started",
+    "template": "requirements_verified; official_bundle_download_blocked",
+    "manuscript_build": "not_applicable_no_manuscript",
+    "scientific_review": "not_yet_performed"
+  },
+  "external_actions_authorized": false,
+  "new_experiments_authorized": false
+}

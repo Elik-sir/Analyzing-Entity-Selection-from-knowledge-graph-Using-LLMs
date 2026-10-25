@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-observations",
+      "kind": "result",
+      "path": "results/observations.jsonl.gz",
+      "locator": "All rows; full_braw subset selected by series_id/model/condition/noise",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+      "limitations": "Cached scores; raw-response rescoring is separate."
+    },
+    {
+      "id": "E-manifest",
+      "kind": "result",
+      "path": "results/MANIFEST.json",
+      "locator": "files; counts",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "6ecac4024acd023cd8259af47cf51fb63303f8d0aade3a6558a8298a6b2b6adf"
+    },
+    {
+      "id": "E-saved-validation",
+      "kind": "result",
+      "path": "results/VALIDATION.json",
+      "locator": "status; individual_scores_recomputed; payload_coverage",
+      "verification": "reported",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867",
+      "limitations": "Saved earlier verifier output, not rerun in this task."
+    },
+    {
+      "id": "E-coverage",
+      "kind": "result",
+      "path": "results/coverage.csv",
+      "locator": "series_id, model, request_evidence, response_evidence, N",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "9ac36606bb3e50e21cd4904263b134577084f88d9b50ddef4ca736cf70033b22"
+    },
+    {
+      "id": "E-audit-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/scripts/audit_saved_archive.py",
+      "locator": "audit(root): hash checks and cached-score aggregation",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "ca29654286efa8ff29dad37f4bc94c0a10856680546ed0618bfedbca61962bfd"
+    },
+    {
+      "id": "E-summary",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/archive_audit/summary.json",
+      "locator": "observations; file_checks; full_braw[*].selector/N/valid/f1/exact",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "67d22f47f0e310dc4d0d25452b1045f651e0207348033fe1ae53871a5e77f356",
+      "upstream_evidence_ids": [
+        "E-observations",
+        "E-manifest",
+        "E-audit-script"
+      ],
+      "command": "python paper/research_notes/scripts/audit_saved_archive.py --root .",
+      "limitations": "No raw-response rescore, paired intervals or significance test."
+    },
+    {
+      "id": "E-aggregate-code",
+      "kind": "implementation",
+      "path": "graph_motives/report.py",
+      "locator": "aggregates, lines 15-42",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "e1f059ec38fb765af4e67ac609a3e2ad1c01e869687d3ae277c8febad59a8fd0"
+    },
+    {
+      "id": "E-sampling-code",
+      "kind": "implementation",
+      "path": "graph_motives/graph/build.py",
+      "locator": "build_dataset, sampling through SAMPLERS, lines 119-183",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "e2b6a44ec1081ca25e52f49c6cc4c1cdc257ad80e6778ce813eb18434069f96c"
+    },
+    {
+      "id": "E-export-code",
+      "kind": "implementation",
+      "path": "graph_motives/graph/neo4j_export.py",
+      "locator": "generic node/edge Cypher export queries, lines 13-16",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "a394172ac33e32ae409980573128dc9066dd75fa8947e41e4e7a67281ffdcb43"
+    },
+    {
+      "id": "E-draft",
+      "kind": "draft",
+      "path": "docs/ARTICLE.md",
+      "locator": "Subgraph extraction paragraph, line 32; Selection task paragraph; Appendix not drafted",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "1deb9d85db0f41d6fcf38603d3ec08d4ae8d7fb3075b4c74baa2fa3b2bed6913"
+    },
+    {
+      "id": "E-source-pdf",
+      "kind": "literature",
+      "path": "11_Towards_Ontology_Driven_Mul.pdf",
+      "locator": "PDF pages 1 and 3: title and graph construction",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "b612d6211c04c6d6532cf98a7c94c16f4b3e1ec299a40ec85f3ffb427d20d2b3",
+      "limitations": "Limited local text inspection; external publication metadata and novelty comparison pending."
+    },
+    {
+      "id": "E-venue",
+      "kind": "venue",
+      "url": "https://www2027.thewebconf.org/research-track-papers/",
+      "locator": "Formatting Requirements; Anonymity; track relevance",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    }
+  ]
+}

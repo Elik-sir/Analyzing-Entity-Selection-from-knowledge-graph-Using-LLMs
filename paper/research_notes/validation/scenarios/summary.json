@@ -1,0 +1,83 @@
+{
+  "checked_on": "2026-10-25",
+  "status": "passed",
+  "scope": "Two independent bounded forward scenarios, not a complete eight-skill manuscript production run.",
+  "scenarios": [
+    {
+      "id": "claim_audit",
+      "agent": "claims_scenario_complete",
+      "request": "Audit Subgraph extraction and Selection task paragraphs for unchanged scientific reuse, using raw evidence.",
+      "report": "claims/audit.md",
+      "regression": "claims/regression.md",
+      "atomic_claims": 22,
+      "evidence_records": 14,
+      "status": "passed",
+      "observed_behavior": [
+        "Separates current implementation from historical execution",
+        "Finds appendix contradiction",
+        "Distinguishes all-route witnesses from indispensable evidence",
+        "Scopes archive sampling and avoids population-wide claims",
+        "Writes isolated records and passes --notes validation"
+      ]
+    },
+    {
+      "id": "results_plan",
+      "agent": "results_scenario_complete",
+      "request": "Prepare Results outline and figure dispositions with one exactly sourced candidate numerical result.",
+      "report": "results/plan.md",
+      "regression": "results/regression.md",
+      "status": "passed",
+      "observed_behavior": [
+        "Keeps full-writing gate closed",
+        "Rejects mock plots as performance evidence",
+        "Resolves model identity from manifest instead of folder name",
+        "Records selector, denominator, hashes and cached-metric limitation",
+        "Leaves historical scorer identity unresolved rather than inferring it"
+      ]
+    }
+  ],
+  "targeted_repairs": [
+    "Explicit section-writing gate criteria",
+    "Explicit isolated claim-audit output and --notes validation"
+  ],
+  "parent_checks": {
+    "numerical_candidate_independently_recomputed": true,
+    "relocated_derive_script_exit_code": 0,
+    "isolated_ledger_validation": "passed",
+    "production_ledger_validation": "passed",
+    "changed_skill_validators": "2 passed",
+    "protected_files_unchanged": 93,
+    "source_files_changed": []
+  },
+  "skill_sha256": {
+    "claim-verifier": "98da210272f67c31e4752effea2f966dafa749c82a6714b4d151cb9f852c40c6",
+    "academic-paper-writer": "6eef0cae457b9d3d26849b14f76c37509e9e48f2f5103323ccb7267b22af57d7",
+    "experiment-analyzer": "f39787e046df81a7207f9a6b7633930eee797231d42af558481f3f3dd8b3652a"
+  },
+  "artifact_sha256": {
+    "claims/archive_sample.json": "2a8c8591a6aa9baad4b53e91bc0baa27b126cb5edbdecb155adea4a53ec9effe",
+    "claims/audit.md": "38a6295c66916f78210e4b3450cc7432675edb09b52322f2be135ef594435ff8",
+    "claims/claims.jsonl": "0ce3bb6af85251a13cc98c4ad91dfe381bc195889df49c1d21eb0c46280bb389",
+    "claims/evidence_register.json": "fe69a8cf8a37f10d42e1c780d680c39680f186b7bdc7fe493c7008f0eb2353b6",
+    "claims/regression.md": "061b1ee9010cfca77c08006f81e75f3693a8848cbb6420919cc8235cd81728dc",
+    "claims/validation.json": "54c6daf80fda6b1a49f19ddb5cbceb48ff2200818c0cde84fc07aca023109114",
+    "claims/validation_report.md": "bd4cf5c69202728c9e50b838176e042053bac1842224fb204386c1146464dfd7",
+    "claims/workflow_state.json": "a677e6ef16734e14109a6ef6fc99a1589ba6cde0ee1a786a7247655d5766ba6c",
+    "claims/working_tree.txt": "5d096310b7a05b9bf4b51b0e2c2ab9242849ac3b9ef97b75764f0ea12d5ac9d7",
+    "results/candidate.json": "9700aa0455791ca7040b77f0ee69fc475b9e4a1d1e2931a4514d38c3ce17194a",
+    "results/derive.py": "e19fb72d489993968d52e3e18ae5af1b962030b6eff01d7a6ab0290fede2bb79",
+    "results/plan.md": "ac0c5d21c1bbc19819bf724607e2409f9e48cbaa9509853a470618f64d2300a1",
+    "results/regression.md": "c86d441bc30eee36ba0d10777f792c7ca3f3429780cf086e0d1b36458b3935ab",
+    "results/selected_rows.jsonl": "5fbd8d006750ab8e6900596649fcbcf0f48d150b43c19286e99010e9b490ce89",
+    "claims/regression_validation/claims.jsonl": "0ce3bb6af85251a13cc98c4ad91dfe381bc195889df49c1d21eb0c46280bb389",
+    "claims/regression_validation/evidence_register.json": "fe69a8cf8a37f10d42e1c780d680c39680f186b7bdc7fe493c7008f0eb2353b6",
+    "claims/regression_validation/validation.json": "54c6daf80fda6b1a49f19ddb5cbceb48ff2200818c0cde84fc07aca023109114",
+    "claims/regression_validation/workflow_state.json": "21007127f77e0d1f9e534f1b8d9a7cc54b116cc3af6be07975f80dbf588e8d3a"
+  },
+  "limitations": [
+    "No full-manuscript scientific review",
+    "No new experiments or model API calls",
+    "No template download or PDF compilation in these scenarios",
+    "Document-presence classification remains an acknowledged coarse taxonomy choice; dispositions explicitly distinguish document state and method implementation."
+  ]
+}

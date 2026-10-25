@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-25T14:51:04.292513+00:00",
+  "source_revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+  "python_version": "3.12.11",
+  "method": "Stream archived observations; sum cached valid metrics / all planned N. No raw-response rescoring or inferential test.",
+  "command": "python paper/research_notes/scripts/audit_saved_archive.py --root .",
+  "script_sha256": "ca29654286efa8ff29dad37f4bc94c0a10856680546ed0618bfedbca61962bfd",
+  "manifest_sha256": "6ecac4024acd023cd8259af47cf51fb63303f8d0aade3a6558a8298a6b2b6adf",
+  "file_checks": [
+    {
+      "path": "results/README.md",
+      "sha256": "183190f3c0a49b1282fe0ba5fede89e4be242dd20f7949c36f21fad533af3113",
+      "bytes": 2561,
+      "passed": true
+    },
+    {
+      "path": "results/SOURCES.json",
+      "sha256": "6ebc6a3e9ff95a69efe509e0ae524a00d7ffe9586f5763dbbd7175b4a7bd7e99",
+      "bytes": 78894,
+      "passed": true
+    },
+    {
+      "path": "results/VALIDATION.json",
+      "sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867",
+      "bytes": 601,
+      "passed": true
+    },
+    {
+      "path": "results/coverage.csv",
+      "sha256": "9ac36606bb3e50e21cd4904263b134577084f88d9b50ddef4ca736cf70033b22",
+      "bytes": 1120,
+      "passed": true
+    },
+    {
+      "path": "results/inputs.jsonl.gz",
+      "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+      "bytes": 92407544,
+      "passed": true
+    },
+    {
+      "path": "results/observations.jsonl.gz",
+      "sha256": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+      "bytes": 34952089,
+      "passed": true
+    },
+    {
+      "path": "results/panel_counts.csv",
+      "sha256": "1804c3ae389090dfb6a3bd900c516bd8a7389a76af68c46fc487c88ac2930eaf",
+      "bytes": 2881,
+      "passed": true
+    },
+    {
+      "path": "results/responses.jsonl.gz",
+      "sha256": "2a1261b9b7aaed7221db6d211453367b90d02edcf32ce5080c95090ddffd6369",
+      "bytes": 9531670,
+      "passed": true
+    },
+    {
+      "path": "results/task_specs_native.jsonl.gz",
+      "sha256": "ace1f74373d4961947cabddad630e89ecf7ba9bfe6d144a8b2a1a404bc783d4e",
+      "bytes": 36583,
+      "passed": true
+    }
+  ],
+  "observations": 60088,
+  "series_counts": {
+    "calibration": 400,
+    "core": 27300,
+    "full_braw": 20400,
+    "incremental": 700,
+    "legacy": 2800,
+    "native_d": 6288,
+    "size": 2200
+  },
+  "full_braw": [
+    {
+      "selector": {
+        "series_id": "full_braw",
+        "model": "gemma-4-31b",
+        "condition": "Braw",
+        "noise": "disconnected"
+      },
+      "N": 3400,
+      "valid": 3353,
+      "sum_f1": 1035.5422977349444,
+      "sum_exact": 10.0,
+      "f1": 0.30457126403968954,
+      "exact": 0.0029411764705882353
+    },
+    {
+      "selector": {
+        "series_id": "full_braw",
+        "model": "gemma-4-31b",
+        "condition": "Braw+E",
+        "noise": "disconnected"
+      },
+      "N": 3400,
+      "valid": 3360,
+      "sum_f1": 3326.278394799213,
+      "sum_exact": 3127.0,
+      "f1": 0.978317174940945,
+      "exact": 0.9197058823529412
+    },
+    {
+      "selector": {
+        "series_id": "full_braw",
+        "model": "ministral-14b",
+        "condition": "Braw",
+        "noise": "disconnected"
+      },
+      "N": 3400,
+      "valid": 3133,
+      "sum_f1": 936.6392846581525,
+      "sum_exact": 31.0,
+      "f1": 0.27548214254651543,
+      "exact": 0.009117647058823529
+    },
+    {
+      "selector": {
+        "series_id": "full_braw",
+        "model": "ministral-14b",
+        "condition": "Braw+E",
+        "noise": "disconnected"
+      },
+      "N": 3400,
+      "valid": 3352,
+      "sum_f1": 2881.150740383373,
+      "sum_exact": 1424.0,
+      "f1": 0.847397276583345,
+      "exact": 0.4188235294117647
+    },
+    {
+      "selector": {
+        "series_id": "full_braw",
+        "model": "qwen3.6-flash",
+        "condition": "Braw",
+        "noise": "disconnected"
+      },
+      "N": 3400,
+      "valid": 3170,
+      "sum_f1": 1312.6049207859871,
+      "sum_exact": 42.0,
+      "f1": 0.38606027081940797,
+      "exact": 0.012352941176470587
+    },
+    {
+      "selector": {
+        "series_id": "full_braw",
+        "model": "qwen3.6-flash",
+        "condition": "Braw+E",
+        "noise": "disconnected"
+      },
+      "N": 3400,
+      "valid": 3323,
+      "sum_f1": 2896.1811221524736,
+      "sum_exact": 2001.0,
+      "f1": 0.8518179771036687,
+      "exact": 0.5885294117647059
+    }
+  ],
+  "coverage_csv_rows": [
+    {
+      "series_id": "calibration",
+      "model": "gemma-4-31b",
+      "request_evidence": "frozen_input_not_authenticated_api_request",
+      "response_evidence": "metrics_cache_only_no_raw_response",
+      "N": "400"
+    },
+    {
+      "series_id": "core",
+      "model": "gemma-4-31b",
+      "request_evidence": "frozen_input_not_authenticated_api_request",
+      "response_evidence": "metrics_cache_only_no_raw_response",
+      "N": "9100"
+    },
+    {
+      "series_id": "core",
+      "model": "ministral-14b",
+      "request_evidence": "recorded_api_journal",
+      "response_evidence": "recorded_api_journal",
+      "N": "9100"
+    },
+    {
+      "series_id": "core",
+      "model": "qwen3.6-flash",
+      "request_evidence": "recorded_api_journal",
+      "response_evidence": "recorded_api_journal",
+      "N": "9100"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "request_evidence": "hash_verified_exported_job",
+      "response_evidence": "saved_individual_outcome_with_raw_output",
+      "N": "6800"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "request_evidence": "recorded_api_journal",
+      "response_evidence": "recorded_api_journal",
+      "N": "6785"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "request_evidence": "recorded_api_journal",
+      "response_evidence": "unavailable",
+      "N": "15"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "request_evidence": "recorded_api_journal",
+      "response_evidence": "recorded_api_journal",
+      "N": "6800"
+    },
+    {
+      "series_id": "incremental",
+      "model": "gemma-4-31b",
+      "request_evidence": "frozen_initial_context_only",
+      "response_evidence": "metrics_cache_only_no_raw_response",
+      "N": "700"
+    },
+    {
+      "series_id": "legacy",
+      "model": "gemma-4-31b",
+      "request_evidence": "recorded_legacy_trace",
+      "response_evidence": "recorded_legacy_trace",
+      "N": "2000"
+    },
+    {
+      "series_id": "legacy",
+      "model": "qwen3.6-flash",
+      "request_evidence": "recorded_legacy_trace",
+      "response_evidence": "recorded_legacy_trace",
+      "N": "800"
+    },
+    {
+      "series_id": "native_d",
+      "model": "gemma-4-31b",
+      "request_evidence": "exported_job_hash_bound_to_saved_response",
+      "response_evidence": "saved_raw_response",
+      "N": "6288"
+    },
+    {
+      "series_id": "size",
+      "model": "gemma-4-31b",
+      "request_evidence": "frozen_input_not_authenticated_api_request",
+      "response_evidence": "metrics_cache_only_no_raw_response",
+      "N": "2200"
+    }
+  ],
+  "saved_validation_report": {
+    "status": "passed",
+    "observations": 60088,
+    "inputs": 41193,
+    "responses": 52197,
+    "individual_scores_recomputed": 45904,
+    "series_counts": {
+      "full_braw": 20400,
+      "native_d": 6288,
+      "legacy": 2800,
+      "core": 27300,
+      "size": 2200,
+      "incremental": 700,
+      "calibration": 400
+    },
+    "payload_coverage": {
+      "input_available": 60088,
+      "response_available": 47673,
+      "question_available": 60088,
+      "response_missing": 12415
+    },
+    "actual_requests_reconstructed": 31800,
+    "native_question_specifications": 700,
+    "network_requests_made": 0
+  },
+  "limitations": [
+    "Saved verification is not rerun here.",
+    "Cached score aggregation is not independent rescoring.",
+    "No paired confidence intervals or significance tests.",
+    "No claim of historical provenance beyond inspected artifacts."
+  ]
+}

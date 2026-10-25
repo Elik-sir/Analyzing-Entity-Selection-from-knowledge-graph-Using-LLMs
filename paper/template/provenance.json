@@ -1,0 +1,17 @@
+{
+  "checked_on": "2026-10-25",
+  "conference_url": "https://www2027.thewebconf.org/research-track-papers/",
+  "official_overleaf_url": "https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc",
+  "overleaf_advertised_version": "2.19",
+  "production_package_page": "https://ctan.org/pkg/acmart?lang=en",
+  "ctan_advertised_version": "2.20",
+  "bundle_available_locally": false,
+  "actual_class_version": null,
+  "actual_bundle_sha256": null,
+  "attempts": [
+    {"url": "https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip", "outcome": "ACM Cloudflare access block; no valid archive"},
+    {"url": "https://mirrors.ctan.org/macros/latex/contrib/acmart.zip", "outcome": "HTML bot challenge returned; ZIP signature check failed; rejected content removed"}
+  ],
+  "compiled": false,
+  "next_action": "Acquire the official production bundle via an accessible supported route; inspect class version and hash before use."
+}

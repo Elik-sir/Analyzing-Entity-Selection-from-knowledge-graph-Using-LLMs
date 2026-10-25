@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "draft",
+      "kind": "draft",
+      "path": "docs/ARTICLE.md",
+      "locator": "lines 32, 46-51, 101-103",
+      "sha256": "1deb9d85db0f41d6fcf38603d3ec08d4ae8d7fb3075b4c74baa2fa3b2bed6913",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "build",
+      "kind": "implementation",
+      "path": "graph_motives/graph/build.py",
+      "locator": "pick_adjacent; pick_decoys; build_item; build_dataset",
+      "sha256": "e2b6a44ec1081ca25e52f49c6cc4c1cdc257ad80e6778ce813eb18434069f96c",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "motifs",
+      "kind": "implementation",
+      "path": "graph_motives/graph/motifs.py",
+      "locator": "_ok; sample_chain; sample_star; sample_tree; sample_rhombus; sample_hourglass; SAMPLERS",
+      "sha256": "3ffb246085dbfc56fc2b6bf6497bc0574906829846c11ba8efbce3d06428d865",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "export",
+      "kind": "implementation",
+      "path": "graph_motives/graph/neo4j_export.py",
+      "locator": "NODE_QUERY; EDGE_QUERY; export_neo4j",
+      "sha256": "a394172ac33e32ae409980573128dc9066dd75fa8947e41e4e7a67281ffdcb43",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "config",
+      "kind": "configuration",
+      "path": "configs/dataset.toml",
+      "locator": "[sampling]: candidate_size, adjacent_max, variants, cells",
+      "sha256": "72a9d2cff53ae3bd24b029b9dd688885c8d7432ccf6453458a6bd11d2307c389",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "graph",
+      "kind": "implementation",
+      "path": "graph_motives/graph/graph.py",
+      "locator": "Graph.neighbours; Graph.induced_edges",
+      "sha256": "136356650728f4be6710dad8471ef02725ca26811260185529fcd4eed7c4be40",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "validation",
+      "kind": "implementation",
+      "path": "graph_motives/graph/validation.py",
+      "locator": "check_item",
+      "sha256": "af548da5a77ebab39161de742e47348bff077ace012fb0a8a270a5b6cc4ed00b",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "metadata",
+      "kind": "implementation",
+      "path": "graph_motives/graph/metadata.py",
+      "locator": "public_node",
+      "sha256": "1e33a3902b91ebda9fe72ed0cf281492f97e28d00b2e22fa4e242cecccad796c",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "materialize",
+      "kind": "implementation",
+      "path": "graph_motives/preparation/materialize.py",
+      "locator": "materialize_cell: edges=sorted(graph.induced_edges(set(ids))); private.graph_witness_ids and target_answer_ids",
+      "sha256": "fadf905c950b80438ee4a889bc8c92b6de6174a878403c73ab3d800c9c779f6b",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "native",
+      "kind": "implementation",
+      "path": "graph_motives/preparation/native.py",
+      "locator": "materialize_native_cell: candidate count and Braw+E edge overlay",
+      "sha256": "43824380f51a333de40b4aea38d78b97d3de283cee4a2dcab2583e87a3c7db16",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "prompts",
+      "kind": "implementation",
+      "path": "graph_motives/preparation/prompts.py",
+      "locator": "_WITNESS_RULE; build_selection_prompt; build_closed_book_prompt",
+      "sha256": "19b70b980eb64748cb6001bfd38998ea33f302b13783279813fec8cf40dd75af",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "registry",
+      "kind": "implementation",
+      "path": "graph_motives/preparation/registry.py",
+      "locator": "CORE_SIZES",
+      "sha256": "46446041445046d745a09155c90cbd72e4f3f71e6675ab1f8e0179caa583cadf",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "panels",
+      "kind": "implementation",
+      "path": "graph_motives/preparation/panels.py",
+      "locator": "audit_pairing (lines 73-105); build_comparison_panel",
+      "sha256": "135e1fbe37a9edc7e005b86c575172ead3f6a43030d7bcaabb01bc40a0371a75",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    },
+    {
+      "id": "archive",
+      "kind": "result",
+      "path": "results/inputs.jsonl.gz",
+      "locator": "physical lines 1-100 only; exact input_id values in archive_sample.json; line 1 input_id=000071451200148392a2dd08214e2974080d469fdc6ec61b6f3f321220fca8c4, messages[role=system], reference",
+      "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "limitations": "Current working tree bytes; commit alone does not identify untracked draft. Historical execution not established by implementation evidence."
+    }
+  ]
+}

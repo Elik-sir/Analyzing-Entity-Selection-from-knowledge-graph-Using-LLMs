@@ -1,0 +1,61 @@
+{
+  "selector": {
+    "series_id": "calibration",
+    "model": "gemma-4-31b",
+    "condition": "CAL:explicit_neighbor",
+    "noise": "disconnected"
+  },
+  "N": 100,
+  "valid": 100,
+  "statuses": {
+    "completed": 100
+  },
+  "sum_valid_f1": 100.0,
+  "mean_f1": 1.0,
+  "formula": "sum(metrics.f1 for valid rows) / all selected planned rows; invalid contributes zero",
+  "evidence_tier": "fresh aggregation of archived cached metrics, not raw-response rescore",
+  "provider_model_values": [
+    null
+  ],
+  "protocol_versions": [
+    "real_graph_calibration_v1"
+  ],
+  "request_evidence": [
+    "frozen_input_not_authenticated_api_request"
+  ],
+  "response_evidence": [
+    "metrics_cache_only_no_raw_response"
+  ],
+  "input_join_matches": 100,
+  "response_join": "All response_id values null; no raw reply exists for these selected records",
+  "historical_scorer_version": "Not established by this bounded inspection; do not substitute current scorer",
+  "hashes": {
+    "results/MANIFEST.json": "6ecac4024acd023cd8259af47cf51fb63303f8d0aade3a6558a8298a6b2b6adf",
+    "results/coverage.csv": "9ac36606bb3e50e21cd4904263b134577084f88d9b50ddef4ca736cf70033b22",
+    "results/SOURCES.json": "6ebc6a3e9ff95a69efe509e0ae524a00d7ffe9586f5763dbbd7175b4a7bd7e99",
+    "results/observations.jsonl.gz": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+    "results/inputs.jsonl.gz": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+    "paper/research_notes/workflow_state.json": "21007127f77e0d1f9e534f1b8d9a7cc54b116cc3af6be07975f80dbf588e8d3a"
+  },
+  "fresh_manifest_hash_checks": {
+    "coverage.csv": true,
+    "SOURCES.json": true,
+    "observations.jsonl.gz": true,
+    "inputs.jsonl.gz": true
+  },
+  "historical_source_records": [
+    {
+      "source_id": "7a738a0ae8520492ed2609374b7c0ce78cbb01a9cdf73f5135910035a26be7d4",
+      "path": "qm_report_20261014/failure_penalized_20261016_v2/data/model_observations.jsonl.gz",
+      "bytes": 5742673,
+      "sha256": "0c640f4149fe642cabfa81d505365741bf3a613af5d4c3e6e5e8cfef18deabc6",
+      "published_checksum_verified": true
+    }
+  ],
+  "checked_on": "2026-10-25",
+  "command": ".venv/Scripts/python.exe paper/research_notes/validation/scenarios/results/derive.py",
+  "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+  "working_tree": "git status --short showed untracked .agents/, AGENTS.md, paper/, draft files and PDF; relevant inspected files bound by hashes",
+  "uncertainty": "Descriptive only; no CI or significance test",
+  "pairing": "Single cell; no paired comparison or independence inference"
+}

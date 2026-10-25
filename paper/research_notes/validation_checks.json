@@ -1,0 +1,41 @@
+{
+  "ledger_cases": [
+    {
+      "case": "unchanged real evidence",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "detect stale source hash",
+      "status": "failed",
+      "errors": [
+        "E-observations: source hash missing or changed"
+      ]
+    },
+    {
+      "case": "reject draft as numeric result evidence",
+      "status": "failed",
+      "errors": [
+        "C-archive-count: numeric evidence must reference a result",
+        "C-qwen-braw-descriptive: numeric evidence must reference a result",
+        "C-qwen-braw-descriptive: numeric evidence must reference a result"
+      ]
+    },
+    {
+      "case": "detect missing evidence ID",
+      "status": "failed",
+      "errors": [
+        "C-archive-count: missing evidence E-missing"
+      ]
+    },
+    {
+      "case": "reject premature writing gate",
+      "status": "failed",
+      "errors": [
+        "Writing gate opened before analysis completed"
+      ]
+    }
+  ],
+  "markdown_links": "passed",
+  "limitations": "Behavior fixtures validate structural integrity; not scientific truth."
+}
