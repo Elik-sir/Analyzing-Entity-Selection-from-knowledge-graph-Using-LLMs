@@ -1,5 +1,11 @@
 # Bootstrap claim audit
 
+## Current transfer-diagnostic assessment, 2026-10-25
+
+Scoped verification covers the revised RQs/contribution boundary and the principal new numerical findings in [transfer_positioning.md](transfer_positioning.md), with the proposed [transfer outline](transfer_outline.md). Eight new ledger entries distinguish prior-source statements, saved-selection findings and pending mechanism hypotheses. Source locators include Tool Graph Section 5.3/Table 1 and Appendix O, the independent explicit-graph traversal script and exact grouped output selectors. Output signatures are not promoted to internal reasoning traces; Raw is not assumed equally informative; KG route union is not equated with tool input conjunction. No new cross-domain effect, significance or causal identification is asserted.
+
+The new scoped ledger has eleven evidence records and passes structural validation; the numerical checks agree with the existing detailed CSVs. Exact results are in `analyses/transfer_positioning/run-04/assessment_audit/validation.json`. The full production check still fails on earlier text-file byte hashes after checkout line-ending conversion; existing hashes were preserved. This is a single-agent bounded check, not full-manuscript coverage or independent scientific review. The stronger revised writing scope is pending, while the previous manuscript remains preserved.
+
 Scope: initial evidence-ledger entries only, 2026-10-25. This is not a complete audit of the existing manuscript or bibliography.
 
 - `C-archive-count`: supported as a planned observation-row count by the fresh streamed archive audit. It is not a successful API-call count.

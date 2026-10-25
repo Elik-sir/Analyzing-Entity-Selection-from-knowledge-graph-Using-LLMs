@@ -1,5 +1,13 @@
 # Initial methodology and contribution candidates
 
+## Current decision after the author's transfer clarification, 2026-10-25
+
+The current scientific purpose is to investigate the limits of transfer from Tool Selection to KG Entity Selection and to discriminate explanations for their differences. [transfer_positioning.md](transfer_positioning.md) and [transfer_outline.md](transfer_outline.md) supersede the structural-profile recommendation and earlier presentation-first positioning below. Those entries are retained as decision history.
+
+The initial transfer, Chain inversion, residual Tree-in difficulty and implicit-dependency interpretation already occur in the supplied Tool Graph Complexity PDF. A standalone contribution needs new diagnostic evidence and tests. RQ1 concerns harmonized transfer boundaries; RQ2 localizes residual explicit-KG errors; RQ3 tests sensitivity of those errors to paired evidence conditions. Fan-in tool input composition and KG incoming-route union must not be equated. Raw may omit graph facts and is not a verified equally informative implicit-dependency condition.
+
+The fresh bounded archive analysis in `analyses/transfer_positioning/run-04/` establishes output-level one-hop and endpoint omission signatures and their descriptive placement sensitivity. It does not identify internal reasoning or a shared causal mechanism across substrates. The assessment and initial diagnostics are complete; harmonized Tool rows, intended-scope traversal-rule/error-transition checks and any stronger mechanism test remain open. The old descriptive manuscript is preserved. The writing gate is closed for the stronger revised scope, with reasons recorded in `workflow_state.json`.
+
 Status: provisional synthesis of existing materials, not an approved final scientific claim set.
 
 ## Definitions to settle

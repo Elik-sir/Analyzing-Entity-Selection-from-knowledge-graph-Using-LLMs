@@ -1,5 +1,15 @@
 # Missing data and decisions
 
+## Current transfer-diagnostic scope, 2026-10-25
+
+The author's clarified purpose supersedes the structural-profile positioning; see [transfer_positioning.md](transfer_positioning.md) and [transfer_outline.md](transfer_outline.md). Earlier resolved items remain resolved at their original scope.
+
+- **G15 - comparable Tool/KG evidence (high for a new cross-domain result):** audit original Tool item-level graphs, prompts, selections, settings, reference policies, common size support and reuse with Appendix O. The source PDF verifies prior findings, not a new harmonized transfer estimate. The public anonymous artifact link was inaccessible through the web tool. Resolve by obtaining records or narrowing transfer to prior motivation and centering new KG diagnostics.
+- **G16 - intended-scope diagnostic completeness (high for a mechanism-oriented narrative):** the fresh common-size pass localizes errors on available saved selections; complete direction/depth/terminal-type counterfactual checks and same-task signature transitions across the diagnostic conditions. Gemma Core lacks selected identities; selected six-node Full overlay inputs lack saved task specifications needed by this traversal analysis. Count/exclude missing evidence rather than infer identities/specifications from scores or current defaults.
+- **G17 - discriminating explanations (high only for causal claims):** final sets, Raw/overlay gains and duplicated-fact gains cannot identify dependency inference, a particular search procedure or conjunctive aggregation. Tool dependency and KG relation semantics differ. Retain explicit hypotheses or design paired real-tool dependency overlays and controlled KG branch/rule/placement tests. New model calls remain unapproved; a negative or null result must remain possible.
+- **G18 - revised manuscript alignment (editorial gate):** update Introduction/RQs/contributions, Results hierarchy, Discussion and claim map only to the supported revised scope. Existing full text and PDF are the prior descriptive version; the new outline is not a completed rewritten paper.
+- **G19 - checkout-byte portability (technical):** the production validator currently fails on legacy registered text hashes after LF/CRLF checkout conversion. A prior read-only check established byte-equivalence under line-ending normalization; do not refresh historical hashes to hide a mismatch. New assessment records have a separate check using actual inspected bytes. This does not establish semantic scientific correctness.
+
 Initial register, 2026-10-25. “Blocking” means blocking the named claim, not automatically the entire paper. Resolve by obtaining evidence, narrowing/removing the claim, or explicitly retaining a limitation.
 
 ## Evidence needed for existing descriptions

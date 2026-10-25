@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-transfer-source",
+      "kind": "literature",
+      "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+      "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+      "locator": "PDF pp. 1-10; Section 5.3/Table 1 p. 8; Discussion p. 9; Appendix O pp. 30-31, Tables 32-33",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Supplied anonymous manuscript; publication metadata and external records not authenticated."
+    },
+    {
+      "id": "E-transfer-observations",
+      "kind": "result",
+      "path": "results/observations.jsonl.gz",
+      "sha256": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+      "locator": "size=6; five common families; core K1/K2 plus tree_in K3/K4/K7; full_braw Braw/Braw+E; supplementary Core K1-K8",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Saved metrics/selected_names; not a new response reparse or model evaluation."
+    },
+    {
+      "id": "E-transfer-inputs",
+      "kind": "result",
+      "path": "results/inputs.jsonl.gz",
+      "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+      "locator": "input_id join for E-transfer-observations; messages user candidates; reference task_spec/name_map; 3600 unique selected inputs",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Missing task specs counted and excluded from route diagnostics."
+    },
+    {
+      "id": "E-transfer-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/transfer_positioning/diagnose_transfer.py",
+      "sha256": "43ccdb6deaa0c69ac5778d75cd3c93a122bf2760d8b162c603c1623e1d6ddcb7",
+      "locator": "included; graph_reference; main: cached groups, pair transitions, route-role diagnostics",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-transfer-diagnostics",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/transfer_positioning/run-04/summary.json",
+      "sha256": "34ed8f4938903770f3b8744752b0238cf363d0ef542deef228f2109f949802f4",
+      "locator": "$.selector; $.groups; $.paired_transitions; $.controlled_paired_transitions; $.supplementary_core_cached_groups; $.provenance; $.limitations; $.validation",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-transfer-observations",
+        "E-transfer-inputs",
+        "E-transfer-script"
+      ]
+    },
+    {
+      "id": "E-transfer-route-rows",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/transfer_positioning/run-04/route_diagnostics.csv",
+      "sha256": "f855c1be7681cc73e39300f5062364e41d20c99371139c3efa19f109ecb5c341",
+      "locator": "Unique observation_id/input_id rows; model/condition/motif; paths, role counts and exact_one_hop_set",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-transfer-diagnostics"
+      ]
+    },
+    {
+      "id": "E-transfer-positioning",
+      "kind": "draft",
+      "path": "paper/research_notes/transfer_positioning.md",
+      "sha256": "65a96d1bf1900a528fda57f76fdde5fc1f6944251c3f0a0f961ca30db01633e5",
+      "locator": "Scientific decision; new diagnostics; hypothesis matrix; additional work; RQs and contributions",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-transfer-outline",
+      "kind": "draft",
+      "path": "paper/research_notes/transfer_outline.md",
+      "sha256": "68eb987790ab31e022d5e9328da16e6fda72b34144e4fd1a0e1e243964643dc0",
+      "locator": "Sections 1-7 and main-asset plan; conditional contribution and incomplete cross-domain analysis",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-transfer-task-rules",
+      "kind": "implementation",
+      "path": "graph_motives/preparation/questions.py",
+      "sha256": "d0f0eaba0d36a6249595f23b927e060e574c82c27f24d3cb7b12da63561e146b",
+      "locator": "_templates (lines 64-81); evaluate_task (line 164 onward); union of allowed route witnesses",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Current implementation plus frozen input checks; code alone does not establish historical execution."
+    },
+    {
+      "id": "E-transfer-encoding-primary",
+      "kind": "literature",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/bf72f65f30eedf5d48da6980ee02b589-Paper-Conference.pdf",
+      "locator": "Talk like a Graph, ICLR 2024, Sections 1-2; Appendix A graph encodings",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-transfer-composition-primary",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2305.18654v3",
+      "locator": "Faith and Fate, v3, Sections 2 and 3.2.3; computation graph and local/propagation error definitions",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    }
+  ]
+}

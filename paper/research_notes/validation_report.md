@@ -1,5 +1,24 @@
 # Skill system validation
 
+## Latest transfer-positioning validation, 2026-10-25
+
+Assessment at `f986fa2b3698855ef6665317039fd317d251361c`, clean at entry. Added `transfer_positioning.md`, `transfer_outline.md`, a bounded saved-score/selection diagnostic script and separate derived outputs. Updated the methodology, plan, gaps, literature log and workflow to the author's corrected scientific purpose. The old manuscript/PDF and all research sources/results remain unchanged. Full writing is pending for the stronger contribution; the completed assessment is not itself a completed new cross-domain study.
+
+Commands (using the bundled Python executable at `C:/Users/Valery/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe` with `-X utf8`):
+
+```text
+python paper/research_notes/analyses/transfer_positioning/diagnose_transfer.py --out paper/research_notes/analyses/transfer_positioning/run-04
+python paper/research_notes/analyses/transfer_positioning/register_and_check.py
+python paper/research_notes/scripts/validate_research_artifacts.py --root . --notes paper/research_notes/analyses/transfer_positioning/run-04/assessment_audit
+git diff --check
+```
+
+Retained numeric checks pass: 69 primary groups and 120 supplementary groups agree with the prior detailed CSV; the maximum primary F1 discrepancy is `8.881784197001252e-16`. Saved-selection set-score agreement and independent public-graph witness/endpoint checks pass for the included route scope; 2,581 unique valid route rows are retained. Pair/category conservation and recorded source hashes pass. New scoped structural check passes with 11 evidence records and 8 claim records. Exact results: `analyses/transfer_positioning/run-04/assessment_audit/validation.json`.
+
+The production structural check currently reports 47 older text-file hash mismatches. New assessment entries pass; older hashes were not refreshed. An earlier read-only byte check in this chat established LF/CRLF equivalence for the differing local sources. Scoped success does not make the production check pass or certify semantic truth. No independent reviewer, hypothesis test, complete raw-response reparse, new model experiment or final manuscript build was performed in this reassessment.
+
+Run history: run 01 stopped before output when a frozen input lacked `task_spec`; run 02 explicitly excluded missing specifications; run 03 added cached controlled contrasts; run 04 adds the targeted Tree-in role diagnostics. Earlier outputs are preserved as superseded, and their script hashes refer to those earlier script bytes. PDF rendering first found PyMuPDF unavailable and then succeeded with bundled pypdfium2; pages 8, 30 and 31 were visually inspected. New PDF identity is byte-equal to the archived source. No dependencies were installed.
+
 Checked 2026-10-25. Source revision: `261f1b3cc3d3bf3419c04d3d0a35d290fce73cae`.
 
 ## Completed checks

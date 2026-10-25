@@ -1,5 +1,13 @@
 # Literature review: initial search state
 
+## Transfer-diagnostic reassessment, 2026-10-25
+
+The newly supplied Tool Graph Complexity PDF matches the archived source byte-for-byte. Re-inspected the main tool analysis (Section 5.3/Table 1, p. 8), Discussion and Appendix O (pp. 30-31), with rendered-page checks. The earlier structural-profile recommendation is superseded by [transfer_positioning.md](transfer_positioning.md), which records prior-versus-proposed claims and the current focused search log.
+
+Important boundary: the source's size-adjusted Tree-in tool coefficient is null-compatible, while its raw Tree-in difficulty is large; neither is interchangeable with KG incoming-tree route errors. The chain inversion, explicit-dependency interpretation, KG size effects and adjacent-decoy inclusion errors already occur in the source. No newly introduced transfer claim follows from repeating them.
+
+Fresh primary-source checks include [Talk like a Graph's ICLR 2024 proceedings PDF](https://proceedings.iclr.cc/paper_files/paper/2024/file/bf72f65f30eedf5d48da6980ee02b589-Paper-Conference.pdf), Sections 1-2 and graph-encoding appendix, and [Faith and Fate v3](https://arxiv.org/html/2305.18654v3), Sections 2 and 3.2.3. They support background on encoding and operation-level error analysis; they do not prove the proposed KG/tool mechanisms. Exact Tool Graph title searches did not establish public publication metadata; its linked anonymous artifact repository was inaccessible via the web tool. This was a scoped check, not exhaustive novelty verification. No bibliography metadata was fabricated or silently updated.
+
 This is an incremental literature review, not a completed novelty assessment. The user-supplied sources verified on 2026-10-25 are documented below; other initial leads remain pending. Verified bibliography entries are kept in `verified_references.bib`; the mandatory anonymous Tool Graph source has a separate citation-requirement record until its public citation metadata is supplied or verified.
 
 ## Prior resource
