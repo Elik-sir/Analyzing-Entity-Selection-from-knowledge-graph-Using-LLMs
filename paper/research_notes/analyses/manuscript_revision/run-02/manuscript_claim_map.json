@@ -1,0 +1,936 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-26",
+  "intended_scope": "Bounded author-approved recall revision; descriptive and hypothesis-qualified, not originality certification",
+  "entries": [
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 2,
+      "start_line": 5,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 3,
+      "start_line": 7,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 4,
+      "start_line": 9,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 5,
+      "start_line": 11,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 6,
+      "start_line": 13,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 7,
+      "start_line": 15,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 8,
+      "start_line": 17,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "c2077d90758b72ffe3530d361a81c2895c19c8a4cf11ad156a5b8b27b9b70a00",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-transfer-prior-overlap",
+        "C-transfer-adjusted-tree",
+        "C-nr-encoding",
+        "C-nr-graphwalk"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "c2077d90758b72ffe3530d361a81c2895c19c8a4cf11ad156a5b8b27b9b70a00",
+      "paragraph": 2,
+      "start_line": 6,
+      "claim_ids": [
+        "C-transfer-prior-overlap",
+        "C-transfer-adjusted-tree",
+        "C-nr-encoding",
+        "C-nr-graphwalk"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "c2077d90758b72ffe3530d361a81c2895c19c8a4cf11ad156a5b8b27b9b70a00",
+      "paragraph": 3,
+      "start_line": 9,
+      "claim_ids": [
+        "C-transfer-prior-overlap",
+        "C-transfer-adjusted-tree",
+        "C-nr-encoding",
+        "C-nr-graphwalk"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 2,
+      "start_line": 6,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 3,
+      "start_line": 9,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 4,
+      "start_line": 11,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 5,
+      "start_line": 14,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 6,
+      "start_line": 21,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 7,
+      "start_line": 23,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "9a0e6073a84d231635f59a1748cf5e01943d30dcc272eac9831303dc0fdc8542",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "9a0e6073a84d231635f59a1748cf5e01943d30dcc272eac9831303dc0fdc8542",
+      "paragraph": 2,
+      "start_line": 6,
+      "claim_ids": [
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "9a0e6073a84d231635f59a1748cf5e01943d30dcc272eac9831303dc0fdc8542",
+      "paragraph": 3,
+      "start_line": 8,
+      "claim_ids": [
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "9a0e6073a84d231635f59a1748cf5e01943d30dcc272eac9831303dc0fdc8542",
+      "paragraph": 4,
+      "start_line": 11,
+      "claim_ids": [
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "9a0e6073a84d231635f59a1748cf5e01943d30dcc272eac9831303dc0fdc8542",
+      "paragraph": 5,
+      "start_line": 14,
+      "claim_ids": [
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "9a0e6073a84d231635f59a1748cf5e01943d30dcc272eac9831303dc0fdc8542",
+      "paragraph": 6,
+      "start_line": 22,
+      "claim_ids": [
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "9a0e6073a84d231635f59a1748cf5e01943d30dcc272eac9831303dc0fdc8542",
+      "paragraph": 7,
+      "start_line": 24,
+      "claim_ids": [
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "b0b0ec227137d268fecdb56f80899f44a9e5940b3f9bb14e9cc049ce19c926a1",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-assets-errors",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "b0b0ec227137d268fecdb56f80899f44a9e5940b3f9bb14e9cc049ce19c926a1",
+      "paragraph": 2,
+      "start_line": 13,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-assets-errors",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "b0b0ec227137d268fecdb56f80899f44a9e5940b3f9bb14e9cc049ce19c926a1",
+      "paragraph": 3,
+      "start_line": 15,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-assets-errors",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "b0b0ec227137d268fecdb56f80899f44a9e5940b3f9bb14e9cc049ce19c926a1",
+      "paragraph": 4,
+      "start_line": 24,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-assets-errors",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "b0b0ec227137d268fecdb56f80899f44a9e5940b3f9bb14e9cc049ce19c926a1",
+      "paragraph": 5,
+      "start_line": 26,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-assets-errors",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "b0b0ec227137d268fecdb56f80899f44a9e5940b3f9bb14e9cc049ce19c926a1",
+      "paragraph": 6,
+      "start_line": 35,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-assets-errors",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "b0b0ec227137d268fecdb56f80899f44a9e5940b3f9bb14e9cc049ce19c926a1",
+      "paragraph": 7,
+      "start_line": 37,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-assets-errors",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "b0b0ec227137d268fecdb56f80899f44a9e5940b3f9bb14e9cc049ce19c926a1",
+      "paragraph": 8,
+      "start_line": 45,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-assets-errors",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "b0b0ec227137d268fecdb56f80899f44a9e5940b3f9bb14e9cc049ce19c926a1",
+      "paragraph": 9,
+      "start_line": 47,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-assets-errors",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "b0b0ec227137d268fecdb56f80899f44a9e5940b3f9bb14e9cc049ce19c926a1",
+      "paragraph": 10,
+      "start_line": 57,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-assets-errors",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "6739a828940c453f0220ebbda894e243712dbe468ba33196cbd1cedf9ce6612e",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "6739a828940c453f0220ebbda894e243712dbe468ba33196cbd1cedf9ce6612e",
+      "paragraph": 2,
+      "start_line": 6,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "6739a828940c453f0220ebbda894e243712dbe468ba33196cbd1cedf9ce6612e",
+      "paragraph": 3,
+      "start_line": 8,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "6739a828940c453f0220ebbda894e243712dbe468ba33196cbd1cedf9ce6612e",
+      "paragraph": 4,
+      "start_line": 11,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "6739a828940c453f0220ebbda894e243712dbe468ba33196cbd1cedf9ce6612e",
+      "paragraph": 5,
+      "start_line": 13,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "6739a828940c453f0220ebbda894e243712dbe468ba33196cbd1cedf9ce6612e",
+      "paragraph": 6,
+      "start_line": 16,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "6739a828940c453f0220ebbda894e243712dbe468ba33196cbd1cedf9ce6612e",
+      "paragraph": 7,
+      "start_line": 18,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "6739a828940c453f0220ebbda894e243712dbe468ba33196cbd1cedf9ce6612e",
+      "paragraph": 8,
+      "start_line": 21,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "6739a828940c453f0220ebbda894e243712dbe468ba33196cbd1cedf9ce6612e",
+      "paragraph": 9,
+      "start_line": 23,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "6739a828940c453f0220ebbda894e243712dbe468ba33196cbd1cedf9ce6612e",
+      "paragraph": 10,
+      "start_line": 25,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/07_recall_conclusion.tex",
+      "sha256": "db0a76e90d41cb6d38f29474346f33c40abd1f297032f9faa49a72e3d5bf1844",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-pr-descriptive-effects",
+        "C-assets-errors",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 2,
+      "start_line": 6,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 3,
+      "start_line": 8,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 4,
+      "start_line": 23,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 5,
+      "start_line": 36,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 6,
+      "start_line": 39,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 7,
+      "start_line": 41,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 8,
+      "start_line": 43,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 9,
+      "start_line": 46,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 10,
+      "start_line": 50,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 11,
+      "start_line": 52,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 12,
+      "start_line": 54,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Paragraph-family evidence map; hypotheses stay hypotheses. Mathematical definitions and authorial research aims are not empirical findings."
+    },
+    {
+      "path": "paper/manuscript/main.tex",
+      "sha256": "150d6e8dbfa3970fb757d5567133756a26e3119575e46671b348adcf05bd0fd9",
+      "locator": "abstract",
+      "claim_ids": [
+        "C-pr-descriptive-effects",
+        "C-table2-all-model-metrics"
+      ]
+    },
+    {
+      "locator": "figure:recall_motifs",
+      "claim_ids": [
+        "C-recall-revision-profiles"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.figures[id=recall_motifs].source_rows",
+      "file_hashes": {
+        "paper/figures/recall_manuscript_v1/recall_motifs.png": "983714557e555be5b95968cb4f0ddec8fd919acd0f23d2af5232dc9c02ad4eae",
+        "paper/figures/recall_manuscript_v1/recall_motifs.pdf": "5043a2739c79c7ba096438dc962c0b17be946cb5cd99dd8705640afe0d2f1b62",
+        "paper/figures/recall_manuscript_v1/recall_motifs.svg": "14f7797c849bccb545a27e7d03a74708d2fcbb482a82631d551d2222e319c33a"
+      }
+    },
+    {
+      "locator": "figure:recall_sizes",
+      "claim_ids": [
+        "C-recall-revision-profiles"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.figures[id=recall_sizes].source_rows",
+      "file_hashes": {
+        "paper/figures/recall_manuscript_v1/recall_sizes.png": "811ada29cb3240059fb9a2b2f3895a114197aaaef5e2ba15a32b3139b7cc1867",
+        "paper/figures/recall_manuscript_v1/recall_sizes.pdf": "98297b62d960b5be15f19f9748d67a4fbcc7af7af939cb7077c13d263ef0879a",
+        "paper/figures/recall_manuscript_v1/recall_sizes.svg": "3e43ef856a6c0679f470115adb65f0d4de77d595b2a274d81acbe1bed0678089"
+      }
+    },
+    {
+      "locator": "figure:precision_motifs",
+      "claim_ids": [
+        "C-recall-revision-profiles"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.figures[id=precision_motifs].source_rows",
+      "file_hashes": {
+        "paper/figures/recall_manuscript_v1/precision_motifs.png": "1ded5b5b76421c656084d04607620c041c7895a15da4eb1e9687e9417d661fbe",
+        "paper/figures/recall_manuscript_v1/precision_motifs.pdf": "3ce6ccbdf27fe0fd9e8ac23bd75786f7157218dd3518fef4bd1b09b2aa440f36",
+        "paper/figures/recall_manuscript_v1/precision_motifs.svg": "2542525dd5c7438051053cba0fe097ae74fbc23e397895c6162dc0f63936b615"
+      }
+    },
+    {
+      "locator": "figure:precision_sizes",
+      "claim_ids": [
+        "C-recall-revision-profiles"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.figures[id=precision_sizes].source_rows",
+      "file_hashes": {
+        "paper/figures/recall_manuscript_v1/precision_sizes.png": "8186969a7434c9c8e09c44b83b29c11abc2e252c56a94dcaaa8b54ce74ef04ed",
+        "paper/figures/recall_manuscript_v1/precision_sizes.pdf": "e5c54f7ef5846d5055d02bab61275358793a333e33b0fbb3a02dbf847391fe1b",
+        "paper/figures/recall_manuscript_v1/precision_sizes.svg": "8b13c388bd271ff3bf85598f4171c71172d5a672f31d6d353f25deeb18360287"
+      }
+    },
+    {
+      "locator": "figure:residual_errors",
+      "claim_ids": [
+        "C-assets-errors"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.figures[id=residual_errors].source_rows",
+      "file_hashes": {
+        "paper/figures/recall_manuscript_v1/residual_errors.png": "1f749e61b2f701db83f1dd1d64c79eddd193197ee4a43cc3142b8a876d3f02d9",
+        "paper/figures/recall_manuscript_v1/residual_errors.pdf": "46040211531775bc082c2fcd5a4d0d108ba1674b2ad0d3b916357f573e25a13f",
+        "paper/figures/recall_manuscript_v1/residual_errors.svg": "d2aa5db497779adb3fb7dc5651cd3ef1844625f2b5a52fc6e380734d4bee2242"
+      }
+    },
+    {
+      "locator": "table:recall_effects",
+      "path": "paper/manuscript/tables/recall_effects.tex",
+      "sha256": "f2996c31f2e2518e9229fb295a89123b3c6d0a5700c5b6328d072398d14bed96",
+      "claim_ids": [
+        "C-pr-descriptive-effects"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.recall_effects.rows"
+    },
+    {
+      "locator": "table:precision_effects",
+      "path": "paper/manuscript/tables/precision_effects.tex",
+      "sha256": "67e259c400659e88d5d3d99dd3133048d7c6698ffa4561ec5c91937000a277a7",
+      "claim_ids": [
+        "C-pr-descriptive-effects"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.precision_effects.rows"
+    },
+    {
+      "locator": "table:treein_recall",
+      "path": "paper/manuscript/tables/treein_recall.tex",
+      "sha256": "dab338a23257962e53d62800087bccf369ffdb0cc4c50b5b3affd65e7879e7af",
+      "claim_ids": [
+        "C-table2-all-model-metrics"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.treein_recall.rows"
+    },
+    {
+      "locator": "table:core_recall",
+      "path": "paper/manuscript/tables/core_recall.tex",
+      "sha256": "91aa92f96be82883e84609ad5ec1e872b07fb486423471415418f83fe52fb104",
+      "claim_ids": [
+        "C-recall-revision-means"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.core_recall.rows"
+    },
+    {
+      "locator": "table:core_precision",
+      "path": "paper/manuscript/tables/core_precision.tex",
+      "sha256": "2d7c00e7eb20541ea6e9bd3cee77e09d6857843f09a2f4200b209dc249180966",
+      "claim_ids": [
+        "C-recall-revision-means"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.core_precision.rows"
+    },
+    {
+      "locator": "table:core_exact",
+      "path": "paper/manuscript/tables/core_exact.tex",
+      "sha256": "7d77f6ead8bea2ef41fee49ff25f38dfa96c8b978f2d2c39933db10b6a17084f",
+      "claim_ids": [
+        "C-recall-revision-means"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.core_exact.rows"
+    }
+  ],
+  "limitations": [
+    "Paragraph maps bind claim families rather than machine-prove each sentence.",
+    "Missing raw replies and exact cross-paper row reuse remain disclosed.",
+    "No causal mechanism or recall/precision significance claim."
+  ]
+}

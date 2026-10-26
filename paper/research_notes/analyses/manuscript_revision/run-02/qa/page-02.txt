@@ -1,0 +1,224 @@
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+WWW ’27, May 10–14, 2027, Dublin, Ireland Anon.
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+observations constrain possible explanations of selection errors
+without identifying a shared internal mechanism for tools and KG
+entities.
+2 Related Work and Prior Transfer Evidence
+Structural difficulty in tool selection. Tool Graph Complexity
+separates reference-set minimality from dependency composition
+and reports motif-associated differences in selection success [ 1].
+Its size-adjusted sequential penalties should not be conflated with
+every motif’s raw difficulty: the adjusted Tree-in interval includes
+zero relative to Star-out. Appendix O already evaluates KG mo-
+tifs, size, explicit relations, and adjacent decoys. Its Chain inver-
+sion and residual incoming-tree interpretation are antecedent
+findings, not discoveries claimed here. Our increment concerns
+archived relation-availability and matched-fact presentation con-
+trasts and more localized output-level diagnostics. Different refer-
+ences, prompts, populations, and model protocols prevent direct
+cross-paper score subtraction.
+Graph representation and task comprehension. Talk like a Graph
+establishes that graph encodings, task type, and structure affect
+LLM performance [ 4]. Dai et al. investigate terminology- and
+topology-based pattern comprehension and discovery [ 3]. Our
+output is a set of entities covering all permitted query routes,
+rather than a motif label or one discovered pattern. This task dis-
+tinction does not make representation sensitivity itself novel.
+KG evidence and traversal failures. KG-prompt research studies
+input formats, triple organization, and noisy or incomplete evi-
+dence, including answer-based evaluation [ 2]. GraphWalk studies
+tool-mediated navigation and reports incomplete exploration in
+graph-context settings [ 5]. Accordingly, we do not claim the first
+observation of incomplete traversal. We measure final-set signa-
+tures and changes on the same archived tasks; these are not exe-
+cution traces. The corporate graph and earlier QA benchmark be-
+long to Kirpichev et al. [ 6]; graph construction and downstream
+QA gains are outside our contribution.
+3 Task, Reference, and Relational Evidence
+Source graph and historical scope. We reuse the corporate KG
+snapshot described by Kirpichev et al. [ 6], covering S&P 500 com-
+panies and associated sectors, industries, executives, investors,
+products, resources, locations, and news. The authors confirm un-
+changed snapshot reuse. We analyze the archived, frozen tasks
+rather than reconstruct their historical database extraction from
+current software. Appendix B reproduces the author-supplied
+Cypher extraction specification. It defines fixed small instances
+and an induced-edge filter; it is not presented as the complete exe-
+cutable pipeline for all archived sizes or per-cell sampling quotas.
+No database query was executed during this analysis.
+Task families and questions. The Core panel has 100 base tasks
+in each of seven families: chain, star-in, star-out, tree-in, tree-out,
+rhombus, and hourglass. Five families have six entities; rhombi
+have four and hourglasses five. Chain questions follow outgoing
+routes until the first entity of a specified type on each route. Stars
+ask for incoming or outgoing one-hop neighbours. Trees ask for
+two-step incoming or outgoing traversal; rhombi use two-step out-
+going traversal. A two-step route terminates early only if no fur-
+ther unvisited neighbour is permitted. Hourglass questions request
+incoming and outgoing one-hop neighbours in separate groups.
+Question templates are instantiated using the anchor name/-
+type, direction, and stopping rule. Step-by-step and direct formu-
+lations express the same endpoint query; the former enumerates
+the traversal operations. These families thus vary in topology and
+query operation. In particular, outward trees and rhombi share the
+outgoing two-step query, while other families use different direc-
+tions or stopping rules. An unadjusted seven-family ranking is nei-
+ther an equal-size nor a pure-topology comparison.
+Candidates and distractors. Each main task presents 25 named
+candidate entities, including the motif entities and distractors. Dis-
+connected distractors have no edges to reference entities in either
+direction, although they may connect to each other. In the adja-
+cent variant, up to ten distractors are neighbours of motif entities;
+remaining distractors are disconnected. Paired noise variants re-
+tain the question and reference but may contain different distrac-
+tor identities. Explicit evidence includes relations involving distrac-
+tors, not only reference-induced edges.
+Selection target. Let 𝐶 denote the candidate catalogue and 𝐺𝐶
+its graph-defined reference context, which need not be recover-
+able from native cards. Let 𝑞 be the endpoint query, 𝑎 its anchor,
+and 𝒫(𝑞, 𝐺𝐶 ) its allowed supporting routes under the saved traver-
+sal/stopping rule. We evaluate the entity-route reference
+𝑊 (𝑞, 𝐺𝐶 ) = {𝑎} ∪ ⋃
+𝑝∈𝒫(𝑞,𝐺𝐶 )
+𝑉 (𝑝), (1)
+where 𝑉 (𝑝) contains every entity on route 𝑝. Endpoint answers
+𝐴(𝑞, 𝐺𝐶 ) are distinct from 𝑊 . Simple routes do not revisit an en-
+tity; the saved task specification fixes the allowed direction, depth,
+and terminal-type rule. In the audited structured archive, saved
+motif/reference IDs coincide with this witness union. Equality is a
+property of these accepted tasks, not an assumed identity for arbi-
+trary candidate expansion.
+For example, one archived rhombus has two branches from
+the anchor through two intermediate entities to one endpoint. Its
+endpoint answer has one entity and its reference four. Removing
+the endpoint card’s facts while retaining the name/type catalogue
+leaves that endpoint recoverable from incoming facts. Thus refer-
+ence membership does not establish that every card contributes
+indispensable information. The selection objective is complete
+route coverage, not minimum sufficient evidence or final answer
+correctness.
+Evidence conditions. Raw presents original entity metadata;
+Raw+E adds explicit relations to the same cards. Actual archived
+inputs, questions, candidate order, and references match after re-
+moving only the relation fields. This is an information-availability
+contrast; native descriptions are not assumed to express all graph
+relations. Controlled triples and templated prose instead encode
+designated matched graph facts. Source-card, destination-card,
+and both-card variants alter presentation location while retaining
+relation direction. Names/types remain visible in all conditions.
+2

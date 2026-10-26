@@ -1,0 +1,66 @@
+{
+  "checked_on": "2026-10-26",
+  "scope": "Alternative Figure 3 preview only; manuscript/PDF not modified",
+  "source": {
+    "path": "paper/research_notes/analyses/main_claim_assets/run-02/figure2_error_composition.csv",
+    "sha256": "6c26a045149b761b158e2b7b170bb27361ae37c9cef7804aeb38b7db048a355e"
+  },
+  "script_sha256": "8466cb7349887de72ccbfe477b43946ce013ded437332d628cc1a558fe1cf93f",
+  "data_sha256": "7f578439189282818f5cf7edb48c9b029ff563c0067497034fc96a09e6070aeb",
+  "formulas": {
+    "tasks_with_omissions": "omission_only + mixed",
+    "tasks_with_extras": "inclusion_only + mixed",
+    "percent": "count / all planned N * 100; N=100 in every cell"
+  },
+  "invalid_counts": [
+    {
+      "model": "gemma-4-31b",
+      "motif": "chain",
+      "condition": "K2",
+      "invalid": "1"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "motif": "star_in",
+      "condition": "K1",
+      "invalid": "1"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "motif": "star_in",
+      "condition": "K2",
+      "invalid": "1"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "motif": "star_out",
+      "condition": "K2",
+      "invalid": "1"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "motif": "tree_out",
+      "condition": "K2",
+      "invalid": "1"
+    },
+    {
+      "model": "ministral-14b",
+      "motif": "chain",
+      "condition": "K2",
+      "invalid": "1"
+    },
+    {
+      "model": "ministral-14b",
+      "motif": "star_out",
+      "condition": "K2",
+      "invalid": "4"
+    }
+  ],
+  "outputs": {
+    "paper/figures/task_errors_v1/figure3_task_errors.png": "66354073d1433be05390c745e4746692a9e346e777f8da6bff10133042793a25",
+    "paper/figures/task_errors_v1/figure3_task_errors.pdf": "1c5f8f850036fb5197a4a3591ed0b91c741ea39c9034528213c1f4a76a461e8b",
+    "paper/figures/task_errors_v1/figure3_task_errors.svg": "492d181a6bb7c41d29afd49f6566a86d7776a2992d28fdf990dbd4fe16d465e5"
+  },
+  "new_inference": false,
+  "visual_review": "pending"
+}

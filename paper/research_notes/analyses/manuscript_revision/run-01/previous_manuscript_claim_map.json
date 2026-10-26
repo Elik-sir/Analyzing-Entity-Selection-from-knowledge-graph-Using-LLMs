@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-25",
+  "intended_scope": "Author-authorized descriptive structural manuscript; no motif/size significance, topology causality, independent replication, minimality or QA gain",
+  "entries": [
+    {
+      "scope": "abstract",
+      "claim_ids": [
+        "C-assessment-common-size-profile",
+        "C-assessment-conditional-size",
+        "C-final-raw-f1"
+      ],
+      "evidence": [
+        {
+          "id": "E-emphasis-assessment-results",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
+          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
+          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
+        },
+        {
+          "id": "E-emphasis-provenance",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
+          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
+          "locator": "$.files; $.method; $.working_tree"
+        },
+        {
+          "id": "E-final-findings",
+          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines",
+          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c"
+        },
+        {
+          "id": "E-final-paired-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta",
+          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
+        },
+        {
+          "id": "E-structure-detailed-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
+          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
+        }
+      ],
+      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+    },
+    {
+      "scope": "01_introduction.tex",
+      "claim_ids": [
+        "C-assessment-fullsize-coverage",
+        "C-assessment-common-size-profile",
+        "C-assessment-conditional-size",
+        "C-toolgraph-kg-overlap"
+      ],
+      "evidence": [
+        {
+          "id": "E-emphasis-assessment-results",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
+          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
+          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
+        },
+        {
+          "id": "E-emphasis-provenance",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
+          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
+          "locator": "$.files; $.method; $.working_tree"
+        },
+        {
+          "id": "E-structure-detailed-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
+          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
+        },
+        {
+          "id": "E-toolgraph-appendix-o-detailed",
+          "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+          "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+          "locator": "Appendix O, PDF pp. 30\u201331, Tables 32\u201333; Introduction pp. 1\u20134; Sections 5.1\u20135.3 pp. 7\u20138; reproducibility p. 10"
+        }
+      ],
+      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+    },
+    {
+      "scope": "02_related_work.tex",
+      "claim_ids": [
+        "C-toolgraph-kg-overlap"
+      ],
+      "evidence": [
+        {
+          "id": "E-toolgraph-appendix-o-detailed",
+          "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+          "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+          "locator": "Appendix O, PDF pp. 30\u201331, Tables 32\u201333; Introduction pp. 1\u20134; Sections 5.1\u20135.3 pp. 7\u20138; reproducibility p. 10"
+        }
+      ],
+      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+    },
+    {
+      "scope": "03_method.tex",
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-outline-target-example",
+        "C-assessment-fullsize-coverage"
+      ],
+      "evidence": [
+        {
+          "id": "E-emphasis-assessment-results",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
+          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
+          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
+        },
+        {
+          "id": "E-emphasis-provenance",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
+          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
+          "locator": "$.files; $.method; $.working_tree"
+        },
+        {
+          "id": "E-inputs-archive",
+          "path": "results/inputs.jsonl.gz",
+          "locator": "input_id joins; candidate_names; messages/frozen_public; reference; private task_spec",
+          "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68"
+        },
+        {
+          "id": "E-native-audit-final",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/supplement.json",
+          "locator": "counts; pairs; failures",
+          "sha256": "b08bc5bdd40754c72a364057348159d1964dfc4ae7feb6facbc27465d6eedc54"
+        },
+        {
+          "id": "E-reference-audit-code",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/audit_references.py",
+          "locator": "Independent decode/oracle functions and paired invariant checks; no project module imports",
+          "sha256": "00a56889518a1442778d67ad409fa38513ac920bd323867f42cf12f9e0afb81e"
+        },
+        {
+          "id": "E-reference-audit-final",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
+          "locator": "checks; coverage; pairs[*]; cross_model; issues",
+          "sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6"
+        },
+        {
+          "id": "E-structure-detailed-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
+          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
+        },
+        {
+          "id": "E-support-example",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/support_example.json",
+          "locator": "input_id; reference_names; endpoint_names; single_card_fact_ablations",
+          "sha256": "d2a2e3787dfdb45bb73db0824135885e550924b3e2a38a587450c6e53f73f7db"
+        }
+      ],
+      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+    },
+    {
+      "scope": "04_setup.tex",
+      "claim_ids": [
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-assessment-fullsize-coverage",
+        "C-final-dependence-scope"
+      ],
+      "evidence": [
+        {
+          "id": "E-emphasis-assessment-results",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
+          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
+          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
+        },
+        {
+          "id": "E-emphasis-provenance",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
+          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
+          "locator": "$.files; $.method; $.working_tree"
+        },
+        {
+          "id": "E-final-dependence",
+          "path": "paper/research_notes/analyses/final_results/run-01/dependence_audit.json",
+          "locator": "core/full_braw: base_tasks; anchors; largest_reference_overlap_component",
+          "sha256": "3a7084d8b70265287e635dbe6e0f84c27c0b1ca9d95c42a159965fd7784cf582"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
+        },
+        {
+          "id": "E-native-audit-final",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/supplement.json",
+          "locator": "counts; pairs; failures",
+          "sha256": "b08bc5bdd40754c72a364057348159d1964dfc4ae7feb6facbc27465d6eedc54"
+        },
+        {
+          "id": "E-reference-audit-final",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
+          "locator": "checks; coverage; pairs[*]; cross_model; issues",
+          "sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6"
+        },
+        {
+          "id": "E-structure-detailed-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
+          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
+        }
+      ],
+      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+    },
+    {
+      "scope": "05_results.tex",
+      "claim_ids": [
+        "C-assessment-common-size-profile",
+        "C-assessment-conditional-size",
+        "C-assessment-error-profiles",
+        "C-final-raw-f1",
+        "C-final-noise-f1",
+        "C-final-representation-f1",
+        "C-final-placement-f1"
+      ],
+      "evidence": [
+        {
+          "id": "E-emphasis-assessment-results",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
+          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
+          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
+        },
+        {
+          "id": "E-emphasis-provenance",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
+          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
+          "locator": "$.files; $.method; $.working_tree"
+        },
+        {
+          "id": "E-final-findings",
+          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines",
+          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c"
+        },
+        {
+          "id": "E-final-paired-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta",
+          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
+        },
+        {
+          "id": "E-structure-detailed-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
+          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
+        }
+      ],
+      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+    },
+    {
+      "scope": "06_discussion.tex",
+      "claim_ids": [
+        "C-final-dependence-scope",
+        "C-final-analytical-baselines",
+        "C-frozen-reference-consistency",
+        "C-toolgraph-kg-overlap"
+      ],
+      "evidence": [
+        {
+          "id": "E-final-analytical-baselines",
+          "path": "paper/research_notes/analyses/final_results/run-01/analytical_baselines.csv",
+          "locator": "series_id/baseline; expected set metrics",
+          "sha256": "97996518c780152f8bab5bc51cb6a3080cf9210b2ef091abfb3870ae9dae91ac"
+        },
+        {
+          "id": "E-final-dependence",
+          "path": "paper/research_notes/analyses/final_results/run-01/dependence_audit.json",
+          "locator": "core/full_braw: base_tasks; anchors; largest_reference_overlap_component",
+          "sha256": "3a7084d8b70265287e635dbe6e0f84c27c0b1ca9d95c42a159965fd7784cf582"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
+        },
+        {
+          "id": "E-final-stats-code",
+          "path": "paper/research_notes/analyses/final_results/analyze_results.py",
+          "locator": "metric/summarize; paired_panel/analyze_panel; analytical_baselines; run",
+          "sha256": "ab4bcd3c4de0e1d1999bade0098e9be71bd2378fc3654b4f66b2af04cda81274"
+        },
+        {
+          "id": "E-inputs-archive",
+          "path": "results/inputs.jsonl.gz",
+          "locator": "input_id joins; candidate_names; messages/frozen_public; reference; private task_spec",
+          "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68"
+        },
+        {
+          "id": "E-reference-audit-code",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/audit_references.py",
+          "locator": "Independent decode/oracle functions and paired invariant checks; no project module imports",
+          "sha256": "00a56889518a1442778d67ad409fa38513ac920bd323867f42cf12f9e0afb81e"
+        },
+        {
+          "id": "E-reference-audit-final",
+          "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
+          "locator": "checks; coverage; pairs[*]; cross_model; issues",
+          "sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6"
+        },
+        {
+          "id": "E-toolgraph-appendix-o-detailed",
+          "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+          "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+          "locator": "Appendix O, PDF pp. 30\u201331, Tables 32\u201333; Introduction pp. 1\u20134; Sections 5.1\u20135.3 pp. 7\u20138; reproducibility p. 10"
+        }
+      ],
+      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+    },
+    {
+      "scope": "07_conclusion.tex",
+      "claim_ids": [
+        "C-assessment-common-size-profile",
+        "C-assessment-conditional-size",
+        "C-final-raw-f1",
+        "C-final-noise-f1"
+      ],
+      "evidence": [
+        {
+          "id": "E-emphasis-assessment-results",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
+          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
+          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
+        },
+        {
+          "id": "E-emphasis-provenance",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
+          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
+          "locator": "$.files; $.method; $.working_tree"
+        },
+        {
+          "id": "E-final-findings",
+          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines",
+          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c"
+        },
+        {
+          "id": "E-final-paired-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta",
+          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
+        },
+        {
+          "id": "E-structure-detailed-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
+          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
+        }
+      ],
+      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+    },
+    {
+      "scope": "08_appendix.tex",
+      "claim_ids": [
+        "C-assessment-fullsize-coverage",
+        "C-final-representation-f1",
+        "C-final-placement-f1",
+        "C-final-analytical-baselines",
+        "C-final-supplement-f1"
+      ],
+      "evidence": [
+        {
+          "id": "E-emphasis-assessment-results",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
+          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
+          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
+        },
+        {
+          "id": "E-emphasis-provenance",
+          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
+          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
+          "locator": "$.files; $.method; $.working_tree"
+        },
+        {
+          "id": "E-final-analytical-baselines",
+          "path": "paper/research_notes/analyses/final_results/run-01/analytical_baselines.csv",
+          "locator": "series_id/baseline; expected set metrics",
+          "sha256": "97996518c780152f8bab5bc51cb6a3080cf9210b2ef091abfb3870ae9dae91ac"
+        },
+        {
+          "id": "E-final-findings",
+          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines",
+          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c"
+        },
+        {
+          "id": "E-final-paired-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta",
+          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e"
+        },
+        {
+          "id": "E-final-stat-provenance",
+          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
+          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
+        },
+        {
+          "id": "E-final-stats-code",
+          "path": "paper/research_notes/analyses/final_results/analyze_results.py",
+          "locator": "metric/summarize; paired_panel/analyze_panel; analytical_baselines; run",
+          "sha256": "ab4bcd3c4de0e1d1999bade0098e9be71bd2378fc3654b4f66b2af04cda81274"
+        },
+        {
+          "id": "E-structure-detailed-results",
+          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
+          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
+        }
+      ],
+      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+    }
+  ],
+  "numeric_display_policy": "Use exact existing CSV selectors; all-planned N; display rounding only; figure/table rows in manuscript_assets asset manifest",
+  "unsupported_assertions_excluded": [
+    "historical motif extraction queries supplied",
+    "all tasks independent",
+    "all models worsen monotonically with size",
+    "current implementation establishes historical execution"
+  ]
+}

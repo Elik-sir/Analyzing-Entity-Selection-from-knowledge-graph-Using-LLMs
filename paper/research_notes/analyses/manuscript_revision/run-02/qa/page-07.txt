@@ -1,0 +1,146 @@
+697
+698
+699
+700
+701
+702
+703
+704
+705
+706
+707
+708
+709
+710
+711
+712
+713
+714
+715
+716
+717
+718
+719
+720
+721
+722
+723
+724
+725
+726
+727
+728
+729
+730
+731
+732
+733
+734
+735
+736
+737
+738
+739
+740
+741
+742
+743
+744
+745
+746
+747
+748
+749
+750
+751
+752
+753
+754
+Structural Selection Profiles and Relational Evidence WWW ’27, May 10–14, 2027, Dublin, Ireland
+755
+756
+757
+758
+759
+760
+761
+762
+763
+764
+765
+766
+767
+768
+769
+770
+771
+772
+773
+774
+775
+776
+777
+778
+779
+780
+781
+782
+783
+784
+785
+786
+787
+788
+789
+790
+791
+792
+793
+794
+795
+796
+797
+798
+799
+800
+801
+802
+803
+804
+805
+806
+807
+808
+809
+810
+811
+812
+References
+[1] Anonymous. [n. d.]. Tool Graph Complexity for LLM Tool-Calling: A Repro-
+ducible Benchmark Auditing and Generation Framework. Anonymous manu-
+script. Manuscript under review at ICLR 2027; Appendix O.
+[2] Xinbang Dai, Yuncheng Hua, Tongtong Wu, Yang Sheng, Qiu Ji, and Guilin Qi.
+2024. Large Language Models Can Better Understand Knowledge Graphs Than
+We Thought. Version 4, revised January 23, 2025. arXiv: 2402.11541 https://arxiv.
+org/abs/2402.11541v4
+[3] Xinnan Dai, Haohao Qu, Yifei Shen, Bohang Zhang, Qihao Wen, Wenqi
+Fan, Dongsheng Li, Jiliang Tang, and Caihua Shan. 2025. How Do
+Large Language Models Understand Graph Patterns? A Benchmark for
+Graph Pattern Comprehension. In International Conference on Learning
+Representations. https://proceedings.iclr.cc/paper_files/paper/2025/hash/
+9316da9c25ab559ba678f2fe52217a64-Abstract-Conference.html
+[4] Bahare Fatemi, Jonathan Halcrow, and Bryan Perozzi. 2024. Talk like a Graph:
+Encoding Graphs for Large Language Models. In International Conference on
+Learning Representations . https://proceedings.iclr.cc/paper_files/paper/2024/
+hash/bf72f65f30eedf5d48da6980ee02b589-Abstract-Conference.html
+[5] Taraneh Ghandi, Hamidreza Mahyar, and Shachar Klaiman. 2026. GraphWalk:
+Enabling Reasoning in Large Language Models through Tool-Based Graph Navi-
+gation. Version 1. arXiv: 2604.01610 https://arxiv.org/abs/2604.01610v1
+[6] Ivan E. Kirpichev, Eldar R. Kurmanaliev, Fedor V. Bushmelev, Maxim V.
+Abramov, Anastasiia A. Korepanova, Nikolay O. Nikitin, and Anna V. Kalyuzh-
+naya. 2026. Towards Ontology-Driven Multi-Hop Benchmark for Corporate
+GraphRAG Systems. In IJCAI-ECAI 2026 Joint Workshop on GENAIK and NORA .
+https://openreview.net/forum?id=1vQ04i1XGC
+[7] Neo4j. [n. d.]. Cypher Manual: MATCH. Accessed October 25, 2026. https:
+//neo4j.com/docs/cypher-manual/current/clauses/match/
+7

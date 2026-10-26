@@ -1,0 +1,90 @@
+[
+  {
+    "page": 1,
+    "chars": 6207,
+    "head": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n",
+    "figures": [],
+    "conclusion": false,
+    "references": false
+  },
+  {
+    "page": 2,
+    "chars": 6984,
+    "head": "117\n118\n119\n120\n121\n122\n123\n124\n125\n126\n127\n128\n129\n130\n131\n132\n133\n134\n135\n136\n137\n138\n139\n140\n141\n142\n143\n144\n145\n146\n147\n148\n149\n150\n151\n152\n153\n15",
+    "figures": [],
+    "conclusion": false,
+    "references": false
+  },
+  {
+    "page": 3,
+    "chars": 6911,
+    "head": "233\n234\n235\n236\n237\n238\n239\n240\n241\n242\n243\n244\n245\n246\n247\n248\n249\n250\n251\n252\n253\n254\n255\n256\n257\n258\n259\n260\n261\n262\n263\n264\n265\n266\n267\n268\n269\n27",
+    "figures": [
+      "Figure 1 shows task-family differences at a common reference size."
+    ],
+    "conclusion": false,
+    "references": false
+  },
+  {
+    "page": 4,
+    "chars": 2607,
+    "head": "349\n350\n351\n352\n353\n354\n355\n356\n357\n358\n359\n360\n361\n362\n363\n364\n365\n366\n367\n368\n369\n370\n371\n372\n373\n374\n375\n376\n377\n378\n379\n380\n381\n382\n383\n384\n385\n38",
+    "figures": [
+      "Figure 1: Core recall with explicit source-card relations: K1 disconnected and K2 adjacent distractors, 100 planned tasks per",
+      "Figure 2: Recall across all variable-size families and all three models in Full Raw/Raw+E. Each point has 100 planned tasks"
+    ],
+    "conclusion": false,
+    "references": false
+  },
+  {
+    "page": 5,
+    "chars": 6218,
+    "head": "465\n466\n467\n468\n469\n470\n471\n472\n473\n474\n475\n476\n477\n478\n479\n480\n481\n482\n483\n484\n485\n486\n487\n488\n489\n490\n491\n492\n493\n494\n495\n496\n497\n498\n499\n500\n501\n50",
+    "figures": [],
+    "conclusion": false,
+    "references": false
+  },
+  {
+    "page": 6,
+    "chars": 3030,
+    "head": "581\n582\n583\n584\n585\n586\n587\n588\n589\n590\n591\n592\n593\n594\n595\n596\n597\n598\n599\n600\n601\n602\n603\n604\n605\n606\n607\n608\n609\n610\n611\n612\n613\n614\n615\n616\n617\n61",
+    "figures": [],
+    "conclusion": true,
+    "references": false
+  },
+  {
+    "page": 7,
+    "chars": 2415,
+    "head": "697\n698\n699\n700\n701\n702\n703\n704\n705\n706\n707\n708\n709\n710\n711\n712\n713\n714\n715\n716\n717\n718\n719\n720\n721\n722\n723\n724\n725\n726\n727\n728\n729\n730\n731\n732\n733\n73",
+    "figures": [],
+    "conclusion": false,
+    "references": true
+  },
+  {
+    "page": 8,
+    "chars": 5703,
+    "head": "813\n814\n815\n816\n817\n818\n819\n820\n821\n822\n823\n824\n825\n826\n827\n828\n829\n830\n831\n832\n833\n834\n835\n836\n837\n838\n839\n840\n841\n842\n843\n844\n845\n846\n847\n848\n849\n85",
+    "figures": [],
+    "conclusion": false,
+    "references": false
+  },
+  {
+    "page": 9,
+    "chars": 2314,
+    "head": "929\n930\n931\n932\n933\n934\n935\n936\n937\n938\n939\n940\n941\n942\n943\n944\n945\n946\n947\n948\n949\n950\n951\n952\n953\n954\n955\n956\n957\n958\n959\n960\n961\n962\n963\n964\n965\n96",
+    "figures": [
+      "Figure 3: Precision companion to Figure 1: Core K1/K2, 100 planned tasks per point, invalid zero. Shaded families have dif-",
+      "Figure 4: Precision companion to Figure 2, retaining all three models and five variable-size families under Raw/Raw+E. Each"
+    ],
+    "conclusion": false,
+    "references": false
+  },
+  {
+    "page": 10,
+    "chars": 2901,
+    "head": "1045\n1046\n1047\n1048\n1049\n1050\n1051\n1052\n1053\n1054\n1055\n1056\n1057\n1058\n1059\n1060\n1061\n1062\n1063\n1064\n1065\n1066\n1067\n1068\n1069\n1070\n1071\n1072\n1073\n1074\n",
+    "figures": [],
+    "conclusion": false,
+    "references": false
+  }
+]

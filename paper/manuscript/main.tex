@@ -1,4 +1,4 @@
-\documentclass[sigconf,anonymous,review]{acmart}
+\documentclass[sigconf,anonymous,review,balance=false]{acmart}
 \usepackage{booktabs}
 \usepackage{listings}
 % Allow a final line-breaking pass for narrow columns; no margin/font changes.
@@ -9,25 +9,25 @@
 \acmYear{2027}
 \acmDOI{}
 \acmISBN{}
-\title[Graph Patterns and Size in KG Entity Selection]{Graph Patterns and Size in Knowledge-Graph Entity Selection: Evidence-Conditional Profiles of Large Language Models}
+\title[Structural Selection Profiles and Relational Evidence]{From Tool Selection to Knowledge-Graph Entity Selection: Structural Profiles and Relational Evidence}
 \begin{document}
 \begin{abstract}
-Selecting entities that support a knowledge-graph query requires recovering intermediate context as well as plausible endpoints. We analyze archived evaluations of three language models on seven graph-pattern task families with 25 candidates. A controlled panel compares families at common or explicitly distinguished sizes; a second panel covers 34 motif-size cells per model under native entity cards and an explicit relation overlay. At six nodes, exact recovery for outward stars is 1.00, 0.99, and 0.99 for Gemma, Qwen, and Ministral, compared with 0.87, 0.15, and 0.54 for inward trees. Size profiles depend on family and model: several chains and trees lose quality, while outward-star profiles can remain near ceiling. Adding relations increases mean graph-reference F1 by 0.674, 0.466, and 0.572, respectively; adjacent distractors still reduce selection quality. We distinguish route coverage from minimum sufficient evidence and answer correctness, retain invalid outcomes in planned denominators, and qualify conditional uncertainty and historical evidence limits. The findings support evaluating structural profiles under explicit evidence conditions rather than a universal node-count or topology difficulty law.
+Tool-selection success varies with the pattern of dependencies between tools, motivating questions about which structural difficulties persist when relations are explicitly supplied. We revisit this problem through archived knowledge-graph entity selection on seven task families and three language models. Building on a prior Tool-to-KG study, we distinguish adding relational evidence from changing the presentation of matched facts and introducing adjacent distractors. Recall is the primary metric for recovery of the entity-route reference, with precision and exact recovery providing complementary diagnostics. Adding relations increases mean recall by 0.774, 0.519, and 0.567 for Gemma, Qwen, and Ministral. Residual profiles depend on task family, size, and model. On six-node incoming trees, Qwen recall is 0.603 with source-card relations and 0.802 when the same facts appear on both endpoint cards; moving them to destination cards alone leaves recall at 0.603. Output-level analyses retain both corrections and regressions under presentation changes. The findings distinguish relation availability from complete route recovery and refine hypotheses about structural selection errors without asserting a universal topology ranking or shared causal mechanism.
 \end{abstract}
 \ccsdesc[500]{Information systems~Information retrieval}
 \ccsdesc[300]{Computing methodologies~Natural language processing}
-\keywords{knowledge graphs, entity selection, graph patterns, language models, evaluation}
+\keywords{knowledge graphs, tool selection, entity selection, relational evidence, graph patterns}
 \maketitle
-\input{sections/01_introduction}
-\input{sections/02_related_work}
-\input{sections/03_method}
-\input{sections/04_setup}
-\input{sections/05_results}
-\input{sections/06_discussion}
-\input{sections/07_conclusion}
+\input{sections/01_recall_introduction}
+\input{sections/02_recall_related_work}
+\input{sections/03_recall_method}
+\input{sections/04_recall_setup}
+\input{sections/05_recall_results}
+\input{sections/06_recall_discussion}
+\input{sections/07_recall_conclusion}
 \clearpage
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{references}
 \clearpage
-\input{sections/08_appendix}
+\input{sections/08_recall_appendix}
 \end{document}

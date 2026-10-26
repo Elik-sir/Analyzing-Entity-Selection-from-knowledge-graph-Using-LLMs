@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-recall-final-pdf",
+      "kind": "draft",
+      "path": "paper/manuscript/main.pdf",
+      "sha256": "78045b6190acec5f8d2bcbe4e8b7c9c4d1075ae2056d030dcdd3ed7a3ce5b377",
+      "locator": "Pages 1-6 main; 7 references; 8-10 appendix; all final pages viewed",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-final-map",
+      "kind": "draft",
+      "path": "paper/research_notes/manuscript_claim_map.json",
+      "sha256": "7a3e17cc2c101b6d24af13d39c826261ace00db895e788a929db2c5a88e37672",
+      "locator": "70 paragraph/asset bindings, source/result selectors and source hashes",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-final-review",
+      "kind": "draft",
+      "path": "paper/research_notes/recall_revision_review.md",
+      "sha256": "113cfeb2ec1b75ff2212bcdde12af1cc138bcf3b58f7f2e96794f0bc824e0173",
+      "locator": "Scientific/presentation scope, actual source checks and unresolved originality/historical limits",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-final-build",
+      "kind": "draft",
+      "path": "paper/research_notes/build_report.md",
+      "sha256": "5bc6667b4f297f19bbe166dcece9739bc48983067d4e640f148a2c26a6721e2d",
+      "locator": "Current recall-led revision section; tested compiler, diagnostics, page layout and limits",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-official-class-current",
+      "kind": "configuration",
+      "path": "paper/manuscript/acmart.cls",
+      "sha256": "b60c6f9a1fe06411eaefb114f2ef2d222aa25c6e4c0b81cb18ac41c13bd3fa6b",
+      "locator": "Unmodified acmart 2.19 class; native balance option lines 127-130",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    }
+  ]
+}

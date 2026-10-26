@@ -1,0 +1,218 @@
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+From Tool Selection to Knowledge-Graph Entity Selection:
+Structural Profiles and Relational Evidence
+Anonymous Author(s)
+Abstract
+Tool-selection success varies with the pattern of dependencies
+between tools, motivating questions about which structural diffi-
+culties persist when relations are explicitly supplied. We revisit
+this problem through archived knowledge-graph entity selection
+on seven task families and three language models. Building on a
+prior Tool-to-KG study, we distinguish adding relational evidence
+from changing the presentation of matched facts and introduc-
+ing adjacent distractors. Recall is the primary metric for recovery
+of the entity-route reference, with precision and exact recovery
+providing complementary diagnostics. Adding relations increases
+mean recall by 0.774, 0.519, and 0.567 for Gemma, Qwen, and
+Ministral. Residual profiles depend on task family, size, and model.
+On six-node incoming trees, Qwen recall is 0.603 with source-card
+relations and 0.802 when the same facts appear on both endpoint
+cards; moving them to destination cards alone leaves recall at 0.603.
+Output-level analyses retain both corrections and regressions un-
+der presentation changes. The findings distinguish relation avail-
+ability from complete route recovery and refine hypotheses about
+structural selection errors without asserting a universal topology
+ranking or shared causal mechanism.
+CCS Concepts
+• Information systems → Information retrieval ; • Comput-
+ing methodologies → Natural language processing .
+Keywords
+knowledge graphs, tool selection, entity selection, relational evi-
+dence, graph patterns
+ACM Reference Format:
+Anonymous Author(s). 2027. From Tool Selection to Knowledge-Graph En-
+tity Selection: Structural Profiles and Relational Evidence. In Proceedings
+of The ACM Web Conference 2027 (WWW ’27). ACM, New York, NY, USA,
+10 pages.
+1 Introduction
+Selecting the right elements from a catalogue is a prerequisite for
+many language-model agents that access Web information. A tool-
+using agent must retain the operations needed to satisfy a request;
+a knowledge-grounded system must retain the entities that con-
+nect a question to its supporting facts. In either setting, choos-
+ing individually plausible names can omit intermediate context,
+while selecting too broadly can introduce irrelevant elements. Un-
+derstanding selection reliability therefore requires examining how
+the requested elements compose.
+Tool Graph Complexity reports that tool-selection success dif-
+fers across dependency patterns, beyond what the number of ref-
+erence tools alone describes [ 1]. Its controlled analysis retains a
+WWW ’27, Dublin, Ireland
+2027.
+sequential-pattern penalty after accounting for measured size and
+surface properties. This motivates a question about the source of
+structural difficulty: does a pattern remain difficult when its rela-
+tions are explicitly supplied, or does part of the difficulty arise from
+recovering dependencies from descriptions?
+The same work investigates this question using a knowledge
+graph (KG) in Appendix O. It reports partial structural transfer, an
+easier explicit-KG Chain profile, residual incoming-tree difficulty,
+and adjacent-decoy errors [ 1]. These antecedent observations mo-
+tivate examining which errors remain after relation disclosure and
+how evidence conditions constrain their interpretation.
+We address this question through an archived corporate-KG
+entity-selection study. The graph connects companies, people,
+products, locations, and news and was developed for corporate
+GraphRAG evaluation [ 6]. Our Web-related concern is the reli-
+ability of selecting connected evidence for querying interlinked
+corporate information: a route can be incomplete even when plau-
+sible endpoint entities are retained. We evaluate recovery of a
+declared entity-route reference, separating this access step from
+final answer correctness.
+Our analysis distinguishes three comparisons. Raw versus
+Raw+E adds explicit relations to otherwise matched entity cards.
+Controlled triples versus templated prose and alternative card
+hosting retain designated facts while changing their presentation.
+Adjacent-context pairs add connected but query-irrelevant distrac-
+tors. Keeping these contrasts separate matters: an information gain
+cannot be interpreted as merely an encoding effect, and complete
+route coverage is not the same objective as finding one sufficient
+answer.
+We ask: RQ1, how do entity-selection profiles vary with task
+family and reference size? RQ2, how do relation availability, fact
+presentation, and adjacent contexts change recall and residual er-
+rors? RQ3, what do these observations imply for the interpretation
+of Tool-to-KG structural transfer? RQ3 is a descriptive comparison
+with prior evidence, not a new matched cross-domain experiment.
+The additional contribution is a diagnostic follow-up: (i) sepa-
+rating relation disclosure from fact-preserving presentation, and
+(ii) localizing residual omissions, excess selection, and same-task
+presentation sensitivity. Family and size profiles provide its struc-
+tural context. Recall is primary; precision and exact distinguish se-
+lectivity and complete-set recovery. This is an empirical analysis
+of an existing KG, without a new algorithm or resource claim. Ex-
+act task/response overlap with Appendix O is unquantified; we do
+not claim independent replication.
+The results show why relation visibility is insufficient as a
+complete explanation. Disclosure substantially increases recall,
+yet residual profiles differ across families and models. On six-
+node incoming trees, Qwen retains high precision but incomplete
+recall; repeating the same relations across both endpoint cards
+increases recall more than moving them to destination cards alone.
+Contrary model outcomes and regressions remain visible. These
+1

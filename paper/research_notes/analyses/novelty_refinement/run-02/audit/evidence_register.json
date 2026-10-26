@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-nr-observations",
+      "kind": "result",
+      "path": "results/observations.jsonl.gz",
+      "sha256": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+      "locator": "series_id=core,motif=tree_in,size=6,condition in K1/K2/K3/K4/K7; observation_id,base_id,selected_names,valid,metrics",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-inputs",
+      "kind": "result",
+      "path": "results/inputs.jsonl.gz",
+      "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+      "locator": "input_id join for E-nr-observations; explicit candidates/facts; private task_spec and candidate mapping",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/novelty_refinement/analyze_transitions.py",
+      "sha256": "5c70fbe9a8c30bafa65c9545cb66aa0c6d54274883df8b76a4a5c5f00d3b4a18",
+      "locator": "coverage, graph, main; saved-spec traversal and same-base state transitions",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-summary",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/novelty_refinement/run-02/summary.json",
+      "sha256": "868d045311a1d07f5f2e2632ce8d20640dc138ff655933512200bf0903e52efc",
+      "locator": "$.selector; $.groups; $.transitions; $.alternative_rules; $.validation; $.provenance",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-nr-observations",
+        "E-nr-inputs",
+        "E-nr-script"
+      ]
+    },
+    {
+      "id": "E-nr-rows",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/novelty_refinement/run-02/observations.jsonl",
+      "sha256": "ae15dc0adefa817559ac8d5c0553a57e304ff598760d6c37ffb4d842066e888c",
+      "locator": "observation_id/base_id/model/condition; state,cached_exact,alternative-rule match and distinctness flags",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-nr-summary"
+      ]
+    },
+    {
+      "id": "E-nr-report",
+      "kind": "draft",
+      "path": "paper/research_notes/novelty_refinement.md",
+      "sha256": "0c9a3bf7c9c407b7b000049ae5fc257f6bca0181010b2c3896ce07e858e107fa",
+      "locator": "Current status; literature boundaries; completed analysis; contribution outline; writing decision",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-tool-source",
+      "kind": "literature",
+      "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+      "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+      "locator": "Section 5.3/Table 1 p.8; Appendix O pp.30-31; Tables 32-33",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-encoding",
+      "kind": "literature",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/bf72f65f30eedf5d48da6980ee02b589-Paper-Conference.pdf",
+      "locator": "Sections 3.1 and Appendix A; encoding and neighborhood accessibility",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-pathcompare",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2402.01805v4",
+      "locator": "Sections 2-4; traversal tasks, size/order, PathCompare",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-graphwalk",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2604.01610v1",
+      "locator": "Sections 4 and 5.5; incomplete exploration, starting-node and format failures",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-cespk",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2608.24824v1",
+      "locator": "Sections 2-3; necessary constraints, three-valued semantics, simulated candidates",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-cespk-publisher",
+      "kind": "literature",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-32335-4_21",
+      "locator": "Title, author, KI 2026 identity and abstract; subscription full text not inspected",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-radar",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2602.21951v1",
+      "locator": "Sections 2.1-2.4; link prediction, triple classification and representation-space inference",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    }
+  ]
+}

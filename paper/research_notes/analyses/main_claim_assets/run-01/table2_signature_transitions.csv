@@ -1,0 +1,7 @@
+model,before,after,N_pairs,exact_before,exact_after,one_hop_before,one_hop_after,one_hop_to_exact,one_hop_denominator,exact_lost,initial_exact_denominator,invalid_after
+qwen3.6-flash,K1,K3,100,15,16,71,76,13,71,12,15,0
+qwen3.6-flash,K1,K4,100,15,51,71,31,38,71,6,15,0
+qwen3.6-flash,K1,K7,100,15,16,71,52,10,71,11,15,0
+ministral-14b,K1,K3,100,54,38,15,24,6,15,29,54,1
+ministral-14b,K1,K4,100,54,62,15,6,8,15,9,54,0
+ministral-14b,K1,K7,100,54,62,15,5,8,15,11,54,9

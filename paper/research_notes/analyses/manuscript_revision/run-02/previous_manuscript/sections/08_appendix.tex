@@ -1,0 +1,44 @@
+\appendix
+\section{Complete Conditions and Supplementary Results}
+\label{app:conditions}
+\paragraph{Condition definitions.}
+Core conditions use pseudonyms, step-by-step questions, and disconnected distractors unless specified. K1 is source-card triples; K2 changes to adjacent distractors; K3 puts triples on destination cards; K4 duplicates them on both cards. K5 is templated text and K6 its adjacent variant. K7/K8 use direct questions with triples or text. K5k encodes links through matching attribute values rather than names. R1-matched and R2-matched use real names with disconnected or adjacent triples. R0/K0 provide real names or pseudonyms and types only. Their prompt permits prior name knowledge and requests an insufficient-evidence flag when relations cannot be established; other controlled conditions restrict evidence to supplied cards.
+
+Representation, wording, placement, and naming pairs retain the relevant candidate/reference/fact invariants. Noise pairs retain the question and reference but deliberately alter distractor context. These are not interchangeable interventions. Table~\ref{tab:coreall} includes small and null differences as well as large ones.
+
+\begin{table}[h]
+\caption{All Core conditions: mean F1 / exact selection, each over 700 planned tasks/model. Invalid outcomes contribute zero. These are descriptive absolute means, not confidence intervals.}
+\label{tab:coreall}
+\centering\small
+\input{tables/core_summary}
+\end{table}
+
+\begin{table}[h]
+\caption{Selected controlled presentation contrasts, paired mean F1 differences over 700 planned pairs/model. Their full interval records remain in the analysis archive. Means crossing zero in uncertainty analyses are not evidence of equivalence.}
+\label{tab:presentation}
+\centering\small
+\input{tables/presentation}
+\end{table}
+
+\begin{table}[t]
+\caption{All variable-family Raw+E size endpoints: smallest ($s$) and largest ($l$) available sizes, with 100 planned tasks per endpoint/model. These are descriptive comparisons of different sampled strata; endpoint direction does not imply monotonic intermediate values.}
+\label{tab:sizeendpoints}
+\centering\small
+\input{tables/size_endpoints}
+\end{table}
+
+\paragraph{Analytical reference points.}
+Select-all and anchor-only scores are deterministic given the reference. Uniform random-six samples six of 25 candidates without replacement; its entries are exact expectations, not simulated model outputs. In order select-all, anchor-only, random-six, Core F1 values are 0.364, 0.309, and 0.230; Full Raw F1 values are 0.405, 0.292, and 0.242. These reference points do not establish evidence-grounded retrieval or answer correctness. Their interpretation depends on the reference convention and target prevalence.
+
+\paragraph{Additional archive panels.}
+Gemma has the separate K1/K5 additional-size panel. The matched incremental comparison uses 350 bases per condition, with endpoint F1 differences of $-0.237$ for triples and $-0.232$ for text relative to static evaluation on those same subsets. Incomplete reveal histories and unmatched token budgets prevent an equal-budget or mechanism interpretation. Native-description and legacy panels retain their own semantic goals, reference/scoring policies, and populations; they are not pooled with Core or Full Raw. Calibration microtasks are also separate from the main 25-candidate task.
+
+\section{Author-Supplied Cypher Extraction Specification}
+\label{app:cypher}
+The following Cypher query was supplied by the authors for the appendix. Whitespace is normalized and comments are translated into English for display; executable tokens match the saved original. It enumerates small instances of nine directed pattern definitions, requires distinct vertices, and excludes additional directed typed edges inside each selected vertex set, including self-loops. The comparison uses source/type/target triples, so parallel physical relationships with the same triple are not distinguished by the extra-edge test.
+
+This specification has fixed sizes: four-node chains/stars/rhombi, five-node trees/hourglasses, and three-node cycles/cliques. Its final \texttt{LIMIT 100} is global, not a quota per motif or size. It does not specify random sampling, seeds, candidate expansion, type/name acceptance filters, or the complete archived size grid. The presence of cycle/clique branches defines queries, not observed cycle/clique outcomes in the seven-family study. No result from executing these queries is claimed. These boundaries prevent equating the supplied query with a fully reconstructed historical pipeline. Cypher syntax is documented by Neo4j~\cite{neo4jCypher}.
+
+\lstinputlisting{queries/author_query_english_comments.cypher}
+
+The supplementary files include the existing queries for exporting nodes and edges and separately labelled, newly written frozen-instance checks. These supplementary files were not used to generate the reported outcomes. Graph-export code is not itself historical motif-extraction evidence. Query IDs and role bindings refer to the same database snapshot; \texttt{elementId} is not a portable cross-snapshot identifier.

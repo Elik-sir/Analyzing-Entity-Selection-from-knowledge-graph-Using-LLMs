@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-10-26",
+  "scope": "Existing per-task aggregate precision/recall/exact for Core six-node Tree-in only; all three models",
+  "source": {
+    "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+    "sha256": "4d6cc43141f4877ce29430cef66afd50d64c78be949e1e7c2aef32ceb53a93a5",
+    "selector": "series_id=core,motif=tree_in,size=6; all three models; K1/K3/K4/K7"
+  },
+  "script_sha256": "67e88525f11dfdc872de4a40b2e71b80a63a56ea738ba9be4dc2e62724d8a8aa",
+  "csv_sha256": "0a7acb53d6d80fd37b21608bdbefe1227f4b1f554eead2eddba38cf509f15a85",
+  "figures": {
+    "paper/figures/treein_metrics_v1/table2_treein_metrics_all_models.png": "37de015f33cb9bd7a1d55eef88390029f0b8929e2ef1d20cbf547961cf863963",
+    "paper/figures/treein_metrics_v1/table2_treein_metrics_all_models.pdf": "064b1de45dd596750efe64ec81561f8652d067cb5559a6ea26c665bbc725269e",
+    "paper/figures/treein_metrics_v1/table2_treein_metrics_all_models.svg": "35eb79e8970d9168d1185b3c640246f6dd5e2867a4a02051d9332bfc1e6b3fb7"
+  },
+  "policy": "Saved all-planned macro means; invalid zero; exact is complete-set recovery. No rescoring, inference or manuscript changes.",
+  "validation": {
+    "unique_cells": 12,
+    "planned_per_cell": 100,
+    "planned_equals_valid_plus_invalid": true,
+    "visual_review": "passed: all twelve model/condition rows and footnotes inspected; no clipped labels"
+  }
+}

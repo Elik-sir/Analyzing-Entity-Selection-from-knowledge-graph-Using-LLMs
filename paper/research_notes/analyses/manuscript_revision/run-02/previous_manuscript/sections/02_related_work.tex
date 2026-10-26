@@ -1,0 +1,12 @@
+\section{Related Work}
+\label{sec:related}
+\paragraph{Graph structure and representation.}
+Talk like a Graph investigates graph-to-text encodings and variation across graph tasks and structures~\cite{fatemi2024talklikegraph}. Dai et al. evaluate terminology-based and topology-based pattern comprehension and pattern discovery~\cite{dai2025graphpatterns}. Our output is an entity set covering query-consistent routes in a supplied candidate context; it is not a pattern name, a discovered motif, or an edited graph. Choosing motifs alone therefore does not distinguish the study from this literature.
+
+\paragraph{Knowledge-graph prompts.}
+Dai et al. study KG input formats, triple organization, and robustness to noisy or incomplete subgraphs, including answer-based evaluation~\cite{dai2024kgunderstanding}. We similarly treat format and noise as relevant factors, but separate graph-reference recovery from answer correctness. Our templated prose is a controlled expression of designated facts, not arbitrary fluent natural language.
+
+\paragraph{Tool Graph Complexity and its KG substrate.}
+The supplied manuscript distinguishes unnecessary reference tools from the way required tools compose~\cite{anonymousToolGraph}. Its Appendix~O uses a finance KG, 25-name pools, explicit relations, motif/size variation, and adjacent decoys. It reports partial transfer of tool-graph rankings, with chains easier on explicitly represented KG relations and incoming trees difficult. Its selection-completeness metric does not penalize extra selections, whereas exact recovery does. These are direct points of overlap, not merely an analogy between APIs and entities.
+
+Our focus is the conditional KG profile across native evidence, explicit overlays, and controlled contexts. The additional analyses address how structural profiles should be interpreted when information availability and presentation differ. We do not compare the two papers' scores as a leaderboard: their populations, reference conventions, and metrics are not harmonized. Graph construction and the earlier corporate QA benchmark belong to Kirpichev et al.~\cite{kirpichev2026towards}; they are not presented as new resources here.

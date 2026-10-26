@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-assets-source-contrasts",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+      "sha256": "d68325eb20a95e08cdeb3efde2ba91ea8522658efe82b8bfcb70fa3b4d0f38ac",
+      "locator": "Exact selectors recorded in select_assets.py and run-02/asset_manifest.json; contrasts",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Previously computed results; current operation selects/formats saved rows and does not reparse responses or recompute inference."
+    },
+    {
+      "id": "E-assets-source-errors",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/transfer_positioning/run-04/summary.json",
+      "sha256": "34ed8f4938903770f3b8744752b0238cf363d0ef542deef228f2109f949802f4",
+      "locator": "Exact selectors recorded in select_assets.py and run-02/asset_manifest.json; errors",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Previously computed results; current operation selects/formats saved rows and does not reparse responses or recompute inference."
+    },
+    {
+      "id": "E-assets-source-transitions",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/novelty_refinement/run-02/summary.json",
+      "sha256": "868d045311a1d07f5f2e2632ce8d20640dc138ff655933512200bf0903e52efc",
+      "locator": "Exact selectors recorded in select_assets.py and run-02/asset_manifest.json; transitions",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Previously computed results; current operation selects/formats saved rows and does not reparse responses or recompute inference."
+    },
+    {
+      "id": "E-assets-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/main_claim_assets/select_assets.py",
+      "sha256": "430a78f89ae1308740c0bf2a744bafd434c5e81c0965e4dd2547de3ed09336a6",
+      "locator": "main: exact contrast selectors, error cells, saved transition mapping and conservation checks",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-assets-plan",
+      "kind": "draft",
+      "path": "paper/research_notes/main_findings_and_assets.md",
+      "sha256": "ad2d4e53af59aef463bb06a2014b12dd1450b634822874f14b0ad91246a4d319",
+      "locator": "Two primary findings, supporting noise result, T1/F1/F2/T2 specifications and appendix decisions",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-assets-contrasts",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-02/figure1_condition_effects.csv",
+      "sha256": "c720cc471842e81500d2e11a1a66a49d7b2c73071c36617c145ab4576ddc249b",
+      "locator": "Every row selected by model/contrast or model/motif/condition; see exact columns",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-assets-source-contrasts",
+        "E-assets-script"
+      ],
+      "limitations": "Selection/export from already computed data, not fresh experimental measurement or independent raw-response rescoring."
+    },
+    {
+      "id": "E-assets-errors",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-02/figure2_error_composition.csv",
+      "sha256": "6c26a045149b761b158e2b7b170bb27361ae37c9cef7804aeb38b7db048a355e",
+      "locator": "Every row selected by model/contrast or model/motif/condition; see exact columns",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-assets-source-errors",
+        "E-assets-script"
+      ],
+      "limitations": "Selection/export from already computed data, not fresh experimental measurement or independent raw-response rescoring."
+    },
+    {
+      "id": "E-assets-transitions",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-02/table2_signature_transitions.csv",
+      "sha256": "b012fc244d98c887a5c0e3ebf4163105b693248e6f02c11b676507d7ffa43996",
+      "locator": "Every row selected by model/contrast or model/motif/condition; see exact columns",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-assets-source-transitions",
+        "E-assets-script"
+      ],
+      "limitations": "Selection/export from already computed data, not fresh experimental measurement or independent raw-response rescoring."
+    }
+  ]
+}

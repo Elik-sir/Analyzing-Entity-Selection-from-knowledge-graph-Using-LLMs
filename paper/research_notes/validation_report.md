@@ -134,3 +134,44 @@ Final command: `/Users/ivan_kirpichev/.cache/codex-runtimes/codex-primary-runtim
 Structural validation passed: 60 evidence records, 27 claims, no errors. `git diff --check` passed. PDF build verification: 9 pages, no overfull boxes or undefined citation keys; final paragraph-level claim-map completion and independent scientific review remain pending. macOS `.DS_Store` metadata is excluded through `.gitignore`; research artifacts, source queries, PDF and analysis/QA materials are included in the checkpoint.
 
 The staged whitespace check additionally reports renderer-generated SVG whitespace, unchanged vendored ACM class/style whitespace, raw compiler-log whitespace, and two intentional Markdown hard-break spaces in the report. These bytes are preserved rather than rewriting vendor/source-hashed generated artifacts just to silence a formatting diagnostic. No whitespace findings occur in the authored Python, TeX, Cypher or BibTeX content.
+
+## Novelty refinement, 2026-10-25
+
+Retained analysis: `analyses/novelty_refinement/run-02/`. Bundled Python ran `analyze_transitions.py --out paper/research_notes/analyses/novelty_refinement/run-02` and `register_audit.py`. Frozen witness/endpoint, cached-score, paired-fact and transition-conservation assertions passed. Scoped structural validation passed: 13 evidence records, 11 claims. `validate_research_artifacts.py --root .` failed with 39 earlier hash mismatches; all recorded hashes are reproduced by LF/CRLF conversion, with proof in `run-02/audit/integrity_check.json`. Historical hashes were preserved. New report local links passed; PDF hash remains the value recorded in build_report.md. No manuscript change, new inference, independent review or full scientific-readiness certification.
+
+## Main findings and asset selection, 2026-10-25
+
+`select_assets.py --out paper/research_notes/analyses/main_claim_assets/run-02` selected 24 existing F1 contrasts, 30 error-composition cells and six saved transition rows; uniqueness, denominators and conservation passed. No experiment, archive rescoring, statistical test or figure rendering. Eleven report links resolve. Scoped structural validation passed: 8 evidence records, 3 claims. Full `validate_research_artifacts.py --root .` retains the same 39 earlier line-ending hash errors, with no new asset-ledger errors. `git diff --check` passed. New figures, LaTeX tables, full manuscript verification and publication novelty remain unclaimed.
+
+## Opening Tool Selection premise, 2026-10-26
+
+Added the author-requested pattern-dependence premise to main_findings_and_assets.md; source Section 5.3/Table 1 p.8, claim C-tool-pattern-premise. Reviewed the known insertion and retained the previous draft hash in E-assets-plan revision history. No experimental, numeric asset or manuscript change. Full validator retains the same 39 prior line-ending mismatches, with no new premise/draft-record errors.
+
+## Asset mapping for the structural objective, 2026-10-26
+
+Active specification is thesis_asset_plan.md and analyses/main_claim_assets/run-03/asset_manifest.json. Existing motif/size renders retained in main text, paired effects and diagnostic transitions retained, detailed error composition moved to Appendix. Verified saved-file existence, source hashes and plan links. No new experimental/statistical computation or rendering. Full validator retains the same 39 old line-ending hash mismatches, with no new active-plan record errors.
+
+## Precision/recall primary metric selection, 2026-10-26
+
+select_precision_recall.py exported existing macro means for 42 motif cells and 192 variable-size cells, plus 48 descriptive PR contrasts. N/valid pairing and condition mean mapping were checked against the existing paired F1 export. No model calls, response rescoring, hypothesis tests or bootstrap; existing F1/exact intervals were deliberately excluded. Scoped structural validation passed; production retains the same 39 prior line-ending hash mismatches. New PR figures are not rendered yet; original PDFs remain unchanged.
+
+## Precision/recall figure rendering, 2026-10-26
+
+Four final plots in paper/figures/precision_recall_v3, each PNG/PDF/SVG, rendered using matplotlib 3.11.2 from saved selected CSVs. Source hashes, all expected row coverage, plotted deltas and output hashes checked. Final motif plot visually reviewed after spacing repair; three other final PNGs are byte-identical to the inspected renders. No uncertainty intervals drawn, no experiment or rescoring. Scoped structural validation passed. Production keeps the same 39 prior line-ending hash errors. Manuscript/research-code diff empty and manuscript PDF hash unchanged. Versions v1/v2 are preserved intermediate rendering attempts, not additional experiments.
+
+## Metrics-only Table 2 including Gemma, 2026-10-26
+
+Selected all twelve existing Core/six-node Tree-in K1/K3/K4/K7 metric cells, rendered PNG/PDF/SVG and visually checked. Metrics are saved macro P/R/exact; planned counts and invalid outcomes retained. Original Gemma source leads in SOURCES.json are absent at their workspace-relative paths; separate local pilots are not merged. This does not establish global absence of Gemma responses. Scoped structural validation passed; production retains the same 39 prior line-ending hash mismatches. Manuscript and research code remain unchanged.
+
+## Compact recall Table 2, 2026-10-26
+
+Losslessly pivoted the twelve saved recall values into three model rows and four condition columns; PNG/PDF/SVG visually reviewed. Recall is primary, Precision/Exact supplementary. N=100 and invalid contribution policy retained with valid-count exceptions in footnotes. Structural source-closure validation passed; no new scientific claims or calculations. Production retains the same 39 prior line-ending hash mismatches. Article and research code unchanged.
+
+## Final recall manuscript release, 2026-10-26
+
+Preserved previous manuscript, opened the recorded bounded writing gate and assembled the author-requested recall revision. Exact source rows and table values, bibliography/reference keys and hashes pass verify_revision.py. Final Tectonic 0.17.0 build succeeds: 10 pages (6 main, 1 references, 3 appendix), zero overfull boxes or undefined references/citations, eight embedded fonts, anonymous PDF metadata. All ten pages visually inspected. Native balance=false avoids appendix listings overflow without changing class/fonts/margins. New source ZIP contains only explicit TeX/figure dependencies. No experiment or new inference. Independent review and author originality/submission decisions remain pending.
+
+
+## Error-figure removal, 2026-10-26
+
+Ran `python paper/research_notes/scripts/validate_research_artifacts.py --root .`; output is preserved in `analyses/manuscript_revision/run-02/validation_full.txt`. The same 39 historical line-ending hash discrepancies remain. All seven new current-file records have matching SHA-256 values; prior records point to exact preserved bytes. Retained figure/table/bibliography hashes, active citation/reference keys and the four included figure paths pass the bounded editorial checks. See that run's `editorial_review.md`, `pdf_checks.json` and `release_manifest.json`.

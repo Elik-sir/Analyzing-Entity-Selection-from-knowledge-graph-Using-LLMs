@@ -1,5 +1,17 @@
 # Initial methodology and contribution candidates
 
+## Active recall-led writing scope, 2026-10-26
+
+The author requested manuscript assembly after narrowing the task to existing outcomes. [recall_revision_gate.md](recall_revision_gate.md) records why completed archive/reference/pairing, metric/figure and closest-literature checks support this bounded writing scope. The revised paper treats Tool results as descriptive antecedents and mechanisms as hypotheses. Stronger harmonized/causal transfer analysis remains incomplete; its former gate is not silently declared achieved. The new PDF and [review](recall_revision_review.md) retain the unresolved reuse, native-sufficiency and provenance limits.
+
+## Deadline scope proposal, 2026-10-25
+
+[submission_sprint_plan.md](submission_sprint_plan.md) proposes a bounded diagnostic follow-up using completed evidence contrasts and saved-selection transitions, with a time-limited mandatory component-baseline check before claim freeze. Tool-to-KG transfer remains the literature-grounded motivation and interpretation; a new harmonized or causal cross-domain result is excluded. This planning decision preserves the current gate until the intended narrow scope and validity disposition are actually verified. User confirmation of abstract registration does not establish manuscript originality or submission readiness.
+
+## Latest bounded refinement, 2026-10-25
+
+[novelty_refinement.md](novelty_refinement.md) adds same-task signature transitions and alternative-rule distinguishability checks for six-node Core Tree-in. The retained result is `analyses/novelty_refinement/run-02/`. The bounded matrix is complete; broader diagnostic coverage and a new harmonized Tool/KG analysis remain separate open scopes. On clean Tree-in inputs some incorrect rules yield the correct coverage set, so final-set correctness cannot establish adherence to those rules. The proposed central question is conditional incompleteness under fixed unique facts, rather than a generic discovery of graph traversal failures. Full writing for the stronger scope remains pending.
+
 ## Current decision after the author's transfer clarification, 2026-10-25
 
 The current scientific purpose is to investigate the limits of transfer from Tool Selection to KG Entity Selection and to discriminate explanations for their differences. [transfer_positioning.md](transfer_positioning.md) and [transfer_outline.md](transfer_outline.md) supersede the structural-profile recommendation and earlier presentation-first positioning below. Those entries are retained as decision history.

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-25",
+  "source_revision": "f986fa2b3698855ef6665317039fd317d251361c",
+  "analysis_complete": false,
+  "full_writing_ready": false,
+  "gate_rationale": "The author corrected the intended contribution to transfer limits and diagnostic explanations between Tool Selection and KG Entity Selection. The reassessment and bounded exploratory archive diagnostics are complete, but a full manuscript claiming that stronger contribution needs harmonized Tool records or an explicitly narrowed KG diagnostic scope, completed rule/signature-transition checks and claim verification. Shared internal causes remain hypotheses. The prior descriptive draft/build remains available and is not retroactively invalidated. No new model experiment is authorized. Follow-up at d8fa5a9 completes the bounded six-node Tree-in transition/rule audit (including adjacent contexts), not broader coverage or Tool harmonization. GraphWalk overlap and non-identifiable alternative rules narrow the novelty candidate further; see novelty_refinement.md.",
+  "repositioning_assessment_complete": true,
+  "previous_descriptive_scope_gate": {
+    "analysis_complete": true,
+    "full_writing_ready": true,
+    "scope": "Descriptive structure-led manuscript at the earlier recorded decision; full draft and PDF preserved.",
+    "source_revision": "3f4b7b9baccd1a369a9665507883a7c0152f52e3"
+  },
+  "stages": {
+    "inventory": "initial_audit_complete",
+    "implementation": "initial_audit_complete_with_gaps",
+    "experiments": "final_saved_results_tables_figures_and_conditional_uncertainty_complete",
+    "literature": "Appendix_O_direct_comparison_complete; broader_leads_and_citation_metadata_pending",
+    "methodology": "transfer_diagnostic_assessment_complete; stronger_scope_requires_harmonization_and_targeted_checks; hypotheses_not_causes",
+    "claim_verification": "prior_27_claims_retained; 8_new_scoped_transfer_records; revised_manuscript_map_pending",
+    "full_manuscript": "previous_structure_led_English_draft_preserved; diagnostic_transfer_rewrite_not_started",
+    "template": "local_unmodified_acmart_2.19_used; official_options_rechecked",
+    "manuscript_build": "Tectonic_0.17.0_success; 9_pages_total; main_6_references_1_appendix_2",
+    "scientific_review": "single_agent_review_recorded; independent_review_pending",
+    "reference_pairing": "complete_for_frozen_archive_consistency; native_prose_and_full_incremental_history_limits_retained",
+    "uncertainty": "paired_anchor_cluster_and_task_sensitivity_complete; entity_dependence_scope_limited",
+    "contribution_clarification": "complete_with_explicit_reuse_limit",
+    "outline": "structure_led_scope_selected_for_author_requested_manuscript",
+    "main_text_assets": "two_structural_figures_and_two_main_tables_in_draft",
+    "emphasis_assessment": "superseded_for_new_scope_by_author_transfer_clarification; historical_structural_assessment_preserved",
+    "transfer_positioning": "assessment_and_English_outline_complete; broader_diagnostic_scope_pending",
+    "transfer_diagnostics": "bounded_cached_and_saved_selection_analysis_complete; 6900_primary_observations; 2581_valid_route_diagnostics; no_new_inference",
+    "cross_domain_harmonization": "Tool_record_level_sources_not_verified; PDF_prior_findings_inspected",
+    "mechanism_hypotheses": "explicit_pending_hypotheses; distinguishing_checks_or_narrowing_required",
+    "novelty_refinement": "bounded_Tree_in_transition_and_rule_distinguishability_audit_complete; broader_scope_and_originality_pending",
+    "deadline_planning": "complete; component baseline and narrow claim freeze precede manuscript revision"
+  },
+  "external_actions_authorized": false,
+  "new_experiments_authorized": false,
+  "author_confirmations": {
+    "source_kg_snapshot": "Same snapshot as Kirpichev et al., unchanged; user confirmed 2026-10-25",
+    "cypher_appendix": "Author supplied nine-pattern fixed-size Cypher specification in this chat; included with executable tokens preserved; not executed and not a complete archived-grid sampling script",
+    "mandatory_reference": "Tool Graph Complexity",
+    "appendix_o_participation": "User states Appendix O was written with team participation; no anonymous identities or quantified row reuse inferred",
+    "abstract_registration": "User confirmed registered in OpenReview on 2026-10-25; portal not independently inspected."
+  },
+  "outline_decision": {
+    "primary_rqs": [
+      "RQ1 conditional transfer boundaries with harmonized targets/metrics/support; Tool rows pending",
+      "RQ2 residual explicit-KG errors localized by level/route/rule",
+      "RQ3 paired evidence-condition sensitivity of those errors"
+    ],
+    "contextual_axes": "motif/size/noise condition the diagnostic questions; initial transfer belongs to Appendix O",
+    "outline_path": "paper/research_notes/transfer_outline.md",
+    "status": "proposed_after_author_clarification; evidence_scope_not_yet_ready_for_full_rewrite"
+  },
+  "writing_scope": "Proposed diagnostic study of transfer boundaries from Tool Selection to KG Entity Selection, observable route-level failures and their paired evidence-condition sensitivity. Appendix O already supplies initial transfer and chain-inversion findings. The current structural manuscript is a preserved prior draft; transfer_outline.md is the proposed replacement structure. No causal mechanism, independent data, minimality, QA improvement or newly completed cross-domain test is asserted.",
+  "latest_novelty_audit": {
+    "checked_on": "2026-10-25",
+    "source_revision": "d8fa5a97e91d6cc0bf1cf5d1654191cf1472e12b",
+    "report": "paper/research_notes/novelty_refinement.md",
+    "result": "paper/research_notes/analyses/novelty_refinement/run-02/summary.json",
+    "scope": "Exploratory archived Core six-node Tree-in only; no new model run or hypothesis test",
+    "manuscript_changed": false,
+    "decision": "Center the contribution candidate on same-task error transitions under fixed unique facts and diagnostic distinguishability. Generic incomplete exploration has prior work. No shared Tool/KG cause established."
+  },
+  "deadline_plan": {
+    "path": "paper/research_notes/submission_sprint_plan.md",
+    "created_on": "2026-10-25",
+    "full_paper_deadline_moscow": "2026-10-26 14:59",
+    "internal_target_moscow": "2026-10-26 12:00",
+    "new_experiments_planned": false,
+    "status": "plan_only; no manuscript revision or submission performed",
+    "venue_sources": [
+      "https://www2027.thewebconf.org/important-dates/",
+      "https://www2027.thewebconf.org/research-track-papers/"
+    ]
+  }
+}

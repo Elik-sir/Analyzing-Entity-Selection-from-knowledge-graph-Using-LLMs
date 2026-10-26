@@ -1,5 +1,9 @@
 # Literature review: initial search state
 
+## Additional novelty boundary check, 2026-10-25
+
+[novelty_refinement.md](novelty_refinement.md) records fresh primary-text checks of GraphWalk, structured graph traversal/PathCompare, CES-PK and RADAR, alongside the existing encoding and Appendix O comparisons. Incomplete exploration and entity-selection terminology already have relevant precedents. CES-PK preprint and publisher versions have different reported evaluation populations and are not treated as interchangeable. This scoped comparison refines the diagnostic contribution candidate; it does not establish exhaustive originality or update the manuscript bibliography.
+
 ## Transfer-diagnostic reassessment, 2026-10-25
 
 The newly supplied Tool Graph Complexity PDF matches the archived source byte-for-byte. Re-inspected the main tool analysis (Section 5.3/Table 1, p. 8), Discussion and Appendix O (pp. 30-31), with rendered-page checks. The earlier structural-profile recommendation is superseded by [transfer_positioning.md](transfer_positioning.md), which records prior-versus-proposed claims and the current focused search log.

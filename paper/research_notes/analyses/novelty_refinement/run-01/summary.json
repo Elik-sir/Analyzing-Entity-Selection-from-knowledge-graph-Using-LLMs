@@ -1,0 +1,686 @@
+{
+  "checked_on": "2026-10-25",
+  "scope": "Exploratory archived Core six-node Tree-in only; no new model run or hypothesis test",
+  "selector": {
+    "series_id": "core",
+    "motif": "tree_in",
+    "size": 6,
+    "conditions": [
+      "K1",
+      "K3",
+      "K4",
+      "K7"
+    ]
+  },
+  "observations": 1200,
+  "unique_inputs": 800,
+  "paired_model_base_units": 300,
+  "groups": [
+    {
+      "model": "gemma-4-31b",
+      "condition": "K1",
+      "planned": 100,
+      "valid": 100,
+      "cached_exact": 87,
+      "identities_missing": 100
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "K3",
+      "planned": 100,
+      "valid": 100,
+      "cached_exact": 92,
+      "identities_missing": 100
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "K4",
+      "planned": 100,
+      "valid": 100,
+      "cached_exact": 93,
+      "identities_missing": 100
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "K7",
+      "planned": 100,
+      "valid": 100,
+      "cached_exact": 94,
+      "identities_missing": 100
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K1",
+      "planned": 100,
+      "valid": 100,
+      "cached_exact": 54,
+      "identity_diagnostic_valid": 100,
+      "other_error": 31,
+      "exact": 54,
+      "one_hop": 15
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K3",
+      "planned": 100,
+      "valid": 99,
+      "cached_exact": 38,
+      "identity_diagnostic_valid": 99,
+      "other_error": 37,
+      "one_hop": 24,
+      "exact": 38,
+      "invalid": 1
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K4",
+      "planned": 100,
+      "valid": 100,
+      "cached_exact": 62,
+      "identity_diagnostic_valid": 100,
+      "other_error": 32,
+      "exact": 62,
+      "one_hop": 6
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K7",
+      "planned": 100,
+      "valid": 91,
+      "cached_exact": 62,
+      "identity_diagnostic_valid": 91,
+      "exact": 62,
+      "other_error": 24,
+      "invalid": 9,
+      "one_hop": 5
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K1",
+      "planned": 100,
+      "valid": 100,
+      "cached_exact": 15,
+      "identity_diagnostic_valid": 100,
+      "one_hop": 71,
+      "other_error": 14,
+      "exact": 15
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K3",
+      "planned": 100,
+      "valid": 100,
+      "cached_exact": 16,
+      "identity_diagnostic_valid": 100,
+      "one_hop": 76,
+      "exact": 16,
+      "other_error": 8
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K4",
+      "planned": 100,
+      "valid": 100,
+      "cached_exact": 51,
+      "identity_diagnostic_valid": 100,
+      "one_hop": 31,
+      "exact": 51,
+      "other_error": 18
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K7",
+      "planned": 100,
+      "valid": 100,
+      "cached_exact": 16,
+      "identity_diagnostic_valid": 100,
+      "other_error": 32,
+      "one_hop": 52,
+      "exact": 16
+    }
+  ],
+  "transitions": [
+    {
+      "model": "gemma-4-31b",
+      "before": "K1",
+      "after": "K3",
+      "planned_pairs": 100,
+      "identities_missing_to_identities_missing": 100,
+      "cached_exact_gained": 9,
+      "cached_exact_lost": 4
+    },
+    {
+      "model": "gemma-4-31b",
+      "before": "K1",
+      "after": "K4",
+      "planned_pairs": 100,
+      "identities_missing_to_identities_missing": 100,
+      "cached_exact_gained": 10,
+      "cached_exact_lost": 4
+    },
+    {
+      "model": "gemma-4-31b",
+      "before": "K1",
+      "after": "K7",
+      "planned_pairs": 100,
+      "identities_missing_to_identities_missing": 100,
+      "cached_exact_gained": 9,
+      "cached_exact_lost": 2
+    },
+    {
+      "model": "gemma-4-31b",
+      "before": "K3",
+      "after": "K4",
+      "planned_pairs": 100,
+      "identities_missing_to_identities_missing": 100,
+      "cached_exact_gained": 5,
+      "cached_exact_lost": 4
+    },
+    {
+      "model": "gemma-4-31b",
+      "before": "K7",
+      "after": "K4",
+      "planned_pairs": 100,
+      "identities_missing_to_identities_missing": 100,
+      "cached_exact_gained": 4,
+      "cached_exact_lost": 5
+    },
+    {
+      "model": "ministral-14b",
+      "before": "K1",
+      "after": "K3",
+      "planned_pairs": 100,
+      "other_error_to_other_error": 18,
+      "cached_exact_gained": 13,
+      "cached_exact_lost": 29,
+      "exact_to_one_hop": 12,
+      "exact_to_other_error": 16,
+      "one_hop_to_exact": 6,
+      "other_error_to_exact": 7,
+      "one_hop_to_one_hop": 6,
+      "exact_to_exact": 25,
+      "other_error_to_one_hop": 6,
+      "exact_to_invalid": 1,
+      "one_hop_to_other_error": 3
+    },
+    {
+      "model": "ministral-14b",
+      "before": "K1",
+      "after": "K4",
+      "planned_pairs": 100,
+      "other_error_to_other_error": 20,
+      "cached_exact_gained": 17,
+      "cached_exact_lost": 9,
+      "exact_to_exact": 45,
+      "exact_to_other_error": 6,
+      "one_hop_to_exact": 8,
+      "one_hop_to_other_error": 6,
+      "other_error_to_exact": 9,
+      "one_hop_to_one_hop": 1,
+      "other_error_to_one_hop": 2,
+      "exact_to_one_hop": 3
+    },
+    {
+      "model": "ministral-14b",
+      "before": "K1",
+      "after": "K7",
+      "planned_pairs": 100,
+      "other_error_to_invalid": 5,
+      "cached_exact_gained": 19,
+      "cached_exact_lost": 11,
+      "exact_to_exact": 43,
+      "exact_to_other_error": 8,
+      "other_error_to_other_error": 14,
+      "one_hop_to_invalid": 2,
+      "one_hop_to_one_hop": 3,
+      "other_error_to_exact": 11,
+      "other_error_to_one_hop": 1,
+      "exact_to_invalid": 2,
+      "one_hop_to_exact": 8,
+      "exact_to_one_hop": 1,
+      "one_hop_to_other_error": 2
+    },
+    {
+      "model": "ministral-14b",
+      "before": "K3",
+      "after": "K4",
+      "planned_pairs": 100,
+      "other_error_to_other_error": 18,
+      "cached_exact_gained": 34,
+      "cached_exact_lost": 10,
+      "one_hop_to_exact": 15,
+      "exact_to_exact": 28,
+      "exact_to_other_error": 7,
+      "other_error_to_exact": 19,
+      "one_hop_to_other_error": 6,
+      "invalid_to_other_error": 1,
+      "exact_to_one_hop": 3,
+      "one_hop_to_one_hop": 3
+    },
+    {
+      "model": "ministral-14b",
+      "before": "K7",
+      "after": "K4",
+      "planned_pairs": 100,
+      "invalid_to_other_error": 4,
+      "cached_exact_gained": 15,
+      "cached_exact_lost": 15,
+      "exact_to_exact": 47,
+      "other_error_to_other_error": 14,
+      "invalid_to_exact": 4,
+      "one_hop_to_other_error": 3,
+      "exact_to_other_error": 11,
+      "other_error_to_exact": 9,
+      "one_hop_to_exact": 2,
+      "exact_to_one_hop": 4,
+      "invalid_to_one_hop": 1,
+      "other_error_to_one_hop": 1
+    },
+    {
+      "model": "qwen3.6-flash",
+      "before": "K1",
+      "after": "K3",
+      "planned_pairs": 100,
+      "exact_to_one_hop": 11,
+      "cached_exact_gained": 13,
+      "cached_exact_lost": 12,
+      "other_error_to_one_hop": 11,
+      "other_error_to_other_error": 3,
+      "one_hop_to_exact": 13,
+      "one_hop_to_one_hop": 54,
+      "one_hop_to_other_error": 4,
+      "exact_to_exact": 3,
+      "exact_to_other_error": 1
+    },
+    {
+      "model": "qwen3.6-flash",
+      "before": "K1",
+      "after": "K4",
+      "planned_pairs": 100,
+      "exact_to_exact": 9,
+      "cached_exact_gained": 42,
+      "cached_exact_lost": 6,
+      "other_error_to_one_hop": 3,
+      "other_error_to_other_error": 7,
+      "one_hop_to_exact": 38,
+      "exact_to_one_hop": 4,
+      "one_hop_to_one_hop": 24,
+      "one_hop_to_other_error": 9,
+      "other_error_to_exact": 4,
+      "exact_to_other_error": 2
+    },
+    {
+      "model": "qwen3.6-flash",
+      "before": "K1",
+      "after": "K7",
+      "planned_pairs": 100,
+      "exact_to_other_error": 6,
+      "cached_exact_gained": 12,
+      "cached_exact_lost": 11,
+      "other_error_to_other_error": 10,
+      "other_error_to_one_hop": 2,
+      "one_hop_to_one_hop": 45,
+      "one_hop_to_other_error": 16,
+      "exact_to_one_hop": 5,
+      "exact_to_exact": 4,
+      "one_hop_to_exact": 10,
+      "other_error_to_exact": 2
+    },
+    {
+      "model": "qwen3.6-flash",
+      "before": "K3",
+      "after": "K4",
+      "planned_pairs": 100,
+      "one_hop_to_exact": 36,
+      "cached_exact_gained": 38,
+      "cached_exact_lost": 3,
+      "one_hop_to_one_hop": 28,
+      "other_error_to_other_error": 4,
+      "exact_to_exact": 13,
+      "other_error_to_one_hop": 2,
+      "other_error_to_exact": 2,
+      "exact_to_one_hop": 1,
+      "exact_to_other_error": 2,
+      "one_hop_to_other_error": 12
+    },
+    {
+      "model": "qwen3.6-flash",
+      "before": "K7",
+      "after": "K4",
+      "planned_pairs": 100,
+      "other_error_to_exact": 14,
+      "cached_exact_gained": 40,
+      "cached_exact_lost": 5,
+      "other_error_to_one_hop": 11,
+      "one_hop_to_other_error": 8,
+      "one_hop_to_exact": 26,
+      "one_hop_to_one_hop": 18,
+      "other_error_to_other_error": 7,
+      "exact_to_exact": 11,
+      "exact_to_other_error": 3,
+      "exact_to_one_hop": 2
+    }
+  ],
+  "alternative_rules": [
+    {
+      "model": "ministral-14b",
+      "condition": "K1",
+      "rule": "depth_one",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 100,
+      "matches_distinct_alternative": 15
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K1",
+      "rule": "depth_three",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K1",
+      "rule": "reversed_direction",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K1",
+      "rule": "undirected",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K3",
+      "rule": "depth_one",
+      "valid_identity_denominator": 99,
+      "distinct_from_reference": 99,
+      "distinct_and_nontrivial": 99,
+      "matches_distinct_alternative": 24
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K3",
+      "rule": "depth_three",
+      "valid_identity_denominator": 99,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K3",
+      "rule": "reversed_direction",
+      "valid_identity_denominator": 99,
+      "distinct_from_reference": 99,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K3",
+      "rule": "undirected",
+      "valid_identity_denominator": 99,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K4",
+      "rule": "depth_one",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 100,
+      "matches_distinct_alternative": 6
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K4",
+      "rule": "depth_three",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K4",
+      "rule": "reversed_direction",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K4",
+      "rule": "undirected",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K7",
+      "rule": "depth_one",
+      "valid_identity_denominator": 91,
+      "distinct_from_reference": 91,
+      "distinct_and_nontrivial": 91,
+      "matches_distinct_alternative": 5
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K7",
+      "rule": "depth_three",
+      "valid_identity_denominator": 91,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K7",
+      "rule": "reversed_direction",
+      "valid_identity_denominator": 91,
+      "distinct_from_reference": 91,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K7",
+      "rule": "undirected",
+      "valid_identity_denominator": 91,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K1",
+      "rule": "depth_one",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 100,
+      "matches_distinct_alternative": 71
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K1",
+      "rule": "depth_three",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K1",
+      "rule": "reversed_direction",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K1",
+      "rule": "undirected",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K3",
+      "rule": "depth_one",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 100,
+      "matches_distinct_alternative": 76
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K3",
+      "rule": "depth_three",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K3",
+      "rule": "reversed_direction",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K3",
+      "rule": "undirected",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K4",
+      "rule": "depth_one",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 100,
+      "matches_distinct_alternative": 31
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K4",
+      "rule": "depth_three",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K4",
+      "rule": "reversed_direction",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K4",
+      "rule": "undirected",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K7",
+      "rule": "depth_one",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 100,
+      "matches_distinct_alternative": 52
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K7",
+      "rule": "depth_three",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K7",
+      "rule": "reversed_direction",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 100,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K7",
+      "rule": "undirected",
+      "valid_identity_denominator": 100,
+      "distinct_from_reference": 0,
+      "distinct_and_nontrivial": 0,
+      "matches_distinct_alternative": 0
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "independent_public_graph_witness_and_endpoint_agreement": true,
+    "paired_unique_typed_facts_candidate_types_and_targets_equal": true,
+    "all_states_and_transitions_conserve_planned_denominators": true,
+    "available_selected_identities_agree_with_cached_metrics": true,
+    "previous_scoped_exact_and_one_hop_counts_agree": true
+  },
+  "definitions": {
+    "one_hop": "S equals anchor union incoming neighbours; disjoint from exact in this slice",
+    "other_error": "valid saved selection differs from reference and exact one-hop set",
+    "alternative_match": "S equals alternative-rule coverage set; may overlap another rule and does not identify an internal operation",
+    "reference": "anchor plus union of simple incoming paths, depth two or earlier dead-end; checked against frozen reference and endpoints"
+  },
+  "limitations": [
+    "Post-hoc exploratory selection motivated by earlier Qwen results; not confirmatory.",
+    "Gemma identity-level signatures unavailable; cached exact remains separate.",
+    "No Tool record analysis, causal identification, new confidence interval, QA evaluation or raw-response reparse.",
+    "Non-distinct alternative rules cannot diagnose a rule error, even if the selected set matches them.",
+    "K4 changes redundancy/length/salience as well as card hosting; no isolated placement mechanism.",
+    "No type-stopping analysis: this slice has terminal_type=None. Other families/noise require separate checks."
+  ],
+  "provenance": {
+    "revision": "d8fa5a97e91d6cc0bf1cf5d1654191cf1472e12b",
+    "sources": {
+      "results/observations.jsonl.gz": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+      "results/inputs.jsonl.gz": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+      "paper/research_notes/analyses/transfer_positioning/run-04/summary.json": "34ed8f4938903770f3b8744752b0238cf363d0ef542deef228f2109f949802f4",
+      "paper/research_notes/analyses/novelty_refinement/analyze_transitions.py": "8f298d7cf8e20c96b98a579886f6853fb766b85134e80390f2e92a703ab05b08"
+    },
+    "command": "python paper/research_notes/analyses/novelty_refinement/analyze_transitions.py --out paper/research_notes/analyses/novelty_refinement/run-01"
+  }
+}

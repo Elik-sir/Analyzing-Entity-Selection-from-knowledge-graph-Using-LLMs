@@ -1,5 +1,9 @@
 # Missing data and decisions
 
+## Latest diagnostic refinement, 2026-10-25
+
+See [novelty_refinement.md](novelty_refinement.md). The six-node Tree-in transition matrix is now complete for K1/K2/K3/K4/K7; this closes only that bounded part of the previous diagnostic gap. Clean Tree-in sets cannot distinguish correct coverage from undirected/depth-three coverage. Adjacent inputs provide unequal diagnostic support across rules. Broader family/size/text coverage, error-specific false-positive labels, cross-paper reuse and harmonized Tool records remain unresolved at their respective scopes. Generic incomplete exploration overlaps GraphWalk; output-level paired diagnostics remain a contribution candidate, not certified novelty.
+
 ## Current transfer-diagnostic scope, 2026-10-25
 
 The author's clarified purpose supersedes the structural-profile positioning; see [transfer_positioning.md](transfer_positioning.md) and [transfer_outline.md](transfer_outline.md). Earlier resolved items remain resolved at their original scope.
@@ -53,3 +57,6 @@ For a structural emphasis, any new inferential motif/size/ranking claim needs a 
 ## Manuscript drafting update
 
 A full descriptive, structure-led English draft is now under `paper/manuscript/`. The author has supplied the Cypher extraction specification; Appendix B reproduces it with English comments and token equivalence. G01 is resolved as to provision of concrete queries, but historical execution/full-grid sampling coverage is not inferred from its fixed sizes/global LIMIT. The draft narrows this description accordingly. Local tracked acmart 2.19 was found and used, resolving the earlier missing-class issue G12 at assembly scope. G14 precise Appendix O row overlap and independent scientific/novelty review remain open; no submission readiness is implied.
+
+Critical reassessment 2026-10-26: G14 reuse and G08 public-input shortcut coverage remain material to contribution interpretation. Active recall endpoints remain descriptive; structural confounds and K4 repetition/length confounds are not removed by narrower wording. See review_report.md, Critical reassessment.
+

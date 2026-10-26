@@ -1,0 +1,29 @@
+{
+  "pages": 10,
+  "main_pages": 6,
+  "references_pages": [
+    7
+  ],
+  "appendix_pages": [
+    8,
+    9,
+    10
+  ],
+  "main_figures": 2,
+  "main_tables": 2,
+  "appendix_figures": 2,
+  "figure_labels_resolved": true,
+  "retained_asset_hashes_unchanged": true,
+  "removed_error_category_terms": true,
+  "unresolved_references": 0,
+  "overfull_boxes": 0,
+  "visual_review": "passed: all ten pages inspected in rendered sheets; final pages 3, 5, 6 re-inspected at full size after the last wording edit",
+  "pdf_sha256": "5e6c25c45248436cd1cabc1d99d1ec32fca85e103b007d1fd0dc4fc60efba3a7",
+  "metadata": {
+    "/Creator": "LaTeX with acmart 2026/06/27 v2.19 Typesetting articles for the Association for Computing Machinery and hyperref 2022-02-21 v7.00n Hypertext links for LaTeX",
+    "/Title": "From Tool Selection to Knowledge-Graph Entity Selection: Structural Profiles and Relational Evidence",
+    "/Subject": "-  Information systems  ->  Information retrieval.-  Computing methodologies  ->  Natural language processing.",
+    "/Producer": "XeTeX version 0.999994",
+    "/CreationDate": "D:20261025224934-00'00'"
+  }
+}

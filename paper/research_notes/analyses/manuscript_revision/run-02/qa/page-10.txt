@@ -1,0 +1,179 @@
+1045
+1046
+1047
+1048
+1049
+1050
+1051
+1052
+1053
+1054
+1055
+1056
+1057
+1058
+1059
+1060
+1061
+1062
+1063
+1064
+1065
+1066
+1067
+1068
+1069
+1070
+1071
+1072
+1073
+1074
+1075
+1076
+1077
+1078
+1079
+1080
+1081
+1082
+1083
+1084
+1085
+1086
+1087
+1088
+1089
+1090
+1091
+1092
+1093
+1094
+1095
+1096
+1097
+1098
+1099
+1100
+1101
+1102
+WWW ’27, May 10–14, 2027, Dublin, Ireland Anon.
+1103
+1104
+1105
+1106
+1107
+1108
+1109
+1110
+1111
+1112
+1113
+1114
+1115
+1116
+1117
+1118
+1119
+1120
+1121
+1122
+1123
+1124
+1125
+1126
+1127
+1128
+1129
+1130
+1131
+1132
+1133
+1134
+1135
+1136
+1137
+1138
+1139
+1140
+1141
+1142
+1143
+1144
+1145
+1146
+1147
+1148
+1149
+1150
+1151
+1152
+1153
+1154
+1155
+1156
+1157
+1158
+1159
+1160
+MATCH (h)-[r1]->(a)-[r3]->(c), (h)-[r2]->(b)-[r4]->(d)
+WHERE elementId(a) < elementId(b)
+RETURN 'tree_out' AS motif, [h,a,b,c,d] AS ns, [r1,r2,r3,r4] AS
+rs
+UNION ALL
+// Inward tree, five nodes.
+MATCH (c)-[r3]->(a)-[r1]->(h), (d)-[r4]->(b)-[r2]->(h)
+WHERE elementId(a) < elementId(b)
+RETURN 'tree_in' AS motif, [h,a,b,c,d] AS ns, [r1,r2,r3,r4] AS
+rs
+UNION ALL
+// Rhombus, four nodes.
+MATCH (a)-[r1]->(b)-[r3]->(d), (a)-[r2]->(c)-[r4]->(d)
+WHERE elementId(b) < elementId(c)
+RETURN 'rhombus' AS motif, [a,b,c,d] AS ns, [r1,r2,r3,r4] AS rs
+UNION ALL
+// Hourglass, five nodes.
+MATCH (a)-[r1]->(m), (b)-[r2]->(m), (m)-[r3]->(c), (m)-[r4]->(d)
+WHERE elementId(a) < elementId(b) AND elementId(c) < elementId(d)
+RETURN 'hourglass' AS motif, [m,a,b,c,d] AS ns, [r1,r2,r3,r4] AS
+rs
+UNION ALL
+// Directed cycle, three nodes.
+MATCH (a)-[r1]->(b)-[r2]->(c)-[r3]->(a)
+WHERE elementId(a) < elementId(b) AND elementId(a) < elementId(c)
+RETURN 'cycle' AS motif, [a,b,c] AS ns, [r1,r2,r3] AS rs
+UNION ALL
+// Bidirected clique, three nodes.
+MATCH (a)-[r1]->(b), (b)-[r2]->(a), (a)-[r3]->(c), (c)-[r4]->(a),
+(b)-[r5]->(c), (c)-[r6]->(b)
+WHERE elementId(a) < elementId(b) AND elementId(b) < elementId(c)
+RETURN 'clique' AS motif, [a,b,c] AS ns, [r1,r2,r3,r4,r5,r6] AS
+rs
+}
+// Require distinct nodes.
+WITH motif, ns, rs
+WHERE all(n IN ns WHERE single(x IN ns WHERE x = n))
+// Represent edges as source, type, target triples.
+WITH motif, ns,
+[r IN rs | [elementId(startNode(r)), type(r), elementId(endNode
+(r))]] AS edges
+// Reject any additional typed induced edge,
+// including self-loops.
+WHERE NOT EXISTS {
+MATCH (u)-[extra]->(v)
+WHERE u IN ns AND v IN ns
+AND NOT ([elementId(u), type(extra), elementId(v)] IN edges)
+}
+RETURN DISTINCT motif,
+[n IN ns | elementId(n)] AS node_ids,
+[n IN ns | coalesce(n.name, n.headline, n.title, n.ticker)]
+AS node_names,
+edges
+LIMIT 100;
+The supplementary files include the existing queries for export-
+ing nodes and edges and separately labelled, newly written frozen-
+instance checks. These supplementary files were not used to gen-
+erate the reported outcomes. Graph-export code is not itself histor-
+ical motif-extraction evidence. Query IDs and role bindings refer
+to the same database snapshot; elementId is not a portable cross-
+snapshot identifier.
+10

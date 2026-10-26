@@ -1,0 +1,7 @@
+{
+  "scope": "Plan amendment only; no new result, source edit or manuscript change",
+  "previous_plan_sha256": "787a15a1b5845a37288edc8c03fadbef6f666d64ab53c5a1ccec958ad6df5268",
+  "revised_plan_sha256": "cd00490b76a9dc3a905a67abfec12ecbd22a89183467340312c3e9276d6d14b3",
+  "authorization": "User requests using existing experimental results",
+  "checked_on": "2026-10-25"
+}

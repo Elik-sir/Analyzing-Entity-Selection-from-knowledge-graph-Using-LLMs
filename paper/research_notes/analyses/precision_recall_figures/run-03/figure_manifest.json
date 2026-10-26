@@ -1,0 +1,94 @@
+{
+  "checked_on": "2026-10-26",
+  "scope": "Four figures rendered from selected historical precision/recall means; no manuscript change or new inference",
+  "revision": "d8fa5a97e91d6cc0bf1cf5d1654191cf1472e12b",
+  "command": "python paper/research_notes/analyses/precision_recall_figures/render_precision_recall.py --out C:/Users/ekurm/projects/Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs/paper/figures/precision_recall_v3 --notes-out C:/Users/ekurm/projects/Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs/paper/research_notes/analyses/precision_recall_figures/run-03",
+  "script_sha256": "6b768075e1f3e2b3fde14ce1c48ef6db6cb0d8089b4030a2e86581531c7c3a44",
+  "matplotlib": "3.11.2",
+  "sources": {
+    "paper/research_notes/analyses/main_claim_assets/run-04/condition_precision_recall.csv": "c7121ee88d113f3a6158f328a567f9a0ae598aea345f389c02ee6a1e97fc26f2",
+    "paper/research_notes/analyses/main_claim_assets/run-04/motif_precision_recall.csv": "0540afa40c7285425a067f3b21033758a97f11a7d27bd7f99fb63b7bb3c6cbcc",
+    "paper/research_notes/analyses/main_claim_assets/run-04/size_precision_recall.csv": "4011a36beb2ba11301f46b6582cecca4d5a9b62652111cad3654f1fc89a9c0ce"
+  },
+  "figures": [
+    {
+      "name": "01_motif_recall_precision",
+      "paths": [
+        "paper/figures/precision_recall_v3/01_motif_recall_precision.png",
+        "paper/figures/precision_recall_v3/01_motif_recall_precision.pdf",
+        "paper/figures/precision_recall_v3/01_motif_recall_precision.svg"
+      ],
+      "caption": "Archived Core K1/K2; 100 planned tasks per model/family/condition. Invalid outcomes contribute zero. Five families have six nodes; shaded Rhombus/Hourglass use four/five nodes and are not equal-size comparisons. Descriptive saved macro means; no uncertainty intervals or topology-causality claim.",
+      "status": "rendered_and_visually_reviewed"
+    },
+    {
+      "name": "02_size_recall",
+      "paths": [
+        "paper/figures/precision_recall_v3/02_size_recall.png",
+        "paper/figures/precision_recall_v3/02_size_recall.pdf",
+        "paper/figures/precision_recall_v3/02_size_recall.svg"
+      ],
+      "caption": "Archived Full Raw/Raw+E mean per-task recall; 100 planned tasks per model/motif/size/condition, with invalid outcomes zero. Raw+E adds facts. Sizes use different frozen task cohorts; fixed 25-candidate pools change target prevalence with size. All five variable-size families and three models are shown. No fitted size effect or uncertainty interval.",
+      "status": "rendered_and_visually_reviewed"
+    },
+    {
+      "name": "03_size_precision",
+      "paths": [
+        "paper/figures/precision_recall_v3/03_size_precision.png",
+        "paper/figures/precision_recall_v3/03_size_precision.pdf",
+        "paper/figures/precision_recall_v3/03_size_precision.svg"
+      ],
+      "caption": "Archived Full Raw/Raw+E mean per-task precision; 100 planned tasks per model/motif/size/condition, with invalid outcomes zero. Raw+E adds facts. Sizes use different frozen task cohorts; fixed 25-candidate pools change target prevalence with size. All five variable-size families and three models are shown. No fitted size effect or uncertainty interval.",
+      "status": "rendered_and_visually_reviewed"
+    },
+    {
+      "name": "04_condition_effects_recall_precision",
+      "paths": [
+        "paper/figures/precision_recall_v3/04_condition_effects_recall_precision.png",
+        "paper/figures/precision_recall_v3/04_condition_effects_recall_precision.pdf",
+        "paper/figures/precision_recall_v3/04_condition_effects_recall_precision.svg"
+      ],
+      "caption": "Precision/recall differences are right-minus-left saved macro means in complete paired populations: 3,400 Raw pairs/model or 700 Core pairs/model. Invalid outcomes retain zero contribution; no validity-conditioned deletion. Unique designated facts are held fixed in presentation contrasts, but repetition/length/salience may change. No confidence intervals, significance or interaction test. Axes differ between intervention groups but are shared between metrics within each group.",
+      "status": "rendered_and_visually_reviewed"
+    }
+  ],
+  "files_sha256": {
+    "paper/figures/precision_recall_v3/01_motif_recall_precision.pdf": "51b36208a6bc54a259982ed6c2f76888888e79ad4eaf30129b803d097fff903c",
+    "paper/figures/precision_recall_v3/01_motif_recall_precision.png": "7ab07d8f2aab1859a934643a56de6cfdb1e017e630d534ca50aeaf77c8d857f6",
+    "paper/figures/precision_recall_v3/01_motif_recall_precision.svg": "7df08189749e4c95b2733adcf0be097bbd68d2d0bd74723fd5d67b08f2a84c61",
+    "paper/figures/precision_recall_v3/02_size_recall.pdf": "e624bf29cfcb187f3e0255201f135a04e8fadf2e851ee3e15360243c63fa290f",
+    "paper/figures/precision_recall_v3/02_size_recall.png": "7362e4664dfb2eff9f88c7cd01e6ef8e45d87d2c7f0ccfe7d84a8ba58f5f47e4",
+    "paper/figures/precision_recall_v3/02_size_recall.svg": "276a85f06d193ddf57ac182c6788836399c9c99a9ad8695765b8322fbe9ce725",
+    "paper/figures/precision_recall_v3/03_size_precision.pdf": "d3d3cdf1682cf2072736d2087ad7c5ad8c07ac9a45884a5ac782d589ab613a01",
+    "paper/figures/precision_recall_v3/03_size_precision.png": "a8c36b067ab4a339cbef789b95ef28cda33c89bdf6e007c41e12619e848fb386",
+    "paper/figures/precision_recall_v3/03_size_precision.svg": "b66c142d9ca435ff83393b957e5660b4a6f1c47431fd3d7c3cdd5a2d51bc1be5",
+    "paper/figures/precision_recall_v3/04_condition_effects_recall_precision.pdf": "bac8ec024847a2613f71d029aa62e23f5b03ec0d1cce87c3ccd4e8188eb2845e",
+    "paper/figures/precision_recall_v3/04_condition_effects_recall_precision.png": "79dcc246e68d1e2d8ce3475b0fc1b3c2c9e24bf956899aadee94d138d2964e1d",
+    "paper/figures/precision_recall_v3/04_condition_effects_recall_precision.svg": "2550dfb0c73fa12bf292b79f2bdfb579ef8954f2f6201919ea8a460216e60673"
+  },
+  "validation": {
+    "source_hashes": "passed",
+    "motif_cells": 42,
+    "size_cells_per_metric": 192,
+    "condition_effects": 48,
+    "all_expected_rows_plotted_once_per_metric": "passed",
+    "outcome_policy": "planned denominator; invalid zero",
+    "precision_recall_intervals": "absent and not drawn",
+    "visual_inspection": "passed: final motif layout inspected; other three final PNGs byte-identical to inspected renders"
+  },
+  "visual_review": {
+    "reviewed_on": "2026-10-26",
+    "checks": [
+      "All four PNGs viewed; no clipped labels or legend overlap",
+      "Full 0-1 precision/recall profiles; no hidden truncation",
+      "Different-size motifs separated and labelled",
+      "No unsupported error bars; condition axes explicitly labelled",
+      "Final size/effect PNG hashes equal inspected previous-version PNGs"
+    ],
+    "scope": "Plot readability and source-row rendering; not independent scientific review"
+  },
+  "download_archive": {
+    "path": "paper/figures/precision_recall_v3/precision_recall_figures.zip",
+    "sha256": "2719aee6c0df87ea632026885d0bfa75744402201236f55bfdd5bee82103dccc"
+  }
+}

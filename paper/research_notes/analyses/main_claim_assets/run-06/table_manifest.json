@@ -1,0 +1,133 @@
+{
+  "checked_on": "2026-10-26",
+  "scope": "Compact recall-only table from twelve already checked Tree-in metric cells; no new analysis or manuscript edit",
+  "source": {
+    "path": "paper/research_notes/analyses/main_claim_assets/run-05/table2_treein_metrics_all_models.csv",
+    "sha256": "0a7acb53d6d80fd37b21608bdbefe1227f4b1f554eead2eddba38cf509f15a85"
+  },
+  "script_sha256": "e22bf7ce242385bb9866e8bafd8ad8870492ef74889ad0a88e6e9e84fcf9643f",
+  "csv_sha256": "33a92faa3ed81adb1d18c1df84fcdd901edb5487bc1fd1e560c8f6c7276fa960",
+  "display_rounding": "three decimal places; unrounded source values retained in CSV",
+  "validity": [
+    {
+      "model": "gemma-4-31b",
+      "condition": "K1",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "raw_response_available": "0",
+      "cached_metrics_only": "100"
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "K3",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "raw_response_available": "0",
+      "cached_metrics_only": "100"
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "K4",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "raw_response_available": "0",
+      "cached_metrics_only": "100"
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "K7",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "raw_response_available": "0",
+      "cached_metrics_only": "100"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K1",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K3",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K4",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "K7",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0"
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K1",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0"
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K3",
+      "N": "100",
+      "valid": "99",
+      "invalid": "1",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0"
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K4",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0"
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "K7",
+      "N": "100",
+      "valid": "91",
+      "invalid": "9",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0"
+    }
+  ],
+  "figures": {
+    "paper/figures/treein_recall_v1/table2_treein_recall.png": "b1cdb05c48d1d7a5aa64fc2eec5c5fb39602c0c4696602e81469fb44cc19767c",
+    "paper/figures/treein_recall_v1/table2_treein_recall.pdf": "ab3a72814a552143b22756b51bca27da8d07c2e9e11942d36892fdc58ef2b47a",
+    "paper/figures/treein_recall_v1/table2_treein_recall.svg": "669ef5812dfe1dbc9d4ba3ab3517d582cd4ef20fa4e2b2a6901b3bda995ed14b"
+  },
+  "validation": {
+    "rows": 3,
+    "condition_columns": 4,
+    "planned_per_cell": 100,
+    "source_value_preservation": "passed",
+    "visual_review": "passed: compact three-model/four-condition table and denominator footnotes inspected"
+  }
+}

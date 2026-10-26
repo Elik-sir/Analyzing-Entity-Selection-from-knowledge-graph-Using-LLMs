@@ -1,0 +1,132 @@
+{
+  "pages": 10,
+  "page_map": [
+    {
+      "page": 1,
+      "text_characters": 6203,
+      "references": false,
+      "conclusion": false,
+      "appendix": false
+    },
+    {
+      "page": 2,
+      "text_characters": 6984,
+      "references": false,
+      "conclusion": false,
+      "appendix": false
+    },
+    {
+      "page": 3,
+      "text_characters": 6757,
+      "references": false,
+      "conclusion": false,
+      "appendix": false
+    },
+    {
+      "page": 4,
+      "text_characters": 2541,
+      "references": false,
+      "conclusion": false,
+      "appendix": false
+    },
+    {
+      "page": 5,
+      "text_characters": 6208,
+      "references": false,
+      "conclusion": false,
+      "appendix": false
+    },
+    {
+      "page": 6,
+      "text_characters": 4727,
+      "references": false,
+      "conclusion": true,
+      "appendix": false
+    },
+    {
+      "page": 7,
+      "text_characters": 2415,
+      "references": true,
+      "conclusion": false,
+      "appendix": false
+    },
+    {
+      "page": 8,
+      "text_characters": 5703,
+      "references": false,
+      "conclusion": false,
+      "appendix": true
+    },
+    {
+      "page": 9,
+      "text_characters": 2314,
+      "references": false,
+      "conclusion": false,
+      "appendix": false
+    },
+    {
+      "page": 10,
+      "text_characters": 2901,
+      "references": false,
+      "conclusion": false,
+      "appendix": false
+    }
+  ],
+  "metadata": {
+    "/Creator": "LaTeX with acmart 2026/06/27 v2.19 Typesetting articles for the Association for Computing Machinery and hyperref 2022-02-21 v7.00n Hypertext links for LaTeX",
+    "/Title": "From Tool Selection to Knowledge-Graph Entity Selection: Structural Profiles and Relational Evidence",
+    "/Subject": "-  Information systems  ->  Information retrieval.-  Computing methodologies  ->  Natural language processing.",
+    "/Producer": "XeTeX version 0.999994",
+    "/CreationDate": "D:20261025222600-00'00'"
+  },
+  "fonts": [
+    {
+      "name": "/IHAIZV+LinLibertineO",
+      "embedded": true
+    },
+    {
+      "name": "/BZIVMZ+LinBiolinumOB",
+      "embedded": true
+    },
+    {
+      "name": "/IXFAWU+LinLibertineOB",
+      "embedded": true
+    },
+    {
+      "name": "/TQTHRL+LibertinusMath-Regular",
+      "embedded": true
+    },
+    {
+      "name": "/YEUUOC+LinLibertineOI",
+      "embedded": true
+    },
+    {
+      "name": "/AKHCZK+LinBiolinumO",
+      "embedded": true
+    },
+    {
+      "name": "/VDVGTR+LatinModernMath-Regular",
+      "embedded": true
+    },
+    {
+      "name": "/CAFSZL+Inconsolatazi4-Regular",
+      "embedded": true
+    }
+  ],
+  "overfull_boxes": 0,
+  "undefined_references": 0,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "format_note": "Native acmart balance=false disables end-column balancing of the listings appendix; no font, margin or class modifications.",
+  "visual_review": "All ten final pages inspected; no clipped figure labels, table overflow or unresolved markers. Original references/Cypher sources preserved."
+}

@@ -1,0 +1,41 @@
+{
+  "checked_on": "2026-10-26",
+  "revision": "d8fa5a97e91d6cc0bf1cf5d1654191cf1472e12b",
+  "scope": "Saved precision/recall selection and arithmetic descriptive differences only; no experiment, reparse, bootstrap or hypothesis test",
+  "command": "python paper/research_notes/analyses/main_claim_assets/select_precision_recall.py --out paper/research_notes/analyses/main_claim_assets/run-04",
+  "sources": {
+    "strata": {
+      "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+      "sha256": "4d6cc43141f4877ce29430cef66afd50d64c78be949e1e7c2aef32ceb53a93a5"
+    },
+    "conditions": {
+      "path": "paper/research_notes/analyses/final_results/run-01/condition_metrics.csv",
+      "sha256": "08062c89adc62665ced36484dd19e955a938032c575e30977253c1ff1280295f"
+    },
+    "paired_design": {
+      "path": "paper/research_notes/analyses/main_claim_assets/run-02/figure1_condition_effects.csv",
+      "sha256": "c720cc471842e81500d2e11a1a66a49d7b2c73071c36617c145ab4576ddc249b"
+    }
+  },
+  "script_sha256": "5b5168b144ea72394d179cf337266cd3abdada862dc97a4386b57a468d55b0bc",
+  "metrics": {
+    "precision": "Saved mean of per-task precision, with invalid outcomes retained as zero over planned N",
+    "recall": "Saved mean of per-task recall, with invalid outcomes retained as zero over planned N",
+    "delta": "right_mean minus left_mean on complete paired populations; mapping checked against saved paired F1 deltas",
+    "exact": "Retained as secondary complete-set recovery, not a synonym for precision or recall"
+  },
+  "uncertainty": "No precision/recall intervals in existing uncertainty exports; F1/exact bands must not be reused",
+  "validation": {
+    "motif_cells": 42,
+    "size_cells": 192,
+    "metric_contrasts": 48,
+    "planned_counts_and_pair_mapping": "passed",
+    "condition_mean_mapping_against_existing_F1_export": "passed"
+  },
+  "outputs_sha256": {
+    "condition_precision_recall.csv": "c7121ee88d113f3a6158f328a567f9a0ae598aea345f389c02ee6a1e97fc26f2",
+    "motif_precision_recall.csv": "0540afa40c7285425a067f3b21033758a97f11a7d27bd7f99fb63b7bb3c6cbcc",
+    "size_precision_recall.csv": "4011a36beb2ba11301f46b6582cecca4d5a9b62652111cad3654f1fc89a9c0ce"
+  },
+  "rendering_status": "data_ready; precision_recall_figures_not_rendered; old_F1_PDFs_preserved"
+}

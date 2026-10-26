@@ -1,0 +1,1501 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-observations",
+      "kind": "result",
+      "path": "results/observations.jsonl.gz",
+      "locator": "All rows; full_braw subset selected by series_id/model/condition/noise",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+      "limitations": "Cached scores; raw-response rescoring is separate."
+    },
+    {
+      "id": "E-manifest",
+      "kind": "result",
+      "path": "results/MANIFEST.json",
+      "locator": "files; counts",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "0f5f7156b2bd11c712c4d9c51d4a46df6536c74ec3f5448293b78dbaf63e2902",
+      "previous_crlf_sha256": "6ecac4024acd023cd8259af47cf51fb63303f8d0aade3a6558a8298a6b2b6adf",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-saved-validation",
+      "kind": "result",
+      "path": "results/VALIDATION.json",
+      "locator": "status; individual_scores_recomputed; payload_coverage",
+      "verification": "reported",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "4822d1241ad22042a79f6df53b0ce66c31e25738777523cadffcec6f30728ae6",
+      "limitations": "Saved earlier verifier output, not rerun in this task.",
+      "previous_crlf_sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-coverage",
+      "kind": "result",
+      "path": "results/coverage.csv",
+      "locator": "series_id, model, request_evidence, response_evidence, N",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "461c17780df5f5e2b62cac2129d12fa36d86f3cf024025f6b49851541e49d588",
+      "previous_crlf_sha256": "9ac36606bb3e50e21cd4904263b134577084f88d9b50ddef4ca736cf70033b22",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-audit-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/scripts/audit_saved_archive.py",
+      "locator": "audit(root): hash checks and cached-score aggregation",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "ca29654286efa8ff29dad37f4bc94c0a10856680546ed0618bfedbca61962bfd"
+    },
+    {
+      "id": "E-summary",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/archive_audit/summary.json",
+      "locator": "observations; file_checks; full_braw[*].selector/N/valid/f1/exact",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "9547ca0f8c3a3c3ea47b1b980bbb6928d1713f35d1734f142812561797bd8d91",
+      "upstream_evidence_ids": [
+        "E-observations",
+        "E-manifest",
+        "E-audit-script"
+      ],
+      "command": "python paper/research_notes/scripts/audit_saved_archive.py --root .",
+      "limitations": "No raw-response rescore, paired intervals or significance test.",
+      "previous_crlf_sha256": "67d22f47f0e310dc4d0d25452b1045f651e0207348033fe1ae53871a5e77f356",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-aggregate-code",
+      "kind": "implementation",
+      "path": "graph_motives/report.py",
+      "locator": "aggregates, lines 15-42",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "e1f059ec38fb765af4e67ac609a3e2ad1c01e869687d3ae277c8febad59a8fd0"
+    },
+    {
+      "id": "E-sampling-code",
+      "kind": "implementation",
+      "path": "graph_motives/graph/build.py",
+      "locator": "build_dataset, sampling through SAMPLERS, lines 119-183",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "e2b6a44ec1081ca25e52f49c6cc4c1cdc257ad80e6778ce813eb18434069f96c"
+    },
+    {
+      "id": "E-export-code",
+      "kind": "implementation",
+      "path": "graph_motives/graph/neo4j_export.py",
+      "locator": "generic node/edge Cypher export queries, lines 13-16",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "a394172ac33e32ae409980573128dc9066dd75fa8947e41e4e7a67281ffdcb43"
+    },
+    {
+      "id": "E-draft",
+      "kind": "draft",
+      "path": "docs/ARTICLE.md",
+      "locator": "Subgraph extraction paragraph, line 32; Selection task paragraph; Appendix not drafted",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "1deb9d85db0f41d6fcf38603d3ec08d4ae8d7fb3075b4c74baa2fa3b2bed6913"
+    },
+    {
+      "id": "E-source-pdf",
+      "kind": "literature",
+      "path": "11_Towards_Ontology_Driven_Mul.pdf",
+      "locator": "PDF pages 1 and 3: title and graph construction",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision": "261f1b3cc3d3bf3419c04d3d0a35d290fce73cae",
+      "sha256": "b612d6211c04c6d6532cf98a7c94c16f4b3e1ec299a40ec85f3ffb427d20d2b3",
+      "limitations": "Limited local text inspection; external publication metadata and novelty comparison pending."
+    },
+    {
+      "id": "E-venue",
+      "kind": "venue",
+      "url": "https://www2027.thewebconf.org/research-track-papers/",
+      "locator": "Formatting Requirements; Anonymity; track relevance",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-tool-graph-pdf",
+      "kind": "literature",
+      "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+      "locator": "Title page; Introduction; Section 1.1; Appendix O, PDF pages 30-31",
+      "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Anonymous supplied manuscript under review; public citation metadata not verified. No numerical results adopted as project results."
+    },
+    {
+      "id": "E-graph-patterns-primary",
+      "kind": "literature",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/9316da9c25ab559ba678f2fe52217a64-Abstract-Conference.html",
+      "locator": "Title, author list, ICLR 2025 metadata and abstract; task comparison inspected in arXiv:2410.05298v2 Sections 2-5",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-kg-understanding-primary",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2402.11541v4",
+      "locator": "Sections 3-5: KG formats, triple organization, QA and noise/incompleteness; metadata at arXiv abstract page",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Verified arXiv version; publisher page inaccessible, journal metadata not used."
+    },
+    {
+      "id": "E-talk-graph-primary",
+      "kind": "literature",
+      "url": "https://arxiv.org/abs/2310.04560",
+      "locator": "Title, authors and v1 metadata; supplied local PDF pages 1-2 for encoding formulation",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Uses verified preprint metadata; conference-page inspection blocked by browser challenge."
+    },
+    {
+      "id": "E-author-decisions",
+      "kind": "configuration",
+      "path": "paper/research_notes/author_decisions.md",
+      "locator": "Source graph: direct user confirmation of unchanged snapshot reuse; Cypher appendix and required literature decisions",
+      "sha256": "b88c9831b3d311e142e9b0cfadbd14d3df74f1d549afa4e5acb60a3a8916fc76",
+      "verification": "reported",
+      "checked_on": "2026-10-25",
+      "limitations": "Direct author statements recorded from chat; not independent bytewise snapshot verification."
+    },
+    {
+      "id": "E-inputs-archive",
+      "kind": "result",
+      "path": "results/inputs.jsonl.gz",
+      "locator": "input_id joins; candidate_names; messages/frozen_public; reference; private task_spec",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+      "limitations": "Inputs/references, not necessarily raw responses or authenticated provider calls."
+    },
+    {
+      "id": "E-reference-audit-code",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/audit_references.py",
+      "locator": "Independent decode/oracle functions and paired invariant checks; no project module imports",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "00a56889518a1442778d67ad409fa38513ac920bd323867f42cf12f9e0afb81e"
+    },
+    {
+      "id": "E-reference-audit-final",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
+      "locator": "checks; coverage; pairs[*]; cross_model; issues",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6",
+      "upstream_evidence_ids": [
+        "E-reference-audit-code",
+        "E-inputs-archive",
+        "E-observations"
+      ],
+      "limitations": "Frozen-input consistency; original full-graph completeness and native-prose answerability not certified.",
+      "previous_crlf_sha256": "bc9d9d3b487c7dc12c9eddde5ca7294629e0630988e38a0bbd889053bc38125b",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-archive-verification-fresh",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/archive_verification.json",
+      "locator": "status; observations; individual_scores_recomputed; actual_requests_reconstructed",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "4822d1241ad22042a79f6df53b0ce66c31e25738777523cadffcec6f30728ae6",
+      "upstream_evidence_ids": [
+        "E-inputs-archive",
+        "E-observations"
+      ],
+      "limitations": "Fresh offline rerun; metric count is recalculation from saved selections, not all raw-response reparsing.",
+      "previous_crlf_sha256": "a50e6156107a68007fd7b3a218a92d14a22a79a7f7c239b68614314f4a8ed867",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-protocol-verification-fresh",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/protocol_verification.json",
+      "locator": "checks.core_prompts_equal_recorded_requests; checks.archived_valid_selections_and_scores_equal",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "dc80c757b4ad43bc9d16eee2884e7a8d033e69268c61ca0b96b7d28525d6f05c",
+      "upstream_evidence_ids": [
+        "E-inputs-archive",
+        "E-observations"
+      ],
+      "limitations": "Chosen logical-task population of the existing verifier, not all model transcripts.",
+      "previous_crlf_sha256": "aa83d298d8c186937f8b3bf108868068ab8fb5b4bdcd02ea325a846c4a92ad59",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-native-specs-archive",
+      "kind": "result",
+      "path": "results/task_specs_native.jsonl.gz",
+      "locator": "record_id; anchor_name; goals with relation/direction/target_type",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "ace1f74373d4961947cabddad630e89ecf7ba9bfe6d144a8b2a1a404bc783d4e"
+    },
+    {
+      "id": "E-native-audit-code",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/audit_supplement.py",
+      "locator": "native_cards; native_witnesses; Native D and legacy pair checks",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "a4fc2d61c4572bbae069416de840209f62ac6f163b747d742c8de01a9cb30feb"
+    },
+    {
+      "id": "E-native-audit-final",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/supplement.json",
+      "locator": "counts; pairs; failures",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "b08bc5bdd40754c72a364057348159d1964dfc4ae7feb6facbc27465d6eedc54",
+      "upstream_evidence_ids": [
+        "E-inputs-archive",
+        "E-native-specs-archive",
+        "E-native-audit-code"
+      ],
+      "limitations": "Typed public overlay evaluated; prose sufficiency remains untested.",
+      "previous_crlf_sha256": "77aa408448d5ee7349da25f6ce7eee4c676143631c3fd6138e183ae43382572b",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-support-example",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/support_example.json",
+      "locator": "input_id; reference_names; endpoint_names; single_card_fact_ablations",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "d2a2e3787dfdb45bb73db0824135885e550924b3e2a38a587450c6e53f73f7db",
+      "upstream_evidence_ids": [
+        "E-inputs-archive"
+      ],
+      "limitations": "One deterministic artifact example, not a population estimate or new model experiment.",
+      "previous_crlf_sha256": "392c83e178ad0fe2138a217427e04b7b6a0e1ba2af5760ccb57f062b6bd250cb",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-final-stats-code",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/final_results/analyze_results.py",
+      "locator": "metric/summarize; paired_panel/analyze_panel; analytical_baselines; run",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "ab4bcd3c4de0e1d1999bade0098e9be71bd2378fc3654b4f66b2af04cda81274"
+    },
+    {
+      "id": "E-final-bootstrap-code",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/final_results/uncertainty.py",
+      "locator": "bootstrap_means; percentile_interval; simultaneous_bands",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "560115da934d181e5a31e8aa8ae658f4b0db7041cd7fa7edd778a432004286d9"
+    },
+    {
+      "id": "E-final-statistical-plan",
+      "kind": "configuration",
+      "path": "paper/research_notes/analyses/final_results/analysis_plan.md",
+      "locator": "Estimands; dependence/bootstrap; 78-effect family; limitations",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "37ee8f9e00847c873a4e1b8f494c023b8fd54b65fec699fbecf2bea2d9dbc170"
+    },
+    {
+      "id": "E-final-stat-provenance",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
+      "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68",
+      "upstream_evidence_ids": [
+        "E-final-stats-code",
+        "E-final-bootstrap-code",
+        "E-final-statistical-plan",
+        "E-observations",
+        "E-inputs-archive"
+      ],
+      "limitations": "Exploratory fixed-KG analysis; independent anchor clusters assumed, not demonstrated.",
+      "previous_crlf_sha256": "ffcbaea871f941edd824f873811f8cfedc128bd63a7499c65119ded31d7701d2",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-final-condition-results",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/condition_metrics.csv",
+      "locator": "Rows selected by series_id/model/condition/noise; N/valid/precision/recall/f1/exact",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "f8f02d3a4461654ec447aff2c7761dc5d1701066aee8058011b119e7ebc59f86",
+      "upstream_evidence_ids": [
+        "E-final-stat-provenance"
+      ],
+      "previous_crlf_sha256": "08062c89adc62665ced36484dd19e955a938032c575e30977253c1ff1280295f",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-final-paired-results",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+      "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e",
+      "upstream_evidence_ids": [
+        "E-final-stat-provenance"
+      ],
+      "limitations": "Main 78 effects have approximate two-panel simultaneous bands; supplementary intervals are pointwise only.",
+      "previous_crlf_sha256": "d68325eb20a95e08cdeb3efde2ba91ea8522658efe82b8bfcb70fa3b4d0f38ac",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-final-dependence",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/dependence_audit.json",
+      "locator": "core/full_braw: base_tasks; anchors; largest_reference_overlap_component",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "3a7084d8b70265287e635dbe6e0f84c27c0b1ca9d95c42a159965fd7784cf582",
+      "upstream_evidence_ids": [
+        "E-final-stat-provenance"
+      ],
+      "previous_crlf_sha256": "a4c1164d25f358396aba2697748b39ff075f16e78016e336d3aa1cfc690279bb",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-final-analytical-baselines",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/analytical_baselines.csv",
+      "locator": "series_id/baseline; expected set metrics",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "97996518c780152f8bab5bc51cb6a3080cf9210b2ef091abfb3870ae9dae91ac",
+      "upstream_evidence_ids": [
+        "E-final-stats-code",
+        "E-final-stat-provenance"
+      ],
+      "limitations": "Analytical rules/expectations, not executed LLM experiments.",
+      "previous_crlf_sha256": "2c9b1845d7857e54c1ae326c7b3ddf56a36f8326b66bde5d3a80558c238518b7",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-final-figure-sources",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/figure_sources.json",
+      "locator": "figure; data_source; exact included rows; captions; PNG/SVG SHA-256",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "f00d92bec5d705633983506aae3f6c71dda8c59191dfe27e1b7b16e68129688b",
+      "upstream_evidence_ids": [
+        "E-final-condition-results",
+        "E-final-paired-results"
+      ],
+      "previous_crlf_sha256": "9a9b5e990013227b9ec5b981ed48fb319333bfc144220f791cad4904343efe37",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-final-findings-code",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/final_results/derive_findings.py",
+      "locator": "CSV-derived headline records and both-valid sensitivity",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "sha256": "18deff18adf40bc4dec324ef1fd6761bf8f4c2eb06999b5d30bb20803ebc098a"
+    },
+    {
+      "id": "E-final-findings",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
+      "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c",
+      "upstream_evidence_ids": [
+        "E-final-paired-results",
+        "E-final-analytical-baselines",
+        "E-final-findings-code"
+      ],
+      "previous_crlf_sha256": "f654a2400305a3b4116ea805e1c4aa303e09d27fd8f7673ba43a806a8eb9b0e8",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-final-numerical-validation",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/validation.json",
+      "locator": "status; checks (eight grouped checks)",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "sha256": "d201c8413ae01177a33e7f8d63f15b7fdf7d47f7aae4fe92b190b83f2991e81c",
+      "limitations": "Software/numerical verification; not an empirical confidence-coverage simulation or validation of cluster independence.",
+      "previous_crlf_sha256": "96204a3430bb93f76a7a86dd7c253d2a5356a9350199e107f374cca066486f91",
+      "byte_provenance_note": "2026-10-25: current LF checkout exactly matches previous hash after LF-to-CRLF conversion; no content or scientific revalidation implied."
+    },
+    {
+      "id": "E-cluster-inference-context",
+      "kind": "literature",
+      "url": "https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015.pdf",
+      "locator": "Abstract and Introduction: within-cluster dependence versus independence across clusters; inference motivation",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Context for cluster assumptions; not the exact estimator/band algorithm used in this analysis."
+    },
+    {
+      "id": "E-toolgraph-appendix-o-detailed",
+      "kind": "literature",
+      "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+      "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+      "locator": "Appendix O, PDF pp. 30–31, Tables 32–33; Introduction pp. 1–4; Sections 5.1–5.3 pp. 7–8; reproducibility p. 10",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Anonymous supplied under-review manuscript; public metadata and external result archive not independently verified. Literature counts/results only."
+    },
+    {
+      "id": "E-contribution-positioning",
+      "kind": "draft",
+      "path": "paper/research_notes/contribution_comparison.md",
+      "sha256": "5382e33f6f9a3d6ac09b865844e94838387d62293020b0510cb0572bb586c256",
+      "locator": "Task/data/protocol comparison; Defensible contribution; Reuse, limits and decision",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Scoped synthesis, not evidence of novelty or independent populations."
+    },
+    {
+      "id": "E-outline-selection-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/main_text_selection/select_assets.py",
+      "locator": "unique; raw-row checks; Figure 2 hashes; table and asset-plan selection",
+      "sha256": "d98804d5c6a8bc94c51cf23092119b3d3c4f3a566caa3d3bdd79a9537e0e09e7",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Outline/selection only; no new model responses, no full manuscript or independent review."
+    },
+    {
+      "id": "E-main-text-asset-selection",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_text_selection/run-01/asset_plan.json",
+      "locator": "$.table1; $.table2; $.figure1; $.figure2; $.source_hashes",
+      "sha256": "766f8f2d2de233f954bde7732af17209cee4f8cc6e11311b1e207ca624f70a9b",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Outline/selection only; no new model responses, no full manuscript or independent review."
+    },
+    {
+      "id": "E-paper-outline",
+      "kind": "draft",
+      "path": "paper/research_notes/paper_outline.md",
+      "locator": "Selected RQs; structure/space budget; H1–H5; Tables 1–2 and Figures 1–2; appendix decisions",
+      "sha256": "7bda4074a730737a0a9993086109bbf02351075850af248ec8beb75e9e338dd3",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Outline/selection only; no new model responses, no full manuscript or independent review."
+    },
+    {
+      "id": "E-structure-detailed-results",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+      "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
+      "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-emphasis-assessment-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/emphasis_assessment/assess_scope.py",
+      "sha256": "31cc854021af543c87c70aa0f0c9230b0788a2d1585adf6f28b7a7e5cc0a9d52",
+      "locator": "coverage; endpoints; error category aggregation; independent cached-F1 cross-check",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-emphasis-assessment-results",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
+      "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
+      "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-emphasis-provenance",
+      "kind": "configuration",
+      "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
+      "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
+      "locator": "$.files; $.method; $.working_tree",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-appendix-author-context",
+      "kind": "draft",
+      "path": "paper/research_notes/author_context_appendix_o.md",
+      "sha256": "302f6b5ef3be73f4579c061a4d078dd117b101d287f52d4771f4b6c185e56dc9",
+      "locator": "Author statement of team participation and limits",
+      "verification": "reported",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-emphasis-decision",
+      "kind": "draft",
+      "path": "paper/research_notes/emphasis_assessment.md",
+      "sha256": "4925698410f83dbfdf14f4de2e6afaa74453741df34b34438ff511675e60f7df",
+      "locator": "Two-path comparison; recommended emphasis; limitations and next work",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Cached archived evidence/author context; no new model runs, no inference tests, no established cross-paper row identity."
+    },
+    {
+      "id": "E-research-summary",
+      "kind": "draft",
+      "path": "paper/research_notes/RESEARCH_SUMMARY.md",
+      "sha256": "0f78d1473d7ab80ec1db92ea3513fa9891813006e20d48bfebd4a817f48544ff",
+      "locator": "Sections 1–15: scope, archive, result tables, Appendix O, alternatives, recommendation and remaining work",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Consolidated report, not new empirical evidence or full novelty/readiness certification; numerical claims remain bound to original result records.",
+      "upstream_evidence_ids": [
+        "E-structure-detailed-results",
+        "E-emphasis-assessment-results",
+        "E-final-paired-results",
+        "E-final-stat-provenance",
+        "E-reference-audit-final",
+        "E-toolgraph-appendix-o-detailed",
+        "E-appendix-author-context"
+      ],
+      "previous_draft_sha256": "e4d5d6061775fdaad09dea334bb8ebe4871cf8ec58835c225ec344dadc37fc3c",
+      "inspection_update": "Only a local editorial insertion in the opening sentence differs; reverse-substitution reproduces the previous hash. File retained as edited."
+    },
+    {
+      "id": "E-manuscript-assets",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/manuscript_assets/run-01/asset_sources.json",
+      "sha256": "af0f4a603eb15849a7685bc5078a2a9d361a65642011982f221cec1f8ddf61c2",
+      "locator": "$.figures[*].rows; $.tables; $.sources",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Display selection of existing audited CSVs, not new inference.",
+      "previous_draft_sha256": "3fd053319979b8f3a12f5112c7cd722ce6d20917e1dd54377210574805294e35",
+      "inspection_update": "Final artifact manifest adds final figure paths, current script hash and explicit half-up endpoint rounding; scientific source rows unchanged."
+    },
+    {
+      "id": "E-manuscript-asset-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/manuscript_assets/build_assets.py",
+      "sha256": "26bcd37558eac3f72e3f7221a295b2bc9a877a1c303e954572b9852a72a190a7",
+      "locator": "read; one; save; motif/size rendering and five table selectors",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "No model calls or new inference; Matplotlib dependency installed in temporary directory.",
+      "previous_draft_sha256": "3f5febbb7e84c55913fb4a1cab7e325bbb8cd64e6b539dec4a87b1a2c8e92e31",
+      "inspection_update": "Finalized table row endings, final-figure copies and decimal half-up endpoint formatting; no new inference."
+    },
+    {
+      "id": "E-manuscript-request-settings",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/manuscript_assets/run-01/request_settings_summary.json",
+      "sha256": "67c4aa737dc08b3957467501e23e1522b9147ea49d675792ad72c98dd63ab532",
+      "locator": "$.groups[*].records; $.source_sha256",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Recorded metadata, not authentication of unavailable Gemma calls."
+    },
+    {
+      "id": "E-author-cypher",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/manuscript_revision/run-01/previous_manuscript/queries/author_supplied_motif_extraction.cypher",
+      "sha256": "d7d72f39075a985202a3d21386c7a53f5d0deecc6fc2034abe1d0f10395b0f7f",
+      "locator": "CALL UNION branches; distinct-node filter; typed extra-edge filter; global LIMIT 100",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Author-supplied specification; whitespace normalized; no execution/log or full size-grid provenance established. Historical pre-revision artifact preserved at the original inspected bytes; new manuscript has separate evidence.",
+      "historical_original_path": "paper/manuscript/queries/author_supplied_motif_extraction.cypher"
+    },
+    {
+      "id": "E-manuscript-bibliography",
+      "kind": "literature",
+      "path": "paper/research_notes/analyses/manuscript_revision/run-01/previous_manuscript/references.bib",
+      "sha256": "95489c16c02675e58d08e64aa98c769d61a41f6ce7c03e9e4b11474f9ae7448e",
+      "locator": "All seven entries; anonymousToolGraph has deliberately no publication date",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Metadata checked in primary proceedings/arXiv/docs and supplied PDFs; no inferred DOI/pages/acceptance. Historical pre-revision artifact preserved at the original inspected bytes; new manuscript has separate evidence.",
+      "previous_draft_sha256": "5400ec332382a2c3825229699bfbbde566f5780ec7f55bf39d6ac5f0660aad55",
+      "inspection_update": "Removed source-verification process wording from bibliography notes; seven citation keys and verified bibliographic identity fields retained.",
+      "historical_original_path": "paper/manuscript/references.bib"
+    },
+    {
+      "id": "E-manuscript-scope",
+      "kind": "draft",
+      "path": "paper/research_notes/structure_decision.md",
+      "sha256": "f09f3dd9c7a73e13c86e5eda49e6505bcf3b00ab2c0fbdf061e11dddd19eb3dd",
+      "locator": "RQ1–RQ3; main assets; writing-gate rationale",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Draft authorization, not submission or independent novelty certification."
+    },
+    {
+      "id": "E-acmart-local",
+      "kind": "configuration",
+      "path": "paper/research_notes/analyses/manuscript_revision/run-01/previous_manuscript/acmart.cls",
+      "sha256": "2f949e6e3f2a79f2cdc218b9dcdbaa7dd451adb4ee0be1af6dc7ebe00b318ea7",
+      "locator": "ProvidesClass: 2026/06/27 v2.19",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Unmodified copy of locally tracked paper/acmart/acmart.cls; official Overleaf advertises same version, not remote bytewise authentication. Historical pre-revision artifact preserved at the original inspected bytes; new manuscript has separate evidence.",
+      "historical_original_path": "paper/manuscript/acmart.cls"
+    },
+    {
+      "id": "E-talk-graph-proceedings",
+      "kind": "literature",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/bf72f65f30eedf5d48da6980ee02b589-Abstract-Conference.html",
+      "locator": "Title, three authors, ICLR 2024 conference identity",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-cypher-primary-doc",
+      "kind": "literature",
+      "url": "https://neo4j.com/docs/cypher-manual/current/clauses/match/",
+      "locator": "MATCH syntax reference; no query execution evidence",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-transfer-source",
+      "kind": "literature",
+      "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+      "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+      "locator": "PDF pp. 1-10; Section 5.3/Table 1 p. 8; Discussion p. 9; Appendix O pp. 30-31, Tables 32-33",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Supplied anonymous manuscript; publication metadata and external records not authenticated."
+    },
+    {
+      "id": "E-transfer-observations",
+      "kind": "result",
+      "path": "results/observations.jsonl.gz",
+      "sha256": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+      "locator": "size=6; five common families; core K1/K2 plus tree_in K3/K4/K7; full_braw Braw/Braw+E; supplementary Core K1-K8",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Saved metrics/selected_names; not a new response reparse or model evaluation."
+    },
+    {
+      "id": "E-transfer-inputs",
+      "kind": "result",
+      "path": "results/inputs.jsonl.gz",
+      "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+      "locator": "input_id join for E-transfer-observations; messages user candidates; reference task_spec/name_map; 3600 unique selected inputs",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Missing task specs counted and excluded from route diagnostics."
+    },
+    {
+      "id": "E-transfer-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/transfer_positioning/diagnose_transfer.py",
+      "sha256": "43ccdb6deaa0c69ac5778d75cd3c93a122bf2760d8b162c603c1623e1d6ddcb7",
+      "locator": "included; graph_reference; main: cached groups, pair transitions, route-role diagnostics",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-transfer-diagnostics",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/transfer_positioning/run-04/summary.json",
+      "sha256": "34ed8f4938903770f3b8744752b0238cf363d0ef542deef228f2109f949802f4",
+      "locator": "$.selector; $.groups; $.paired_transitions; $.controlled_paired_transitions; $.supplementary_core_cached_groups; $.provenance; $.limitations; $.validation",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-transfer-observations",
+        "E-transfer-inputs",
+        "E-transfer-script"
+      ]
+    },
+    {
+      "id": "E-transfer-route-rows",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/transfer_positioning/run-04/route_diagnostics.csv",
+      "sha256": "f855c1be7681cc73e39300f5062364e41d20c99371139c3efa19f109ecb5c341",
+      "locator": "Unique observation_id/input_id rows; model/condition/motif; paths, role counts and exact_one_hop_set",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-transfer-diagnostics"
+      ]
+    },
+    {
+      "id": "E-transfer-positioning",
+      "kind": "draft",
+      "path": "paper/research_notes/transfer_positioning.md",
+      "sha256": "65a96d1bf1900a528fda57f76fdde5fc1f6944251c3f0a0f961ca30db01633e5",
+      "locator": "Scientific decision; new diagnostics; hypothesis matrix; additional work; RQs and contributions",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-transfer-outline",
+      "kind": "draft",
+      "path": "paper/research_notes/transfer_outline.md",
+      "sha256": "68eb987790ab31e022d5e9328da16e6fda72b34144e4fd1a0e1e243964643dc0",
+      "locator": "Sections 1-7 and main-asset plan; conditional contribution and incomplete cross-domain analysis",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-transfer-task-rules",
+      "kind": "implementation",
+      "path": "graph_motives/preparation/questions.py",
+      "sha256": "d0f0eaba0d36a6249595f23b927e060e574c82c27f24d3cb7b12da63561e146b",
+      "locator": "_templates (lines 64-81); evaluate_task (line 164 onward); union of allowed route witnesses",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Current implementation plus frozen input checks; code alone does not establish historical execution."
+    },
+    {
+      "id": "E-transfer-encoding-primary",
+      "kind": "literature",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/bf72f65f30eedf5d48da6980ee02b589-Paper-Conference.pdf",
+      "locator": "Talk like a Graph, ICLR 2024, Sections 1-2; Appendix A graph encodings",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-transfer-composition-primary",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2305.18654v3",
+      "locator": "Faith and Fate, v3, Sections 2 and 3.2.3; computation graph and local/propagation error definitions",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-observations",
+      "kind": "result",
+      "path": "results/observations.jsonl.gz",
+      "sha256": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+      "locator": "series_id=core,motif=tree_in,size=6,condition in K1/K2/K3/K4/K7; observation_id,base_id,selected_names,valid,metrics",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-inputs",
+      "kind": "result",
+      "path": "results/inputs.jsonl.gz",
+      "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68",
+      "locator": "input_id join for E-nr-observations; explicit candidates/facts; private task_spec and candidate mapping",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/novelty_refinement/analyze_transitions.py",
+      "sha256": "5c70fbe9a8c30bafa65c9545cb66aa0c6d54274883df8b76a4a5c5f00d3b4a18",
+      "locator": "coverage, graph, main; saved-spec traversal and same-base state transitions",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-summary",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/novelty_refinement/run-02/summary.json",
+      "sha256": "868d045311a1d07f5f2e2632ce8d20640dc138ff655933512200bf0903e52efc",
+      "locator": "$.selector; $.groups; $.transitions; $.alternative_rules; $.validation; $.provenance",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-nr-observations",
+        "E-nr-inputs",
+        "E-nr-script"
+      ]
+    },
+    {
+      "id": "E-nr-rows",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/novelty_refinement/run-02/observations.jsonl",
+      "sha256": "ae15dc0adefa817559ac8d5c0553a57e304ff598760d6c37ffb4d842066e888c",
+      "locator": "observation_id/base_id/model/condition; state,cached_exact,alternative-rule match and distinctness flags",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-nr-summary"
+      ]
+    },
+    {
+      "id": "E-nr-report",
+      "kind": "draft",
+      "path": "paper/research_notes/novelty_refinement.md",
+      "sha256": "0c9a3bf7c9c407b7b000049ae5fc257f6bca0181010b2c3896ce07e858e107fa",
+      "locator": "Current status; literature boundaries; completed analysis; contribution outline; writing decision",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-tool-source",
+      "kind": "literature",
+      "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+      "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
+      "locator": "Section 5.3/Table 1 p.8; Appendix O pp.30-31; Tables 32-33",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-encoding",
+      "kind": "literature",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/bf72f65f30eedf5d48da6980ee02b589-Paper-Conference.pdf",
+      "locator": "Sections 3.1 and Appendix A; encoding and neighborhood accessibility",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-pathcompare",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2402.01805v4",
+      "locator": "Sections 2-4; traversal tasks, size/order, PathCompare",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-graphwalk",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2604.01610v1",
+      "locator": "Sections 4 and 5.5; incomplete exploration, starting-node and format failures",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-cespk",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2608.24824v1",
+      "locator": "Sections 2-3; necessary constraints, three-valued semantics, simulated candidates",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-cespk-publisher",
+      "kind": "literature",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-32335-4_21",
+      "locator": "Title, author, KI 2026 identity and abstract; subscription full text not inspected",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-nr-radar",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2602.21951v1",
+      "locator": "Sections 2.1-2.4; link prediction, triple classification and representation-space inference",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-sprint-plan",
+      "kind": "draft",
+      "path": "paper/research_notes/submission_sprint_plan.md",
+      "sha256": "cd00490b76a9dc3a905a67abfec12ecbd22a89183467340312c3e9276d6d14b3",
+      "locator": "Latest reduced four-step plan and preserved expanded planning history; two supported contribution candidates and excluded analyses",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "revision_history": [
+        {
+          "sha256": "787a15a1b5845a37288edc8c03fadbef6f666d64ab53c5a1ccec958ad6df5268",
+          "reason": "Previous expanded plan preserved below latest amendment; user explicitly narrowed to existing results."
+        }
+      ]
+    },
+    {
+      "id": "E-sprint-dates",
+      "kind": "venue",
+      "url": "https://www2027.thewebconf.org/important-dates/",
+      "locator": "Research & Industry Track Papers; AoE convention, abstract and full-paper dates",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-sprint-cfp",
+      "kind": "venue",
+      "url": "https://www2027.thewebconf.org/research-track-papers/",
+      "locator": "Relevance; Formatting Requirements; Originality and Concurrent Submissions",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-assets-source-contrasts",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+      "sha256": "d68325eb20a95e08cdeb3efde2ba91ea8522658efe82b8bfcb70fa3b4d0f38ac",
+      "locator": "Exact selectors recorded in select_assets.py and run-02/asset_manifest.json; contrasts",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Previously computed results; current operation selects/formats saved rows and does not reparse responses or recompute inference."
+    },
+    {
+      "id": "E-assets-source-errors",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/transfer_positioning/run-04/summary.json",
+      "sha256": "34ed8f4938903770f3b8744752b0238cf363d0ef542deef228f2109f949802f4",
+      "locator": "Exact selectors recorded in select_assets.py and run-02/asset_manifest.json; errors",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Previously computed results; current operation selects/formats saved rows and does not reparse responses or recompute inference."
+    },
+    {
+      "id": "E-assets-source-transitions",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/novelty_refinement/run-02/summary.json",
+      "sha256": "868d045311a1d07f5f2e2632ce8d20640dc138ff655933512200bf0903e52efc",
+      "locator": "Exact selectors recorded in select_assets.py and run-02/asset_manifest.json; transitions",
+      "verification": "inspected",
+      "checked_on": "2026-10-25",
+      "limitations": "Previously computed results; current operation selects/formats saved rows and does not reparse responses or recompute inference."
+    },
+    {
+      "id": "E-assets-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/main_claim_assets/select_assets.py",
+      "sha256": "430a78f89ae1308740c0bf2a744bafd434c5e81c0965e4dd2547de3ed09336a6",
+      "locator": "main: exact contrast selectors, error cells, saved transition mapping and conservation checks",
+      "verification": "inspected",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "E-assets-plan",
+      "kind": "draft",
+      "path": "paper/research_notes/main_findings_and_assets.md",
+      "sha256": "ee289014407495bb4956e060d50dad193ca3feef459c841db354136129197cdd",
+      "locator": "Opening Tool Selection premise/problem/goal; two primary findings; T1/F1/F2/T2 specifications and appendix decisions",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "revision_history": [
+        {
+          "sha256": "ad2d4e53af59aef463bb06a2014b12dd1450b634822874f14b0ad91246a4d319",
+          "reason": "2026-10-26 author requested dependency-pattern thesis as the opening premise; original findings and numeric asset specifications preserved."
+        },
+        {
+          "sha256": "2c4a42d7fa78557bb270073aaba635df0684952c6533305d05ddddfa65a052ed",
+          "reason": "2026-10-26 explicit supersession notice for asset placement only; numeric findings preserved."
+        }
+      ]
+    },
+    {
+      "id": "E-assets-contrasts",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-02/figure1_condition_effects.csv",
+      "sha256": "c720cc471842e81500d2e11a1a66a49d7b2c73071c36617c145ab4576ddc249b",
+      "locator": "Every row selected by model/contrast or model/motif/condition; see exact columns",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-assets-source-contrasts",
+        "E-assets-script"
+      ],
+      "limitations": "Selection/export from already computed data, not fresh experimental measurement or independent raw-response rescoring."
+    },
+    {
+      "id": "E-assets-errors",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-02/figure2_error_composition.csv",
+      "sha256": "6c26a045149b761b158e2b7b170bb27361ae37c9cef7804aeb38b7db048a355e",
+      "locator": "Every row selected by model/contrast or model/motif/condition; see exact columns",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-assets-source-errors",
+        "E-assets-script"
+      ],
+      "limitations": "Selection/export from already computed data, not fresh experimental measurement or independent raw-response rescoring."
+    },
+    {
+      "id": "E-assets-transitions",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-02/table2_signature_transitions.csv",
+      "sha256": "b012fc244d98c887a5c0e3ebf4163105b693248e6f02c11b676507d7ffa43996",
+      "locator": "Every row selected by model/contrast or model/motif/condition; see exact columns",
+      "verification": "recomputed",
+      "checked_on": "2026-10-25",
+      "upstream_evidence_ids": [
+        "E-assets-source-transitions",
+        "E-assets-script"
+      ],
+      "limitations": "Selection/export from already computed data, not fresh experimental measurement or independent raw-response rescoring."
+    },
+    {
+      "id": "E-thesis-asset-plan",
+      "kind": "draft",
+      "path": "paper/research_notes/thesis_asset_plan.md",
+      "sha256": "4f69b2e0d324e6dc9328a171d3762051eefe497c6b1d95cce5ee1d1f1435f268",
+      "locator": "Primary precision/recall metric choice; revised F1-F3 plans; retained Exact transition table; no PR interval claims",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Planning and reuse of previously verified outputs only; no completed new rendering or causal/interaction claim.",
+      "revision_history": [
+        {
+          "sha256": "8a276eb013b87080d5f093bf546c2c0819a4fb4c3be937d259b015153a6cb64a",
+          "reason": "Author explicitly replaces main F1 views with separate precision/recall; no F1/exact uncertainty transfer."
+        },
+        {
+          "sha256": "36ceb4f7eddbf44185c68f165650cd8532d8aedfda9ce7aa8885438e0a88bed7",
+          "reason": "Author requests metrics-only Table 2 including Gemma; prior identity-level scope moved to supplementary."
+        },
+        {
+          "sha256": "701b83425ae8ca19a145a72a0a5ef85240f8d142004264ffbc44f9cf558e2c86",
+          "reason": "Author selects recall as primary and requests models as rows, conditions as columns."
+        }
+      ]
+    },
+    {
+      "id": "E-pr-source-strata",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+      "sha256": "4d6cc43141f4877ce29430cef66afd50d64c78be949e1e7c2aef32ceb53a93a5",
+      "locator": "Selectors and pair mapping in run-04/asset_manifest.json: strata",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Saved aggregate scores and existing paired design; no independent raw-response reparse."
+    },
+    {
+      "id": "E-pr-source-conditions",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/condition_metrics.csv",
+      "sha256": "08062c89adc62665ced36484dd19e955a938032c575e30977253c1ff1280295f",
+      "locator": "Selectors and pair mapping in run-04/asset_manifest.json: conditions",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Saved aggregate scores and existing paired design; no independent raw-response reparse."
+    },
+    {
+      "id": "E-pr-source-paired_design",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-02/figure1_condition_effects.csv",
+      "sha256": "c720cc471842e81500d2e11a1a66a49d7b2c73071c36617c145ab4576ddc249b",
+      "locator": "Selectors and pair mapping in run-04/asset_manifest.json: paired_design",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Saved aggregate scores and existing paired design; no independent raw-response reparse."
+    },
+    {
+      "id": "E-pr-selector",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/main_claim_assets/select_precision_recall.py",
+      "sha256": "5b5168b144ea72394d179cf337266cd3abdada862dc97a4386b57a468d55b0bc",
+      "locator": "main: archived macro means; complete-pair condition mean subtraction; excludes all old uncertainty bands",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-pr-motif",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-04/motif_precision_recall.csv",
+      "sha256": "0540afa40c7285425a067f3b21033758a97f11a7d27bd7f99fb63b7bb3c6cbcc",
+      "locator": "Rows by model/condition/motif/size or model/contrast/metric; preserved N and validity fields",
+      "verification": "recomputed",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-selector",
+        "E-pr-source-strata"
+      ],
+      "limitations": "Existing-score selection; effects are descriptive right-minus-left arithmetic. No interval or hypothesis test."
+    },
+    {
+      "id": "E-pr-size",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-04/size_precision_recall.csv",
+      "sha256": "4011a36beb2ba11301f46b6582cecca4d5a9b62652111cad3654f1fc89a9c0ce",
+      "locator": "Rows by model/condition/motif/size or model/contrast/metric; preserved N and validity fields",
+      "verification": "recomputed",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-selector",
+        "E-pr-source-strata"
+      ],
+      "limitations": "Existing-score selection; effects are descriptive right-minus-left arithmetic. No interval or hypothesis test."
+    },
+    {
+      "id": "E-pr-effects",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-04/condition_precision_recall.csv",
+      "sha256": "c7121ee88d113f3a6158f328a567f9a0ae598aea345f389c02ee6a1e97fc26f2",
+      "locator": "Rows by model/condition/motif/size or model/contrast/metric; preserved N and validity fields",
+      "verification": "recomputed",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-selector",
+        "E-pr-source-conditions"
+      ],
+      "limitations": "Existing-score selection; effects are descriptive right-minus-left arithmetic. No interval or hypothesis test."
+    },
+    {
+      "id": "E-pr-figure-renderer",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/precision_recall_figures/render_precision_recall.py",
+      "sha256": "6b768075e1f3e2b3fde14ce1c48ef6db6cb0d8089b4030a2e86581531c7c3a44",
+      "locator": "motif_figure, size_figure, effects_figure, main: saved-row plots and hash/coverage assertions",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-pr-figure-manifest",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/precision_recall_figures/run-03/figure_manifest.json",
+      "sha256": "facbf3ced3fad40f756c4291efc257ee146efe2cd84a87a343979ba501a5d493",
+      "locator": "sources, figures/captions, output hashes, validation and visual_review",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Rendering and bounded source checks only; no response rescoring, new interval or scientific originality certification."
+    },
+    {
+      "id": "E-pr-figure-1",
+      "kind": "result",
+      "path": "paper/figures/precision_recall_v3/01_motif_recall_precision.png",
+      "sha256": "7ab07d8f2aab1859a934643a56de6cfdb1e017e630d534ca50aeaf77c8d857f6",
+      "locator": "All axes; per-task macro recall/precision by exact selectors in source CSV and renderer",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-motif",
+        "E-pr-figure-renderer",
+        "E-pr-figure-manifest"
+      ]
+    },
+    {
+      "id": "E-pr-figure-2",
+      "kind": "result",
+      "path": "paper/figures/precision_recall_v3/02_size_recall.png",
+      "sha256": "7362e4664dfb2eff9f88c7cd01e6ef8e45d87d2c7f0ccfe7d84a8ba58f5f47e4",
+      "locator": "All axes; per-task macro recall/precision by exact selectors in source CSV and renderer",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-size",
+        "E-pr-figure-renderer",
+        "E-pr-figure-manifest"
+      ]
+    },
+    {
+      "id": "E-pr-figure-3",
+      "kind": "result",
+      "path": "paper/figures/precision_recall_v3/03_size_precision.png",
+      "sha256": "a8c36b067ab4a339cbef789b95ef28cda33c89bdf6e007c41e12619e848fb386",
+      "locator": "All axes; per-task macro recall/precision by exact selectors in source CSV and renderer",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-size",
+        "E-pr-figure-renderer",
+        "E-pr-figure-manifest"
+      ]
+    },
+    {
+      "id": "E-pr-figure-4",
+      "kind": "result",
+      "path": "paper/figures/precision_recall_v3/04_condition_effects_recall_precision.png",
+      "sha256": "79dcc246e68d1e2d8ce3475b0fc1b3c2c9e24bf956899aadee94d138d2964e1d",
+      "locator": "All axes; per-task macro recall/precision by exact selectors in source CSV and renderer",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-effects",
+        "E-pr-figure-renderer",
+        "E-pr-figure-manifest"
+      ]
+    },
+    {
+      "id": "E-table2-metric-renderer",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/main_claim_assets/render_treein_metrics.py",
+      "sha256": "67e88525f11dfdc872de4a40b2e71b80a63a56ea738ba9be4dc2e62724d8a8aa",
+      "locator": "main: exact saved-row selection; validation; table render",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-table2-all-model-metrics",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-05/table2_treein_metrics_all_models.csv",
+      "sha256": "0a7acb53d6d80fd37b21608bdbefe1227f4b1f554eead2eddba38cf509f15a85",
+      "locator": "12 unique rows: core/tree_in/size=6; all three models; K1/K3/K4/K7; precision,recall,exact,N,valid",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-source-strata",
+        "E-table2-metric-renderer"
+      ],
+      "limitations": "Saved all-planned aggregate scores; no independent raw-response reparse. Gemma identity-level absence does not restrict these metrics."
+    },
+    {
+      "id": "E-table2-all-model-preview",
+      "kind": "result",
+      "path": "paper/figures/treein_metrics_v1/table2_treein_metrics_all_models.png",
+      "sha256": "37de015f33cb9bd7a1d55eef88390029f0b8929e2ef1d20cbf547961cf863963",
+      "locator": "Entire twelve-row table and metric/failure-policy footnotes",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-table2-all-model-metrics"
+      ]
+    },
+    {
+      "id": "E-table2-recall-renderer",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/main_claim_assets/render_treein_recall.py",
+      "sha256": "e22bf7ce242385bb9866e8bafd8ad8870492ef74889ad0a88e6e9e84fcf9643f",
+      "locator": "main: lossless pivot of twelve saved recall cells; three-model render",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": []
+    },
+    {
+      "id": "E-table2-recall-matrix",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-06/table2_treein_recall.csv",
+      "sha256": "33a92faa3ed81adb1d18c1df84fcdd901edb5487bc1fd1e560c8f6c7276fa960",
+      "locator": "model rows; K1/K3/K4/K7 columns; unrounded saved macro recall",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-table2-all-model-metrics",
+        "E-table2-recall-renderer"
+      ]
+    },
+    {
+      "id": "E-table2-recall-preview",
+      "kind": "result",
+      "path": "paper/figures/treein_recall_v1/table2_treein_recall.png",
+      "sha256": "b1cdb05c48d1d7a5aa64fc2eec5c5fb39602c0c4696602e81469fb44cc19767c",
+      "locator": "Entire three-row table; cell values and validity footnotes",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-table2-recall-matrix"
+      ]
+    },
+    {
+      "id": "E-recall-revision-strata",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+      "sha256": "4d6cc43141f4877ce29430cef66afd50d64c78be949e1e7c2aef32ceb53a93a5",
+      "locator": "core/full_braw selectors by model/condition/motif/size; recall,precision,exact,N,valid",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Saved aggregates; no fresh independent raw-response reparse."
+    },
+    {
+      "id": "E-recall-revision-conditions",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/condition_metrics.csv",
+      "sha256": "08062c89adc62665ced36484dd19e955a938032c575e30977253c1ff1280295f",
+      "locator": "core/full_braw condition groups; macro recall,precision,exact and planned N",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Descriptive all-planned means; no recall/precision uncertainty bands."
+    },
+    {
+      "id": "E-recall-revision-assets",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/manuscript_revision/run-01/assets_manifest.json",
+      "sha256": "7b2ac43517e61b6b81ddf9bf81cb987ea7e7157bc382354e9c978c22a2ca91c8",
+      "locator": "figures[].source_rows; tables.*.rows; source/output hashes",
+      "verification": "recomputed",
+      "checked_on": "2026-10-26",
+      "limitations": "Selection and publication formatting of existing results only, not new inference."
+    },
+    {
+      "id": "E-recall-revision-questions",
+      "kind": "implementation",
+      "path": "graph_motives/preparation/questions.py",
+      "sha256": "9004a5e6cc58bf6b0388b3a2239d7bc3cef0f255c8b6c36549952445f69e4d5a",
+      "locator": "_templates lines 64-81; evaluate_task lines 164-225",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Current symbol defines behavior; historical agreement comes from frozen-reference audit, not code alone."
+    },
+    {
+      "id": "E-recall-revision-reference-audit",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
+      "sha256": "bc9d9d3b487c7dc12c9eddde5ca7294629e0630988e38a0bbd889053bc38125b",
+      "locator": "coverage; pairing/invariant results; source hashes; final issue count",
+      "verification": "reported",
+      "checked_on": "2026-10-26",
+      "limitations": "Existing completed audit inspected; not rerun in this revision."
+    },
+    {
+      "id": "E-recall-revision-settings",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/manuscript_assets/run-01/request_settings_summary.json",
+      "sha256": "73d9a6414108277804f487eef9d745e274a98a192a889ef04be4611ebee1a6a6",
+      "locator": "groups for Core/Full Qwen/Ministral; recorded_api_journal settings",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Whitelisted saved metadata; not authentication of unavailable Gemma calls."
+    },
+    {
+      "id": "E-recall-revision-bib",
+      "kind": "draft",
+      "path": "paper/manuscript/references.bib",
+      "sha256": "ca72548dca1dbe0d8a541fd2570a40ab226efa6cc209f37b13540aed4b4efae8",
+      "locator": "Used entries and added GraphWalk metadata; bibliography sources retained separately",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-revision-main",
+      "kind": "draft",
+      "path": "paper/manuscript/main.tex",
+      "sha256": "150d6e8dbfa3970fb757d5567133756a26e3119575e46671b348adcf05bd0fd9",
+      "locator": "Title, abstract, review options and eight selected section inputs",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-revision-section-1",
+      "kind": "draft",
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "locator": "Entire active section; paragraph-level claim bindings in manuscript_claim_map.json",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-revision-section-2",
+      "kind": "draft",
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "c2077d90758b72ffe3530d361a81c2895c19c8a4cf11ad156a5b8b27b9b70a00",
+      "locator": "Entire active section; paragraph-level claim bindings in manuscript_claim_map.json",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-revision-section-3",
+      "kind": "draft",
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "locator": "Entire active section; paragraph-level claim bindings in manuscript_claim_map.json",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-revision-section-4",
+      "kind": "draft",
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "9a0e6073a84d231635f59a1748cf5e01943d30dcc272eac9831303dc0fdc8542",
+      "locator": "Entire active section; paragraph-level claim bindings in manuscript_claim_map.json",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-revision-section-5",
+      "kind": "draft",
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "b0b0ec227137d268fecdb56f80899f44a9e5940b3f9bb14e9cc049ce19c926a1",
+      "locator": "Entire active section; paragraph-level claim bindings in manuscript_claim_map.json",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-revision-section-6",
+      "kind": "draft",
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "6739a828940c453f0220ebbda894e243712dbe468ba33196cbd1cedf9ce6612e",
+      "locator": "Entire active section; paragraph-level claim bindings in manuscript_claim_map.json",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-revision-section-7",
+      "kind": "draft",
+      "path": "paper/manuscript/sections/07_recall_conclusion.tex",
+      "sha256": "db0a76e90d41cb6d38f29474346f33c40abd1f297032f9faa49a72e3d5bf1844",
+      "locator": "Entire active section; paragraph-level claim bindings in manuscript_claim_map.json",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-revision-section-8",
+      "kind": "draft",
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "locator": "Entire active section; paragraph-level claim bindings in manuscript_claim_map.json",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-final-pdf",
+      "kind": "draft",
+      "path": "paper/manuscript/main.pdf",
+      "sha256": "78045b6190acec5f8d2bcbe4e8b7c9c4d1075ae2056d030dcdd3ed7a3ce5b377",
+      "locator": "Pages 1-6 main; 7 references; 8-10 appendix; all final pages viewed",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-final-map",
+      "kind": "draft",
+      "path": "paper/research_notes/manuscript_claim_map.json",
+      "sha256": "7a3e17cc2c101b6d24af13d39c826261ace00db895e788a929db2c5a88e37672",
+      "locator": "70 paragraph/asset bindings, source/result selectors and source hashes",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-final-review",
+      "kind": "draft",
+      "path": "paper/research_notes/recall_revision_review.md",
+      "sha256": "113cfeb2ec1b75ff2212bcdde12af1cc138bcf3b58f7f2e96794f0bc824e0173",
+      "locator": "Scientific/presentation scope, actual source checks and unresolved originality/historical limits",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-final-build",
+      "kind": "draft",
+      "path": "paper/research_notes/build_report.md",
+      "sha256": "5bc6667b4f297f19bbe166dcece9739bc48983067d4e640f148a2c26a6721e2d",
+      "locator": "Current recall-led revision section; tested compiler, diagnostics, page layout and limits",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-recall-official-class-current",
+      "kind": "configuration",
+      "path": "paper/manuscript/acmart.cls",
+      "sha256": "b60c6f9a1fe06411eaefb114f2ef2d222aa25c6e4c0b81cb18ac41c13bd3fa6b",
+      "locator": "Unmodified acmart 2.19 class; native balance option lines 127-130",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    }
+  ]
+}

@@ -1,447 +1,887 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-10-25",
-  "intended_scope": "Author-authorized descriptive structural manuscript; no motif/size significance, topology causality, independent replication, minimality or QA gain",
+  "checked_on": "2026-10-26",
+  "intended_scope": "Bounded author-approved recall revision; descriptive and hypothesis-qualified, not originality certification",
   "entries": [
     {
-      "scope": "abstract",
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 1,
+      "start_line": 1,
       "claim_ids": [
-        "C-assessment-common-size-profile",
-        "C-assessment-conditional-size",
-        "C-final-raw-f1"
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
       ],
-      "evidence": [
-        {
-          "id": "E-emphasis-assessment-results",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
-          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
-          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
-        },
-        {
-          "id": "E-emphasis-provenance",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
-          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
-          "locator": "$.files; $.method; $.working_tree"
-        },
-        {
-          "id": "E-final-findings",
-          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
-          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines",
-          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c"
-        },
-        {
-          "id": "E-final-paired-results",
-          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
-          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta",
-          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e"
-        },
-        {
-          "id": "E-final-stat-provenance",
-          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
-          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
-          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
-        },
-        {
-          "id": "E-structure-detailed-results",
-          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
-          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
-          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
-        }
-      ],
-      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
     },
     {
-      "scope": "01_introduction.tex",
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 2,
+      "start_line": 5,
       "claim_ids": [
-        "C-assessment-fullsize-coverage",
-        "C-assessment-common-size-profile",
-        "C-assessment-conditional-size",
-        "C-toolgraph-kg-overlap"
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
       ],
-      "evidence": [
-        {
-          "id": "E-emphasis-assessment-results",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
-          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
-          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
-        },
-        {
-          "id": "E-emphasis-provenance",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
-          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
-          "locator": "$.files; $.method; $.working_tree"
-        },
-        {
-          "id": "E-structure-detailed-results",
-          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
-          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
-          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
-        },
-        {
-          "id": "E-toolgraph-appendix-o-detailed",
-          "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
-          "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
-          "locator": "Appendix O, PDF pp. 30\u201331, Tables 32\u201333; Introduction pp. 1\u20134; Sections 5.1\u20135.3 pp. 7\u20138; reproducibility p. 10"
-        }
-      ],
-      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
     },
     {
-      "scope": "02_related_work.tex",
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 3,
+      "start_line": 7,
       "claim_ids": [
-        "C-toolgraph-kg-overlap"
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
       ],
-      "evidence": [
-        {
-          "id": "E-toolgraph-appendix-o-detailed",
-          "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
-          "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
-          "locator": "Appendix O, PDF pp. 30\u201331, Tables 32\u201333; Introduction pp. 1\u20134; Sections 5.1\u20135.3 pp. 7\u20138; reproducibility p. 10"
-        }
-      ],
-      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
     },
     {
-      "scope": "03_method.tex",
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 4,
+      "start_line": 9,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 5,
+      "start_line": 11,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 6,
+      "start_line": 13,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 7,
+      "start_line": 15,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "paragraph": 8,
+      "start_line": 17,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-prior-overlap",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-pr-descriptive-effects"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "c2077d90758b72ffe3530d361a81c2895c19c8a4cf11ad156a5b8b27b9b70a00",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-transfer-prior-overlap",
+        "C-transfer-adjusted-tree",
+        "C-nr-encoding",
+        "C-nr-graphwalk"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "c2077d90758b72ffe3530d361a81c2895c19c8a4cf11ad156a5b8b27b9b70a00",
+      "paragraph": 2,
+      "start_line": 6,
+      "claim_ids": [
+        "C-transfer-prior-overlap",
+        "C-transfer-adjusted-tree",
+        "C-nr-encoding",
+        "C-nr-graphwalk"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "c2077d90758b72ffe3530d361a81c2895c19c8a4cf11ad156a5b8b27b9b70a00",
+      "paragraph": 3,
+      "start_line": 9,
+      "claim_ids": [
+        "C-transfer-prior-overlap",
+        "C-transfer-adjusted-tree",
+        "C-nr-encoding",
+        "C-nr-graphwalk"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 1,
+      "start_line": 1,
       "claim_ids": [
         "C-frozen-reference-consistency",
         "C-core-pairing",
-        "C-raw-overlay-pairing",
-        "C-outline-target-example",
-        "C-assessment-fullsize-coverage"
+        "C-raw-overlay-pairing"
       ],
-      "evidence": [
-        {
-          "id": "E-emphasis-assessment-results",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
-          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
-          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
-        },
-        {
-          "id": "E-emphasis-provenance",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
-          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
-          "locator": "$.files; $.method; $.working_tree"
-        },
-        {
-          "id": "E-inputs-archive",
-          "path": "results/inputs.jsonl.gz",
-          "locator": "input_id joins; candidate_names; messages/frozen_public; reference; private task_spec",
-          "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68"
-        },
-        {
-          "id": "E-native-audit-final",
-          "path": "paper/research_notes/analyses/reference_pairing_audit/supplement.json",
-          "locator": "counts; pairs; failures",
-          "sha256": "b08bc5bdd40754c72a364057348159d1964dfc4ae7feb6facbc27465d6eedc54"
-        },
-        {
-          "id": "E-reference-audit-code",
-          "path": "paper/research_notes/analyses/reference_pairing_audit/audit_references.py",
-          "locator": "Independent decode/oracle functions and paired invariant checks; no project module imports",
-          "sha256": "00a56889518a1442778d67ad409fa38513ac920bd323867f42cf12f9e0afb81e"
-        },
-        {
-          "id": "E-reference-audit-final",
-          "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
-          "locator": "checks; coverage; pairs[*]; cross_model; issues",
-          "sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6"
-        },
-        {
-          "id": "E-structure-detailed-results",
-          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
-          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
-          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
-        },
-        {
-          "id": "E-support-example",
-          "path": "paper/research_notes/analyses/reference_pairing_audit/support_example.json",
-          "locator": "input_id; reference_names; endpoint_names; single_card_fact_ablations",
-          "sha256": "d2a2e3787dfdb45bb73db0824135885e550924b3e2a38a587450c6e53f73f7db"
-        }
-      ],
-      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
     },
     {
-      "scope": "04_setup.tex",
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 2,
+      "start_line": 6,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 3,
+      "start_line": 9,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 4,
+      "start_line": 11,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 5,
+      "start_line": 14,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 6,
+      "start_line": 21,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "paragraph": 7,
+      "start_line": 23,
+      "claim_ids": [
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "paragraph": 1,
+      "start_line": 1,
       "claim_ids": [
         "C-core-pairing",
         "C-raw-overlay-pairing",
-        "C-assessment-fullsize-coverage",
-        "C-final-dependence-scope"
+        "C-manuscript-recorded-settings"
       ],
-      "evidence": [
-        {
-          "id": "E-emphasis-assessment-results",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
-          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
-          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
-        },
-        {
-          "id": "E-emphasis-provenance",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
-          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
-          "locator": "$.files; $.method; $.working_tree"
-        },
-        {
-          "id": "E-final-dependence",
-          "path": "paper/research_notes/analyses/final_results/run-01/dependence_audit.json",
-          "locator": "core/full_braw: base_tasks; anchors; largest_reference_overlap_component",
-          "sha256": "3a7084d8b70265287e635dbe6e0f84c27c0b1ca9d95c42a159965fd7784cf582"
-        },
-        {
-          "id": "E-final-stat-provenance",
-          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
-          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
-          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
-        },
-        {
-          "id": "E-native-audit-final",
-          "path": "paper/research_notes/analyses/reference_pairing_audit/supplement.json",
-          "locator": "counts; pairs; failures",
-          "sha256": "b08bc5bdd40754c72a364057348159d1964dfc4ae7feb6facbc27465d6eedc54"
-        },
-        {
-          "id": "E-reference-audit-final",
-          "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
-          "locator": "checks; coverage; pairs[*]; cross_model; issues",
-          "sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6"
-        },
-        {
-          "id": "E-structure-detailed-results",
-          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
-          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
-          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
-        }
-      ],
-      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
     },
     {
-      "scope": "05_results.tex",
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "paragraph": 2,
+      "start_line": 6,
       "claim_ids": [
-        "C-assessment-common-size-profile",
-        "C-assessment-conditional-size",
-        "C-assessment-error-profiles",
-        "C-final-raw-f1",
-        "C-final-noise-f1",
-        "C-final-representation-f1",
-        "C-final-placement-f1"
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
       ],
-      "evidence": [
-        {
-          "id": "E-emphasis-assessment-results",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
-          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
-          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
-        },
-        {
-          "id": "E-emphasis-provenance",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
-          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
-          "locator": "$.files; $.method; $.working_tree"
-        },
-        {
-          "id": "E-final-findings",
-          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
-          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines",
-          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c"
-        },
-        {
-          "id": "E-final-paired-results",
-          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
-          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta",
-          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e"
-        },
-        {
-          "id": "E-final-stat-provenance",
-          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
-          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
-          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
-        },
-        {
-          "id": "E-structure-detailed-results",
-          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
-          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
-          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
-        }
-      ],
-      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
     },
     {
-      "scope": "06_discussion.tex",
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "paragraph": 3,
+      "start_line": 8,
       "claim_ids": [
-        "C-final-dependence-scope",
-        "C-final-analytical-baselines",
-        "C-frozen-reference-consistency",
-        "C-toolgraph-kg-overlap"
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
       ],
-      "evidence": [
-        {
-          "id": "E-final-analytical-baselines",
-          "path": "paper/research_notes/analyses/final_results/run-01/analytical_baselines.csv",
-          "locator": "series_id/baseline; expected set metrics",
-          "sha256": "97996518c780152f8bab5bc51cb6a3080cf9210b2ef091abfb3870ae9dae91ac"
-        },
-        {
-          "id": "E-final-dependence",
-          "path": "paper/research_notes/analyses/final_results/run-01/dependence_audit.json",
-          "locator": "core/full_braw: base_tasks; anchors; largest_reference_overlap_component",
-          "sha256": "3a7084d8b70265287e635dbe6e0f84c27c0b1ca9d95c42a159965fd7784cf582"
-        },
-        {
-          "id": "E-final-stat-provenance",
-          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
-          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
-          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
-        },
-        {
-          "id": "E-final-stats-code",
-          "path": "paper/research_notes/analyses/final_results/analyze_results.py",
-          "locator": "metric/summarize; paired_panel/analyze_panel; analytical_baselines; run",
-          "sha256": "ab4bcd3c4de0e1d1999bade0098e9be71bd2378fc3654b4f66b2af04cda81274"
-        },
-        {
-          "id": "E-inputs-archive",
-          "path": "results/inputs.jsonl.gz",
-          "locator": "input_id joins; candidate_names; messages/frozen_public; reference; private task_spec",
-          "sha256": "0847918b2311fc77728edbec7265810e59d45fae00efb6c032074c05559e8d68"
-        },
-        {
-          "id": "E-reference-audit-code",
-          "path": "paper/research_notes/analyses/reference_pairing_audit/audit_references.py",
-          "locator": "Independent decode/oracle functions and paired invariant checks; no project module imports",
-          "sha256": "00a56889518a1442778d67ad409fa38513ac920bd323867f42cf12f9e0afb81e"
-        },
-        {
-          "id": "E-reference-audit-final",
-          "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
-          "locator": "checks; coverage; pairs[*]; cross_model; issues",
-          "sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6"
-        },
-        {
-          "id": "E-toolgraph-appendix-o-detailed",
-          "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
-          "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9",
-          "locator": "Appendix O, PDF pp. 30\u201331, Tables 32\u201333; Introduction pp. 1\u20134; Sections 5.1\u20135.3 pp. 7\u20138; reproducibility p. 10"
-        }
-      ],
-      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
     },
     {
-      "scope": "07_conclusion.tex",
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "paragraph": 4,
+      "start_line": 11,
       "claim_ids": [
-        "C-assessment-common-size-profile",
-        "C-assessment-conditional-size",
-        "C-final-raw-f1",
-        "C-final-noise-f1"
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
       ],
-      "evidence": [
-        {
-          "id": "E-emphasis-assessment-results",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
-          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
-          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
-        },
-        {
-          "id": "E-emphasis-provenance",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
-          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
-          "locator": "$.files; $.method; $.working_tree"
-        },
-        {
-          "id": "E-final-findings",
-          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
-          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines",
-          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c"
-        },
-        {
-          "id": "E-final-paired-results",
-          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
-          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta",
-          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e"
-        },
-        {
-          "id": "E-final-stat-provenance",
-          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
-          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
-          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
-        },
-        {
-          "id": "E-structure-detailed-results",
-          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
-          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
-          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
-        }
-      ],
-      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
     },
     {
-      "scope": "08_appendix.tex",
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "paragraph": 5,
+      "start_line": 14,
       "claim_ids": [
-        "C-assessment-fullsize-coverage",
-        "C-final-representation-f1",
-        "C-final-placement-f1",
-        "C-final-analytical-baselines",
-        "C-final-supplement-f1"
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
       ],
-      "evidence": [
-        {
-          "id": "E-emphasis-assessment-results",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/summary.json",
-          "sha256": "4aff839c119dada3ad2f8f94a60384dc54bfefcb869c61c5201a7e1304d36cff",
-          "locator": "$.coverage; $.size_endpoints; $.size6_rows; $.error_categories; $.base_overlap; $.validation"
-        },
-        {
-          "id": "E-emphasis-provenance",
-          "path": "paper/research_notes/analyses/emphasis_assessment/run-01/provenance.json",
-          "sha256": "0b8c6da3dc2b40b27e29279ce17e9f58c61b6c9effbf2783d658494ab49b554a",
-          "locator": "$.files; $.method; $.working_tree"
-        },
-        {
-          "id": "E-final-analytical-baselines",
-          "path": "paper/research_notes/analyses/final_results/run-01/analytical_baselines.csv",
-          "locator": "series_id/baseline; expected set metrics",
-          "sha256": "97996518c780152f8bab5bc51cb6a3080cf9210b2ef091abfb3870ae9dae91ac"
-        },
-        {
-          "id": "E-final-findings",
-          "path": "paper/research_notes/analyses/final_results/run-01/findings.json",
-          "locator": "raw_f1; noise_f1; representation_f1; placement_f1; supplementary_f1; analytical_baselines",
-          "sha256": "e0e95932ea6eec9b6ff3c05ec140384e07c7eb252f661f45af0f5a387a57a71c"
-        },
-        {
-          "id": "E-final-paired-results",
-          "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
-          "locator": "Rows selected by panel/model/contrast/metric; delta; pointwise/simultaneous intervals; both_valid_delta",
-          "sha256": "40b7d3986a1c5691ea1f9ebc67eb9aff9d75b10fcb219eb96972426b70802f0e"
-        },
-        {
-          "id": "E-final-stat-provenance",
-          "path": "paper/research_notes/analyses/final_results/run-01/provenance.json",
-          "locator": "source_sha256; bootstrap; main_simultaneous_family; metric_policy",
-          "sha256": "0aea40074b5a4f193ed9ec37380351142c18bb5e1abaca4baaa3d222da7e1a68"
-        },
-        {
-          "id": "E-final-stats-code",
-          "path": "paper/research_notes/analyses/final_results/analyze_results.py",
-          "locator": "metric/summarize; paired_panel/analyze_panel; analytical_baselines; run",
-          "sha256": "ab4bcd3c4de0e1d1999bade0098e9be71bd2378fc3654b4f66b2af04cda81274"
-        },
-        {
-          "id": "E-structure-detailed-results",
-          "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
-          "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
-          "locator": "Rows keyed by series_id/model/condition/noise/motif/size; N, valid, F1, exact, precision, recall"
-        }
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "paragraph": 6,
+      "start_line": 22,
+      "claim_ids": [
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings"
       ],
-      "status": "scope_plan; paragraph/table/caption locators finalized after text and asset generation"
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "paragraph": 2,
+      "start_line": 13,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "paragraph": 3,
+      "start_line": 15,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "paragraph": 4,
+      "start_line": 24,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "paragraph": 5,
+      "start_line": 26,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "paragraph": 6,
+      "start_line": 35,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "paragraph": 7,
+      "start_line": 37,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "paragraph": 8,
+      "start_line": 45,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "paragraph": 9,
+      "start_line": 47,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-pr-descriptive-effects",
+        "C-nr-groups",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "paragraph": 2,
+      "start_line": 6,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "paragraph": 3,
+      "start_line": 8,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "paragraph": 4,
+      "start_line": 11,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "paragraph": 5,
+      "start_line": 13,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "paragraph": 6,
+      "start_line": 16,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "paragraph": 7,
+      "start_line": 18,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "paragraph": 8,
+      "start_line": 21,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "paragraph": 9,
+      "start_line": 23,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "paragraph": 10,
+      "start_line": 25,
+      "claim_ids": [
+        "C-tool-pattern-premise",
+        "C-transfer-adjusted-tree",
+        "C-transfer-prior-overlap",
+        "C-nr-alternative_rules",
+        "C-nr-mechanism"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/07_recall_conclusion.tex",
+      "sha256": "db0a76e90d41cb6d38f29474346f33c40abd1f297032f9faa49a72e3d5bf1844",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-pr-descriptive-effects",
+        "C-nr-transitions"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 2,
+      "start_line": 6,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 3,
+      "start_line": 8,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 4,
+      "start_line": 23,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 5,
+      "start_line": 36,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 6,
+      "start_line": 39,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 7,
+      "start_line": 41,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 8,
+      "start_line": 43,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 9,
+      "start_line": 46,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 10,
+      "start_line": 50,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 11,
+      "start_line": 52,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "paragraph": 12,
+      "start_line": 54,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules"
+      ],
+      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+    },
+    {
+      "path": "paper/manuscript/main.tex",
+      "sha256": "df9d77701aa1e668f0a1c1b07ae368c11a500d2842c110d7dc58f01b5f67b94e",
+      "locator": "abstract",
+      "claim_ids": [
+        "C-pr-descriptive-effects",
+        "C-table2-all-model-metrics"
+      ]
+    },
+    {
+      "locator": "figure:recall_motifs",
+      "claim_ids": [
+        "C-recall-revision-profiles"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.figures[id=recall_motifs].source_rows",
+      "file_hashes": {
+        "paper/figures/recall_manuscript_v1/recall_motifs.png": "983714557e555be5b95968cb4f0ddec8fd919acd0f23d2af5232dc9c02ad4eae",
+        "paper/figures/recall_manuscript_v1/recall_motifs.pdf": "5043a2739c79c7ba096438dc962c0b17be946cb5cd99dd8705640afe0d2f1b62",
+        "paper/figures/recall_manuscript_v1/recall_motifs.svg": "14f7797c849bccb545a27e7d03a74708d2fcbb482a82631d551d2222e319c33a"
+      }
+    },
+    {
+      "locator": "figure:recall_sizes",
+      "claim_ids": [
+        "C-recall-revision-profiles"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.figures[id=recall_sizes].source_rows",
+      "file_hashes": {
+        "paper/figures/recall_manuscript_v1/recall_sizes.png": "811ada29cb3240059fb9a2b2f3895a114197aaaef5e2ba15a32b3139b7cc1867",
+        "paper/figures/recall_manuscript_v1/recall_sizes.pdf": "98297b62d960b5be15f19f9748d67a4fbcc7af7af939cb7077c13d263ef0879a",
+        "paper/figures/recall_manuscript_v1/recall_sizes.svg": "3e43ef856a6c0679f470115adb65f0d4de77d595b2a274d81acbe1bed0678089"
+      }
+    },
+    {
+      "locator": "figure:precision_motifs",
+      "claim_ids": [
+        "C-recall-revision-profiles"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.figures[id=precision_motifs].source_rows",
+      "file_hashes": {
+        "paper/figures/recall_manuscript_v1/precision_motifs.png": "1ded5b5b76421c656084d04607620c041c7895a15da4eb1e9687e9417d661fbe",
+        "paper/figures/recall_manuscript_v1/precision_motifs.pdf": "3ce6ccbdf27fe0fd9e8ac23bd75786f7157218dd3518fef4bd1b09b2aa440f36",
+        "paper/figures/recall_manuscript_v1/precision_motifs.svg": "2542525dd5c7438051053cba0fe097ae74fbc23e397895c6162dc0f63936b615"
+      }
+    },
+    {
+      "locator": "figure:precision_sizes",
+      "claim_ids": [
+        "C-recall-revision-profiles"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.figures[id=precision_sizes].source_rows",
+      "file_hashes": {
+        "paper/figures/recall_manuscript_v1/precision_sizes.png": "8186969a7434c9c8e09c44b83b29c11abc2e252c56a94dcaaa8b54ce74ef04ed",
+        "paper/figures/recall_manuscript_v1/precision_sizes.pdf": "e5c54f7ef5846d5055d02bab61275358793a333e33b0fbb3a02dbf847391fe1b",
+        "paper/figures/recall_manuscript_v1/precision_sizes.svg": "8b13c388bd271ff3bf85598f4171c71172d5a672f31d6d353f25deeb18360287"
+      }
+    },
+    {
+      "locator": "table:recall_effects",
+      "path": "paper/manuscript/tables/recall_effects.tex",
+      "sha256": "f2996c31f2e2518e9229fb295a89123b3c6d0a5700c5b6328d072398d14bed96",
+      "claim_ids": [
+        "C-pr-descriptive-effects"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.recall_effects.rows"
+    },
+    {
+      "locator": "table:precision_effects",
+      "path": "paper/manuscript/tables/precision_effects.tex",
+      "sha256": "67e259c400659e88d5d3d99dd3133048d7c6698ffa4561ec5c91937000a277a7",
+      "claim_ids": [
+        "C-pr-descriptive-effects"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.precision_effects.rows"
+    },
+    {
+      "locator": "table:treein_recall",
+      "path": "paper/manuscript/tables/treein_recall.tex",
+      "sha256": "dab338a23257962e53d62800087bccf369ffdb0cc4c50b5b3affd65e7879e7af",
+      "claim_ids": [
+        "C-table2-all-model-metrics"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.treein_recall.rows"
+    },
+    {
+      "locator": "table:core_recall",
+      "path": "paper/manuscript/tables/core_recall.tex",
+      "sha256": "91aa92f96be82883e84609ad5ec1e872b07fb486423471415418f83fe52fb104",
+      "claim_ids": [
+        "C-recall-revision-means"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.core_recall.rows"
+    },
+    {
+      "locator": "table:core_precision",
+      "path": "paper/manuscript/tables/core_precision.tex",
+      "sha256": "2d7c00e7eb20541ea6e9bd3cee77e09d6857843f09a2f4200b209dc249180966",
+      "claim_ids": [
+        "C-recall-revision-means"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.core_precision.rows"
+    },
+    {
+      "locator": "table:core_exact",
+      "path": "paper/manuscript/tables/core_exact.tex",
+      "sha256": "7d77f6ead8bea2ef41fee49ff25f38dfa96c8b978f2d2c39933db10b6a17084f",
+      "claim_ids": [
+        "C-recall-revision-means"
+      ],
+      "result_evidence_id": "E-recall-revision-assets",
+      "row_locator": "$.tables.core_exact.rows"
     }
   ],
-  "numeric_display_policy": "Use exact existing CSV selectors; all-planned N; display rounding only; figure/table rows in manuscript_assets asset manifest",
-  "unsupported_assertions_excluded": [
-    "historical motif extraction queries supplied",
-    "all tasks independent",
-    "all models worsen monotonically with size",
-    "current implementation establishes historical execution"
-  ]
+  "limitations": [
+    "Paragraph maps bind claim families rather than machine-prove each sentence.",
+    "Missing raw replies and exact cross-paper row reuse remain disclosed.",
+    "No causal mechanism or recall/precision significance claim."
+  ],
+  "revision_note": "Author requested removal of the former main Figure 3 and condensed error-category discussion; retained plots/tables unchanged."
 }

@@ -1,0 +1,66 @@
+{
+  "checked_on": "2026-10-26",
+  "scope": "Alternative Figure 3 preview only; manuscript/PDF not modified",
+  "source": {
+    "path": "paper/research_notes/analyses/main_claim_assets/run-02/figure2_error_composition.csv",
+    "sha256": "6c26a045149b761b158e2b7b170bb27361ae37c9cef7804aeb38b7db048a355e"
+  },
+  "script_sha256": "849688bf497561767d6fb87a835681e14643db0eecb6c713b799004afea3d39c",
+  "data_sha256": "7f578439189282818f5cf7edb48c9b029ff563c0067497034fc96a09e6070aeb",
+  "formulas": {
+    "tasks_with_omissions": "omission_only + mixed",
+    "tasks_with_extras": "inclusion_only + mixed",
+    "percent": "count / all planned N * 100; N=100 in every cell"
+  },
+  "invalid_counts": [
+    {
+      "model": "gemma-4-31b",
+      "motif": "chain",
+      "condition": "K2",
+      "invalid": "1"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "motif": "star_in",
+      "condition": "K1",
+      "invalid": "1"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "motif": "star_in",
+      "condition": "K2",
+      "invalid": "1"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "motif": "star_out",
+      "condition": "K2",
+      "invalid": "1"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "motif": "tree_out",
+      "condition": "K2",
+      "invalid": "1"
+    },
+    {
+      "model": "ministral-14b",
+      "motif": "chain",
+      "condition": "K2",
+      "invalid": "1"
+    },
+    {
+      "model": "ministral-14b",
+      "motif": "star_out",
+      "condition": "K2",
+      "invalid": "4"
+    }
+  ],
+  "outputs": {
+    "paper/figures/task_errors_v2/figure3_task_errors.png": "d069dcacdc029b1d5613cc724e5cfbd9f0d9b9b3bfc2fa8c8e9e8aac0b5df1b0",
+    "paper/figures/task_errors_v2/figure3_task_errors.pdf": "078d0dd98132cc67d271ed6deacebe5c404b72a54b2b24df33218630a87505ae",
+    "paper/figures/task_errors_v2/figure3_task_errors.svg": "83124b63e81321ed9972ee95ada14e834ab1dceb8fa990d14a8408edcbd1fb48"
+  },
+  "new_inference": false,
+  "visual_review": "passed: both panels, values, model/motif labels and explanatory notes inspected; no clipping"
+}

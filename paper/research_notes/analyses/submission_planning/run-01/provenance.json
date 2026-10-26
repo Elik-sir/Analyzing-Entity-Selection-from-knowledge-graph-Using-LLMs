@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-10-25",
+  "scope": "Planning and evidence mapping; no new empirical calculation",
+  "report_sha256": "787a15a1b5845a37288edc8c03fadbef6f666d64ab53c5a1ccec958ad6df5268",
+  "existing_sources": {
+    "paper/research_notes/novelty_refinement.md": "0c9a3bf7c9c407b7b000049ae5fc257f6bca0181010b2c3896ce07e858e107fa",
+    "paper/research_notes/reference_pairing_report.md": "5784a3abd0462ccc9c54dd1158e14bd3736b610008f34c89167c2cdfab8bb474",
+    "paper/research_notes/final_results_report.md": "6cf4ac224db39910a3d53224a1f32f22aac92b1985e96988288c2262fcde9508",
+    "paper/research_notes/analyses/novelty_refinement/run-02/summary.json": "868d045311a1d07f5f2e2632ce8d20640dc138ff655933512200bf0903e52efc",
+    "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv": "d68325eb20a95e08cdeb3efde2ba91ea8522658efe82b8bfcb70fa3b4d0f38ac",
+    "paper/research_notes/build_report.md": "838c49de4888cb8b0c8c29bd0ef624199f24be77e5af6e3e859c393757e81d4c"
+  },
+  "user_brief": {
+    "path": "C:\\Users\\ekurm\\Downloads\\CODEX_TOOL_TO_KG_RESEARCH_BRIEF.md",
+    "sha256": "6ac8ab5422f0ee6bbd7fb1c8dff597b4493f1a3fb8713eeabdfe5a7701f3b799"
+  },
+  "link_check": {
+    "total": 8,
+    "missing": []
+  },
+  "schedule": "Proposed work budget, not executed work or automation"
+}

@@ -1,5 +1,9 @@
 # Initial experiment audit
 
+## Additional bounded signature transitions, 2026-10-25
+
+The exploratory pass in [novelty_refinement.md](novelty_refinement.md), retained at `analyses/novelty_refinement/run-02/`, independently checks frozen public-graph witnesses and actual same-task signature transitions. It preserves invalid/identity-missing states and explicitly measures whether alternative rule outputs differ from the reference. It does not reparse raw replies, add statistical tests or extend identity-level results to Gemma. Earlier aggregate analyses and their limitations remain intact.
+
 ## Transfer-oriented diagnostic follow-up, 2026-10-25
 
 The author's corrected scientific purpose is evaluated in [transfer_positioning.md](transfer_positioning.md). A new bounded offline pass reads saved scores and selected identities at common size six, including paired Raw/overlay, Core K1/K2 and Tree-in placement/wording diagnostics. Selectors, missing-identity/specification exclusions, planned/valid denominators, graph traversal checks and pair transitions are retained in `analyses/transfer_positioning/run-04/summary.json`; observation-level route fields are in its CSV. Supplementary K1-K8 cached comparisons overlap the main selector and are not additional independent data.

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-pr-source-strata",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+      "sha256": "4d6cc43141f4877ce29430cef66afd50d64c78be949e1e7c2aef32ceb53a93a5",
+      "locator": "Selectors and pair mapping in run-04/asset_manifest.json: strata",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Saved aggregate scores and existing paired design; no independent raw-response reparse."
+    },
+    {
+      "id": "E-pr-source-conditions",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/condition_metrics.csv",
+      "sha256": "08062c89adc62665ced36484dd19e955a938032c575e30977253c1ff1280295f",
+      "locator": "Selectors and pair mapping in run-04/asset_manifest.json: conditions",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Saved aggregate scores and existing paired design; no independent raw-response reparse."
+    },
+    {
+      "id": "E-pr-source-paired_design",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-02/figure1_condition_effects.csv",
+      "sha256": "c720cc471842e81500d2e11a1a66a49d7b2c73071c36617c145ab4576ddc249b",
+      "locator": "Selectors and pair mapping in run-04/asset_manifest.json: paired_design",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Saved aggregate scores and existing paired design; no independent raw-response reparse."
+    },
+    {
+      "id": "E-pr-selector",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/main_claim_assets/select_precision_recall.py",
+      "sha256": "5b5168b144ea72394d179cf337266cd3abdada862dc97a4386b57a468d55b0bc",
+      "locator": "main: archived macro means; complete-pair condition mean subtraction; excludes all old uncertainty bands",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-pr-motif",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-04/motif_precision_recall.csv",
+      "sha256": "0540afa40c7285425a067f3b21033758a97f11a7d27bd7f99fb63b7bb3c6cbcc",
+      "locator": "Rows by model/condition/motif/size or model/contrast/metric; preserved N and validity fields",
+      "verification": "recomputed",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-selector",
+        "E-pr-source-strata"
+      ],
+      "limitations": "Existing-score selection; effects are descriptive right-minus-left arithmetic. No interval or hypothesis test."
+    },
+    {
+      "id": "E-pr-size",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-04/size_precision_recall.csv",
+      "sha256": "4011a36beb2ba11301f46b6582cecca4d5a9b62652111cad3654f1fc89a9c0ce",
+      "locator": "Rows by model/condition/motif/size or model/contrast/metric; preserved N and validity fields",
+      "verification": "recomputed",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-selector",
+        "E-pr-source-strata"
+      ],
+      "limitations": "Existing-score selection; effects are descriptive right-minus-left arithmetic. No interval or hypothesis test."
+    },
+    {
+      "id": "E-pr-effects",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-04/condition_precision_recall.csv",
+      "sha256": "c7121ee88d113f3a6158f328a567f9a0ae598aea345f389c02ee6a1e97fc26f2",
+      "locator": "Rows by model/condition/motif/size or model/contrast/metric; preserved N and validity fields",
+      "verification": "recomputed",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-selector",
+        "E-pr-source-conditions"
+      ],
+      "limitations": "Existing-score selection; effects are descriptive right-minus-left arithmetic. No interval or hypothesis test."
+    }
+  ]
+}

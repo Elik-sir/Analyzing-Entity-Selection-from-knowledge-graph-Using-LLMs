@@ -1,0 +1,162 @@
+581
+582
+583
+584
+585
+586
+587
+588
+589
+590
+591
+592
+593
+594
+595
+596
+597
+598
+599
+600
+601
+602
+603
+604
+605
+606
+607
+608
+609
+610
+611
+612
+613
+614
+615
+616
+617
+618
+619
+620
+621
+622
+623
+624
+625
+626
+627
+628
+629
+630
+631
+632
+633
+634
+635
+636
+637
+638
+WWW ’27, May 10–14, 2027, Dublin, Ireland Anon.
+639
+640
+641
+642
+643
+644
+645
+646
+647
+648
+649
+650
+651
+652
+653
+654
+655
+656
+657
+658
+659
+660
+661
+662
+663
+664
+665
+666
+667
+668
+669
+670
+671
+672
+673
+674
+675
+676
+677
+678
+679
+680
+681
+682
+683
+684
+685
+686
+687
+688
+689
+690
+691
+692
+693
+694
+695
+696
+rules. Adjacent contexts can supply distinguishing cases, but
+different rules have different diagnostic support. A full anchor-
+connected-component baseline has not been measured; neither
+ideal performance by that heuristic nor the absence of shortcuts is
+claimed.
+Scope, provenance, and originality. Families also differ in query
+semantics, relation/type distributions, and accepted entities. Sizes
+use different sampled cohorts; fixed catalogue size changes target
+prevalence and distractor count. The study covers one corporate
+KG and frozen model/protocol labels, with no generation-seed
+replication or new KG evaluation. Base tasks, anchors, and refer-
+ence entities overlap; descriptive averages do not remove these
+dependencies. We introduce no recall/precision significance or
+population-causal claims.
+The graph is reused [ 6], and the related KG line already ap-
+pears in Appendix O [ 1]. Exact cross-paper row overlap remains
+unquantified. The additional scope is the evidence-availability and
+matched-fact analysis with localized residual-error interpretation;
+it is not a newly constructed benchmark or independent replica-
+tion.
+Frozen-reference checks establish consistency of the presented
+tasks, not completeness against the unloaded source database.
+Missing Gemma replies/settings, native sufficiency, and incremen-
+tal histories remain limitations. Saved rows, selectors, denomina-
+tors, hashes, and plotting scripts support reproduction of these
+summaries; resource redistribution and graph access are separate
+matters.
+Responsibility and downstream scope. This study does not evalu-
+ate a new human-subject population or establish downstream QA
+improvement. Generative AI assistance supported evidence orga-
+nization, plotting code, and manuscript drafting; experimental val-
+ues derive from saved outcomes. Authors remain responsible for
+source verification, anonymity, resource permissions, and the rela-
+tion to prior work.
+7 Conclusion
+Archived KG selection exhibits family-specific recall and size
+profiles under different evidence conditions. Explicit relations
+greatly increase coverage while leaving model-specific omissions;
+matched-fact presentation changes introduce both corrections and
+regressions. These analyses deepen an existing Tool-to-KG com-
+parison by separating relation availability from residual selection
+failures. They motivate tests of dependency inference, route cover-
+age, and distractor rejection without establishing shared internal
+causes or downstream QA gains.
+6

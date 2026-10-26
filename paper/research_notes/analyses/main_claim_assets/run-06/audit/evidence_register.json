@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-pr-source-strata",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+      "sha256": "4d6cc43141f4877ce29430cef66afd50d64c78be949e1e7c2aef32ceb53a93a5",
+      "locator": "Selectors and pair mapping in run-04/asset_manifest.json: strata",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Saved aggregate scores and existing paired design; no independent raw-response reparse."
+    },
+    {
+      "id": "E-table2-all-model-metrics",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-05/table2_treein_metrics_all_models.csv",
+      "sha256": "0a7acb53d6d80fd37b21608bdbefe1227f4b1f554eead2eddba38cf509f15a85",
+      "locator": "12 unique rows: core/tree_in/size=6; all three models; K1/K3/K4/K7; precision,recall,exact,N,valid",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-pr-source-strata",
+        "E-table2-metric-renderer"
+      ],
+      "limitations": "Saved all-planned aggregate scores; no independent raw-response reparse. Gemma identity-level absence does not restrict these metrics."
+    },
+    {
+      "id": "E-table2-metric-renderer",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/main_claim_assets/render_treein_metrics.py",
+      "sha256": "67e88525f11dfdc872de4a40b2e71b80a63a56ea738ba9be4dc2e62724d8a8aa",
+      "locator": "main: exact saved-row selection; validation; table render",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-table2-recall-matrix",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/main_claim_assets/run-06/table2_treein_recall.csv",
+      "sha256": "33a92faa3ed81adb1d18c1df84fcdd901edb5487bc1fd1e560c8f6c7276fa960",
+      "locator": "model rows; K1/K3/K4/K7 columns; unrounded saved macro recall",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-table2-all-model-metrics",
+        "E-table2-recall-renderer"
+      ]
+    },
+    {
+      "id": "E-table2-recall-preview",
+      "kind": "result",
+      "path": "paper/figures/treein_recall_v1/table2_treein_recall.png",
+      "sha256": "b1cdb05c48d1d7a5aa64fc2eec5c5fb39602c0c4696602e81469fb44cc19767c",
+      "locator": "Entire three-row table; cell values and validity footnotes",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": [
+        "E-table2-recall-matrix"
+      ]
+    },
+    {
+      "id": "E-table2-recall-renderer",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/main_claim_assets/render_treein_recall.py",
+      "sha256": "e22bf7ce242385bb9866e8bafd8ad8870492ef74889ad0a88e6e9e84fcf9643f",
+      "locator": "main: lossless pivot of twelve saved recall cells; three-model render",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "upstream_evidence_ids": []
+    }
+  ]
+}

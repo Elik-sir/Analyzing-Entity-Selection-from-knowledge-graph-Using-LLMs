@@ -1,0 +1,24 @@
+\section{Task, Reference, and Relational Evidence}
+\label{sec:method}
+\paragraph{Source graph and historical scope.}
+We reuse the corporate KG snapshot described by Kirpichev et al.~\cite{kirpichev2026towards}, covering S\&P~500 companies and associated sectors, industries, executives, investors, products, resources, locations, and news. The authors confirm unchanged snapshot reuse. We analyze the archived, frozen tasks rather than reconstruct their historical database extraction from current software. Appendix~\ref{app:cypher} reproduces the author-supplied Cypher extraction specification. It defines fixed small instances and an induced-edge filter; it is not presented as the complete executable pipeline for all archived sizes or per-cell sampling quotas. No database query was executed during this analysis.
+
+\paragraph{Task families and questions.}
+The Core panel has 100 base tasks in each of seven families: chain, star-in, star-out, tree-in, tree-out, rhombus, and hourglass. Five families have six entities; rhombi have four and hourglasses five. Chain questions follow outgoing routes until the first entity of a specified type on each route. Stars ask for incoming or outgoing one-hop neighbours. Trees ask for two-step incoming or outgoing traversal; rhombi use two-step outgoing traversal. A two-step route terminates early only if no further unvisited neighbour is permitted. Hourglass questions request incoming and outgoing one-hop neighbours in separate groups.
+
+Question templates are instantiated using the anchor name/type, direction, and stopping rule. Step-by-step and direct formulations express the same endpoint query; the former enumerates the traversal operations. These families thus vary in topology \emph{and} query operation. In particular, outward trees and rhombi share the outgoing two-step query, while other families use different directions or stopping rules. An unadjusted seven-family ranking is neither an equal-size nor a pure-topology comparison.
+
+\paragraph{Candidates and distractors.}
+Each main task presents 25 named candidate entities, including the motif entities and distractors. Disconnected distractors have no edges to reference entities in either direction, although they may connect to each other. In the adjacent variant, up to ten distractors are neighbours of motif entities; remaining distractors are disconnected. Paired noise variants retain the question and reference but may contain different distractor identities. Explicit evidence includes relations involving distractors, not only reference-induced edges.
+
+\paragraph{Selection target.}
+Let $C$ denote the candidate catalogue and $G_C$ its graph-defined reference context, which need not be recoverable from native cards. Let $q$ be the endpoint query, $a$ its anchor, and $\mathcal{P}(q,G_C)$ its allowed supporting routes under the saved traversal/stopping rule. We evaluate the entity-route reference
+\begin{equation}
+ W(q,G_C)=\{a\}\ \cup\!\bigcup_{p\in\mathcal{P}(q,G_C)} V(p),
+\end{equation}
+where $V(p)$ contains every entity on route $p$. Endpoint answers $A(q,G_C)$ are distinct from $W$. Simple routes do not revisit an entity; the saved task specification fixes the allowed direction, depth, and terminal-type rule. In the audited structured archive, saved motif/reference IDs coincide with this witness union. Equality is a property of these accepted tasks, not an assumed identity for arbitrary candidate expansion.
+
+For example, one archived rhombus has two branches from the anchor through two intermediate entities to one endpoint. Its endpoint answer has one entity and its reference four. Removing the endpoint card's facts while retaining the name/type catalogue leaves that endpoint recoverable from incoming facts. Thus reference membership does not establish that every card contributes indispensable information. The selection objective is complete route coverage, not minimum sufficient evidence or final answer correctness.
+
+\paragraph{Evidence conditions.}
+Raw presents original entity metadata; Raw+E adds explicit relations to the same cards. Actual archived inputs, questions, candidate order, and references match after removing only the relation fields. This is an information-availability contrast; native descriptions are not assumed to express all graph relations. Controlled triples and templated prose instead encode designated matched graph facts. Source-card, destination-card, and both-card variants alter presentation location while retaining relation direction. Names/types remain visible in all conditions. Pseudonyms, direct questions, and linked-attribute encodings provide further diagnostic contrasts detailed in Appendix~\ref{app:conditions}.

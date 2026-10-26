@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-10-26",
+  "scope": "Asset planning after author clarification; no experiment, rescore, new statistics or new figure rendering",
+  "plan": "paper/research_notes/thesis_asset_plan.md",
+  "plan_sha256": "8a276eb013b87080d5f093bf546c2c0819a4fb4c3be937d259b015153a6cb64a",
+  "active_assets": {
+    "F1": "Existing motif_profiles.pdf; comparable-size profiles plus distinct smaller families",
+    "F2": "Existing size_profiles.pdf; Raw/Raw+E by motif, size and model",
+    "F3": "Planned paired condition effects; data already selected in run-02/figure1_condition_effects.csv",
+    "T1": "Planned descriptive Tool/KG structural comparison with comparability limits",
+    "T2": "Planned identity-level transition table; data already selected in run-02/table2_signature_transitions.csv"
+  },
+  "appendix_change": "Detailed error composition is supplementary; motif and size plots return to main text",
+  "sources": {
+    "paper/manuscript/figures/motif_profiles.pdf": "a1f172cd207503118edbcee105f0a2562b58d85d72e631fe90db5a80e4b97109",
+    "paper/manuscript/figures/size_profiles.pdf": "fbb19b6bfee51f002bb8e8dc40275a6c0c13117614c2d03316c351ca695900bb",
+    "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv": "4d6cc43141f4877ce29430cef66afd50d64c78be949e1e7c2aef32ceb53a93a5",
+    "paper/research_notes/analyses/main_claim_assets/run-02/figure1_condition_effects.csv": "c720cc471842e81500d2e11a1a66a49d7b2c73071c36617c145ab4576ddc249b",
+    "paper/research_notes/analyses/main_claim_assets/run-02/table2_signature_transitions.csv": "b012fc244d98c887a5c0e3ebf4163105b693248e6f02c11b676507d7ffa43996",
+    "paper/research_notes/contribution_comparison.md": "bb152442692f07eda29e9fc9b9b4b8aa868c84cb18dd8f88902e8decef1ad8dc",
+    "paper/research_notes/transfer_positioning.md": "2bf0c6d082caad101f99324e215f652211af41374cc55f7be6c15aa760217397"
+  },
+  "links_checked": 8,
+  "manuscript_changed": false
+}

@@ -1,0 +1,79 @@
+{
+  "checked_on": "2026-10-25",
+  "revision": "d8fa5a97e91d6cc0bf1cf5d1654191cf1472e12b",
+  "scope": "Selection/formatting of previously computed results only; figures and manuscript tables not yet rendered",
+  "command": "python paper/research_notes/analyses/main_claim_assets/select_assets.py --out paper/research_notes/analyses/main_claim_assets/run-02",
+  "sources": {
+    "contrasts": {
+      "path": "paper/research_notes/analyses/final_results/run-01/paired_contrasts.csv",
+      "sha256": "d68325eb20a95e08cdeb3efde2ba91ea8522658efe82b8bfcb70fa3b4d0f38ac"
+    },
+    "errors": {
+      "path": "paper/research_notes/analyses/transfer_positioning/run-04/summary.json",
+      "sha256": "34ed8f4938903770f3b8744752b0238cf363d0ef542deef228f2109f949802f4"
+    },
+    "transitions": {
+      "path": "paper/research_notes/analyses/novelty_refinement/run-02/summary.json",
+      "sha256": "868d045311a1d07f5f2e2632ce8d20640dc138ff655933512200bf0903e52efc"
+    }
+  },
+  "assets": [
+    {
+      "id": "T1",
+      "type": "qualitative_table",
+      "status": "specified_in_main_findings_and_assets.md",
+      "claim_ids": [
+        "C-transfer-prior-overlap",
+        "C-nr-prior-overlap"
+      ]
+    },
+    {
+      "id": "F1",
+      "path": "figure1_condition_effects.csv",
+      "rows": 24,
+      "claim_ids": [
+        "C-final-raw-f1",
+        "C-final-representation-f1",
+        "C-final-placement-f1",
+        "C-final-noise-f1"
+      ]
+    },
+    {
+      "id": "F2",
+      "path": "figure2_error_composition.csv",
+      "rows": 30,
+      "claim_ids": [
+        "C-assessment-error-profiles"
+      ]
+    },
+    {
+      "id": "T2",
+      "path": "table2_signature_transitions.csv",
+      "rows": 6,
+      "claim_ids": [
+        "C-nr-groups",
+        "C-nr-transitions"
+      ]
+    }
+  ],
+  "limitations": [
+    "No statistical interaction claim; F1 delta contrasts belong to different panels/populations.",
+    "F1 contrast bands are the original exploratory simultaneous bands, not recomputed here.",
+    "Error compositions and signature transitions are descriptive, with no added intervals.",
+    "Gemma cached fp/fn support coarse categories, not identity-level one-hop signatures.",
+    "Core/Full and repeated conditions overlap; counts must not be summed as independent observations."
+  ],
+  "validation": {
+    "selected_contrasts": 24,
+    "error_cells": 30,
+    "transition_rows": 6,
+    "unique_selector_and_denominator_checks": "passed",
+    "category_and_transition_conservation": "passed"
+  },
+  "outputs_sha256": {
+    "figure1_condition_effects.csv": "c720cc471842e81500d2e11a1a66a49d7b2c73071c36617c145ab4576ddc249b",
+    "figure2_error_composition.csv": "6c26a045149b761b158e2b7b170bb27361ae37c9cef7804aeb38b7db048a355e",
+    "table2_signature_transitions.csv": "b012fc244d98c887a5c0e3ebf4163105b693248e6f02c11b676507d7ffa43996"
+  },
+  "script_sha256": "430a78f89ae1308740c0bf2a744bafd434c5e81c0965e4dd2547de3ed09336a6"
+}

@@ -1,0 +1,225 @@
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+Structural Selection Profiles and Relational Evidence WWW ’27, May 10–14, 2027, Dublin, Ireland
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+Pseudonyms, direct questions, and linked-attribute encodings pro-
+vide further diagnostic contrasts detailed in Appendix A.
+4 Experimental Design and Evaluation
+Archived models and populations. We analyze Gemma-4-31B,
+Qwen3.6-Flash, and Ministral-14B as identified in the archive.
+Core has 700 base tasks, with 100 in each of seven families, under
+13 conditions. Five families have six nodes; rhombus and hour-
+glass retain four and five. Full Raw/Raw+E has 3,400 bases per
+condition/model: chain sizes 3–6, stars 3–10, trees 5–10, rhombus
+four, and hourglass five, totaling 34 motif-size cells of 100 tasks.
+All main candidate pools contain 25 entities.
+The 700 Core base IDs also occur in Full Raw/Raw+E. Models
+and conditions reuse base tasks, so counts across panels are not
+independent replications. Sizes are different frozen cohorts rather
+than paired expansions of one graph. The separate additional-size
+and incremental panels are supplementary and are not pooled into
+the main comparisons.
+Comparisons. RQ1 uses Core source-card triples with discon-
+nected (K1) and adjacent (K2) distractors and the Full size grid.
+RQ2 compares Raw with Raw+E, matched triples with text, and
+hosting on source, destination, or both cards. K1, K3, and K4 retain
+a procedural question; K7 uses a direct formulation of the same
+endpoint query with source-card triples. K5 and K6 are the text
+counterparts of disconnected and adjacent conditions; K8 uses text
+with a direct query. Core K-conditions use pseudonyms. Archived
+inputs establish pairing and fact invariants, independently of cur-
+rent builder defaults.
+Responses and evidence coverage. The main protocol requests
+JSON with selected catalogue names and an insufficient-evidence
+flag. Valid selections contain exact, unique candidate names; the
+flag does not modify set scores. Available Qwen/Ministral records
+specify OpenRouter, temperature zero, a 1,024-token limit, and
+JSON-object formatting. Missing Gemma settings are not filled
+from current defaults. Some controlled Gemma outcomes retain
+cached individual metrics without original replies or selected iden-
+tities; these support aggregate recall, precision, exact, and FP/FN
+categories, but not identity-level route signatures. Full Raw/Raw+E
+has stronger reply coverage. Missing and invalid outcomes remain
+in planned denominators.
+Primary and additional metrics. For selected set 𝑆 and nonempty
+route reference 𝑊 , we use
+𝑅(𝑆, 𝑊 ) = |𝑆 ∩ 𝑊 |
+|𝑊 | , 𝑃 (𝑆, 𝑊 ) = |𝑆 ∩ 𝑊 |
+|𝑆| . (2)
+An empty selection receives zero recall and precision. Recall is
+primary because the selection target requires complete route cov-
+erage. Precision measures excess selection; exact recovery is one
+only when 𝑆 = 𝑊 . We report macro means of individual scores
+over all planned outcomes, with invalid/missing outcomes con-
+tributing zero. Thus scores also reflect protocol reliability; they are
+not pooled micro ratios or valid-only summaries. Reference cov-
+erage is distinct from endpoint-answer correctness and minimal
+sufficient evidence.
+Analysis and uncertainty scope. The figures and tables use saved
+aggregate scores and existing bounded selection diagnostics; this
+revision launches no model, judge, or database calls. Core condi-
+tion contrasts match 700 bases per model; Raw/Raw+E matches
+3,400. Differences are right-minus-left macro means on these com-
+plete paired populations. Source-row mappings reproduce the
+existing paired export. Recall/precision profiles and contrasts are
+descriptive: no new confidence intervals, significance claims, or
+motif-by-condition tests are introduced. Earlier uncertainty esti-
+mates cover F1/exact, and are not transferred to recall. Repeated
+anchors and shared entities further restrict population inference.
+5 Results
+5.1 Structural Profiles: Motif and Size
+Figure 1 shows task-family differences at a common reference size.
+Under K1, six-node incoming-tree recall is 0.972 for Gemma, 0.603
+for Qwen, and 0.853 for Ministral. Outward stars are close to com-
+plete coverage. The common size does not eliminate differences in
+query semantics, relation types, or sampled entities; it rules out
+a node-count-only description of these observed task profiles, not
+every competing explanation.
+Precision supplies a different view. Qwen’s K1 incoming-tree
+precision is 0.988, despite recall of 0.603 and exact recovery of 0.150.
+It often selects a small, mostly reference-consistent set while fail-
+ing to cover the reference. Gemma’s corresponding precision is
+1.000 and exact 0.870. Appendix A reports precision profiles sepa-
+rately rather than combining the two quantities into one F1 curve.
+Size sensitivity also depends on family and model (Figure 2).
+Under Raw+E, chain recall changes from 0.990 at three nodes
+to 0.790 at six for Qwen, and from 0.927 to 0.595 for Ministral.
+Gemma changes from 0.990 to 1.000. Outward stars provide con-
+trary profiles: Qwen changes from 0.997 at three nodes to 0.998 at
+ten, Gemma remains at 1.000, and Ministral changes from 0.870 to
+0.950. These comparisons describe different accepted cohorts, not
+beneficial or harmful effects of adding a node to the same task.
+Incoming-tree Raw+E recall is lower at ten than five nodes for
+all three models: 0.910 to 0.841, 0.624 to 0.375, and 0.540 to 0.403
+for Gemma, Qwen, and Ministral. Intermediate values need not be
+monotonic. The fixed candidate pool also changes the proportion
+of reference entities as size increases. We therefore report the full
+profiles, including exceptions, rather than treating node count as
+an intrinsic complexity coefficient.
+5.2 Relation Availability and Matched-Fact
+Presentation
+Explicit relation disclosure substantially increases recall (Table 1).
+Raw/Raw+E mean recall changes from 0.198 to 0.972 for Gemma,
+0.278 to 0.798 for Qwen, and 0.218 to 0.785 for Ministral. The gains
+are 0.774, 0.519, and 0.567. Precision changes from 0.859 to 0.988,
+0.885 to 0.975, and 0.459 to 0.976, respectively. High Raw precision
+can therefore coexist with low route coverage. Since native meta-
+data is not verified sufficient for every route, low Raw recall is not
+automatically a failure to reason from available facts.
+Matched-fact representation gives a more restricted diagnostic.
+Text-minus-triples recall differences for Qwen are −0.035 under
+both procedural and direct queries after rounding. Gemma and
+3

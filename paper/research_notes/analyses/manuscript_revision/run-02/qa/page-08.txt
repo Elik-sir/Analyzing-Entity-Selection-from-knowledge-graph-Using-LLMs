@@ -1,0 +1,222 @@
+813
+814
+815
+816
+817
+818
+819
+820
+821
+822
+823
+824
+825
+826
+827
+828
+829
+830
+831
+832
+833
+834
+835
+836
+837
+838
+839
+840
+841
+842
+843
+844
+845
+846
+847
+848
+849
+850
+851
+852
+853
+854
+855
+856
+857
+858
+859
+860
+861
+862
+863
+864
+865
+866
+867
+868
+869
+870
+WWW ’27, May 10–14, 2027, Dublin, Ireland Anon.
+871
+872
+873
+874
+875
+876
+877
+878
+879
+880
+881
+882
+883
+884
+885
+886
+887
+888
+889
+890
+891
+892
+893
+894
+895
+896
+897
+898
+899
+900
+901
+902
+903
+904
+905
+906
+907
+908
+909
+910
+911
+912
+913
+914
+915
+916
+917
+918
+919
+920
+921
+922
+923
+924
+925
+926
+927
+928
+Table 3: All Core condition means: recall, with 700 planned
+outcomes per model/condition and invalid zero. These are
+descriptive macro means.
+Condition Gemma Qwen Ministral
+K0 0.182 0.189 0.299
+K1 0.996 0.892 0.957
+K2 0.985 0.820 0.885
+K3 0.996 0.896 0.914
+K4 0.993 0.951 0.950
+K5 0.993 0.857 0.956
+K6 0.979 0.794 0.911
+K7 0.996 0.888 0.941
+K8 0.990 0.853 0.939
+K5k 0.988 0.850 0.918
+R0 0.322 0.282 0.298
+R1-matched 0.985 0.817 0.844
+R2-matched 0.973 0.750 0.762
+Table 4: Precision counterpart to Table 3, using the same
+planned populations and failure policy.
+Condition Gemma Qwen Ministral
+K0 0.994 0.974 0.130
+K1 1.000 0.992 0.983
+K2 0.983 0.957 0.791
+K3 0.999 0.992 0.976
+K4 0.996 0.996 0.950
+K5 0.999 0.992 0.980
+K6 0.974 0.958 0.751
+K7 1.000 0.989 0.971
+K8 1.000 0.993 0.991
+K5k 0.996 0.987 0.965
+R0 0.936 0.861 0.391
+R1-matched 0.991 0.992 0.979
+R2-matched 0.984 0.958 0.838
+A Additional Metrics and Condition
+Definitions
+Core uses pseudonyms, procedural questions, and disconnected
+distractors unless specified. K1 is source-card triples; K2 adds adja-
+cent distractors; K3 hosts triples on destination cards; K4 repeats
+them on both endpoint cards. K5 is templated text; K6 is its ad-
+jacent variant. K7/K8 use direct queries with triples/text. K5k ex-
+presses links through matching attribute values. R1-matched/R2-
+matched use real names with disconnected/adjacent triples. R0/K0
+retain names/types only. Their prompt permits prior name knowl-
+edge and requests an insufficient-evidence flag; other controlled
+conditions restrict evidence to supplied cards.
+Fact-preserving pairs retain designated unique relations and tar-
+gets. Noise pairs retain the question/reference while altering dis-
+tractor context. A change in presentation may still alter repetition,
+salience, and token length. Native metadata is not assumed suffi-
+cient for every graph-defined target.
+Output signatures and diagnostic limits. An exact one-hop sig-
+nature means the saved selection equals the anchor plus all per-
+mitted first-hop neighbours. On the inspected Qwen K1 six-node
+incoming-tree tasks, this occurs in 71/100 outputs; K3/K4/K7 have
+76/31/52. Their exact-reference counts are 16/51/16, compared with
+15 in K1. This distinguishes elimination of a signature from cor-
+rection of the task. All these Qwen cells have 100 valid outcomes.
+The same original 71 one-hop outputs become exact on 13 K3, 38
+K4, and ten K7 tasks. Under K4, six initially exact outputs lose ex-
+actness. No new interval or significance test is attached to these
+post-hoc contrasts.
+Ministral has 15/100 initial one-hop sets and 54/100 exact out-
+puts in K1. K4 makes eight of those one-hop sets exact and loses ex-
+actness on nine initially exact tasks; total exact recovery is 62/100.
+Gemma’s aggregate scores remain in all main tables/figures, but
+the archive lacks identities for this finer check. Output signatures
+do not prove hidden search depth or branch order.
+On the inspected Qwen K1 incoming-tree inputs, undirected
+depth-two and directed depth-three coverage agree with the cor-
+rect reference on all 100 tasks. Under K2 these alternative targets
+differ on 97/100 and 10/100 tasks, respectively; no Qwen output
+exactly matches those distinct alternative sets. This does not rule
+out mixed or partial rule violations. This slice has no terminal-type
+stopping condition, so it cannot diagnose terminal-type errors.
+Analytical and uncertainty context. Select-all has recall one on
+every nonempty reference by definition, and precision equal to the
+reference proportion in the 25-candidate pool. These are analyt-
+ical reference rules, not executed LLM/retrieval baselines. A full
+connected-component baseline was not computed. Earlier archive
+uncertainty analyses cover F1/exact with anchor-conditional as-
+sumptions; no such bands are reused for the present recall/preci-
+sion results. Original exact scores, earlier metrics, native/legacy
+panels, and incomplete incremental histories remain in the sup-
+porting source artifacts rather than being pooled into the main
+populations.
+B Author-Supplied Cypher Extraction
+Specification
+The following Cypher query was supplied by the authors for the
+appendix. Whitespace is normalized and comments are translated
+into English for display; executable tokens match the saved origi-
+nal. It enumerates small instances of nine directed pattern defini-
+tions, requires distinct vertices, and excludes additional directed
+typed edges inside each selected vertex set, including self-loops.
+The comparison uses source/type/target triples, so parallel physi-
+cal relationships with the same triple are not distinguished by the
+extra-edge test.
+This specification has fixed sizes: four-node chains/stars/rhombi,
+five-node trees/hourglasses, and three-node cycles/cliques. Its fi-
+nal LIMIT 100 is global, not a quota per motif or size. It does
+not specify random sampling, seeds, candidate expansion, type/-
+name acceptance filters, or the complete archived size grid. The
+presence of cycle/clique branches defines queries, not observed cy-
+cle/clique outcomes in the seven-family study. No result from exe-
+cuting these queries is claimed. These boundaries prevent equating
+8
