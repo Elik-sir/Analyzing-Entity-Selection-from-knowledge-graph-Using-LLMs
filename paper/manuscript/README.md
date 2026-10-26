@@ -1,25 +1,13 @@
-# English manuscript draft
+# Entity Selection in Knowledge Graphs
 
-## Current recall-led revision, 2026-10-26
+The complete standalone English article is assembled in `main.tex`; the current exported article is `main.pdf`. `article.md` is a readable formatting conversion of the active source, including figures, numerical tables, references and appendices.
 
-The former main Figure 3 (stacked error categories) was removed at the author's request. Its detailed count discussion and unused category definitions were removed. The adjacent-context result remains supported by the recall profiles and Table 1. Precision figures in the appendix are now Figures 3 and 4. Revision evidence and the previous PDF/source archive are preserved in `../research_notes/analyses/manuscript_revision/run-02/`.
+The active paper includes the agreed Introduction/Related Work, a single grouped recall bar chart with three model pairs per motif (Raw/Raw+E adjacent), a small motif key, and full motif definitions in Appendix C. All active content is under `sections/`; no proposal path is required to compile it.
 
-The active `main.tex` compiles the eight `*_recall_*` section files. Recall is primary; precision is supplementary. Main results contain two figures and two tables, with one model per table row. The contribution is a diagnostic follow-up to Tool Graph Complexity and its Appendix O, separating relation availability, matched-fact presentation and remaining route-coverage failures. No new model experiment, harmonized Tool/KG estimate or causal mechanism is claimed.
+Current verified export: 11 pages, comprising six main-text pages, one reference page and four appendix pages. All pages were rendered and inspected. Fourteen embedded fonts were detected; no overfull boxes or undefined citations/references remain. Optional bibliography-field and underfull warnings remain and do not add invented publication metadata. The ACM class and fonts/margins were not modified.
 
-The final checked PDF has 10 pages: main text 1-6, references 7, appendix 8-10. All pages were rendered and visually inspected. There are no overfull boxes or unresolved citations/references. Class fonts and geometry are unchanged; the native `balance=false` option avoids last-page listings balancing overflow. Remaining underfull/listings/bibliographic optional-field warnings are documented in the build report.
+Build with Tectonic 0.17.0: `tectonic --untrusted --keep-logs --keep-intermediates main.tex`. A warmed installation may add `--only-cached`. Standard TeX resources must be available in the compiler bundle/cache. The source archive includes the local unmodified acmart 2.19 class, ACM bibliography style, active sources, figures and query specifications, but not a compiler binary or raw experimental data.
 
-Tested compiler: official Tectonic 0.17.0. From this directory: `tectonic --untrusted --only-cached --keep-logs --keep-intermediates main.tex` after the standard bundle has been cached. Initial compilation may need network access for TeX resources. Figure PDFs and generated TeX tables are included in the source archive. No external shell execution is enabled.
+The study analyzes existing saved KG outcomes. No new model/judge/database experiment, raw-response reparse, causal mechanism or downstream QA gain is claimed. Numeric checks use saved per-task/aggregate scores with planned denominators and invalid/missing outcomes retained as zero. Assembly is not a submission or certification of publication originality. Historical data provenance and unresolved reuse/access limits remain in research notes.
 
-Evidence, source hashes, row-level asset mappings, validation and page previews are under `../research_notes/analyses/manuscript_revision/run-01/`. The previous complete manuscript/PDF is preserved in that directory's `previous_manuscript/` folder. Original `docs/ARTICLE*` files remain untouched. A successful build is not submission or originality certification.
-
-## Previous version notes (preserved)
-
-Main file: `main.tex`. Bibliography: `references.bib`. The English body is under `sections/`; original `docs/ARTICLE*` files are preserved.
-
-The paper uses the unmodified locally supplied acmart 2.19 class and ACM bibliography style from `paper/acmart/`. It is a descriptive, structure-led draft: motif profiles, family-specific size curves and evidence/noise controls. No new model experiment or motif/size significance test was performed. Main figures and tables are traceable to `paper/research_notes/analyses/manuscript_assets/run-01/asset_sources.json`.
-
-The appendix reproduces the author's supplied extraction specification, saved in `queries/author_supplied_motif_extraction.cypher`; an English-comment version preserves executable tokens. Its global LIMIT and fixed sizes are explicitly distinguished from the full archived task grid. Other query files are exporter statements or separately labelled new unexecuted checks; they are not silently substituted for historical extraction. See `queries/README.md`.
-
-The bibliography uses verified citation metadata. The mandatory anonymous Tool Graph manuscript has no invented authors, publication date, DOI or public URL. Exact cross-paper row overlap, final independent scientific review and submission readiness remain unresolved.
-
-Build with an available TeX engine, for example `tectonic --untrusted --keep-logs main.tex`. The project is self-contained for its local class, style, sections, tables, figures and query listings; the engine still requires standard TeX packages/fonts. Compilation status, page boundary and visual QA are recorded in `paper/research_notes/build_report.md`.
+Sources/PDF from before this assembly are preserved in `../research_notes/analyses/standalone_assembly/run-01/previous_manuscript/`. Current source/claim mappings, numeric checks, PDF checks and validation are under `../research_notes/analyses/standalone_assembly/run-01/`. Older research ledgers retain historical byte/hash issues; the current scoped validation records its own inspected sources and limits.

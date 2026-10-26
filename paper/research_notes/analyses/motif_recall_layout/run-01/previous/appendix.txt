@@ -1,0 +1,54 @@
+\appendix
+\section{Additional Metrics and Condition Definitions}
+\label{app:conditions}
+Core uses pseudonyms, procedural questions, and disconnected distractors unless specified. K1 is source-card triples; K2 adds adjacent distractors; K3 hosts triples on destination cards; K4 repeats them on both endpoint cards. K5 is templated text; K6 is its adjacent variant. K7/K8 use direct queries with triples/text. K5k expresses links through matching attribute values. R1-matched/R2-matched use real names with disconnected/adjacent triples. R0/K0 retain names/types only. Their prompt permits prior name knowledge and requests an insufficient-evidence flag; other controlled conditions restrict evidence to supplied cards.
+
+Fact-preserving pairs retain designated unique relations and targets. Noise pairs retain the question/reference while altering distractor context. A change in presentation may still alter repetition, salience, and token length. Native metadata is not assumed sufficient for every graph-defined target.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/precision_motifs.pdf}
+\caption{Precision companion to Figure~\ref{fig:motifs}: Core K1/K2, 100 planned tasks per point, invalid zero. Shaded families have different sizes. High precision can coexist with incomplete coverage; this is a descriptive saved-score profile without confidence intervals.}
+\Description{Precision across graph families, with near-ceiling disconnected scores for many cells and lower precision for several Ministral adjacent conditions.}
+\label{fig:precisionmotifs}
+\end{figure*}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/precision_sizes.pdf}
+\caption{Precision companion to Figure~\ref{fig:sizes}, retaining all three models and five variable-size families under Raw/Raw+E. Each point has 100 planned tasks; invalid contributes zero. Size cohorts differ and no curve is interpreted as a causal graph expansion.}
+\Description{Precision over subgraph size. Explicit-overlay precision often remains high even where corresponding recall is incomplete.}
+\label{fig:precisionsizes}
+\end{figure*}
+
+\begin{table}[t]
+\caption{All Core condition means: recall, with 700 planned outcomes per model/condition and invalid zero. These are descriptive macro means.}
+\label{tab:coreall}
+\centering\small
+\input{tables/core_recall}
+\end{table}
+\begin{table}[t]
+\caption{Precision counterpart to Table~\ref{tab:coreall}, using the same planned populations and failure policy.}
+\label{tab:coreprecision}
+\centering\small
+\input{tables/core_precision}
+\end{table}
+
+\paragraph{Output signatures and diagnostic limits.}
+An exact one-hop signature means the saved selection equals the anchor plus all permitted first-hop neighbours. On the inspected Qwen K1 six-node incoming-tree tasks, this occurs in 71/100 outputs; K3/K4/K7 have 76/31/52. Their exact-reference counts are 16/51/16, compared with 15 in K1. This distinguishes elimination of a signature from correction of the task. All these Qwen cells have 100 valid outcomes. The same original 71 one-hop outputs become exact on 13 K3, 38 K4, and ten K7 tasks. Under K4, six initially exact outputs lose exactness. No new interval or significance test is attached to these post-hoc contrasts.
+
+Ministral has 15/100 initial one-hop sets and 54/100 exact outputs in K1. K4 makes eight of those one-hop sets exact and loses exactness on nine initially exact tasks; total exact recovery is 62/100. Gemma's aggregate scores remain in all main tables/figures, but the archive lacks identities for this finer check. Output signatures do not prove hidden search depth or branch order.
+
+On the inspected Qwen K1 incoming-tree inputs, undirected depth-two and directed depth-three coverage agree with the correct reference on all 100 tasks. Under K2 these alternative targets differ on 97/100 and 10/100 tasks, respectively; no Qwen output exactly matches those distinct alternative sets. This does not rule out mixed or partial rule violations. This slice has no terminal-type stopping condition, so it cannot diagnose terminal-type errors.
+
+\paragraph{Analytical and uncertainty context.}
+Select-all has recall one on every nonempty reference by definition, and precision equal to the reference proportion in the 25-candidate pool. These are analytical reference rules, not executed LLM/retrieval baselines. A full connected-component baseline was not computed. Earlier archive uncertainty analyses cover F1/exact with anchor-conditional assumptions; no such bands are reused for the present recall/precision results. Original exact scores, earlier metrics, native/legacy panels, and incomplete incremental histories remain in the supporting source artifacts rather than being pooled into the main populations.
+
+\section{Author-Supplied Cypher Extraction Specification}
+\label{app:cypher}
+The following Cypher query was supplied by the authors for the appendix. Whitespace is normalized and comments are translated into English for display; executable tokens match the saved original. It enumerates small instances of nine directed pattern definitions, requires distinct vertices, and excludes additional directed typed edges inside each selected vertex set, including self-loops. The comparison uses source/type/target triples, so parallel physical relationships with the same triple are not distinguished by the extra-edge test.
+
+This specification has fixed sizes: four-node chains/stars/rhombi, five-node trees/hourglasses, and three-node cycles/cliques. Its final \texttt{LIMIT 100} is global, not a quota per motif or size. It does not specify random sampling, seeds, candidate expansion, type/name acceptance filters, or the complete archived size grid. The presence of cycle/clique branches defines queries, not observed cycle/clique outcomes in the seven-family study. No result from executing these queries is claimed. These boundaries prevent equating the supplied query with a fully reconstructed historical pipeline. Cypher syntax is documented by Neo4j~\cite{neo4jCypher}.
+
+\lstinputlisting{queries/author_query_english_comments.cypher}
+
+The supplementary files include the existing queries for exporting nodes and edges and separately labelled, newly written frozen-instance checks. These supplementary files were not used to generate the reported outcomes. Graph-export code is not itself historical motif-extraction evidence. Query IDs and role bindings refer to the same database snapshot; \texttt{elementId} is not a portable cross-snapshot identifier.

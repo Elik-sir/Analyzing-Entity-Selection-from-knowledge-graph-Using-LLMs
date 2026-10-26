@@ -5,6 +5,20 @@ Core uses pseudonyms, procedural questions, and disconnected distractors unless 
 
 Fact-preserving pairs retain designated unique relations and targets. Noise pairs retain the question/reference while altering distractor context. A change in presentation may still alter repetition, salience, and token length. Native metadata is not assumed sufficient for every graph-defined target.
 
+\subsection{Controlled Core Profiles}
+\label{app:coreprofiles}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/recall_motifs.pdf}
+\caption{Core recall with explicit source-card relations: K1 disconnected and K2 adjacent distractors, 100 planned tasks per point. The first five families have six nodes; shaded rhombus/hourglass use four/five and are not equal-size contrasts. Invalid outcomes contribute zero. These are descriptive macro means, without inferential error bars.}
+\Description{Recall across seven graph-pattern families for three models. Incoming-tree recall is below outward-star recall, with model-dependent changes under adjacent contexts.}
+\label{fig:motifs}
+\end{figure*}
+
+Figure~\ref{fig:motifs} shows task-family differences, including five families at the common six-node reference size. Under K1, six-node incoming-tree recall is 0.972 for Gemma, 0.603 for Qwen, and 0.853 for Ministral. Outward stars are close to complete coverage. The common size does not eliminate differences in query semantics, relation types, or sampled entities; it rules out a node-count-only description of these observed task profiles, not every competing explanation.
+
+Precision supplies a different view. Qwen's K1 incoming-tree precision is 0.988, despite recall of 0.603 and exact recovery of 0.150. It often selects a small, mostly reference-consistent set while failing to cover the reference. Gemma's corresponding precision is 1.000 and exact 0.870. Appendix~\ref{app:conditions} reports precision profiles separately rather than combining the two quantities into one F1 curve.
+
 \begin{figure*}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/precision_motifs.pdf}
@@ -52,3 +66,5 @@ This specification has fixed sizes: four-node chains/stars/rhombi, five-node tre
 \lstinputlisting{queries/author_query_english_comments.cypher}
 
 The supplementary files include the existing queries for exporting nodes and edges and separately labelled, newly written frozen-instance checks. These supplementary files were not used to generate the reported outcomes. Graph-export code is not itself historical motif-extraction evidence. Query IDs and role bindings refer to the same database snapshot; \texttt{elementId} is not a portable cross-snapshot identifier.
+
+\input{sections/motif_definitions}

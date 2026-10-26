@@ -1,596 +1,790 @@
 {
   "schema_version": 1,
   "checked_on": "2026-10-26",
-  "intended_scope": "Bounded author-approved recall revision; descriptive and hypothesis-qualified, not originality certification",
+  "intended_scope": "Active standalone KG manuscript, all active sections/tables/captions and abstract",
   "entries": [
     {
-      "path": "paper/manuscript/sections/01_recall_introduction.tex",
-      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "path": "paper/manuscript/main.tex",
+      "sha256": "710b94e5ac9c976db73c3140dddf557f86edb93fc1412147cee9c24fafc8b1ac",
       "paragraph": 1,
       "start_line": 1,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-prior-overlap",
-        "C-core-pairing",
-        "C-raw-overlay-pairing",
-        "C-pr-descriptive-effects"
+        "C-ir-design",
+        "C-pr-descriptive-effects",
+        "C-table2-all-model-metrics",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/01_recall_introduction.tex",
-      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
-      "paragraph": 2,
-      "start_line": 5,
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85",
+      "paragraph": 1,
+      "start_line": 1,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-prior-overlap",
-        "C-core-pairing",
-        "C-raw-overlay-pairing",
-        "C-pr-descriptive-effects"
+        "C-ir-web-search",
+        "C-ir-text-relations",
+        "C-ir-exhaustive",
+        "C-ir-kg",
+        "C-ir-pairs",
+        "C-ir-design",
+        "C-ir-gain",
+        "C-ir-transition"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/01_recall_introduction.tex",
-      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85",
+      "paragraph": 2,
+      "start_line": 4,
+      "claim_ids": [
+        "C-ir-web-search",
+        "C-ir-text-relations",
+        "C-ir-exhaustive",
+        "C-ir-kg",
+        "C-ir-pairs",
+        "C-ir-design",
+        "C-ir-gain",
+        "C-ir-transition"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85",
+      "paragraph": 3,
+      "start_line": 6,
+      "claim_ids": [
+        "C-ir-web-search",
+        "C-ir-text-relations",
+        "C-ir-exhaustive",
+        "C-ir-kg",
+        "C-ir-pairs",
+        "C-ir-design",
+        "C-ir-gain",
+        "C-ir-transition"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85",
+      "paragraph": 4,
+      "start_line": 8,
+      "claim_ids": [
+        "C-ir-web-search",
+        "C-ir-text-relations",
+        "C-ir-exhaustive",
+        "C-ir-kg",
+        "C-ir-pairs",
+        "C-ir-design",
+        "C-ir-gain",
+        "C-ir-transition"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85",
+      "paragraph": 5,
+      "start_line": 10,
+      "claim_ids": [
+        "C-ir-web-search",
+        "C-ir-text-relations",
+        "C-ir-exhaustive",
+        "C-ir-kg",
+        "C-ir-pairs",
+        "C-ir-design",
+        "C-ir-gain",
+        "C-ir-transition"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85",
+      "paragraph": 6,
+      "start_line": 12,
+      "claim_ids": [
+        "C-ir-web-search",
+        "C-ir-text-relations",
+        "C-ir-exhaustive",
+        "C-ir-kg",
+        "C-ir-pairs",
+        "C-ir-design",
+        "C-ir-gain",
+        "C-ir-transition"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85",
+      "paragraph": 7,
+      "start_line": 14,
+      "claim_ids": [
+        "C-ir-web-search",
+        "C-ir-text-relations",
+        "C-ir-exhaustive",
+        "C-ir-kg",
+        "C-ir-pairs",
+        "C-ir-design",
+        "C-ir-gain",
+        "C-ir-transition"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85",
+      "paragraph": 8,
+      "start_line": 16,
+      "claim_ids": [
+        "C-ir-web-search",
+        "C-ir-text-relations",
+        "C-ir-exhaustive",
+        "C-ir-kg",
+        "C-ir-pairs",
+        "C-ir-design",
+        "C-ir-gain",
+        "C-ir-transition"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85",
+      "paragraph": 9,
+      "start_line": 18,
+      "claim_ids": [
+        "C-ir-web-search",
+        "C-ir-text-relations",
+        "C-ir-exhaustive",
+        "C-ir-kg",
+        "C-ir-pairs",
+        "C-ir-design",
+        "C-ir-gain",
+        "C-ir-transition"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "589298b26ad0773abb7f6b4ef6339af7b47e2f2c7426e63203fb11d55214edbe",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-ir-luo2024rog",
+        "C-ir-wu2024stark",
+        "C-ir-he2024gretriever",
+        "C-ir-talk",
+        "C-ir-pattern",
+        "C-ir-kgprompt",
+        "C-ir-walk",
+        "C-ir-exhaustive"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "589298b26ad0773abb7f6b4ef6339af7b47e2f2c7426e63203fb11d55214edbe",
+      "paragraph": 2,
+      "start_line": 4,
+      "claim_ids": [
+        "C-ir-luo2024rog",
+        "C-ir-wu2024stark",
+        "C-ir-he2024gretriever",
+        "C-ir-talk",
+        "C-ir-pattern",
+        "C-ir-kgprompt",
+        "C-ir-walk",
+        "C-ir-exhaustive"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "589298b26ad0773abb7f6b4ef6339af7b47e2f2c7426e63203fb11d55214edbe",
       "paragraph": 3,
       "start_line": 7,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-prior-overlap",
-        "C-core-pairing",
-        "C-raw-overlay-pairing",
-        "C-pr-descriptive-effects"
+        "C-ir-luo2024rog",
+        "C-ir-wu2024stark",
+        "C-ir-he2024gretriever",
+        "C-ir-talk",
+        "C-ir-pattern",
+        "C-ir-kgprompt",
+        "C-ir-walk",
+        "C-ir-exhaustive"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "path": "paper/manuscript/sections/01_recall_introduction.tex",
-      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "589298b26ad0773abb7f6b4ef6339af7b47e2f2c7426e63203fb11d55214edbe",
       "paragraph": 4,
-      "start_line": 9,
+      "start_line": 10,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-prior-overlap",
-        "C-core-pairing",
-        "C-raw-overlay-pairing",
-        "C-pr-descriptive-effects"
+        "C-ir-luo2024rog",
+        "C-ir-wu2024stark",
+        "C-ir-he2024gretriever",
+        "C-ir-talk",
+        "C-ir-pattern",
+        "C-ir-kgprompt",
+        "C-ir-walk",
+        "C-ir-exhaustive"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "path": "paper/manuscript/sections/01_recall_introduction.tex",
-      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "589298b26ad0773abb7f6b4ef6339af7b47e2f2c7426e63203fb11d55214edbe",
       "paragraph": 5,
-      "start_line": 11,
-      "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-prior-overlap",
-        "C-core-pairing",
-        "C-raw-overlay-pairing",
-        "C-pr-descriptive-effects"
-      ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
-    },
-    {
-      "path": "paper/manuscript/sections/01_recall_introduction.tex",
-      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
-      "paragraph": 6,
       "start_line": 13,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-prior-overlap",
-        "C-core-pairing",
-        "C-raw-overlay-pairing",
-        "C-pr-descriptive-effects"
+        "C-ir-luo2024rog",
+        "C-ir-wu2024stark",
+        "C-ir-he2024gretriever",
+        "C-ir-talk",
+        "C-ir-pattern",
+        "C-ir-kgprompt",
+        "C-ir-walk",
+        "C-ir-exhaustive"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "path": "paper/manuscript/sections/01_recall_introduction.tex",
-      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
-      "paragraph": 7,
-      "start_line": 15,
-      "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-prior-overlap",
-        "C-core-pairing",
-        "C-raw-overlay-pairing",
-        "C-pr-descriptive-effects"
-      ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
-    },
-    {
-      "path": "paper/manuscript/sections/01_recall_introduction.tex",
-      "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f",
-      "paragraph": 8,
-      "start_line": 17,
-      "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-prior-overlap",
-        "C-core-pairing",
-        "C-raw-overlay-pairing",
-        "C-pr-descriptive-effects"
-      ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
-    },
-    {
-      "path": "paper/manuscript/sections/02_recall_related_work.tex",
-      "sha256": "c2077d90758b72ffe3530d361a81c2895c19c8a4cf11ad156a5b8b27b9b70a00",
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "e39ae62b5654fe66cc826362f800bd430abfc8a15a78c134c9c93a35dd0895c8",
       "paragraph": 1,
       "start_line": 1,
       "claim_ids": [
-        "C-transfer-prior-overlap",
-        "C-transfer-adjusted-tree",
-        "C-nr-encoding",
-        "C-nr-graphwalk"
+        "C-assembly-source-report",
+        "C-assembly-cypher-scope",
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-ir-exhaustive"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "path": "paper/manuscript/sections/02_recall_related_work.tex",
-      "sha256": "c2077d90758b72ffe3530d361a81c2895c19c8a4cf11ad156a5b8b27b9b70a00",
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "e39ae62b5654fe66cc826362f800bd430abfc8a15a78c134c9c93a35dd0895c8",
       "paragraph": 2,
       "start_line": 6,
       "claim_ids": [
-        "C-transfer-prior-overlap",
-        "C-transfer-adjusted-tree",
-        "C-nr-encoding",
-        "C-nr-graphwalk"
+        "C-assembly-source-report",
+        "C-assembly-cypher-scope",
+        "C-frozen-reference-consistency",
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-ir-exhaustive"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "path": "paper/manuscript/sections/02_recall_related_work.tex",
-      "sha256": "c2077d90758b72ffe3530d361a81c2895c19c8a4cf11ad156a5b8b27b9b70a00",
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "e39ae62b5654fe66cc826362f800bd430abfc8a15a78c134c9c93a35dd0895c8",
       "paragraph": 3,
-      "start_line": 9,
+      "start_line": 8,
       "claim_ids": [
-        "C-transfer-prior-overlap",
-        "C-transfer-adjusted-tree",
-        "C-nr-encoding",
-        "C-nr-graphwalk"
-      ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
-    },
-    {
-      "path": "paper/manuscript/sections/03_recall_method.tex",
-      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
-      "paragraph": 1,
-      "start_line": 1,
-      "claim_ids": [
+        "C-assembly-source-report",
+        "C-assembly-cypher-scope",
         "C-frozen-reference-consistency",
         "C-core-pairing",
-        "C-raw-overlay-pairing"
+        "C-raw-overlay-pairing",
+        "C-ir-exhaustive"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/03_recall_method.tex",
-      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
-      "paragraph": 2,
-      "start_line": 6,
-      "claim_ids": [
-        "C-frozen-reference-consistency",
-        "C-core-pairing",
-        "C-raw-overlay-pairing"
-      ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
-    },
-    {
-      "path": "paper/manuscript/sections/03_recall_method.tex",
-      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
-      "paragraph": 3,
-      "start_line": 9,
-      "claim_ids": [
-        "C-frozen-reference-consistency",
-        "C-core-pairing",
-        "C-raw-overlay-pairing"
-      ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
-    },
-    {
-      "path": "paper/manuscript/sections/03_recall_method.tex",
-      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "sha256": "e39ae62b5654fe66cc826362f800bd430abfc8a15a78c134c9c93a35dd0895c8",
       "paragraph": 4,
       "start_line": 11,
       "claim_ids": [
+        "C-assembly-source-report",
+        "C-assembly-cypher-scope",
         "C-frozen-reference-consistency",
         "C-core-pairing",
-        "C-raw-overlay-pairing"
+        "C-raw-overlay-pairing",
+        "C-ir-exhaustive"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/03_recall_method.tex",
-      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "sha256": "e39ae62b5654fe66cc826362f800bd430abfc8a15a78c134c9c93a35dd0895c8",
       "paragraph": 5,
-      "start_line": 14,
+      "start_line": 18,
       "claim_ids": [
+        "C-assembly-source-report",
+        "C-assembly-cypher-scope",
         "C-frozen-reference-consistency",
         "C-core-pairing",
-        "C-raw-overlay-pairing"
+        "C-raw-overlay-pairing",
+        "C-ir-exhaustive"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/03_recall_method.tex",
-      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
+      "sha256": "e39ae62b5654fe66cc826362f800bd430abfc8a15a78c134c9c93a35dd0895c8",
       "paragraph": 6,
-      "start_line": 21,
+      "start_line": 20,
       "claim_ids": [
+        "C-assembly-source-report",
+        "C-assembly-cypher-scope",
         "C-frozen-reference-consistency",
         "C-core-pairing",
-        "C-raw-overlay-pairing"
+        "C-raw-overlay-pairing",
+        "C-ir-exhaustive"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "path": "paper/manuscript/sections/03_recall_method.tex",
-      "sha256": "fb3937bee0f9cf832fa32450d0f93eb679d0f8f9b0d4e9c3cf4574544ad8d367",
-      "paragraph": 7,
-      "start_line": 23,
+      "path": "paper/manuscript/sections/motif_summary.tex",
+      "sha256": "3ac333ab7557c4bc2441e1849f284de3d49f391fc583e04efc9de5fbce1ef5d0",
+      "paragraph": 1,
+      "start_line": 1,
       "claim_ids": [
-        "C-frozen-reference-consistency",
-        "C-core-pairing",
-        "C-raw-overlay-pairing"
+        "C-motif-chain",
+        "C-motif-star_in",
+        "C-motif-star_out",
+        "C-motif-tree_in",
+        "C-motif-tree_out",
+        "C-motif-rhombus",
+        "C-motif-hourglass",
+        "C-motif-core-design",
+        "C-assembly-motif-roles"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/04_recall_setup.tex",
-      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "sha256": "4d7dbc8bde05911193192ec800cd12c642ac51afc0aebaf504de4a5ba697a83e",
       "paragraph": 1,
       "start_line": 1,
       "claim_ids": [
         "C-core-pairing",
         "C-raw-overlay-pairing",
-        "C-manuscript-recorded-settings"
+        "C-manuscript-recorded-settings",
+        "C-nr-groups",
+        "C-ir-design",
+        "C-recall-revision-means"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/04_recall_setup.tex",
-      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "sha256": "4d7dbc8bde05911193192ec800cd12c642ac51afc0aebaf504de4a5ba697a83e",
       "paragraph": 2,
       "start_line": 6,
       "claim_ids": [
         "C-core-pairing",
         "C-raw-overlay-pairing",
-        "C-manuscript-recorded-settings"
+        "C-manuscript-recorded-settings",
+        "C-nr-groups",
+        "C-ir-design",
+        "C-recall-revision-means"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/04_recall_setup.tex",
-      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "sha256": "4d7dbc8bde05911193192ec800cd12c642ac51afc0aebaf504de4a5ba697a83e",
       "paragraph": 3,
       "start_line": 8,
       "claim_ids": [
         "C-core-pairing",
         "C-raw-overlay-pairing",
-        "C-manuscript-recorded-settings"
+        "C-manuscript-recorded-settings",
+        "C-nr-groups",
+        "C-ir-design",
+        "C-recall-revision-means"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/04_recall_setup.tex",
-      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "sha256": "4d7dbc8bde05911193192ec800cd12c642ac51afc0aebaf504de4a5ba697a83e",
       "paragraph": 4,
       "start_line": 11,
       "claim_ids": [
         "C-core-pairing",
         "C-raw-overlay-pairing",
-        "C-manuscript-recorded-settings"
+        "C-manuscript-recorded-settings",
+        "C-nr-groups",
+        "C-ir-design",
+        "C-recall-revision-means"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/04_recall_setup.tex",
-      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "sha256": "4d7dbc8bde05911193192ec800cd12c642ac51afc0aebaf504de4a5ba697a83e",
       "paragraph": 5,
-      "start_line": 14,
+      "start_line": 13,
       "claim_ids": [
         "C-core-pairing",
         "C-raw-overlay-pairing",
-        "C-manuscript-recorded-settings"
+        "C-manuscript-recorded-settings",
+        "C-nr-groups",
+        "C-ir-design",
+        "C-recall-revision-means"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/04_recall_setup.tex",
-      "sha256": "b27902e153ead4c7a0f00c3cde8c391cd83b3706aebeb16da51c5a919be08da3",
+      "sha256": "4d7dbc8bde05911193192ec800cd12c642ac51afc0aebaf504de4a5ba697a83e",
       "paragraph": 6,
-      "start_line": 22,
+      "start_line": 16,
       "claim_ids": [
         "C-core-pairing",
         "C-raw-overlay-pairing",
-        "C-manuscript-recorded-settings"
+        "C-manuscript-recorded-settings",
+        "C-nr-groups",
+        "C-ir-design",
+        "C-recall-revision-means"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "4d7dbc8bde05911193192ec800cd12c642ac51afc0aebaf504de4a5ba697a83e",
+      "paragraph": 7,
+      "start_line": 24,
+      "claim_ids": [
+        "C-core-pairing",
+        "C-raw-overlay-pairing",
+        "C-manuscript-recorded-settings",
+        "C-nr-groups",
+        "C-ir-design",
+        "C-recall-revision-means"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/05_recall_results.tex",
-      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8",
       "paragraph": 1,
       "start_line": 1,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-pr-descriptive-effects",
+        "C-table2-all-model-metrics",
         "C-nr-groups",
-        "C-nr-transitions"
+        "C-nr-transitions",
+        "C-mrl-recall",
+        "C-mrl-directions",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/05_recall_results.tex",
-      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8",
       "paragraph": 2,
       "start_line": 13,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-pr-descriptive-effects",
+        "C-table2-all-model-metrics",
         "C-nr-groups",
-        "C-nr-transitions"
+        "C-nr-transitions",
+        "C-mrl-recall",
+        "C-mrl-directions",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/05_recall_results.tex",
-      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8",
       "paragraph": 3,
-      "start_line": 15,
+      "start_line": 22,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-pr-descriptive-effects",
+        "C-table2-all-model-metrics",
         "C-nr-groups",
-        "C-nr-transitions"
+        "C-nr-transitions",
+        "C-mrl-recall",
+        "C-mrl-directions",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/05_recall_results.tex",
-      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8",
       "paragraph": 4,
       "start_line": 24,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-pr-descriptive-effects",
+        "C-table2-all-model-metrics",
         "C-nr-groups",
-        "C-nr-transitions"
+        "C-nr-transitions",
+        "C-mrl-recall",
+        "C-mrl-directions",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/05_recall_results.tex",
-      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8",
       "paragraph": 5,
-      "start_line": 26,
+      "start_line": 33,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-pr-descriptive-effects",
+        "C-table2-all-model-metrics",
         "C-nr-groups",
-        "C-nr-transitions"
+        "C-nr-transitions",
+        "C-mrl-recall",
+        "C-mrl-directions",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/05_recall_results.tex",
-      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8",
       "paragraph": 6,
       "start_line": 35,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-pr-descriptive-effects",
+        "C-table2-all-model-metrics",
         "C-nr-groups",
-        "C-nr-transitions"
+        "C-nr-transitions",
+        "C-mrl-recall",
+        "C-mrl-directions",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/05_recall_results.tex",
-      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8",
       "paragraph": 7,
-      "start_line": 37,
+      "start_line": 43,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-pr-descriptive-effects",
+        "C-table2-all-model-metrics",
         "C-nr-groups",
-        "C-nr-transitions"
+        "C-nr-transitions",
+        "C-mrl-recall",
+        "C-mrl-directions",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/05_recall_results.tex",
-      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
+      "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8",
       "paragraph": 8,
       "start_line": 45,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-pr-descriptive-effects",
+        "C-table2-all-model-metrics",
         "C-nr-groups",
-        "C-nr-transitions"
+        "C-nr-transitions",
+        "C-mrl-recall",
+        "C-mrl-directions",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "path": "paper/manuscript/sections/05_recall_results.tex",
-      "sha256": "5a10bf0dd4feb7ee581558a9887761b5a1afecb0a464bcea30e31611dbe03537",
-      "paragraph": 9,
-      "start_line": 47,
-      "claim_ids": [
-        "C-recall-revision-profiles",
-        "C-recall-revision-means",
-        "C-pr-descriptive-effects",
-        "C-nr-groups",
-        "C-nr-transitions"
-      ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
-    },
-    {
-      "path": "paper/manuscript/sections/06_recall_discussion.tex",
-      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "path": "paper/manuscript/tables/recall_effects.tex",
+      "sha256": "f2996c31f2e2518e9229fb295a89123b3c6d0a5700c5b6328d072398d14bed96",
       "paragraph": 1,
       "start_line": 1,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-adjusted-tree",
-        "C-transfer-prior-overlap",
-        "C-nr-alternative_rules",
-        "C-nr-mechanism"
+        "C-assembly-numeric",
+        "C-recall-revision-means",
+        "C-recall-revision-profiles"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/tables/treein_recall.tex",
+      "sha256": "dab338a23257962e53d62800087bccf369ffdb0cc4c50b5b3affd65e7879e7af",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-assembly-numeric",
+        "C-recall-revision-means",
+        "C-recall-revision-profiles"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/06_recall_discussion.tex",
-      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "sha256": "dd653c803a98fb7d179e11ebc6f66bc6027304dead4513eeaf67e953eb88222d",
+      "paragraph": 1,
+      "start_line": 1,
+      "claim_ids": [
+        "C-ir-gain",
+        "C-pr-descriptive-effects",
+        "C-nr-transitions",
+        "C-nr-alternative_rules",
+        "C-ir-exhaustive",
+        "C-assembly-source-report"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "dd653c803a98fb7d179e11ebc6f66bc6027304dead4513eeaf67e953eb88222d",
       "paragraph": 2,
       "start_line": 6,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-adjusted-tree",
-        "C-transfer-prior-overlap",
+        "C-ir-gain",
+        "C-pr-descriptive-effects",
+        "C-nr-transitions",
         "C-nr-alternative_rules",
-        "C-nr-mechanism"
+        "C-ir-exhaustive",
+        "C-assembly-source-report"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/06_recall_discussion.tex",
-      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "sha256": "dd653c803a98fb7d179e11ebc6f66bc6027304dead4513eeaf67e953eb88222d",
       "paragraph": 3,
-      "start_line": 8,
+      "start_line": 9,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-adjusted-tree",
-        "C-transfer-prior-overlap",
+        "C-ir-gain",
+        "C-pr-descriptive-effects",
+        "C-nr-transitions",
         "C-nr-alternative_rules",
-        "C-nr-mechanism"
+        "C-ir-exhaustive",
+        "C-assembly-source-report"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/06_recall_discussion.tex",
-      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "sha256": "dd653c803a98fb7d179e11ebc6f66bc6027304dead4513eeaf67e953eb88222d",
       "paragraph": 4,
-      "start_line": 11,
+      "start_line": 12,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-adjusted-tree",
-        "C-transfer-prior-overlap",
+        "C-ir-gain",
+        "C-pr-descriptive-effects",
+        "C-nr-transitions",
         "C-nr-alternative_rules",
-        "C-nr-mechanism"
+        "C-ir-exhaustive",
+        "C-assembly-source-report"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/06_recall_discussion.tex",
-      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "sha256": "dd653c803a98fb7d179e11ebc6f66bc6027304dead4513eeaf67e953eb88222d",
       "paragraph": 5,
-      "start_line": 13,
+      "start_line": 14,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-adjusted-tree",
-        "C-transfer-prior-overlap",
+        "C-ir-gain",
+        "C-pr-descriptive-effects",
+        "C-nr-transitions",
         "C-nr-alternative_rules",
-        "C-nr-mechanism"
+        "C-ir-exhaustive",
+        "C-assembly-source-report"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/06_recall_discussion.tex",
-      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "sha256": "dd653c803a98fb7d179e11ebc6f66bc6027304dead4513eeaf67e953eb88222d",
       "paragraph": 6,
-      "start_line": 16,
+      "start_line": 17,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-adjusted-tree",
-        "C-transfer-prior-overlap",
+        "C-ir-gain",
+        "C-pr-descriptive-effects",
+        "C-nr-transitions",
         "C-nr-alternative_rules",
-        "C-nr-mechanism"
+        "C-ir-exhaustive",
+        "C-assembly-source-report"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/06_recall_discussion.tex",
-      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "sha256": "dd653c803a98fb7d179e11ebc6f66bc6027304dead4513eeaf67e953eb88222d",
       "paragraph": 7,
-      "start_line": 18,
+      "start_line": 19,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-adjusted-tree",
-        "C-transfer-prior-overlap",
+        "C-ir-gain",
+        "C-pr-descriptive-effects",
+        "C-nr-transitions",
         "C-nr-alternative_rules",
-        "C-nr-mechanism"
+        "C-ir-exhaustive",
+        "C-assembly-source-report"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/06_recall_discussion.tex",
-      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "sha256": "dd653c803a98fb7d179e11ebc6f66bc6027304dead4513eeaf67e953eb88222d",
       "paragraph": 8,
-      "start_line": 21,
+      "start_line": 22,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-adjusted-tree",
-        "C-transfer-prior-overlap",
+        "C-ir-gain",
+        "C-pr-descriptive-effects",
+        "C-nr-transitions",
         "C-nr-alternative_rules",
-        "C-nr-mechanism"
+        "C-ir-exhaustive",
+        "C-assembly-source-report"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/06_recall_discussion.tex",
-      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
+      "sha256": "dd653c803a98fb7d179e11ebc6f66bc6027304dead4513eeaf67e953eb88222d",
       "paragraph": 9,
-      "start_line": 23,
+      "start_line": 24,
       "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-adjusted-tree",
-        "C-transfer-prior-overlap",
+        "C-ir-gain",
+        "C-pr-descriptive-effects",
+        "C-nr-transitions",
         "C-nr-alternative_rules",
-        "C-nr-mechanism"
+        "C-ir-exhaustive",
+        "C-assembly-source-report"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
-    },
-    {
-      "path": "paper/manuscript/sections/06_recall_discussion.tex",
-      "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3",
-      "paragraph": 10,
-      "start_line": 25,
-      "claim_ids": [
-        "C-tool-pattern-premise",
-        "C-transfer-adjusted-tree",
-        "C-transfer-prior-overlap",
-        "C-nr-alternative_rules",
-        "C-nr-mechanism"
-      ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/07_recall_conclusion.tex",
-      "sha256": "db0a76e90d41cb6d38f29474346f33c40abd1f297032f9faa49a72e3d5bf1844",
+      "sha256": "92f04bbb70fd72463defd360c68ebd6b4444a37c2e8b5fe9ffe68429d688aafe",
       "paragraph": 1,
       "start_line": 1,
       "claim_ids": [
-        "C-recall-revision-profiles",
+        "C-ir-gain",
         "C-pr-descriptive-effects",
         "C-nr-transitions"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
       "paragraph": 1,
       "start_line": 1,
       "claim_ids": [
@@ -598,13 +792,15 @@
         "C-recall-revision-means",
         "C-nr-groups",
         "C-nr-transitions",
-        "C-nr-alternative_rules"
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
       "paragraph": 2,
       "start_line": 6,
       "claim_ids": [
@@ -612,13 +808,15 @@
         "C-recall-revision-means",
         "C-nr-groups",
         "C-nr-transitions",
-        "C-nr-alternative_rules"
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
       "paragraph": 3,
       "start_line": 8,
       "claim_ids": [
@@ -626,262 +824,394 @@
         "C-recall-revision-means",
         "C-nr-groups",
         "C-nr-transitions",
-        "C-nr-alternative_rules"
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
       "paragraph": 4,
-      "start_line": 23,
+      "start_line": 18,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-nr-groups",
         "C-nr-transitions",
-        "C-nr-alternative_rules"
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
       "paragraph": 5,
-      "start_line": 36,
+      "start_line": 20,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-nr-groups",
         "C-nr-transitions",
-        "C-nr-alternative_rules"
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
       "paragraph": 6,
-      "start_line": 39,
+      "start_line": 22,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-nr-groups",
         "C-nr-transitions",
-        "C-nr-alternative_rules"
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
       "paragraph": 7,
-      "start_line": 41,
+      "start_line": 37,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-nr-groups",
         "C-nr-transitions",
-        "C-nr-alternative_rules"
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
       "paragraph": 8,
-      "start_line": 43,
-      "claim_ids": [
-        "C-recall-revision-profiles",
-        "C-recall-revision-means",
-        "C-nr-groups",
-        "C-nr-transitions",
-        "C-nr-alternative_rules"
-      ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
-    },
-    {
-      "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
-      "paragraph": 9,
-      "start_line": 46,
-      "claim_ids": [
-        "C-recall-revision-profiles",
-        "C-recall-revision-means",
-        "C-nr-groups",
-        "C-nr-transitions",
-        "C-nr-alternative_rules"
-      ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
-    },
-    {
-      "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
-      "paragraph": 10,
       "start_line": 50,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-nr-groups",
         "C-nr-transitions",
-        "C-nr-alternative_rules"
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
+      "paragraph": 9,
+      "start_line": 53,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
+      "paragraph": 10,
+      "start_line": 55,
+      "claim_ids": [
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
       "paragraph": 11,
-      "start_line": 52,
+      "start_line": 57,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-nr-groups",
         "C-nr-transitions",
-        "C-nr-alternative_rules"
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
       "path": "paper/manuscript/sections/08_recall_appendix.tex",
-      "sha256": "3d1b3c76dcbd9d3faf362d3cbe70885daef0cda40e2bccd778cf484e52f6e683",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
       "paragraph": 12,
-      "start_line": 54,
+      "start_line": 60,
       "claim_ids": [
         "C-recall-revision-profiles",
         "C-recall-revision-means",
         "C-nr-groups",
         "C-nr-transitions",
-        "C-nr-alternative_rules"
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "scope_note": "Existing claim families retained after editorial removal; no new measurements or mechanism claims."
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "path": "paper/manuscript/main.tex",
-      "sha256": "df9d77701aa1e668f0a1c1b07ae368c11a500d2842c110d7dc58f01b5f67b94e",
-      "locator": "abstract",
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
+      "paragraph": 13,
+      "start_line": 64,
       "claim_ids": [
-        "C-pr-descriptive-effects",
-        "C-table2-all-model-metrics"
-      ]
-    },
-    {
-      "locator": "figure:recall_motifs",
-      "claim_ids": [
-        "C-recall-revision-profiles"
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "result_evidence_id": "E-recall-revision-assets",
-      "row_locator": "$.figures[id=recall_motifs].source_rows",
-      "file_hashes": {
-        "paper/figures/recall_manuscript_v1/recall_motifs.png": "983714557e555be5b95968cb4f0ddec8fd919acd0f23d2af5232dc9c02ad4eae",
-        "paper/figures/recall_manuscript_v1/recall_motifs.pdf": "5043a2739c79c7ba096438dc962c0b17be946cb5cd99dd8705640afe0d2f1b62",
-        "paper/figures/recall_manuscript_v1/recall_motifs.svg": "14f7797c849bccb545a27e7d03a74708d2fcbb482a82631d551d2222e319c33a"
-      }
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "locator": "figure:recall_sizes",
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
+      "paragraph": 14,
+      "start_line": 66,
       "claim_ids": [
-        "C-recall-revision-profiles"
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "result_evidence_id": "E-recall-revision-assets",
-      "row_locator": "$.figures[id=recall_sizes].source_rows",
-      "file_hashes": {
-        "paper/figures/recall_manuscript_v1/recall_sizes.png": "811ada29cb3240059fb9a2b2f3895a114197aaaef5e2ba15a32b3139b7cc1867",
-        "paper/figures/recall_manuscript_v1/recall_sizes.pdf": "98297b62d960b5be15f19f9748d67a4fbcc7af7af939cb7077c13d263ef0879a",
-        "paper/figures/recall_manuscript_v1/recall_sizes.svg": "3e43ef856a6c0679f470115adb65f0d4de77d595b2a274d81acbe1bed0678089"
-      }
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "locator": "figure:precision_motifs",
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
+      "paragraph": 15,
+      "start_line": 68,
       "claim_ids": [
-        "C-recall-revision-profiles"
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "result_evidence_id": "E-recall-revision-assets",
-      "row_locator": "$.figures[id=precision_motifs].source_rows",
-      "file_hashes": {
-        "paper/figures/recall_manuscript_v1/precision_motifs.png": "1ded5b5b76421c656084d04607620c041c7895a15da4eb1e9687e9417d661fbe",
-        "paper/figures/recall_manuscript_v1/precision_motifs.pdf": "3ce6ccbdf27fe0fd9e8ac23bd75786f7157218dd3518fef4bd1b09b2aa440f36",
-        "paper/figures/recall_manuscript_v1/precision_motifs.svg": "2542525dd5c7438051053cba0fe097ae74fbc23e397895c6162dc0f63936b615"
-      }
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "locator": "figure:precision_sizes",
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8",
+      "paragraph": 16,
+      "start_line": 70,
       "claim_ids": [
-        "C-recall-revision-profiles"
+        "C-recall-revision-profiles",
+        "C-recall-revision-means",
+        "C-nr-groups",
+        "C-nr-transitions",
+        "C-nr-alternative_rules",
+        "C-assembly-cypher-scope",
+        "C-assembly-numeric"
       ],
-      "result_evidence_id": "E-recall-revision-assets",
-      "row_locator": "$.figures[id=precision_sizes].source_rows",
-      "file_hashes": {
-        "paper/figures/recall_manuscript_v1/precision_sizes.png": "8186969a7434c9c8e09c44b83b29c11abc2e252c56a94dcaaa8b54ce74ef04ed",
-        "paper/figures/recall_manuscript_v1/precision_sizes.pdf": "e5c54f7ef5846d5055d02bab61275358793a333e33b0fbb3a02dbf847391fe1b",
-        "paper/figures/recall_manuscript_v1/precision_sizes.svg": "8b13c388bd271ff3bf85598f4171c71172d5a672f31d6d353f25deeb18360287"
-      }
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "locator": "table:recall_effects",
-      "path": "paper/manuscript/tables/recall_effects.tex",
-      "sha256": "f2996c31f2e2518e9229fb295a89123b3c6d0a5700c5b6328d072398d14bed96",
-      "claim_ids": [
-        "C-pr-descriptive-effects"
-      ],
-      "result_evidence_id": "E-recall-revision-assets",
-      "row_locator": "$.tables.recall_effects.rows"
-    },
-    {
-      "locator": "table:precision_effects",
-      "path": "paper/manuscript/tables/precision_effects.tex",
-      "sha256": "67e259c400659e88d5d3d99dd3133048d7c6698ffa4561ec5c91937000a277a7",
-      "claim_ids": [
-        "C-pr-descriptive-effects"
-      ],
-      "result_evidence_id": "E-recall-revision-assets",
-      "row_locator": "$.tables.precision_effects.rows"
-    },
-    {
-      "locator": "table:treein_recall",
-      "path": "paper/manuscript/tables/treein_recall.tex",
-      "sha256": "dab338a23257962e53d62800087bccf369ffdb0cc4c50b5b3affd65e7879e7af",
-      "claim_ids": [
-        "C-table2-all-model-metrics"
-      ],
-      "result_evidence_id": "E-recall-revision-assets",
-      "row_locator": "$.tables.treein_recall.rows"
-    },
-    {
-      "locator": "table:core_recall",
       "path": "paper/manuscript/tables/core_recall.tex",
       "sha256": "91aa92f96be82883e84609ad5ec1e872b07fb486423471415418f83fe52fb104",
+      "paragraph": 1,
+      "start_line": 1,
       "claim_ids": [
-        "C-recall-revision-means"
+        "C-assembly-numeric",
+        "C-recall-revision-means",
+        "C-recall-revision-profiles"
       ],
-      "result_evidence_id": "E-recall-revision-assets",
-      "row_locator": "$.tables.core_recall.rows"
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "locator": "table:core_precision",
       "path": "paper/manuscript/tables/core_precision.tex",
       "sha256": "2d7c00e7eb20541ea6e9bd3cee77e09d6857843f09a2f4200b209dc249180966",
+      "paragraph": 1,
+      "start_line": 1,
       "claim_ids": [
-        "C-recall-revision-means"
+        "C-assembly-numeric",
+        "C-recall-revision-means",
+        "C-recall-revision-profiles"
       ],
-      "result_evidence_id": "E-recall-revision-assets",
-      "row_locator": "$.tables.core_precision.rows"
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     },
     {
-      "locator": "table:core_exact",
-      "path": "paper/manuscript/tables/core_exact.tex",
-      "sha256": "7d77f6ead8bea2ef41fee49ff25f38dfa96c8b978f2d2c39933db10b6a17084f",
+      "path": "paper/manuscript/sections/motif_definitions.tex",
+      "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9",
+      "paragraph": 1,
+      "start_line": 1,
       "claim_ids": [
-        "C-recall-revision-means"
+        "C-motif-chain",
+        "C-motif-star_in",
+        "C-motif-star_out",
+        "C-motif-tree_in",
+        "C-motif-tree_out",
+        "C-motif-rhombus",
+        "C-motif-hourglass",
+        "C-motif-core-design",
+        "C-assembly-motif-roles"
       ],
-      "result_evidence_id": "E-recall-revision-assets",
-      "row_locator": "$.tables.core_exact.rows"
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/motif_definitions.tex",
+      "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9",
+      "paragraph": 2,
+      "start_line": 4,
+      "claim_ids": [
+        "C-motif-chain",
+        "C-motif-star_in",
+        "C-motif-star_out",
+        "C-motif-tree_in",
+        "C-motif-tree_out",
+        "C-motif-rhombus",
+        "C-motif-hourglass",
+        "C-motif-core-design",
+        "C-assembly-motif-roles"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/motif_definitions.tex",
+      "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9",
+      "paragraph": 3,
+      "start_line": 6,
+      "claim_ids": [
+        "C-motif-chain",
+        "C-motif-star_in",
+        "C-motif-star_out",
+        "C-motif-tree_in",
+        "C-motif-tree_out",
+        "C-motif-rhombus",
+        "C-motif-hourglass",
+        "C-motif-core-design",
+        "C-assembly-motif-roles"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/motif_definitions.tex",
+      "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9",
+      "paragraph": 4,
+      "start_line": 9,
+      "claim_ids": [
+        "C-motif-chain",
+        "C-motif-star_in",
+        "C-motif-star_out",
+        "C-motif-tree_in",
+        "C-motif-tree_out",
+        "C-motif-rhombus",
+        "C-motif-hourglass",
+        "C-motif-core-design",
+        "C-assembly-motif-roles"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/motif_definitions.tex",
+      "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9",
+      "paragraph": 5,
+      "start_line": 12,
+      "claim_ids": [
+        "C-motif-chain",
+        "C-motif-star_in",
+        "C-motif-star_out",
+        "C-motif-tree_in",
+        "C-motif-tree_out",
+        "C-motif-rhombus",
+        "C-motif-hourglass",
+        "C-motif-core-design",
+        "C-assembly-motif-roles"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/motif_definitions.tex",
+      "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9",
+      "paragraph": 6,
+      "start_line": 15,
+      "claim_ids": [
+        "C-motif-chain",
+        "C-motif-star_in",
+        "C-motif-star_out",
+        "C-motif-tree_in",
+        "C-motif-tree_out",
+        "C-motif-rhombus",
+        "C-motif-hourglass",
+        "C-motif-core-design",
+        "C-assembly-motif-roles"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/motif_definitions.tex",
+      "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9",
+      "paragraph": 7,
+      "start_line": 18,
+      "claim_ids": [
+        "C-motif-chain",
+        "C-motif-star_in",
+        "C-motif-star_out",
+        "C-motif-tree_in",
+        "C-motif-tree_out",
+        "C-motif-rhombus",
+        "C-motif-hourglass",
+        "C-motif-core-design",
+        "C-assembly-motif-roles"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
+    },
+    {
+      "path": "paper/manuscript/sections/motif_definitions.tex",
+      "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9",
+      "paragraph": 8,
+      "start_line": 21,
+      "claim_ids": [
+        "C-motif-chain",
+        "C-motif-star_in",
+        "C-motif-star_out",
+        "C-motif-tree_in",
+        "C-motif-tree_out",
+        "C-motif-rhombus",
+        "C-motif-hourglass",
+        "C-motif-core-design",
+        "C-assembly-motif-roles"
+      ],
+      "scope_note": "Grouped semantic/source bindings; mathematical definitions and research questions are not new empirical findings. Hypotheses remain hypotheses."
     }
   ],
+  "claims_path": "paper/research_notes/analyses/standalone_assembly/run-01/claims.jsonl",
+  "evidence_register_path": "paper/research_notes/analyses/standalone_assembly/run-01/evidence_register.json",
   "limitations": [
-    "Paragraph maps bind claim families rather than machine-prove each sentence.",
-    "Missing raw replies and exact cross-paper row reuse remain disclosed.",
-    "No causal mechanism or recall/precision significance claim."
-  ],
-  "revision_note": "Author requested removal of the former main Figure 3 and condensed error-category discussion; retained plots/tables unchanged."
+    "Mappings do not automatically prove every sentence. Existing cached metrics and prior archive audits remain their stated evidence tier.",
+    "No new raw-response parsing, model run, inference interval or exhaustive originality check.",
+    "Publication/reuse eligibility is not certified by assembly."
+  ]
 }

@@ -1,0 +1,37 @@
+{
+  "scope": "New motif subsection, its Markdown conversion and generated diagrams only; unchanged Method paragraphs and the rest of the paper are outside this check.",
+  "entries": [
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/03_motifs.tex",
+      "sha256": "019adfa91ec8bc63cfc83383861f4d7a4622f3bd6fdc6a86cb6c5188f052094a",
+      "locator": "Opening conventions, seven named family descriptions, figure caption and final design/scope paragraph",
+      "claim_ids": [
+        "C-motif-chain",
+        "C-motif-star_in",
+        "C-motif-star_out",
+        "C-motif-tree_in",
+        "C-motif-tree_out",
+        "C-motif-rhombus",
+        "C-motif-hourglass",
+        "C-motif-roles",
+        "C-motif-core-design"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/03_motifs.md",
+      "sha256": "c4b9941062abc7f386a6fa980e56a739c2c4729a42e1afa6ccb07126db1c0069",
+      "locator": "Opening conventions, seven named family descriptions, figure caption and final design/scope paragraph",
+      "claim_ids": [
+        "C-motif-chain",
+        "C-motif-star_in",
+        "C-motif-star_out",
+        "C-motif-tree_in",
+        "C-motif-tree_out",
+        "C-motif-rhombus",
+        "C-motif-hourglass",
+        "C-motif-roles",
+        "C-motif-core-design"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+[
+  {
+    "motif": "chain",
+    "generic_edges": [
+      [
+        "a",
+        "NEWS_ABOUT_FUND",
+        "b"
+      ],
+      [
+        "c",
+        "LOCATED_IN",
+        "d"
+      ],
+      [
+        "d",
+        "IN_STATE",
+        "e"
+      ],
+      [
+        "e",
+        "IN_COUNTRY",
+        "f"
+      ],
+      [
+        "b",
+        "OWNS",
+        "c"
+      ]
+    ],
+    "generic_endpoint_answer": [
+      "f"
+    ],
+    "generic_selection_reference": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "input_id": "596f0f7f32af69a8af5bd8d1181454943f720e6f942fed9708da8abe581a3072"
+  },
+  {
+    "motif": "star_in",
+    "generic_edges": [
+      [
+        "b",
+        "PRODUCES",
+        "a"
+      ],
+      [
+        "c",
+        "NEWS_ABOUT_PRODUCT",
+        "a"
+      ],
+      [
+        "d",
+        "NEWS_ABOUT_PRODUCT",
+        "a"
+      ],
+      [
+        "e",
+        "NEWS_ABOUT_PRODUCT",
+        "a"
+      ],
+      [
+        "f",
+        "NEWS_ABOUT_PRODUCT",
+        "a"
+      ]
+    ],
+    "generic_endpoint_answer": [
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "generic_selection_reference": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "input_id": "b32c523eae0a8a2db036c7a5f0ae7518812369a055931729829825de1dc20204"
+  },
+  {
+    "motif": "star_out",
+    "generic_edges": [
+      [
+        "a",
+        "NEWS_ABOUT_PRODUCT",
+        "b"
+      ],
+      [
+        "a",
+        "NEWS_ABOUT_PRODUCT",
+        "c"
+      ],
+      [
+        "a",
+        "NEWS_ABOUT_PRODUCT",
+        "d"
+      ],
+      [
+        "a",
+        "NEWS_ABOUT_PRODUCT",
+        "e"
+      ],
+      [
+        "a",
+        "NEWS_ABOUT_PRODUCT",
+        "f"
+      ]
+    ],
+    "generic_endpoint_answer": [
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "generic_selection_reference": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "input_id": "9ff3c3a8bb604bb9b9334e7bf04fe25f03876a11e48c873d0fdcbace6fce241b"
+  },
+  {
+    "motif": "tree_in",
+    "generic_edges": [
+      [
+        "c",
+        "REQUIRES",
+        "a"
+      ],
+      [
+        "e",
+        "WORKS_FOR",
+        "c"
+      ],
+      [
+        "f",
+        "WORKS_FOR",
+        "c"
+      ],
+      [
+        "b",
+        "REQUIRES",
+        "a"
+      ],
+      [
+        "d",
+        "WORKS_FOR",
+        "b"
+      ]
+    ],
+    "generic_endpoint_answer": [
+      "e",
+      "f",
+      "d"
+    ],
+    "generic_selection_reference": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "input_id": "da5e4f87752ef3c82a359bf43debf20fde525a3f4ddfbd671dd54297f2b0bce9"
+  },
+  {
+    "motif": "tree_out",
+    "generic_edges": [
+      [
+        "b",
+        "PRODUCES",
+        "d"
+      ],
+      [
+        "a",
+        "NEWS_ABOUT_COMPANY",
+        "b"
+      ],
+      [
+        "a",
+        "NEWS_ABOUT_COMPANY",
+        "c"
+      ],
+      [
+        "c",
+        "PRODUCES",
+        "e"
+      ],
+      [
+        "c",
+        "REQUIRES",
+        "f"
+      ]
+    ],
+    "generic_endpoint_answer": [
+      "d",
+      "e",
+      "f"
+    ],
+    "generic_selection_reference": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "input_id": "9bbc184d0d0f0f905b3e7f61f22cd5aa7db4482f3d98140ec83e2ad6b3fb1618"
+  },
+  {
+    "motif": "rhombus",
+    "generic_edges": [
+      [
+        "b",
+        "OPERATES_IN_INDUSTRY",
+        "d"
+      ],
+      [
+        "a",
+        "OWNS",
+        "b"
+      ],
+      [
+        "a",
+        "OWNS",
+        "c"
+      ],
+      [
+        "c",
+        "OPERATES_IN_INDUSTRY",
+        "d"
+      ]
+    ],
+    "generic_endpoint_answer": [
+      "d"
+    ],
+    "generic_selection_reference": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "input_id": "80be0fc812928c4d1dfa4eb78151265340dac81ddddaebf5b13b79bbe87030b6"
+  },
+  {
+    "motif": "hourglass",
+    "generic_edges": [
+      [
+        "a",
+        "PRODUCES",
+        "d"
+      ],
+      [
+        "a",
+        "PRODUCES",
+        "e"
+      ],
+      [
+        "b",
+        "NEWS_ABOUT_COMPANY",
+        "a"
+      ],
+      [
+        "c",
+        "NEWS_ABOUT_COMPANY",
+        "a"
+      ]
+    ],
+    "generic_endpoint_answer": [
+      "d",
+      "e",
+      "b",
+      "c"
+    ],
+    "generic_selection_reference": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "input_id": "efdd2b71bfc986685d6d20f606fe1233101c9b773c10375868563a138cb6db95"
+  }
+]

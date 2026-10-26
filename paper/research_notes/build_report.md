@@ -1,5 +1,25 @@
 # Manuscript build report
 
+## Complete standalone KG article, 2026-10-26
+
+The agreed standalone Introduction/Related Work are active. Title, abstract, keywords, Discussion and Conclusion now use the KG entity-selection scope without the unpublished-source citation or cross-domain framing. Main Figure1 is the agreed grouped bar chart; full motif definitions are in Appendix C. Active input paths are canonical sections/ files.
+
+A fresh main.pdf was exported with hash-verified Tectonic0.17.0 in untrusted mode. Default-sandbox bundle access failed; an approved escalated build could access the standard resources and succeeded. The cached final rebuild fixed one overfull paragraph heading without changing fonts, margins or class geometry. Logs: build-standalone-pass-3.txt and build-standalone-final.txt. The final PDF has11pages:6main,1references,4appendix. All14 detected fonts are embedded. Zero overfull boxes and undefined references/citations remain. Optional bibliography-field, font-resource and underfull notices are retained rather than resolved by invented metadata.
+
+All11 pages were rendered with bundled Poppler and visually inspected. Numeric checks cover161 table/prose/diagnostic items and all42 main bars. Scoped structural validation passes:56evidence records,42claim records,75bindings. This is not an exhaustive novelty or submission-eligibility certification. Deliverables are main.pdf, article.md and article_sources.zip (43members, checked dependency closure/CRC, portable Markdown figures; no compiler/raw data). Prior sources/PDF are preserved under analyses/standalone_assembly/run-01/previous_manuscript/. Exact hashes, source/claim bindings, numeric/PDF checks and release manifest are under the same run. Historical production-ledger hash issues remain explicit.
+
+## Grouped motif bars, 2026-10-26
+
+The motif comparison is now one categorical grouped bar chart: three model pairs per motif, with Raw/Raw+E adjacent, model colors, hatched Raw and solid Raw+E. No connecting lines or stacked values are used. The 42 source values and their selectors/denominators are unchanged. The compact key remains alongside the chart and full definitions remain in the appendix. New PDF/SVG/PNG assets are under `paper/figures/motif_raw_recall_bars_v1/`; previous line assets are preserved.
+
+The PNG was visually inspected and every bar height checked against its retained source row. The desktop compiler returned success for the existing main after the figure/caption replacement. This is not a new full-PDF export or complete page-layout certification. Scoped provenance and validation are in `analyses/motif_recall_layout/run-02/`.
+
+## Compact motif key and Raw/Raw+E comparison, 2026-10-26
+
+Detailed motif definitions now appear in `proposals/transfer_intro_related_v1/08_motif_appendix.tex`, included from the appendix. Method keeps a short definition and cross-reference. Results uses `figures/motifs_and_raw_recall_v1.pdf`: a small motif key beside three Raw/Raw+E recall panels, at the explicit Full size slice 6/4/5. The earlier controlled Core K1/K2 plot and its numerical discussion are preserved in the appendix. The new vector figure is 7.25 by 2.12 inches; its PNG was visually inspected. Existing typography and class options were not changed.
+
+The desktop `compile_latex_document` call on the changed Results source resolved the existing `main.tex` and returned success. The following older PDF page counts refer to earlier exported builds: no new complete PDF export or full-page visual certification is claimed here. Source-row/denominator checks, paired subset verification, render provenance, and scoped cross-reference validation are in `analyses/motif_recall_layout/run-01/`. New main-figure values are Full Raw/Raw+E values, not substituted Core K1/K2 scores.
+
 ## Removal of the error-category figure, 2026-10-26
 
 At the author's request, the former main Figure 3 and its detailed category-count discussion were removed. Unused category definitions and related abstract/discussion wording were condensed. The two main Recall figures and two tables are unchanged; appendix Precision figures are renumbered 3 and 4. No new experimental result or numerical estimate was added.

@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-26",
+  "author_request": "Rewrite Introduction/Related Work without referring to the unpublished Tool Selection work.",
+  "scope": "Existing proposed two sections and their readable Markdown versions; active full manuscript not rewritten.",
+  "source_preservation": "Previous source text retained in this run; prior literature/provenance audits remain historical evidence.",
+  "novelty_policy": "No first-study/new-dataset/independent-replication claim substituted for deleted references. Underlying data and reuse status are unchanged.",
+  "used_citation_keys": [
+    "dai2024kgunderstanding",
+    "dai2025graphpatterns",
+    "fatemi2024talklikegraph",
+    "ghandi2026graphwalk",
+    "he2024gretriever",
+    "kirpichev2026towards",
+    "luo2024rog",
+    "nakano2021webgpt",
+    "wu2024stark"
+  ],
+  "checks": {
+    "unpublished_citation_and_transfer_premise_absent": true,
+    "citation_keys_resolve": true,
+    "markdown_synced": true
+  },
+  "files": [
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.md",
+      "sha256": "e26c1a41e5f73824b9766f81ca6060e5d3baf1a4456391ff92088b1a78ccd82d"
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85"
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.md",
+      "sha256": "a06f25ed6a274ddbc71e89e9edcaaa1660b022ee674e80be9b105a8ecc283a82"
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.tex",
+      "sha256": "589298b26ad0773abb7f6b4ef6339af7b47e2f2c7426e63203fb11d55214edbe"
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/additional_references.bib",
+      "sha256": "ac9fd8d5b9ce68c06c0e5765ae92a152fba082d9b280405fc0546831916af87a"
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/README.md",
+      "sha256": "6462b00b63100752667996cd5ce147057ddf6f409291566b2b5ae6a598200700"
+    }
+  ]
+}

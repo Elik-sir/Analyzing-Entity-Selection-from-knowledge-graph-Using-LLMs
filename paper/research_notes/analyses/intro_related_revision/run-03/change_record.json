@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-26",
+  "request": "Smooth Web information-search motivation into entity selection; remove separate Web-relevance section and simplify prose.",
+  "before_sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+  "after_sha256": "a9fc38c5650a0628c84de19285321c3f3b84a8ea7cfd42b7bf7045df2f7cec95",
+  "markdown_sha256": "ae9bbef7ab49f182272bafe8991396dac2a7015eb73a062a5604e6db6fdd6f13",
+  "changed_scope": "First four Introduction paragraphs; other scientific text unchanged. Markdown synchronized. New WebGPT background citation in proposal-only bibliography.",
+  "availability_distinction": "All reference entities are candidates throughout; supporting relations are explicitly supplied only in explicit-relation conditions. No final-answer correctness measurement asserted.",
+  "compiler": {
+    "tool": "compile_latex_document",
+    "result": "success",
+    "resolved_main": "paper/manuscript/main.tex",
+    "scope": "Remembered parent main compiles; it does not include the proposal, so proposal layout/citation rendering is not certified."
+  },
+  "static_checks": {
+    "missing_citations": [],
+    "braces_balanced": true,
+    "separate_web_heading_removed": true
+  },
+  "historical_runs": "run-01 and run-02 retained as prior states"
+}

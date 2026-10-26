@@ -1,0 +1,21 @@
+{
+  "missing_citation_keys": [],
+  "duplicate_citation_keys": [],
+  "balanced_brace_counts": {
+    "01_introduction.tex": true,
+    "02_related_work.tex": true
+  },
+  "used_citation_keys": [
+    "anonymousToolGraph",
+    "dai2024kgunderstanding",
+    "dai2025graphpatterns",
+    "fatemi2024talklikegraph",
+    "ghandi2026graphwalk",
+    "he2024gretriever",
+    "kirpichev2026towards",
+    "luo2024rog",
+    "wu2024stark"
+  ],
+  "pdf_compiled": false,
+  "active_manuscript_replaced": false
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-motif-archive",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/motif_description/run-01/archive_samples.json",
+      "sha256": "c4aa56a32b16116d73815beeb6642ef31ddf9f8736773fa5a00334406d262dba",
+      "locator": "$.samples keyed by family: task_spec, typed_edges, endpoint_ids, witness_ids, validation; exact selectors/JSONL line numbers/source hashes",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-motif-core",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/motif_description/run-01/core_shape_audit.json",
+      "sha256": "574e0ddaffc15f7dd71b5e3ce07a9c76a14b10206fb770eb556ec9b5b232bd2f",
+      "locator": "$.population and $.family_summaries; Qwen/core/K1/disconnected, no outcome filter",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-motif-core-script",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/motif_description/run-01/audit_core_shapes.py",
+      "sha256": "9872ee982549121b263e638ef1f3d1467d9e7d08c99b19495fa38cdf16de2813",
+      "locator": "Read-only independent shape/spec/public-edge endpoint/witness checks",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-motif-sampler",
+      "kind": "implementation",
+      "path": "graph_motives/graph/motifs.py",
+      "sha256": "3ffb246085dbfc56fc2b6bf6497bc0574906829846c11ba8efbce3d06428d865",
+      "locator": "sample_chain:20-40; sample_star:43-62; sample_tree:65-111; sample_rhombus:114-134; sample_hourglass:137-150",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Current construction definitions only; historical execution is not inferred."
+    },
+    {
+      "id": "E-motif-query",
+      "kind": "implementation",
+      "path": "graph_motives/preparation/questions.py",
+      "sha256": "9004a5e6cc58bf6b0388b3a2239d7bc3cef0f255c8b6c36549952445f69e4d5a",
+      "locator": "_templates:64-81; evaluate_task:164-223",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Question semantics traced to current symbols and separately checked saved task specs."
+    },
+    {
+      "id": "E-motif-figure",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/motif_description/run-01/figure_sources.json",
+      "sha256": "f2c64efa8b37778271e2f6769111878895f5ca304b2b6d62f2241d9f8f7279dc",
+      "locator": "$.records: original input IDs, generic node labels/roles, stored directed typed edges and endpoints; $.files",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-motif-render",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/motif_description/run-01/render_motifs.py",
+      "sha256": "79204b7a51691d67bcbde1cc2e4fc8bc6dff78e5bdf97a5f876ef8cb4bb0f7a3",
+      "locator": "layout, node, arrow drawing and PDF/SVG/PNG export; no graph sampling",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-motif-panel-sizes",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+      "sha256": "4d6cc43141f4877ce29430cef66afd50d64c78be949e1e7c2aef32ceb53a93a5",
+      "locator": "series_id=full_braw, condition=Braw+E: distinct size values by motif",
+      "verification": "reported",
+      "checked_on": "2026-10-26",
+      "limitations": "Existing descriptive size export, not new model outcomes."
+    }
+  ]
+}

@@ -1,0 +1,1854 @@
+{
+  "data": "paper/research_notes/analyses/motif_recall_layout/run-01/selected_rows.csv",
+  "data_sha256": "74bb9f343d23b2989e100cc6818be53ada4f308e01cebb052a1d7405d1df5a06",
+  "diagram_source": "paper/research_notes/analyses/motif_description/run-01/figure_sources.json",
+  "diagram_source_sha256": "f2c64efa8b37778271e2f6769111878895f5ca304b2b6d62f2241d9f8f7279dc",
+  "rows": [
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "chain",
+      "size": "6",
+      "N": "100",
+      "valid": "95",
+      "invalid": "5",
+      "valid_fraction": "0.95",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.92",
+      "precision_valid_only": "0.968421052631579",
+      "recall": "0.29666666666666663",
+      "recall_valid_only": "0.31228070175438594",
+      "f1": "0.4471428571428572",
+      "f1_valid_only": "0.4706766917293233",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "282",
+      "motif_order": "0"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "star_in",
+      "size": "6",
+      "N": "100",
+      "valid": "99",
+      "invalid": "1",
+      "valid_fraction": "0.99",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.98",
+      "precision_valid_only": "0.98989898989899",
+      "recall": "0.19",
+      "recall_valid_only": "0.1919191919191919",
+      "f1": "0.3142857142857143",
+      "f1_valid_only": "0.31746031746031744",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "289",
+      "motif_order": "1"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "star_out",
+      "size": "6",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.96",
+      "precision_valid_only": "0.96",
+      "recall": "0.225",
+      "recall_valid_only": "0.225",
+      "f1": "0.341025974025974",
+      "f1_valid_only": "0.341025974025974",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "297",
+      "motif_order": "2"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "tree_in",
+      "size": "6",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.74",
+      "precision_valid_only": "0.74",
+      "recall": "0.16166666666666665",
+      "recall_valid_only": "0.16166666666666665",
+      "f1": "0.2569047619047619",
+      "f1_valid_only": "0.2569047619047619",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "303",
+      "motif_order": "3"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "tree_out",
+      "size": "6",
+      "N": "100",
+      "valid": "98",
+      "invalid": "2",
+      "valid_fraction": "0.98",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.758",
+      "precision_valid_only": "0.773469387755102",
+      "recall": "0.1433333333333333",
+      "recall_valid_only": "0.14625850340136054",
+      "f1": "0.2347965367965368",
+      "f1_valid_only": "0.239588302853609",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "309",
+      "motif_order": "4"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "rhombus",
+      "size": "4",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.76",
+      "precision_valid_only": "0.76",
+      "recall": "0.2",
+      "recall_valid_only": "0.2",
+      "f1": "0.3139047619047619",
+      "f1_valid_only": "0.3139047619047619",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "284",
+      "motif_order": "5"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "hourglass",
+      "size": "5",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.99",
+      "precision_valid_only": "0.99",
+      "recall": "0.26",
+      "recall_valid_only": "0.26",
+      "f1": "0.39448412698412705",
+      "f1_valid_only": "0.39448412698412705",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "283",
+      "motif_order": "6"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "chain",
+      "size": "6",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "1.0",
+      "precision_valid_only": "1.0",
+      "recall": "1.0",
+      "recall_valid_only": "1.0",
+      "f1": "1.0",
+      "f1_valid_only": "1.0",
+      "exact": "1.0",
+      "exact_valid_only": "1.0",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "316",
+      "motif_order": "0"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "star_in",
+      "size": "6",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "1.0",
+      "precision_valid_only": "1.0",
+      "recall": "1.0",
+      "recall_valid_only": "1.0",
+      "f1": "1.0",
+      "f1_valid_only": "1.0",
+      "exact": "1.0",
+      "exact_valid_only": "1.0",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "323",
+      "motif_order": "1"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "star_out",
+      "size": "6",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "1.0",
+      "precision_valid_only": "1.0",
+      "recall": "1.0",
+      "recall_valid_only": "1.0",
+      "f1": "1.0",
+      "f1_valid_only": "1.0",
+      "exact": "1.0",
+      "exact_valid_only": "1.0",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "331",
+      "motif_order": "2"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "tree_in",
+      "size": "6",
+      "N": "100",
+      "valid": "97",
+      "invalid": "3",
+      "valid_fraction": "0.97",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.97",
+      "precision_valid_only": "1.0",
+      "recall": "0.91",
+      "recall_valid_only": "0.9381443298969072",
+      "f1": "0.9359999999999999",
+      "f1_valid_only": "0.9649484536082473",
+      "exact": "0.68",
+      "exact_valid_only": "0.7010309278350515",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "337",
+      "motif_order": "3"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "tree_out",
+      "size": "6",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "1.0",
+      "precision_valid_only": "1.0",
+      "recall": "0.9983333333333333",
+      "recall_valid_only": "0.9983333333333333",
+      "f1": "0.999090909090909",
+      "f1_valid_only": "0.999090909090909",
+      "exact": "0.99",
+      "exact_valid_only": "0.99",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "343",
+      "motif_order": "4"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "rhombus",
+      "size": "4",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "1.0",
+      "precision_valid_only": "1.0",
+      "recall": "1.0",
+      "recall_valid_only": "1.0",
+      "f1": "1.0",
+      "f1_valid_only": "1.0",
+      "exact": "1.0",
+      "exact_valid_only": "1.0",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "318",
+      "motif_order": "5"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "hourglass",
+      "size": "5",
+      "N": "100",
+      "valid": "99",
+      "invalid": "1",
+      "valid_fraction": "0.99",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.99",
+      "precision_valid_only": "1.0",
+      "recall": "0.97",
+      "recall_valid_only": "0.9797979797979798",
+      "f1": "0.9788888888888888",
+      "f1_valid_only": "0.988776655443322",
+      "exact": "0.89",
+      "exact_valid_only": "0.898989898989899",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "317",
+      "motif_order": "6"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "chain",
+      "size": "6",
+      "N": "100",
+      "valid": "81",
+      "invalid": "19",
+      "valid_fraction": "0.81",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.79375",
+      "precision_valid_only": "0.9799382716049383",
+      "recall": "0.265",
+      "recall_valid_only": "0.3271604938271605",
+      "f1": "0.3902813852813853",
+      "f1_valid_only": "0.4818288707177596",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "418",
+      "motif_order": "0"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "star_in",
+      "size": "6",
+      "N": "100",
+      "valid": "98",
+      "invalid": "2",
+      "valid_fraction": "0.98",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.9680769230769231",
+      "precision_valid_only": "0.9878335949764521",
+      "recall": "0.225",
+      "recall_valid_only": "0.22959183673469388",
+      "f1": "0.3479248120300752",
+      "f1_valid_only": "0.3550253183980359",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "425",
+      "motif_order": "1"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "star_out",
+      "size": "6",
+      "N": "100",
+      "valid": "95",
+      "invalid": "5",
+      "valid_fraction": "0.95",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.9336547619047618",
+      "precision_valid_only": "0.9827944862155388",
+      "recall": "0.29333333333333333",
+      "recall_valid_only": "0.30877192982456136",
+      "f1": "0.4095222555222555",
+      "f1_valid_only": "0.43107605844447944",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "433",
+      "motif_order": "2"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "tree_in",
+      "size": "6",
+      "N": "100",
+      "valid": "99",
+      "invalid": "1",
+      "valid_fraction": "0.99",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.9",
+      "precision_valid_only": "0.9090909090909091",
+      "recall": "0.27",
+      "recall_valid_only": "0.2727272727272727",
+      "f1": "0.3865952380952381",
+      "f1_valid_only": "0.3905002405002405",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "439",
+      "motif_order": "3"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "tree_out",
+      "size": "6",
+      "N": "100",
+      "valid": "76",
+      "invalid": "24",
+      "valid_fraction": "0.76",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.722311076604555",
+      "precision_valid_only": "0.9504093113217827",
+      "recall": "0.225",
+      "recall_valid_only": "0.29605263157894735",
+      "f1": "0.31105490295145466",
+      "f1_valid_only": "0.4092827670413877",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "445",
+      "motif_order": "4"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "rhombus",
+      "size": "4",
+      "N": "100",
+      "valid": "88",
+      "invalid": "12",
+      "valid_fraction": "0.88",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.8040357142857143",
+      "precision_valid_only": "0.913676948051948",
+      "recall": "0.3525",
+      "recall_valid_only": "0.4005681818181818",
+      "f1": "0.4458281718281718",
+      "f1_valid_only": "0.5066229225320135",
+      "exact": "0.02",
+      "exact_valid_only": "0.022727272727272728",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "420",
+      "motif_order": "5"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "hourglass",
+      "size": "5",
+      "N": "100",
+      "valid": "93",
+      "invalid": "7",
+      "valid_fraction": "0.93",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.8981746031746032",
+      "precision_valid_only": "0.965779143198498",
+      "recall": "0.308",
+      "recall_valid_only": "0.3311827956989247",
+      "f1": "0.431984126984127",
+      "f1_valid_only": "0.46449906127325485",
+      "exact": "0.01",
+      "exact_valid_only": "0.010752688172043012",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "419",
+      "motif_order": "6"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "chain",
+      "size": "6",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.9952380952380951",
+      "precision_valid_only": "0.9952380952380951",
+      "recall": "0.79",
+      "recall_valid_only": "0.79",
+      "f1": "0.8477661227661227",
+      "f1_valid_only": "0.8477661227661227",
+      "exact": "0.63",
+      "exact_valid_only": "0.63",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "452",
+      "motif_order": "0"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "star_in",
+      "size": "6",
+      "N": "100",
+      "valid": "92",
+      "invalid": "8",
+      "valid_fraction": "0.92",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.92",
+      "precision_valid_only": "1.0",
+      "recall": "0.875",
+      "recall_valid_only": "0.9510869565217391",
+      "f1": "0.8907575757575757",
+      "f1_valid_only": "0.9682147562582345",
+      "exact": "0.76",
+      "exact_valid_only": "0.8260869565217391",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "459",
+      "motif_order": "1"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "star_out",
+      "size": "6",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "1.0",
+      "precision_valid_only": "1.0",
+      "recall": "1.0",
+      "recall_valid_only": "1.0",
+      "f1": "1.0",
+      "f1_valid_only": "1.0",
+      "exact": "1.0",
+      "exact_valid_only": "1.0",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "467",
+      "motif_order": "2"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "tree_in",
+      "size": "6",
+      "N": "100",
+      "valid": "97",
+      "invalid": "3",
+      "valid_fraction": "0.97",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.97",
+      "precision_valid_only": "1.0",
+      "recall": "0.5133333333333333",
+      "recall_valid_only": "0.5292096219931272",
+      "f1": "0.6676969696969697",
+      "f1_valid_only": "0.6883473914401749",
+      "exact": "0.01",
+      "exact_valid_only": "0.010309278350515464",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "473",
+      "motif_order": "3"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "tree_out",
+      "size": "6",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.9985714285714287",
+      "precision_valid_only": "0.9985714285714287",
+      "recall": "0.7233333333333333",
+      "recall_valid_only": "0.7233333333333333",
+      "f1": "0.8185034965034964",
+      "f1_valid_only": "0.8185034965034964",
+      "exact": "0.33",
+      "exact_valid_only": "0.33",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "479",
+      "motif_order": "4"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "rhombus",
+      "size": "4",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "1.0",
+      "precision_valid_only": "1.0",
+      "recall": "0.8675",
+      "recall_valid_only": "0.8675",
+      "f1": "0.9242857142857143",
+      "f1_valid_only": "0.9242857142857143",
+      "exact": "0.47",
+      "exact_valid_only": "0.47",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "454",
+      "motif_order": "5"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "hourglass",
+      "size": "5",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.9954999999999999",
+      "precision_valid_only": "0.9954999999999999",
+      "recall": "0.882",
+      "recall_valid_only": "0.882",
+      "f1": "0.9276031746031747",
+      "f1_valid_only": "0.9276031746031747",
+      "exact": "0.58",
+      "exact_valid_only": "0.58",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "453",
+      "motif_order": "6"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "chain",
+      "size": "6",
+      "N": "100",
+      "valid": "90",
+      "invalid": "10",
+      "valid_fraction": "0.9",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.825",
+      "precision_valid_only": "0.9166666666666666",
+      "recall": "0.29166666666666663",
+      "recall_valid_only": "0.32407407407407407",
+      "f1": "0.42916666666666664",
+      "f1_valid_only": "0.4768518518518518",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "350",
+      "motif_order": "0"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "star_in",
+      "size": "6",
+      "N": "100",
+      "valid": "98",
+      "invalid": "2",
+      "valid_fraction": "0.98",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.46149999999999997",
+      "precision_valid_only": "0.47091836734693876",
+      "recall": "0.165",
+      "recall_valid_only": "0.1683673469387755",
+      "f1": "0.2260909090909091",
+      "f1_valid_only": "0.23070500927643786",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "357",
+      "motif_order": "1"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "star_out",
+      "size": "6",
+      "N": "100",
+      "valid": "92",
+      "invalid": "8",
+      "valid_fraction": "0.92",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.48296428571428573",
+      "precision_valid_only": "0.5249611801242235",
+      "recall": "0.32",
+      "recall_valid_only": "0.34782608695652173",
+      "f1": "0.36705583305583306",
+      "f1_valid_only": "0.3989737315824272",
+      "exact": "0.03",
+      "exact_valid_only": "0.03260869565217391",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "365",
+      "motif_order": "2"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "tree_in",
+      "size": "6",
+      "N": "100",
+      "valid": "99",
+      "invalid": "1",
+      "valid_fraction": "0.99",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.33648809523809525",
+      "precision_valid_only": "0.3398869648869649",
+      "recall": "0.15",
+      "recall_valid_only": "0.15151515151515152",
+      "f1": "0.19806709956709956",
+      "f1_valid_only": "0.2000677773405046",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "371",
+      "motif_order": "3"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "tree_out",
+      "size": "6",
+      "N": "100",
+      "valid": "83",
+      "invalid": "17",
+      "valid_fraction": "0.83",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.5545476190476191",
+      "precision_valid_only": "0.6681296615031554",
+      "recall": "0.2383333333333333",
+      "recall_valid_only": "0.28714859437751",
+      "f1": "0.31872311022311023",
+      "f1_valid_only": "0.3840037472567593",
+      "exact": "0.0",
+      "exact_valid_only": "0.0",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "377",
+      "motif_order": "4"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "rhombus",
+      "size": "4",
+      "N": "100",
+      "valid": "93",
+      "invalid": "7",
+      "valid_fraction": "0.93",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.5405219298245614",
+      "precision_valid_only": "0.5812063761554424",
+      "recall": "0.34",
+      "recall_valid_only": "0.3655913978494624",
+      "f1": "0.38593461007591445",
+      "f1_valid_only": "0.41498345169453166",
+      "exact": "0.03",
+      "exact_valid_only": "0.03225806451612903",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "352",
+      "motif_order": "5"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "noise": "disconnected",
+      "motif": "hourglass",
+      "size": "5",
+      "N": "100",
+      "valid": "94",
+      "invalid": "6",
+      "valid_fraction": "0.94",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.3915357142857143",
+      "precision_valid_only": "0.41652735562310034",
+      "recall": "0.23800000000000002",
+      "recall_valid_only": "0.25319148936170216",
+      "f1": "0.28338955488955486",
+      "f1_valid_only": "0.3014782498825052",
+      "exact": "0.02",
+      "exact_valid_only": "0.02127659574468085",
+      "display_condition": "Raw",
+      "source_csv_line_1based": "351",
+      "motif_order": "6"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "chain",
+      "size": "6",
+      "N": "100",
+      "valid": "97",
+      "invalid": "3",
+      "valid_fraction": "0.97",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.9613333333333334",
+      "precision_valid_only": "0.99106529209622",
+      "recall": "0.595",
+      "recall_valid_only": "0.6134020618556701",
+      "f1": "0.7167157287157286",
+      "f1_valid_only": "0.7388821945522975",
+      "exact": "0.19",
+      "exact_valid_only": "0.1958762886597938",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "384",
+      "motif_order": "0"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "star_in",
+      "size": "6",
+      "N": "100",
+      "valid": "99",
+      "invalid": "1",
+      "valid_fraction": "0.99",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.986904761904762",
+      "precision_valid_only": "0.9968734968734969",
+      "recall": "0.9033333333333333",
+      "recall_valid_only": "0.9124579124579124",
+      "f1": "0.9398368298368298",
+      "f1_valid_only": "0.949330131148313",
+      "exact": "0.49",
+      "exact_valid_only": "0.494949494949495",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "391",
+      "motif_order": "1"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "star_out",
+      "size": "6",
+      "N": "100",
+      "valid": "100",
+      "invalid": "0",
+      "valid_fraction": "1.0",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "1.0",
+      "precision_valid_only": "1.0",
+      "recall": "0.9333333333333332",
+      "recall_valid_only": "0.9333333333333332",
+      "f1": "0.9634545454545455",
+      "f1_valid_only": "0.9634545454545455",
+      "exact": "0.61",
+      "exact_valid_only": "0.61",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "399",
+      "motif_order": "2"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "tree_in",
+      "size": "6",
+      "N": "100",
+      "valid": "98",
+      "invalid": "2",
+      "valid_fraction": "0.98",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.97",
+      "precision_valid_only": "0.9897959183673469",
+      "recall": "0.45166666666666666",
+      "recall_valid_only": "0.46088435374149656",
+      "f1": "0.6031601731601731",
+      "f1_valid_only": "0.6154695644491562",
+      "exact": "0.01",
+      "exact_valid_only": "0.01020408163265306",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "405",
+      "motif_order": "3"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "tree_out",
+      "size": "6",
+      "N": "100",
+      "valid": "99",
+      "invalid": "1",
+      "valid_fraction": "0.99",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.9885714285714287",
+      "precision_valid_only": "0.9985569985569986",
+      "recall": "0.7516666666666667",
+      "recall_valid_only": "0.7592592592592593",
+      "f1": "0.8333216783216782",
+      "f1_valid_only": "0.8417390690117962",
+      "exact": "0.32",
+      "exact_valid_only": "0.32323232323232326",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "411",
+      "motif_order": "4"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "rhombus",
+      "size": "4",
+      "N": "100",
+      "valid": "96",
+      "invalid": "4",
+      "valid_fraction": "0.96",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.9566666666666667",
+      "precision_valid_only": "0.9965277777777778",
+      "recall": "0.8575",
+      "recall_valid_only": "0.8932291666666666",
+      "f1": "0.8946666666666667",
+      "f1_valid_only": "0.9319444444444445",
+      "exact": "0.64",
+      "exact_valid_only": "0.6666666666666666",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "386",
+      "motif_order": "5"
+    },
+    {
+      "series_id": "full_braw",
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "noise": "disconnected",
+      "motif": "hourglass",
+      "size": "5",
+      "N": "100",
+      "valid": "98",
+      "invalid": "2",
+      "valid_fraction": "0.98",
+      "raw_response_available": "100",
+      "cached_metrics_only": "0",
+      "precision": "0.9757142857142856",
+      "precision_valid_only": "0.9956268221574344",
+      "recall": "0.8220000000000001",
+      "recall_valid_only": "0.8387755102040817",
+      "f1": "0.8869444444444444",
+      "f1_valid_only": "0.9050453514739228",
+      "exact": "0.3",
+      "exact_valid_only": "0.30612244897959184",
+      "display_condition": "Raw+E",
+      "source_csv_line_1based": "385",
+      "motif_order": "6"
+    }
+  ],
+  "glyphs": [
+    {
+      "motif": "chain",
+      "source_input_id": "596f0f7f32af69a8af5bd8d1181454943f720e6f942fed9708da8abe581a3072",
+      "edges": [
+        [
+          "a",
+          "NEWS_ABOUT_FUND",
+          "b"
+        ],
+        [
+          "c",
+          "LOCATED_IN",
+          "d"
+        ],
+        [
+          "d",
+          "IN_STATE",
+          "e"
+        ],
+        [
+          "e",
+          "IN_COUNTRY",
+          "f"
+        ],
+        [
+          "b",
+          "OWNS",
+          "c"
+        ]
+      ],
+      "positions": {
+        "a": [
+          0.04,
+          0.48
+        ],
+        "b": [
+          0.224,
+          0.48
+        ],
+        "c": [
+          0.408,
+          0.48
+        ],
+        "d": [
+          0.5920000000000001,
+          0.48
+        ],
+        "e": [
+          0.776,
+          0.48
+        ],
+        "f": [
+          0.96,
+          0.48
+        ]
+      },
+      "anchor": "a",
+      "legend": "blue anchor, other reference vertices white"
+    },
+    {
+      "motif": "star_in",
+      "source_input_id": "b32c523eae0a8a2db036c7a5f0ae7518812369a055931729829825de1dc20204",
+      "edges": [
+        [
+          "b",
+          "PRODUCES",
+          "a"
+        ],
+        [
+          "c",
+          "NEWS_ABOUT_PRODUCT",
+          "a"
+        ],
+        [
+          "d",
+          "NEWS_ABOUT_PRODUCT",
+          "a"
+        ],
+        [
+          "e",
+          "NEWS_ABOUT_PRODUCT",
+          "a"
+        ],
+        [
+          "f",
+          "NEWS_ABOUT_PRODUCT",
+          "a"
+        ]
+      ],
+      "positions": {
+        "a": [
+          0.5,
+          0.48
+        ],
+        "b": [
+          0.5,
+          0.84
+        ],
+        "c": [
+          0.15761965413374474,
+          0.5912461179749811
+        ],
+        "d": [
+          0.2883973091747096,
+          0.18875388202501897
+        ],
+        "e": [
+          0.7116026908252903,
+          0.18875388202501886
+        ],
+        "f": [
+          0.8423803458662553,
+          0.591246117974981
+        ]
+      },
+      "anchor": "a",
+      "legend": "blue anchor, other reference vertices white"
+    },
+    {
+      "motif": "star_out",
+      "source_input_id": "9ff3c3a8bb604bb9b9334e7bf04fe25f03876a11e48c873d0fdcbace6fce241b",
+      "edges": [
+        [
+          "a",
+          "NEWS_ABOUT_PRODUCT",
+          "b"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_PRODUCT",
+          "c"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_PRODUCT",
+          "d"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_PRODUCT",
+          "e"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_PRODUCT",
+          "f"
+        ]
+      ],
+      "positions": {
+        "a": [
+          0.5,
+          0.48
+        ],
+        "b": [
+          0.5,
+          0.84
+        ],
+        "c": [
+          0.15761965413374474,
+          0.5912461179749811
+        ],
+        "d": [
+          0.2883973091747096,
+          0.18875388202501897
+        ],
+        "e": [
+          0.7116026908252903,
+          0.18875388202501886
+        ],
+        "f": [
+          0.8423803458662553,
+          0.591246117974981
+        ]
+      },
+      "anchor": "a",
+      "legend": "blue anchor, other reference vertices white"
+    },
+    {
+      "motif": "tree_in",
+      "source_input_id": "da5e4f87752ef3c82a359bf43debf20fde525a3f4ddfbd671dd54297f2b0bce9",
+      "edges": [
+        [
+          "c",
+          "REQUIRES",
+          "a"
+        ],
+        [
+          "e",
+          "WORKS_FOR",
+          "c"
+        ],
+        [
+          "f",
+          "WORKS_FOR",
+          "c"
+        ],
+        [
+          "b",
+          "REQUIRES",
+          "a"
+        ],
+        [
+          "d",
+          "WORKS_FOR",
+          "b"
+        ]
+      ],
+      "positions": {
+        "a": [
+          0.5,
+          0.86
+        ],
+        "b": [
+          0.15,
+          0.5
+        ],
+        "c": [
+          0.675,
+          0.5
+        ],
+        "d": [
+          0.15,
+          0.12
+        ],
+        "e": [
+          0.5,
+          0.12
+        ],
+        "f": [
+          0.85,
+          0.12
+        ]
+      },
+      "anchor": "a",
+      "legend": "blue anchor, other reference vertices white"
+    },
+    {
+      "motif": "tree_out",
+      "source_input_id": "9bbc184d0d0f0f905b3e7f61f22cd5aa7db4482f3d98140ec83e2ad6b3fb1618",
+      "edges": [
+        [
+          "b",
+          "PRODUCES",
+          "d"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_COMPANY",
+          "b"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_COMPANY",
+          "c"
+        ],
+        [
+          "c",
+          "PRODUCES",
+          "e"
+        ],
+        [
+          "c",
+          "REQUIRES",
+          "f"
+        ]
+      ],
+      "positions": {
+        "a": [
+          0.5,
+          0.86
+        ],
+        "b": [
+          0.15,
+          0.5
+        ],
+        "c": [
+          0.675,
+          0.5
+        ],
+        "d": [
+          0.15,
+          0.12
+        ],
+        "e": [
+          0.5,
+          0.12
+        ],
+        "f": [
+          0.85,
+          0.12
+        ]
+      },
+      "anchor": "a",
+      "legend": "blue anchor, other reference vertices white"
+    },
+    {
+      "motif": "rhombus",
+      "source_input_id": "80be0fc812928c4d1dfa4eb78151265340dac81ddddaebf5b13b79bbe87030b6",
+      "edges": [
+        [
+          "b",
+          "OPERATES_IN_INDUSTRY",
+          "d"
+        ],
+        [
+          "a",
+          "OWNS",
+          "b"
+        ],
+        [
+          "a",
+          "OWNS",
+          "c"
+        ],
+        [
+          "c",
+          "OPERATES_IN_INDUSTRY",
+          "d"
+        ]
+      ],
+      "positions": {
+        "a": [
+          0.5,
+          0.86
+        ],
+        "b": [
+          0.2,
+          0.49
+        ],
+        "c": [
+          0.8,
+          0.49
+        ],
+        "d": [
+          0.5,
+          0.12
+        ]
+      },
+      "anchor": "a",
+      "legend": "blue anchor, other reference vertices white"
+    },
+    {
+      "motif": "hourglass",
+      "source_input_id": "efdd2b71bfc986685d6d20f606fe1233101c9b773c10375868563a138cb6db95",
+      "edges": [
+        [
+          "a",
+          "PRODUCES",
+          "d"
+        ],
+        [
+          "a",
+          "PRODUCES",
+          "e"
+        ],
+        [
+          "b",
+          "NEWS_ABOUT_COMPANY",
+          "a"
+        ],
+        [
+          "c",
+          "NEWS_ABOUT_COMPANY",
+          "a"
+        ]
+      ],
+      "positions": {
+        "a": [
+          0.5,
+          0.49
+        ],
+        "b": [
+          0.23,
+          0.85
+        ],
+        "c": [
+          0.77,
+          0.85
+        ],
+        "d": [
+          0.23,
+          0.13
+        ],
+        "e": [
+          0.77,
+          0.13
+        ]
+      },
+      "anchor": "a",
+      "legend": "blue anchor, other reference vertices white"
+    }
+  ],
+  "bars": [
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "chain",
+      "height": 0.29666666666666663,
+      "x": -0.379,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "star_in",
+      "height": 0.19,
+      "x": 0.621,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "star_out",
+      "height": 0.225,
+      "x": 1.6209999999999998,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "tree_in",
+      "height": 0.16166666666666665,
+      "x": 2.621,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "tree_out",
+      "height": 0.1433333333333333,
+      "x": 3.621,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "rhombus",
+      "height": 0.2,
+      "x": 4.621,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "hourglass",
+      "height": 0.26,
+      "x": 5.621,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "chain",
+      "height": 1.0,
+      "x": -0.259,
+      "width": 0.108,
+      "hatch": null
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "star_in",
+      "height": 1.0,
+      "x": 0.7409999999999999,
+      "width": 0.108,
+      "hatch": null
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "star_out",
+      "height": 1.0,
+      "x": 1.7409999999999999,
+      "width": 0.108,
+      "hatch": null
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "tree_in",
+      "height": 0.91,
+      "x": 2.741,
+      "width": 0.108,
+      "hatch": null
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "tree_out",
+      "height": 0.9983333333333333,
+      "x": 3.741,
+      "width": 0.108,
+      "hatch": null
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "rhombus",
+      "height": 1.0,
+      "x": 4.741,
+      "width": 0.108,
+      "hatch": null
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "hourglass",
+      "height": 0.97,
+      "x": 5.741,
+      "width": 0.108,
+      "hatch": null
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "chain",
+      "height": 0.265,
+      "x": -0.11399999999999999,
+      "width": 0.108,
+      "hatch": "///"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "star_in",
+      "height": 0.225,
+      "x": 0.8859999999999999,
+      "width": 0.108,
+      "hatch": "///"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "star_out",
+      "height": 0.29333333333333333,
+      "x": 1.886,
+      "width": 0.108,
+      "hatch": "///"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "tree_in",
+      "height": 0.27,
+      "x": 2.886,
+      "width": 0.108,
+      "hatch": "///"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "tree_out",
+      "height": 0.225,
+      "x": 3.886,
+      "width": 0.108,
+      "hatch": "///"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "rhombus",
+      "height": 0.3525,
+      "x": 4.886,
+      "width": 0.108,
+      "hatch": "///"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "hourglass",
+      "height": 0.308,
+      "x": 5.886,
+      "width": 0.108,
+      "hatch": "///"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "chain",
+      "height": 0.79,
+      "x": 0.006000000000000005,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "star_in",
+      "height": 0.875,
+      "x": 1.006,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "star_out",
+      "height": 1.0,
+      "x": 2.0060000000000002,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "tree_in",
+      "height": 0.5133333333333333,
+      "x": 3.0060000000000002,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "tree_out",
+      "height": 0.7233333333333333,
+      "x": 4.005999999999999,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "rhombus",
+      "height": 0.8675,
+      "x": 5.005999999999999,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "hourglass",
+      "height": 0.882,
+      "x": 6.005999999999999,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "chain",
+      "height": 0.29166666666666663,
+      "x": 0.15100000000000002,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "star_in",
+      "height": 0.165,
+      "x": 1.151,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "star_out",
+      "height": 0.32,
+      "x": 2.1510000000000002,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "tree_in",
+      "height": 0.15,
+      "x": 3.1510000000000002,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "tree_out",
+      "height": 0.2383333333333333,
+      "x": 4.151,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "rhombus",
+      "height": 0.34,
+      "x": 5.151,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "hourglass",
+      "height": 0.23800000000000002,
+      "x": 6.151,
+      "width": 0.10799999999999998,
+      "hatch": "///"
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "chain",
+      "height": 0.595,
+      "x": 0.271,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "star_in",
+      "height": 0.9033333333333333,
+      "x": 1.2710000000000001,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "star_out",
+      "height": 0.9333333333333332,
+      "x": 2.2710000000000004,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "tree_in",
+      "height": 0.45166666666666666,
+      "x": 3.2710000000000004,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "tree_out",
+      "height": 0.7516666666666667,
+      "x": 4.270999999999999,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "rhombus",
+      "height": 0.8575,
+      "x": 5.270999999999999,
+      "width": 0.10799999999999998,
+      "hatch": null
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "hourglass",
+      "height": 0.8220000000000001,
+      "x": 6.270999999999999,
+      "width": 0.10799999999999998,
+      "hatch": null
+    }
+  ],
+  "files": [
+    {
+      "path": "paper/figures/motif_raw_recall_bars_v1/motifs_and_raw_recall_bars.png",
+      "sha256": "b18ec1af23f83c959a6a83274804c48ea5c6d118982a8b13920526448158fee4"
+    },
+    {
+      "path": "paper/figures/motif_raw_recall_bars_v1/motifs_and_raw_recall_bars.pdf",
+      "sha256": "de756c2ff3ab6ac12aa012a736a840851fad75f39aa1645554001d76773733f6"
+    },
+    {
+      "path": "paper/figures/motif_raw_recall_bars_v1/motifs_and_raw_recall_bars.svg",
+      "sha256": "d652dc8c80fdaf685e13a86fe50c1507a0360b0dd8bfc32cbf29f87d824f4f31"
+    },
+    {
+      "path": "paper/manuscript/figures/motifs_and_raw_recall_bars_v1.pdf",
+      "sha256": "de756c2ff3ab6ac12aa012a736a840851fad75f39aa1645554001d76773733f6"
+    }
+  ],
+  "figure_inches": [
+    7.25,
+    2.12
+  ],
+  "scope": "Core-size slice of Full Raw/Raw+E; representative glyph topology from archived Core, not claimed to depict the plotted Full observations. One categorical grouped bar chart;3model pairs per motif, Raw/Raw+E adjacent, no connections, stacking, inference or QA claim."
+}

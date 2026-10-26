@@ -1,0 +1,213 @@
+{
+  "checked_on": "2026-10-26",
+  "git_revision": "1cbfe331066849120a011d99efc4a782e6799565",
+  "working_tree": "Manuscript/research-note changes uncommitted; exact source bytes identified below.",
+  "files": [
+    {
+      "path": "paper/manuscript/ACM-Reference-Format.bst",
+      "sha256": "98042401dc61795c1a056bdd6509996add6204bb67ae248ec7d69e4ca44dcec7"
+    },
+    {
+      "path": "paper/manuscript/acmart.cls",
+      "sha256": "b60c6f9a1fe06411eaefb114f2ef2d222aa25c6e4c0b81cb18ac41c13bd3fa6b"
+    },
+    {
+      "path": "paper/manuscript/article.md",
+      "sha256": "485817b8aa7a5824365dec716f6b75ee299ce98a78e7cffed7f4efd96c2b61f1"
+    },
+    {
+      "path": "paper/manuscript/article_sources.zip",
+      "sha256": "a7fab940f8c8ee4d7096879b9bc1456835afb36ed21d0e0f3ec5177a1d94e245"
+    },
+    {
+      "path": "paper/manuscript/figures/motifs_and_raw_recall_bars_v1.pdf",
+      "sha256": "de756c2ff3ab6ac12aa012a736a840851fad75f39aa1645554001d76773733f6"
+    },
+    {
+      "path": "paper/manuscript/figures/precision_motifs.pdf",
+      "sha256": "3ce6ccbdf27fe0fd9e8ac23bd75786f7157218dd3518fef4bd1b09b2aa440f36"
+    },
+    {
+      "path": "paper/manuscript/figures/precision_sizes.pdf",
+      "sha256": "e5c54f7ef5846d5055d02bab61275358793a333e33b0fbb3a02dbf847391fe1b"
+    },
+    {
+      "path": "paper/manuscript/figures/recall_motifs.pdf",
+      "sha256": "5043a2739c79c7ba096438dc962c0b17be946cb5cd99dd8705640afe0d2f1b62"
+    },
+    {
+      "path": "paper/manuscript/figures/recall_sizes.pdf",
+      "sha256": "98297b62d960b5be15f19f9748d67a4fbcc7af7af939cb7077c13d263ef0879a"
+    },
+    {
+      "path": "paper/manuscript/main.pdf",
+      "sha256": "e23e125add0cec513c43af6b869c517b4b9431924cf128e2edaf0953040e4a17"
+    },
+    {
+      "path": "paper/manuscript/main.tex",
+      "sha256": "710b94e5ac9c976db73c3140dddf557f86edb93fc1412147cee9c24fafc8b1ac"
+    },
+    {
+      "path": "paper/manuscript/queries/01_export_nodes.cypher",
+      "sha256": "157a27fed5f9b7c99dbbeb931d1a5fec3ab2a0c06d7d435769ec1f8f2545f10b"
+    },
+    {
+      "path": "paper/manuscript/queries/02_export_edges.cypher",
+      "sha256": "a88c6fa99299d996d3d72c70d93ab3bbd2a1cd3c7cb9258b368bd2b5f4f61dd8"
+    },
+    {
+      "path": "paper/manuscript/queries/03_exact_induced_check.cypher",
+      "sha256": "4cfa18e8b7dc04e529d5fb574dde54142f435ff55ca42a3eb29bc4faefdef4f4"
+    },
+    {
+      "path": "paper/manuscript/queries/author_query_english_comments.cypher",
+      "sha256": "1a76e29e5c279feb723f138fb30947c478a39be51b92bb83470de5d8515b2e8a"
+    },
+    {
+      "path": "paper/manuscript/queries/author_supplied_motif_extraction.cypher",
+      "sha256": "f2d289405da337b5fade66c8ad0cc1fab1a0110679296d272523b98114786a32"
+    },
+    {
+      "path": "paper/manuscript/queries/check_chain.cypher",
+      "sha256": "8e5465ae42b2584bbc9f97472c11b3ca6753ab68e9e57b85f749bb6d1f518ec8"
+    },
+    {
+      "path": "paper/manuscript/queries/check_hourglass.cypher",
+      "sha256": "b87287a84798fe8f436a0469b736173e919be992b6654f412e5f47ce67449018"
+    },
+    {
+      "path": "paper/manuscript/queries/check_rhombus.cypher",
+      "sha256": "618c55037a766bf0f1101512e295359a7a9fbe33041e9461eac9c86e545bd9d5"
+    },
+    {
+      "path": "paper/manuscript/queries/check_star_in.cypher",
+      "sha256": "d9c1f07a3e4b58f32cb1a19c67bb1b42b3d4f13f5c0539053e90e7af279e7166"
+    },
+    {
+      "path": "paper/manuscript/queries/check_star_out.cypher",
+      "sha256": "8829665e9147a2f898e72cbb80d91f943740498cbd7a6c0a304587f3db17ba14"
+    },
+    {
+      "path": "paper/manuscript/queries/check_tree_in.cypher",
+      "sha256": "7b3918e938d3df7125a0e5d2dbf41bdfe40a1729a572801633e83cd10a62628b"
+    },
+    {
+      "path": "paper/manuscript/queries/check_tree_out.cypher",
+      "sha256": "c020de7276647c6fb3612e44fe738f9ddb6c98e355793ed8cfcba9abf39fe139"
+    },
+    {
+      "path": "paper/manuscript/README.md",
+      "sha256": "33231b3e3dcd59a3e72c2c065f67306e30bd6bd3ee05c28c3fe295369765cc09"
+    },
+    {
+      "path": "paper/manuscript/references.bib",
+      "sha256": "4832f231893cb2ed15fee45f9fb34dcff493f099319d18a64a1498b7484f2013"
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85"
+    },
+    {
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "589298b26ad0773abb7f6b4ef6339af7b47e2f2c7426e63203fb11d55214edbe"
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "e39ae62b5654fe66cc826362f800bd430abfc8a15a78c134c9c93a35dd0895c8"
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "4d7dbc8bde05911193192ec800cd12c642ac51afc0aebaf504de4a5ba697a83e"
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8"
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "dd653c803a98fb7d179e11ebc6f66bc6027304dead4513eeaf67e953eb88222d"
+    },
+    {
+      "path": "paper/manuscript/sections/07_recall_conclusion.tex",
+      "sha256": "92f04bbb70fd72463defd360c68ebd6b4444a37c2e8b5fe9ffe68429d688aafe"
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8"
+    },
+    {
+      "path": "paper/manuscript/sections/motif_definitions.tex",
+      "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9"
+    },
+    {
+      "path": "paper/manuscript/sections/motif_summary.tex",
+      "sha256": "3ac333ab7557c4bc2441e1849f284de3d49f391fc583e04efc9de5fbce1ef5d0"
+    },
+    {
+      "path": "paper/manuscript/tables/core_precision.tex",
+      "sha256": "2d7c00e7eb20541ea6e9bd3cee77e09d6857843f09a2f4200b209dc249180966"
+    },
+    {
+      "path": "paper/manuscript/tables/core_recall.tex",
+      "sha256": "91aa92f96be82883e84609ad5ec1e872b07fb486423471415418f83fe52fb104"
+    },
+    {
+      "path": "paper/manuscript/tables/recall_effects.tex",
+      "sha256": "f2996c31f2e2518e9229fb295a89123b3c6d0a5700c5b6328d072398d14bed96"
+    },
+    {
+      "path": "paper/manuscript/tables/treein_recall.tex",
+      "sha256": "dab338a23257962e53d62800087bccf369ffdb0cc4c50b5b3affd65e7879e7af"
+    }
+  ],
+  "source_zip": {
+    "path": "paper/manuscript/article_sources.zip",
+    "members": [
+      "ACM-Reference-Format.bst",
+      "acmart.cls",
+      "figures/motifs_and_raw_recall_bars_v1.pdf",
+      "figures/precision_motifs.pdf",
+      "figures/precision_sizes.pdf",
+      "figures/recall_motifs.pdf",
+      "figures/recall_sizes.pdf",
+      "main.pdf",
+      "main.tex",
+      "queries/01_export_nodes.cypher",
+      "queries/02_export_edges.cypher",
+      "queries/03_exact_induced_check.cypher",
+      "queries/author_query_english_comments.cypher",
+      "queries/author_supplied_motif_extraction.cypher",
+      "queries/check_chain.cypher",
+      "queries/check_hourglass.cypher",
+      "queries/check_rhombus.cypher",
+      "queries/check_star_in.cypher",
+      "queries/check_star_out.cypher",
+      "queries/check_tree_in.cypher",
+      "queries/check_tree_out.cypher",
+      "README.md",
+      "references.bib",
+      "sections/01_recall_introduction.tex",
+      "sections/02_recall_related_work.tex",
+      "sections/03_recall_method.tex",
+      "sections/04_recall_setup.tex",
+      "sections/05_recall_results.tex",
+      "sections/06_recall_discussion.tex",
+      "sections/07_recall_conclusion.tex",
+      "sections/08_recall_appendix.tex",
+      "sections/motif_definitions.tex",
+      "sections/motif_summary.tex",
+      "tables/core_precision.tex",
+      "tables/core_recall.tex",
+      "tables/recall_effects.tex",
+      "tables/treein_recall.tex",
+      "article.md",
+      "reading_figures/motifs_and_raw_recall_bars.png",
+      "reading_figures/recall_sizes.png",
+      "reading_figures/recall_motifs.png",
+      "reading_figures/precision_motifs.png",
+      "reading_figures/precision_sizes.png"
+    ],
+    "validation": "Zip CRC and active dependency closure passed; Markdown image paths made relative inside archive."
+  },
+  "no_external_submission": true
+}

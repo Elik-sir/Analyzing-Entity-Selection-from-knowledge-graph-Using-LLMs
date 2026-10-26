@@ -1,0 +1,1957 @@
+{
+  "status": "passed",
+  "checked_items": 161,
+  "checks": [
+    {
+      "locator": "tables/recall_effects.tex:Gemma:Braw+E-Braw",
+      "displayed": "+0.774",
+      "unrounded": 0.7740743464052288,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "left": "Braw",
+        "right": "Braw+E",
+        "N": 3400,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Gemma:K2-K1",
+      "displayed": "-0.011",
+      "unrounded": -0.010714285714285676,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "left": "K1",
+        "right": "K2",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Gemma:K6-K5",
+      "displayed": "-0.015",
+      "unrounded": -0.01464285714285718,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "left": "K5",
+        "right": "K6",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Gemma:K5-K1",
+      "displayed": "-0.002",
+      "unrounded": -0.0024285714285714466,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "left": "K1",
+        "right": "K5",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Gemma:K8-K7",
+      "displayed": "-0.006",
+      "unrounded": -0.0060714285714286165,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "left": "K7",
+        "right": "K8",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Gemma:K3-K1",
+      "displayed": "+0.000",
+      "unrounded": 0.0,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "left": "K1",
+        "right": "K3",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Gemma:K4-K1",
+      "displayed": "-0.003",
+      "unrounded": -0.002571428571428669,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "left": "K1",
+        "right": "K4",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Gemma:K7-K1",
+      "displayed": "+0.001",
+      "unrounded": 0.0007619047619047414,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "left": "K1",
+        "right": "K7",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Qwen:Braw+E-Braw",
+      "displayed": "+0.519",
+      "unrounded": 0.5192225723622783,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "left": "Braw",
+        "right": "Braw+E",
+        "N": 3400,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Qwen:K2-K1",
+      "displayed": "-0.071",
+      "unrounded": -0.0714285714285714,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "left": "K1",
+        "right": "K2",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Qwen:K6-K5",
+      "displayed": "-0.064",
+      "unrounded": -0.06359523809523804,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "left": "K5",
+        "right": "K6",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Qwen:K5-K1",
+      "displayed": "-0.035",
+      "unrounded": -0.0345000000000002,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "left": "K1",
+        "right": "K5",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Qwen:K8-K7",
+      "displayed": "-0.035",
+      "unrounded": -0.03530952380952368,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "left": "K7",
+        "right": "K8",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Qwen:K3-K1",
+      "displayed": "+0.005",
+      "unrounded": 0.004690476190476134,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "left": "K1",
+        "right": "K3",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Qwen:K4-K1",
+      "displayed": "+0.059",
+      "unrounded": 0.05933333333333324,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "left": "K1",
+        "right": "K4",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Qwen:K7-K1",
+      "displayed": "-0.003",
+      "unrounded": -0.003238095238095373,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "left": "K1",
+        "right": "K7",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Ministral:Braw+E-Braw",
+      "displayed": "+0.567",
+      "unrounded": 0.5669904295051355,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "left": "Braw",
+        "right": "Braw+E",
+        "N": 3400,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Ministral:K2-K1",
+      "displayed": "-0.072",
+      "unrounded": -0.0718333333333333,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "left": "K1",
+        "right": "K2",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Ministral:K6-K5",
+      "displayed": "-0.045",
+      "unrounded": -0.04476190476190489,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "left": "K5",
+        "right": "K6",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Ministral:K5-K1",
+      "displayed": "-0.001",
+      "unrounded": -0.0008333333333333526,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "left": "K1",
+        "right": "K5",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Ministral:K8-K7",
+      "displayed": "-0.002",
+      "unrounded": -0.002214285714285835,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "left": "K7",
+        "right": "K8",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Ministral:K3-K1",
+      "displayed": "-0.043",
+      "unrounded": -0.043047619047619,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "left": "K1",
+        "right": "K3",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Ministral:K4-K1",
+      "displayed": "-0.006",
+      "unrounded": -0.006452380952380876,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "left": "K1",
+        "right": "K4",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/recall_effects.tex:Ministral:K7-K1",
+      "displayed": "-0.016",
+      "unrounded": -0.015547619047619032,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "left": "K1",
+        "right": "K7",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Gemma:K1",
+      "displayed": "0.972",
+      "unrounded": 0.9716666666666667,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K1",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Gemma:K3",
+      "displayed": "0.983",
+      "unrounded": 0.9833333333333333,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K3",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Gemma:K4",
+      "displayed": "0.982",
+      "unrounded": 0.9816666666666667,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K4",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Gemma:K7",
+      "displayed": "0.982",
+      "unrounded": 0.9816666666666667,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K7",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Qwen:K1",
+      "displayed": "0.603",
+      "unrounded": 0.6033333333333334,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K1",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Qwen:K3",
+      "displayed": "0.603",
+      "unrounded": 0.6033333333333334,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K3",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Qwen:K4",
+      "displayed": "0.802",
+      "unrounded": 0.8016666666666667,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K4",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Qwen:K7",
+      "displayed": "0.660",
+      "unrounded": 0.66,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K7",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Ministral:K1",
+      "displayed": "0.853",
+      "unrounded": 0.8533333333333333,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K1",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Ministral:K3",
+      "displayed": "0.787",
+      "unrounded": 0.7866666666666667,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K3",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Ministral:K4",
+      "displayed": "0.908",
+      "unrounded": 0.9083333333333333,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K4",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/treein_recall.tex:Ministral:K7",
+      "displayed": "0.837",
+      "unrounded": 0.8366666666666667,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K7",
+        "motif": "tree_in",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K0:gemma-4-31b",
+      "displayed": "0.182",
+      "unrounded": 0.18233333333333332,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K0",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K0:qwen3.6-flash",
+      "displayed": "0.189",
+      "unrounded": 0.18885714285714283,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K0",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K0:ministral-14b",
+      "displayed": "0.299",
+      "unrounded": 0.29923809523809525,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K0",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K1:gemma-4-31b",
+      "displayed": "0.996",
+      "unrounded": 0.9956666666666667,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K1",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K1:qwen3.6-flash",
+      "displayed": "0.892",
+      "unrounded": 0.8917142857142858,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K1",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K1:ministral-14b",
+      "displayed": "0.957",
+      "unrounded": 0.9569285714285715,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K1",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K2:gemma-4-31b",
+      "displayed": "0.985",
+      "unrounded": 0.984952380952381,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K2",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K2:qwen3.6-flash",
+      "displayed": "0.820",
+      "unrounded": 0.8202857142857144,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K2",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K2:ministral-14b",
+      "displayed": "0.885",
+      "unrounded": 0.8850952380952382,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K2",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K3:gemma-4-31b",
+      "displayed": "0.996",
+      "unrounded": 0.9956666666666667,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K3",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K3:qwen3.6-flash",
+      "displayed": "0.896",
+      "unrounded": 0.8964047619047619,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K3",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K3:ministral-14b",
+      "displayed": "0.914",
+      "unrounded": 0.9138809523809525,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K3",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K4:gemma-4-31b",
+      "displayed": "0.993",
+      "unrounded": 0.993095238095238,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K4",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K4:qwen3.6-flash",
+      "displayed": "0.951",
+      "unrounded": 0.951047619047619,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K4",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K4:ministral-14b",
+      "displayed": "0.950",
+      "unrounded": 0.9504761904761906,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K4",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K5:gemma-4-31b",
+      "displayed": "0.993",
+      "unrounded": 0.9932380952380953,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K5",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K5:qwen3.6-flash",
+      "displayed": "0.857",
+      "unrounded": 0.8572142857142856,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K5",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K5:ministral-14b",
+      "displayed": "0.956",
+      "unrounded": 0.9560952380952381,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K5",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K6:gemma-4-31b",
+      "displayed": "0.979",
+      "unrounded": 0.9785952380952381,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K6",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K6:qwen3.6-flash",
+      "displayed": "0.794",
+      "unrounded": 0.7936190476190476,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K6",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K6:ministral-14b",
+      "displayed": "0.911",
+      "unrounded": 0.9113333333333332,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K6",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K7:gemma-4-31b",
+      "displayed": "0.996",
+      "unrounded": 0.9964285714285714,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K7",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K7:qwen3.6-flash",
+      "displayed": "0.888",
+      "unrounded": 0.8884761904761904,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K7",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K7:ministral-14b",
+      "displayed": "0.941",
+      "unrounded": 0.9413809523809524,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K7",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K8:gemma-4-31b",
+      "displayed": "0.990",
+      "unrounded": 0.9903571428571428,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K8",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K8:qwen3.6-flash",
+      "displayed": "0.853",
+      "unrounded": 0.8531666666666667,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K8",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K8:ministral-14b",
+      "displayed": "0.939",
+      "unrounded": 0.9391666666666666,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K8",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K5k:gemma-4-31b",
+      "displayed": "0.988",
+      "unrounded": 0.9875714285714285,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K5k",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K5k:qwen3.6-flash",
+      "displayed": "0.850",
+      "unrounded": 0.8499761904761906,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K5k",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:K5k:ministral-14b",
+      "displayed": "0.918",
+      "unrounded": 0.9179285714285713,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K5k",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:R0:gemma-4-31b",
+      "displayed": "0.322",
+      "unrounded": 0.32173809523809527,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "R0",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:R0:qwen3.6-flash",
+      "displayed": "0.282",
+      "unrounded": 0.28173809523809523,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "R0",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:R0:ministral-14b",
+      "displayed": "0.298",
+      "unrounded": 0.29804761904761906,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "R0",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:R1-matched:gemma-4-31b",
+      "displayed": "0.985",
+      "unrounded": 0.9845714285714287,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "R1-matched",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:R1-matched:qwen3.6-flash",
+      "displayed": "0.817",
+      "unrounded": 0.8167142857142857,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "R1-matched",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:R1-matched:ministral-14b",
+      "displayed": "0.844",
+      "unrounded": 0.844404761904762,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "R1-matched",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:R2-matched:gemma-4-31b",
+      "displayed": "0.973",
+      "unrounded": 0.9728095238095239,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "R2-matched",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:R2-matched:qwen3.6-flash",
+      "displayed": "0.750",
+      "unrounded": 0.7503333333333334,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "R2-matched",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_recall.tex:R2-matched:ministral-14b",
+      "displayed": "0.762",
+      "unrounded": 0.7615714285714286,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "R2-matched",
+        "N": 700,
+        "metric": "recall"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K0:gemma-4-31b",
+      "displayed": "0.994",
+      "unrounded": 0.9942857142857143,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K0",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K0:qwen3.6-flash",
+      "displayed": "0.974",
+      "unrounded": 0.9743824505032579,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K0",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K0:ministral-14b",
+      "displayed": "0.130",
+      "unrounded": 0.13009169388371117,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K0",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K1:gemma-4-31b",
+      "displayed": "1.000",
+      "unrounded": 1.0,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K1",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K1:qwen3.6-flash",
+      "displayed": "0.992",
+      "unrounded": 0.9920156462585034,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K1",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K1:ministral-14b",
+      "displayed": "0.983",
+      "unrounded": 0.9832312925170069,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K1",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K2:gemma-4-31b",
+      "displayed": "0.983",
+      "unrounded": 0.9834772410129553,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K2",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K2:qwen3.6-flash",
+      "displayed": "0.957",
+      "unrounded": 0.9568756600542315,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K2",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K2:ministral-14b",
+      "displayed": "0.791",
+      "unrounded": 0.7909958201653441,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K2",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K3:gemma-4-31b",
+      "displayed": "0.999",
+      "unrounded": 0.9985714285714286,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K3",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K3:qwen3.6-flash",
+      "displayed": "0.992",
+      "unrounded": 0.9924244897959184,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K3",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K3:ministral-14b",
+      "displayed": "0.976",
+      "unrounded": 0.9759897959183674,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K3",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K4:gemma-4-31b",
+      "displayed": "0.996",
+      "unrounded": 0.9957142857142857,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K4",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K4:qwen3.6-flash",
+      "displayed": "0.996",
+      "unrounded": 0.9964591836734694,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K4",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K4:ministral-14b",
+      "displayed": "0.950",
+      "unrounded": 0.9497492031777747,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K4",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K5:gemma-4-31b",
+      "displayed": "0.999",
+      "unrounded": 0.9985714285714286,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K5",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K5:qwen3.6-flash",
+      "displayed": "0.992",
+      "unrounded": 0.9917782312925171,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K5",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K5:ministral-14b",
+      "displayed": "0.980",
+      "unrounded": 0.9804314058956917,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K5",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K6:gemma-4-31b",
+      "displayed": "0.974",
+      "unrounded": 0.9741509324009324,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K6",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K6:qwen3.6-flash",
+      "displayed": "0.958",
+      "unrounded": 0.958447056494049,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K6",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K6:ministral-14b",
+      "displayed": "0.751",
+      "unrounded": 0.7512545925252692,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K6",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K7:gemma-4-31b",
+      "displayed": "1.000",
+      "unrounded": 1.0,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K7",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K7:qwen3.6-flash",
+      "displayed": "0.989",
+      "unrounded": 0.9890506981740064,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K7",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K7:ministral-14b",
+      "displayed": "0.971",
+      "unrounded": 0.9714557823129251,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K7",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K8:gemma-4-31b",
+      "displayed": "1.000",
+      "unrounded": 1.0,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K8",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K8:qwen3.6-flash",
+      "displayed": "0.993",
+      "unrounded": 0.9930235827664399,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K8",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K8:ministral-14b",
+      "displayed": "0.991",
+      "unrounded": 0.9907263450834879,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K8",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K5k:gemma-4-31b",
+      "displayed": "0.996",
+      "unrounded": 0.9957142857142857,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "K5k",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K5k:qwen3.6-flash",
+      "displayed": "0.987",
+      "unrounded": 0.9871557823129251,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "K5k",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:K5k:ministral-14b",
+      "displayed": "0.965",
+      "unrounded": 0.964500566893424,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "K5k",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:R0:gemma-4-31b",
+      "displayed": "0.936",
+      "unrounded": 0.9355291177076892,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "R0",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:R0:qwen3.6-flash",
+      "displayed": "0.861",
+      "unrounded": 0.8614666156581209,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "R0",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:R0:ministral-14b",
+      "displayed": "0.391",
+      "unrounded": 0.3906538542742632,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "R0",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:R1-matched:gemma-4-31b",
+      "displayed": "0.991",
+      "unrounded": 0.9914285714285714,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "R1-matched",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:R1-matched:qwen3.6-flash",
+      "displayed": "0.992",
+      "unrounded": 0.9919238095238095,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "R1-matched",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:R1-matched:ministral-14b",
+      "displayed": "0.979",
+      "unrounded": 0.9794642857142857,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "R1-matched",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:R2-matched:gemma-4-31b",
+      "displayed": "0.984",
+      "unrounded": 0.9841203201560343,
+      "source": {
+        "series": "core",
+        "model": "gemma-4-31b",
+        "condition": "R2-matched",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:R2-matched:qwen3.6-flash",
+      "displayed": "0.958",
+      "unrounded": 0.9582941020839267,
+      "source": {
+        "series": "core",
+        "model": "qwen3.6-flash",
+        "condition": "R2-matched",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "tables/core_precision.tex:R2-matched:ministral-14b",
+      "displayed": "0.838",
+      "unrounded": 0.8376095174666603,
+      "source": {
+        "series": "core",
+        "model": "ministral-14b",
+        "condition": "R2-matched",
+        "N": 700,
+        "metric": "precision"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Gemma:recall_delta",
+      "displayed": ".774",
+      "unrounded": 0.7740743464052288,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "recall_delta"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Gemma:Raw_recall",
+      "displayed": ".198",
+      "unrounded": 0.1975721288515406,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw_recall"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Gemma:Raw+E_recall",
+      "displayed": ".972",
+      "unrounded": 0.9716464752567694,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw+E_recall"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Gemma:Raw_precision",
+      "displayed": ".859",
+      "unrounded": 0.8592513368983957,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw_precision"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Gemma:Raw+E_precision",
+      "displayed": ".988",
+      "unrounded": 0.9882352941176471,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw+E_precision"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Qwen:recall_delta",
+      "displayed": ".519",
+      "unrounded": 0.5192225723622783,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "recall_delta"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Qwen:Raw_recall",
+      "displayed": ".278",
+      "unrounded": 0.2783221288515406,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw_recall"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Qwen:Raw+E_recall",
+      "displayed": ".798",
+      "unrounded": 0.7975447012138189,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw+E_recall"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Qwen:Raw_precision",
+      "displayed": ".885",
+      "unrounded": 0.8854347192208564,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw_precision"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Qwen:Raw+E_precision",
+      "displayed": ".975",
+      "unrounded": 0.9748854405398523,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw+E_precision"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Ministral:recall_delta",
+      "displayed": ".567",
+      "unrounded": 0.5669904295051355,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "recall_delta"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Ministral:Raw_recall",
+      "displayed": ".218",
+      "unrounded": 0.21795156395891688,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw_recall"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Ministral:Raw+E_recall",
+      "displayed": ".785",
+      "unrounded": 0.7849419934640524,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw+E_recall"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Ministral:Raw_precision",
+      "displayed": ".459",
+      "unrounded": 0.4588408411548891,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw_precision"
+      }
+    },
+    {
+      "locator": "Abstract/Results:Ministral:Raw+E_precision",
+      "displayed": ".976",
+      "unrounded": 0.9762307047527636,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "conditions": [
+          "Braw",
+          "Braw+E"
+        ],
+        "N": 3400,
+        "metric": "Raw+E_precision"
+      }
+    },
+    {
+      "locator": "Results:size:Qwen:chain:3",
+      "displayed": ".990",
+      "unrounded": 0.99,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "condition": "Braw+E",
+        "motif": "chain",
+        "size": 3,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Qwen:chain:6",
+      "displayed": ".790",
+      "unrounded": 0.79,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "condition": "Braw+E",
+        "motif": "chain",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Ministral:chain:3",
+      "displayed": ".927",
+      "unrounded": 0.9266666666666667,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "condition": "Braw+E",
+        "motif": "chain",
+        "size": 3,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Ministral:chain:6",
+      "displayed": ".595",
+      "unrounded": 0.595,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "condition": "Braw+E",
+        "motif": "chain",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Gemma:chain:3",
+      "displayed": ".990",
+      "unrounded": 0.99,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "condition": "Braw+E",
+        "motif": "chain",
+        "size": 3,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Gemma:chain:6",
+      "displayed": "1.000",
+      "unrounded": 1.0,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "condition": "Braw+E",
+        "motif": "chain",
+        "size": 6,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Qwen:star_out:3",
+      "displayed": ".997",
+      "unrounded": 0.9966666666666667,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "condition": "Braw+E",
+        "motif": "star_out",
+        "size": 3,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Qwen:star_out:10",
+      "displayed": ".998",
+      "unrounded": 0.998,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "condition": "Braw+E",
+        "motif": "star_out",
+        "size": 10,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Gemma:star_out:3",
+      "displayed": "1.000",
+      "unrounded": 1.0,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "condition": "Braw+E",
+        "motif": "star_out",
+        "size": 3,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Gemma:star_out:10",
+      "displayed": "1.000",
+      "unrounded": 1.0,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "condition": "Braw+E",
+        "motif": "star_out",
+        "size": 10,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Ministral:star_out:3",
+      "displayed": ".870",
+      "unrounded": 0.87,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "condition": "Braw+E",
+        "motif": "star_out",
+        "size": 3,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Ministral:star_out:10",
+      "displayed": ".950",
+      "unrounded": 0.95,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "condition": "Braw+E",
+        "motif": "star_out",
+        "size": 10,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Gemma:tree_in:5",
+      "displayed": ".910",
+      "unrounded": 0.91,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "condition": "Braw+E",
+        "motif": "tree_in",
+        "size": 5,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Gemma:tree_in:10",
+      "displayed": ".841",
+      "unrounded": 0.841,
+      "source": {
+        "series": "full_braw",
+        "model": "gemma-4-31b",
+        "condition": "Braw+E",
+        "motif": "tree_in",
+        "size": 10,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Qwen:tree_in:5",
+      "displayed": ".624",
+      "unrounded": 0.624,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "condition": "Braw+E",
+        "motif": "tree_in",
+        "size": 5,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Qwen:tree_in:10",
+      "displayed": ".375",
+      "unrounded": 0.375,
+      "source": {
+        "series": "full_braw",
+        "model": "qwen3.6-flash",
+        "condition": "Braw+E",
+        "motif": "tree_in",
+        "size": 10,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Ministral:tree_in:5",
+      "displayed": ".540",
+      "unrounded": 0.54,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "condition": "Braw+E",
+        "motif": "tree_in",
+        "size": 5,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Results:size:Ministral:tree_in:10",
+      "displayed": ".403",
+      "unrounded": 0.40299999999999997,
+      "source": {
+        "series": "full_braw",
+        "model": "ministral-14b",
+        "condition": "Braw+E",
+        "motif": "tree_in",
+        "size": 10,
+        "N": 100
+      }
+    },
+    {
+      "locator": "Diagnostic group:qwen3.6-flash:K1",
+      "one_hop": 71,
+      "exact": 15,
+      "planned_N": 100
+    },
+    {
+      "locator": "Diagnostic group:qwen3.6-flash:K3",
+      "one_hop": 76,
+      "exact": 16,
+      "planned_N": 100
+    },
+    {
+      "locator": "Diagnostic group:qwen3.6-flash:K4",
+      "one_hop": 31,
+      "exact": 51,
+      "planned_N": 100
+    },
+    {
+      "locator": "Diagnostic group:qwen3.6-flash:K7",
+      "one_hop": 52,
+      "exact": 16,
+      "planned_N": 100
+    },
+    {
+      "locator": "Diagnostic group:ministral-14b:K1",
+      "one_hop": 15,
+      "exact": 54,
+      "planned_N": 100
+    },
+    {
+      "locator": "Diagnostic group:ministral-14b:K4",
+      "one_hop": 6,
+      "exact": 62,
+      "planned_N": 100
+    },
+    {
+      "locator": "Diagnostic transition:qwen3.6-flash:K1-K3",
+      "one_hop_to_exact": 13,
+      "cached_exact_lost": null,
+      "planned_pairs": 100
+    },
+    {
+      "locator": "Diagnostic transition:qwen3.6-flash:K1-K4",
+      "one_hop_to_exact": 38,
+      "cached_exact_lost": 6,
+      "planned_pairs": 100
+    },
+    {
+      "locator": "Diagnostic transition:qwen3.6-flash:K1-K7",
+      "one_hop_to_exact": 10,
+      "cached_exact_lost": null,
+      "planned_pairs": 100
+    },
+    {
+      "locator": "Diagnostic transition:ministral-14b:K1-K4",
+      "one_hop_to_exact": 8,
+      "cached_exact_lost": 9,
+      "planned_pairs": 100
+    },
+    {
+      "locator": "Alternative rule:Qwen:K1:depth_three",
+      "distinct": 0,
+      "matches_distinct_alternative": 0,
+      "valid_N": 100
+    },
+    {
+      "locator": "Alternative rule:Qwen:K1:undirected",
+      "distinct": 0,
+      "matches_distinct_alternative": 0,
+      "valid_N": 100
+    },
+    {
+      "locator": "Alternative rule:Qwen:K2:depth_three",
+      "distinct": 10,
+      "matches_distinct_alternative": 0,
+      "valid_N": 100
+    },
+    {
+      "locator": "Alternative rule:Qwen:K2:undirected",
+      "distinct": 97,
+      "matches_distinct_alternative": 0,
+      "valid_N": 100
+    }
+  ],
+  "main_bar_heights_checked": 42,
+  "failure_policy": "all planned; invalid/missing zero",
+  "rounding": "decimal half-up to three places; deltas computed before rounding",
+  "scope": "Displayed main/supplementary tables, key prose/abstract examples, diagnostic counts, and main bar values verified against saved scores. No raw-response reparse or new inference."
+}

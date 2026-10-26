@@ -1,0 +1,12 @@
+{
+  "source_values_byte_identical_to_previous": true,
+  "bars": 42,
+  "model_groups_per_motif": 3,
+  "conditions_per_group": 2,
+  "all_bar_heights_equal_source_rows": true,
+  "no_connecting_lines_or_stacking": true,
+  "all_figure_hashes_match": true,
+  "cross_references_resolve": true,
+  "PNG_visually_inspected": true,
+  "compiler": "Desktop compile_latex_document returned success for existing main; full exported PDF not re-inspected."
+}

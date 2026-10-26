@@ -1,0 +1,8 @@
+{
+  "author_request": "One bar chart instead of connected motif categories.",
+  "author_answer": "Two adjacent bars Raw/Raw+E inside each of3model groups per motif.",
+  "old_assets_preserved": "paper/figures/motif_raw_recall_v1/",
+  "new_assets": "paper/figures/motif_raw_recall_bars_v1/",
+  "population_and_values_unchanged": true,
+  "new_experiments": false
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-ir-prompt",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/intro_related_revision/run-01/selection_protocol_sample.json",
+      "sha256": "a93b6aaf87b27a9e19d39c5d7109315bfc425bf99041a2eec0caa340ba2746d4",
+      "locator": "$.system_instruction and $.question",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-ir-reference",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
+      "sha256": "bc9d9d3b487c7dc12c9eddde5ca7294629e0630988e38a0bbd889053bc38125b",
+      "locator": "$.checks, $.coverage and $.pairs; see prior reference_pairing_report.md for definitions",
+      "verification": "reported",
+      "checked_on": "2026-10-26",
+      "limitations": "Prior audit inspected; not rerun in this editorial task."
+    },
+    {
+      "id": "E-ir-reference-report",
+      "kind": "draft",
+      "path": "paper/research_notes/reference_pairing_report.md",
+      "sha256": "5784a3abd0462ccc9c54dd1158e14bd3736b610008f34c89167c2cdfab8bb474",
+      "locator": "Reference consistency, candidate coverage and paired invariants",
+      "verification": "reported",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-ir-source-kg",
+      "kind": "literature",
+      "path": "11_Towards_Ontology_Driven_Mul.pdf",
+      "sha256": "b612d6211c04c6d6532cf98a7c94c16f4b3e1ec299a40ec85f3ffb427d20d2b3",
+      "locator": "Title and graph-construction context; prior literature_review.md verification",
+      "verification": "reported",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-ir-results",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/intro_related_revision/run-01/qualitative_result_check.json",
+      "sha256": "72ba5729d91a53b814d3282e20ff8ca24d2b95b1b554238d7adebe64da222238",
+      "locator": "$.positive_overlay_differences",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-ir-conditions",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/condition_metrics.csv",
+      "sha256": "08062c89adc62665ced36484dd19e955a938032c575e30977253c1ff1280295f",
+      "locator": "series_id=full_braw, condition in {Braw,Braw+E}, noise=disconnected; recall column",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-ir-transitions",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/novelty_refinement/run-02/summary.json",
+      "sha256": "868d045311a1d07f5f2e2632ce8d20640dc138ff655933512200bf0903e52efc",
+      "locator": "$.groups, transition matrices, $.validation and $.limitations; Core six-node Tree-in",
+      "verification": "reported",
+      "checked_on": "2026-10-26",
+      "limitations": "Bounded prior analysis; no new transitions or uncertainty calculated."
+    },
+    {
+      "id": "E-ir-transitions-report",
+      "kind": "draft",
+      "path": "paper/research_notes/novelty_refinement.md",
+      "sha256": "0c9a3bf7c9c407b7b000049ae5fc257f6bca0181010b2c3896ce07e858e107fa",
+      "locator": "Paired signature transitions and diagnostic identifiability limits",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-ir-attachment",
+      "kind": "draft",
+      "path": "paper/research_notes/analyses/intro_related_revision/run-01/attached_related_work_v4.tex",
+      "sha256": "0386880f1ecbc1962947d422c68dcb5171a942dc81c023f592e7fcaf80f037aa",
+      "locator": "All five Related Work paragraphs",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-ir-luo2024rog",
+      "kind": "literature",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/3e2aeb66481dd63a32421bf032b70384-Paper-Conference.pdf",
+      "locator": "Section 4.1: planning, retrieval, reasoning",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Primary metadata and relevant full text inspected by delegated literature-review agent; not an exhaustive novelty search."
+    },
+    {
+      "id": "E-ir-wu2024stark",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2404.13207v1",
+      "locator": "Inspected preprint v1, Section 3.2; official proceedings for metadata",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Primary metadata and relevant full text inspected by delegated literature-review agent; not an exhaustive novelty search."
+    },
+    {
+      "id": "E-ir-he2024gretriever",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2402.07630v3",
+      "locator": "Inspected preprint v3, Sections 5.2-5.4; official proceedings for metadata",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Primary metadata and relevant full text inspected by delegated literature-review agent; not an exhaustive novelty search."
+    },
+    {
+      "id": "E-ir-talk",
+      "kind": "literature",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/bf72f65f30eedf5d48da6980ee02b589-Paper-Conference.pdf",
+      "locator": "Sections 1-3 and encoding appendix; prior literature_review.md and novelty_refinement.md inspection",
+      "verification": "reported",
+      "checked_on": "2026-10-26",
+      "limitations": "Prior primary-text audit reused; no fresh full-paper verification in this task."
+    },
+    {
+      "id": "E-ir-pattern",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2410.05298v2",
+      "locator": "Sections 2-5; prior literature_review.md inspection",
+      "verification": "reported",
+      "checked_on": "2026-10-26",
+      "limitations": "Prior primary-text audit reused; no fresh full-paper verification in this task."
+    },
+    {
+      "id": "E-ir-kgprompt",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2402.11541v4",
+      "locator": "Sections 3-5; prior literature_review.md inspection",
+      "verification": "reported",
+      "checked_on": "2026-10-26",
+      "limitations": "Prior primary-text audit reused; no fresh full-paper verification in this task."
+    },
+    {
+      "id": "E-ir-walk",
+      "kind": "literature",
+      "url": "https://arxiv.org/html/2604.01610v1",
+      "locator": "Sections 4 and 5.5; prior novelty_refinement.md inspection",
+      "verification": "reported",
+      "checked_on": "2026-10-26",
+      "limitations": "Prior primary-text audit reused; no fresh full-paper verification in this task."
+    },
+    {
+      "id": "E-ir-webgpt",
+      "kind": "literature",
+      "url": "https://arxiv.org/abs/2112.09332v3",
+      "locator": "Primary metadata and abstract: GPT-3 searches/navigates Web and answers questions using collected references",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Abstract-backed statement and verified title/author list only; no performance figures or novelty comparison borrowed."
+    },
+    {
+      "id": "E-ir-design",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/intro_related_revision/run-04/design_count_check.json",
+      "sha256": "e9c07ea308ad1e5acdef2c73b9e66bd4e478cbacfbd99f3bb5c7e4331fb30456",
+      "locator": "$.models and $.motifs; selector and count formula recorded",
+      "verification": "recomputed",
+      "checked_on": "2026-10-26"
+    }
+  ]
+}

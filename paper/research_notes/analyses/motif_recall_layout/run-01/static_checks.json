@@ -1,0 +1,16 @@
+{
+  "missing_refs": [],
+  "duplicate_labels": [],
+  "active_graphics": [
+    "paper/manuscript/figures/motifs_and_raw_recall_v1.pdf",
+    "paper/manuscript/figures/recall_sizes.pdf",
+    "paper/manuscript/figures/recall_motifs.pdf",
+    "paper/manuscript/figures/precision_motifs.pdf",
+    "paper/manuscript/figures/precision_sizes.pdf"
+  ],
+  "new_figure_hashes_match": true,
+  "descriptive_points": 42,
+  "all_N_100": true,
+  "PNG_visually_inspected": true,
+  "full_document_pages_visually_inspected": false
+}

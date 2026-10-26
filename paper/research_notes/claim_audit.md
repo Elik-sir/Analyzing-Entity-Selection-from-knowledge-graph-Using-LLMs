@@ -1,5 +1,11 @@
 # Bootstrap claim audit
 
+## Standalone full-paper assembly, 2026-10-26
+
+Current scope is the active standalone KG paper, including title/abstract, all active sections, five figures, four numerical tables, public bibliography and appendices. The full manuscript claim map declares its scoped claims/evidence paths in analyses/standalone_assembly/run-01/. Supported source records and older byte inspections are reused transparently; original LF/CRLF hashes remain recorded. New formatting and assembly do not create new experimental evidence.
+
+verify_numeric_sources.py passes161 direct table/prose/diagnostic checks plus42main bar heights against retained cached scores. consolidate_audit.py checks active input closure, citation/label paths and scoped evidence structure, passing56evidence/42claim records and75bindings. These grouped mappings do not automatically prove every sentence. Semantic limits, missing raw metadata, one-KG scope, shared-entity dependence, and absent recall significance/QA evaluation remain stated. The unpublished citation is absent; no first-study/new-dataset/independent-replication claim replaces it. Separate preflight feedback was used; exhaustive independent originality/eligibility review is not certified.
+
 ## Recall-led manuscript revision, 2026-10-26
 
 Active scope: main.tex abstract, eight `*_recall_*` sections, five figures and included numeric tables. `analyses/manuscript_revision/verify_revision.py` checks exact source-row rendering, saved table values, citation/reference keys, paths and source hashes. The 70 paragraph/asset bindings in manuscript_claim_map.json identify supporting claim families; hypotheses are not promoted to causes. Main examples, prior Tool-pattern premise and adjusted Tree-in distinction, route/reference definitions, saved request settings, failure policy, representation pairing, residual categories and bounded signatures were reviewed against their recorded sources. Every final PDF page was visually inspected. This is a single-agent bounded semantic/source review, not independent review or a machine proof of every sentence. Scoped structural integrity passes; the 39 older production line-ending hash discrepancies remain documented and preserved. Scientific and originality limitations are in recall_revision_review.md.

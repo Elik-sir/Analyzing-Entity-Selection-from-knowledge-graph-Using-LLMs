@@ -1,0 +1,82 @@
+{
+  "active_tex_files": 15,
+  "cited_keys": [
+    "dai2024kgunderstanding",
+    "dai2025graphpatterns",
+    "fatemi2024talklikegraph",
+    "ghandi2026graphwalk",
+    "he2024gretriever",
+    "kirpichev2026towards",
+    "luo2024rog",
+    "nakano2021webgpt",
+    "neo4jCypher",
+    "wu2024stark"
+  ],
+  "missing_citations": [],
+  "missing_refs": [],
+  "duplicate_labels": [],
+  "unpublished_reference_absent": true,
+  "numeric_verification": "numeric_checks_root.json",
+  "source_manifest": [
+    {
+      "path": "paper/manuscript/main.tex",
+      "sha256": "710b94e5ac9c976db73c3140dddf557f86edb93fc1412147cee9c24fafc8b1ac"
+    },
+    {
+      "path": "paper/manuscript/sections/01_recall_introduction.tex",
+      "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85"
+    },
+    {
+      "path": "paper/manuscript/sections/02_recall_related_work.tex",
+      "sha256": "589298b26ad0773abb7f6b4ef6339af7b47e2f2c7426e63203fb11d55214edbe"
+    },
+    {
+      "path": "paper/manuscript/sections/03_recall_method.tex",
+      "sha256": "e39ae62b5654fe66cc826362f800bd430abfc8a15a78c134c9c93a35dd0895c8"
+    },
+    {
+      "path": "paper/manuscript/sections/motif_summary.tex",
+      "sha256": "3ac333ab7557c4bc2441e1849f284de3d49f391fc583e04efc9de5fbce1ef5d0"
+    },
+    {
+      "path": "paper/manuscript/sections/04_recall_setup.tex",
+      "sha256": "4d7dbc8bde05911193192ec800cd12c642ac51afc0aebaf504de4a5ba697a83e"
+    },
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8"
+    },
+    {
+      "path": "paper/manuscript/tables/recall_effects.tex",
+      "sha256": "f2996c31f2e2518e9229fb295a89123b3c6d0a5700c5b6328d072398d14bed96"
+    },
+    {
+      "path": "paper/manuscript/tables/treein_recall.tex",
+      "sha256": "dab338a23257962e53d62800087bccf369ffdb0cc4c50b5b3affd65e7879e7af"
+    },
+    {
+      "path": "paper/manuscript/sections/06_recall_discussion.tex",
+      "sha256": "dd653c803a98fb7d179e11ebc6f66bc6027304dead4513eeaf67e953eb88222d"
+    },
+    {
+      "path": "paper/manuscript/sections/07_recall_conclusion.tex",
+      "sha256": "92f04bbb70fd72463defd360c68ebd6b4444a37c2e8b5fe9ffe68429d688aafe"
+    },
+    {
+      "path": "paper/manuscript/sections/08_recall_appendix.tex",
+      "sha256": "541defdb7d7c39d6e7969e37bef0becd82da33955f23d36306e630e34ef015e8"
+    },
+    {
+      "path": "paper/manuscript/tables/core_recall.tex",
+      "sha256": "91aa92f96be82883e84609ad5ec1e872b07fb486423471415418f83fe52fb104"
+    },
+    {
+      "path": "paper/manuscript/tables/core_precision.tex",
+      "sha256": "2d7c00e7eb20541ea6e9bd3cee77e09d6857843f09a2f4200b209dc249180966"
+    },
+    {
+      "path": "paper/manuscript/sections/motif_definitions.tex",
+      "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9"
+    }
+  ]
+}

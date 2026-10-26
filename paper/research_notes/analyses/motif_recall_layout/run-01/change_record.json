@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-26",
+  "before_sources": "previous/ retains changed source text",
+  "changes": [
+    "Full motif definitions moved to appendix, short Method retained",
+    "New compact key beside Raw/Raw+E three-model plot, Full size slice6/4/5",
+    "Old Core K1/K2 plot and its numerical paragraphs moved together to app:coreprofiles",
+    "Setup and figure references aligned, old source assets preserved"
+  ],
+  "compiler": {
+    "tool": "compile_latex_document",
+    "main": "paper/manuscript/main.tex",
+    "status": "success",
+    "scope": "Included changed main sources compiled; no new full PDF export or whole-page visual certification."
+  },
+  "scientific_limit": "No new model response, answer rescore, significance, topology-causal or QA claim."
+}

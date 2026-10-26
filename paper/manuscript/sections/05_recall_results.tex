@@ -3,14 +3,12 @@
 \subsection{Structural Profiles: Motif and Size}
 \begin{figure*}[t]
 \centering
-\includegraphics[width=\textwidth]{figures/recall_motifs.pdf}
-\caption{Core recall with explicit source-card relations: K1 disconnected and K2 adjacent distractors, 100 planned tasks per point. The first five families have six nodes; shaded rhombus/hourglass use four/five and are not equal-size contrasts. Invalid outcomes contribute zero. These are descriptive macro means, without inferential error bars.}
-\Description{Recall across seven graph-pattern families for three models. Incoming-tree recall is below outward-star recall, with model-dependent changes under adjacent contexts.}
-\label{fig:motifs}
+\includegraphics[width=\textwidth]{figures/motifs_and_raw_recall_bars_v1.pdf}
+\caption{Directed task families and recall. Left: representative Core motif shapes; blue nodes mark anchors and arrows show factual KG direction. Right: grouped macro recall for the Core-size slice of Full Raw/Raw+E. Each motif has three model pairs; hatched Raw and solid Raw+E bars are adjacent within each model color. Each bar retains 100 planned tasks, with matched Raw/Raw+E pairs and 25 candidates. Families a--e have six reference nodes; shaded f/g have four/five. Invalid or missing outcomes contribute zero. Full definitions are in Appendix~\ref{app:motifs}. No inferential error bars are shown.}
+\Description{A seven-motif key beside one grouped bar chart. Each motif category contains adjacent Raw and Raw plus explicit relations bars for Gemma, Qwen, and Ministral. Color identifies the model and hatching distinguishes Raw. Incoming-tree Raw plus explicit relations recall is lower than outward-star recall for each model.}
+\label{fig:raw_motifs}
 \end{figure*}
-Figure~\ref{fig:motifs} shows task-family differences at a common reference size. Under K1, six-node incoming-tree recall is 0.972 for Gemma, 0.603 for Qwen, and 0.853 for Ministral. Outward stars are close to complete coverage. The common size does not eliminate differences in query semantics, relation types, or sampled entities; it rules out a node-count-only description of these observed task profiles, not every competing explanation.
-
-Precision supplies a different view. Qwen's K1 incoming-tree precision is 0.988, despite recall of 0.603 and exact recovery of 0.150. It often selects a small, mostly reference-consistent set while failing to cover the reference. Gemma's corresponding precision is 1.000 and exact 0.870. Appendix~\ref{app:conditions} reports precision profiles separately rather than combining the two quantities into one F1 curve.
+Figure~\ref{fig:raw_motifs} compares Raw and Raw+E recovery using the Core-size slice of the Full panel. Adding explicit relations yields higher descriptive recall in every displayed family for all three models. Residual coverage still differs by task family and model: incoming trees have lower Raw+E recall than outward stars for each model. These conditional profiles also vary in query semantics and entity/relation types, so they do not isolate a topology effect. The controlled Core K1/K2 profiles and their precision companion are retained in Appendix~\ref{app:coreprofiles}.
 
 \begin{figure*}[t]
 \centering

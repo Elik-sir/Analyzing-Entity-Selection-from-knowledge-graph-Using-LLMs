@@ -1,0 +1,10 @@
+{
+  "Core_inputs": 700,
+  "figure_panels": 7,
+  "figure_hashes_match": true,
+  "vector_copy_matches": true,
+  "PNG_visually_inspected": true,
+  "full_PDF_pages_visually_inspected": false,
+  "independent_semantic_review": "Two agent checks: archive reconstruction and separate query/definition review; fixed chain wording to keep anchor distinct from intermediate vertices.",
+  "reference_source_revision": "1cbfe331066849120a011d99efc4a782e6799565"
+}

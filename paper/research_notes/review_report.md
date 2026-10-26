@@ -1,5 +1,11 @@
 # Scientific and editorial review of the English manuscript draft
 
+## Full standalone KG manuscript and PDF, 2026-10-26
+
+Reviewed the active standalone text after integrating the agreed sections and removing the unpublished-source framing. Preserved the full-reference/endpoint/card distinctions, Raw sufficiency limitation, Full-versus-Core cohorts, descriptive uncertainty scope, model-specific corrections/regressions, missing Gemma identities/settings and K4 repetition/length confounds. RQ3 is explicitly bounded to the post-hoc Core incoming-tree slice. Added a short main-text query-rule summary so the appendix is not required to understand the task.
+
+The exported11-page PDF was rendered and inspected; grouped bars, tables, bibliography, Cypher listing and motif appendix are readable, with no clipping/overfull boxes or unresolved refs. Fourteen fonts are embedded and metadata has no author field. Main text spans6pages and total11pages, within the freshly rechecked long-paper length limits; this is not a decision about track fit, originality or submission eligibility. Full-PDF visual/numeric checks are by the assembling agent; separate source preflight feedback is distinguished from exhaustive independent review. Historical reuse/resource-access issues remain in the research notes and are not resolved by deleting a citation. No external submission or experiment occurred.
+
 ## Recall revision, 2026-10-26
 
 The active artifact is now the recall-led manuscript with eight `*_recall_*` section inputs and a ten-page PDF. Current scientific/presentation findings and remaining originality/historical limits are in [recall_revision_review.md](recall_revision_review.md). This is a single-agent check, not an independent reviewer sign-off. The earlier review below remains a historical record for the preserved descriptive draft.
@@ -29,6 +35,10 @@ The active artifact is now the recall-led manuscript with eight `*_recall_*` sec
 ## Readiness disposition
 
 A complete, evidence-constrained English draft and compiled artifact can be delivered. It is not independently scientifically reviewed or certified submission-ready. Formatting/page/anonymity checks and scientific support checks are reported separately. No model experiment, database query, public release, submission or external message was performed.
+
+## Clarification following the critical reassessment, 2026-10-26
+
+The author clarified exhaustive-selection design intent and transfer as the primary scientific aim. The earlier suggestion to relegate transfer to background is superseded: preserve it as the organizing question and use within-KG evidence/presentation diagnostics to study its conditions and limits. The target's completeness requirement is supported by the archived selection instruction; the remaining distinction is between required reference membership and indispensable evidence cards, not absence of a defined exhaustive task. Appendix O overlap and unmeasured mechanisms remain separate scientific issues. Two proposed English sections and an independent scoped editorial check are recorded in `analyses/intro_related_revision/run-01/`; active manuscript/PDF were not replaced.
 
 ## Critical reassessment, 2026-10-26
 

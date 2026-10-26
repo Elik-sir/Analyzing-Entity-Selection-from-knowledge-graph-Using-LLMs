@@ -1,0 +1,718 @@
+{
+  "checked_on": "2026-10-26",
+  "revision": "1cbfe331066849120a011d99efc4a782e6799565",
+  "sources": {
+    "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv": "4d6cc43141f4877ce29430cef66afd50d64c78be949e1e7c2aef32ceb53a93a5",
+    "paper/research_notes/analyses/final_results/run-01/condition_metrics.csv": "08062c89adc62665ced36484dd19e955a938032c575e30977253c1ff1280295f",
+    "results/observations.jsonl.gz": "bd02da47726b2d44ad3f591133133d2f85a28f7ec691d36749660c5243a8458d",
+    "paper/research_notes/reference_pairing_report.md": "5784a3abd0462ccc9c54dd1158e14bd3736b610008f34c89167c2cdfab8bb474"
+  },
+  "selector": {
+    "series_id": "full_braw",
+    "noise": "disconnected",
+    "conditions": [
+      "Braw",
+      "Braw+E"
+    ],
+    "display_aliases": {
+      "Braw": "Raw",
+      "Braw+E": "Raw+E"
+    },
+    "models": [
+      "gemma-4-31b",
+      "qwen3.6-flash",
+      "ministral-14b"
+    ],
+    "motif_sizes": {
+      "chain": 6,
+      "star_in": 6,
+      "star_out": 6,
+      "tree_in": 6,
+      "tree_out": 6,
+      "rhombus": 4,
+      "hourglass": 5
+    },
+    "source_rows": 42,
+    "planned_N_per_point": 100
+  },
+  "metric": "failure-inclusive macro recall = sum_i [valid_i * cached_individual_recall_i] / planned_N; invalid/missing outcomes contribute zero; no valid-only filter",
+  "reference": "All-route entity-coverage reference W; not final-answer correctness or minimal-card evidence",
+  "pairing": {
+    "previous_full_audit": "reference_pairing_report.md, Main paired contrasts: 3400 complete Raw/Raw+E pairs/model with input invariants; source report reused, not newly re-executed",
+    "fresh_subset_check": [
+      {
+        "model": "gemma-4-31b",
+        "motif": "chain",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "gemma-4-31b",
+        "motif": "star_in",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "gemma-4-31b",
+        "motif": "star_out",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "gemma-4-31b",
+        "motif": "tree_in",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "gemma-4-31b",
+        "motif": "tree_out",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "gemma-4-31b",
+        "motif": "rhombus",
+        "size": 4,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "gemma-4-31b",
+        "motif": "hourglass",
+        "size": 5,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "qwen3.6-flash",
+        "motif": "chain",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "qwen3.6-flash",
+        "motif": "star_in",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "qwen3.6-flash",
+        "motif": "star_out",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "qwen3.6-flash",
+        "motif": "tree_in",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "qwen3.6-flash",
+        "motif": "tree_out",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "qwen3.6-flash",
+        "motif": "rhombus",
+        "size": 4,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "qwen3.6-flash",
+        "motif": "hourglass",
+        "size": 5,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "ministral-14b",
+        "motif": "chain",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "ministral-14b",
+        "motif": "star_in",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "ministral-14b",
+        "motif": "star_out",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "ministral-14b",
+        "motif": "tree_in",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "ministral-14b",
+        "motif": "tree_out",
+        "size": 6,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "ministral-14b",
+        "motif": "rhombus",
+        "size": 4,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      },
+      {
+        "model": "ministral-14b",
+        "motif": "hourglass",
+        "size": 5,
+        "paired_N": 100,
+        "unmatched_left": 0,
+        "unmatched_right": 0,
+        "paired_key": "(series_id=full_braw, model, noise=disconnected, motif, size, base_id), changing only condition"
+      }
+    ],
+    "scope": "Fresh observation-level base pairing only. Exact saved public-input invariant audit is inherited from prior full audit, not independently rerun here."
+  },
+  "fresh_cached_score_aggregation": [
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "hourglass",
+      "size": 5,
+      "N": 100,
+      "valid": 93,
+      "recall": 0.308,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "star_in",
+      "size": 6,
+      "N": 100,
+      "valid": 98,
+      "recall": 0.225,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "chain",
+      "size": 6,
+      "N": 100,
+      "valid": 100,
+      "recall": 1.0,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "rhombus",
+      "size": 4,
+      "N": 100,
+      "valid": 93,
+      "recall": 0.34,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "hourglass",
+      "size": 5,
+      "N": 100,
+      "valid": 94,
+      "recall": 0.23800000000000002,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "chain",
+      "size": 6,
+      "N": 100,
+      "valid": 90,
+      "recall": 0.29166666666666663,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "star_out",
+      "size": 6,
+      "N": 100,
+      "valid": 100,
+      "recall": 1.0,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "star_out",
+      "size": 6,
+      "N": 100,
+      "valid": 100,
+      "recall": 1.0,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "hourglass",
+      "size": 5,
+      "N": 100,
+      "valid": 100,
+      "recall": 0.26,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "hourglass",
+      "size": 5,
+      "N": 100,
+      "valid": 99,
+      "recall": 0.97,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "star_in",
+      "size": 6,
+      "N": 100,
+      "valid": 100,
+      "recall": 1.0,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "tree_in",
+      "size": 6,
+      "N": 100,
+      "valid": 97,
+      "recall": 0.5133333333333333,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "tree_in",
+      "size": 6,
+      "N": 100,
+      "valid": 98,
+      "recall": 0.45166666666666666,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "tree_out",
+      "size": 6,
+      "N": 100,
+      "valid": 98,
+      "recall": 0.1433333333333333,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "chain",
+      "size": 6,
+      "N": 100,
+      "valid": 81,
+      "recall": 0.265,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "hourglass",
+      "size": 5,
+      "N": 100,
+      "valid": 100,
+      "recall": 0.882,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "rhombus",
+      "size": 4,
+      "N": 100,
+      "valid": 88,
+      "recall": 0.3525,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "star_out",
+      "size": 6,
+      "N": 100,
+      "valid": 92,
+      "recall": 0.32,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "chain",
+      "size": 6,
+      "N": 100,
+      "valid": 100,
+      "recall": 0.79,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "star_in",
+      "size": 6,
+      "N": 100,
+      "valid": 99,
+      "recall": 0.19,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "star_in",
+      "size": 6,
+      "N": 100,
+      "valid": 99,
+      "recall": 0.9033333333333333,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "hourglass",
+      "size": 5,
+      "N": 100,
+      "valid": 98,
+      "recall": 0.8220000000000001,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "rhombus",
+      "size": 4,
+      "N": 100,
+      "valid": 100,
+      "recall": 0.2,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "star_out",
+      "size": 6,
+      "N": 100,
+      "valid": 100,
+      "recall": 0.9333333333333332,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "tree_in",
+      "size": 6,
+      "N": 100,
+      "valid": 99,
+      "recall": 0.15,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "rhombus",
+      "size": 4,
+      "N": 100,
+      "valid": 100,
+      "recall": 0.8675,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "star_in",
+      "size": 6,
+      "N": 100,
+      "valid": 92,
+      "recall": 0.875,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "chain",
+      "size": 6,
+      "N": 100,
+      "valid": 95,
+      "recall": 0.29666666666666663,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "star_out",
+      "size": 6,
+      "N": 100,
+      "valid": 100,
+      "recall": 0.225,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw",
+      "motif": "tree_in",
+      "size": 6,
+      "N": 100,
+      "valid": 100,
+      "recall": 0.16166666666666665,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "star_out",
+      "size": 6,
+      "N": 100,
+      "valid": 95,
+      "recall": 0.29333333333333333,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "tree_in",
+      "size": 6,
+      "N": 100,
+      "valid": 99,
+      "recall": 0.27,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "rhombus",
+      "size": 4,
+      "N": 100,
+      "valid": 100,
+      "recall": 1.0,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw",
+      "motif": "tree_out",
+      "size": 6,
+      "N": 100,
+      "valid": 76,
+      "recall": 0.225,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "qwen3.6-flash",
+      "condition": "Braw+E",
+      "motif": "tree_out",
+      "size": 6,
+      "N": 100,
+      "valid": 100,
+      "recall": 0.7233333333333333,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "tree_out",
+      "size": 6,
+      "N": 100,
+      "valid": 83,
+      "recall": 0.2383333333333333,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "tree_in",
+      "size": 6,
+      "N": 100,
+      "valid": 97,
+      "recall": 0.91,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "tree_out",
+      "size": 6,
+      "N": 100,
+      "valid": 99,
+      "recall": 0.7516666666666667,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "chain",
+      "size": 6,
+      "N": 100,
+      "valid": 97,
+      "recall": 0.595,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw+E",
+      "motif": "rhombus",
+      "size": 4,
+      "N": 100,
+      "valid": 96,
+      "recall": 0.8575,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "gemma-4-31b",
+      "condition": "Braw+E",
+      "motif": "tree_out",
+      "size": 6,
+      "N": 100,
+      "valid": 100,
+      "recall": 0.9983333333333333,
+      "export_absolute_error": 0.0
+    },
+    {
+      "model": "ministral-14b",
+      "condition": "Braw",
+      "motif": "star_in",
+      "size": 6,
+      "N": 100,
+      "valid": 98,
+      "recall": 0.165,
+      "export_absolute_error": 0.0
+    }
+  ],
+  "evidence_coverage": {
+    "gemma-4-31b": {
+      "Braw": {
+        "N": 700,
+        "valid": 692,
+        "invalid": 8,
+        "raw_response_available": 700,
+        "cached_metrics_only": 0
+      },
+      "Braw+E": {
+        "N": 700,
+        "valid": 696,
+        "invalid": 4,
+        "raw_response_available": 700,
+        "cached_metrics_only": 0
+      }
+    },
+    "qwen3.6-flash": {
+      "Braw": {
+        "N": 700,
+        "valid": 630,
+        "invalid": 70,
+        "raw_response_available": 700,
+        "cached_metrics_only": 0
+      },
+      "Braw+E": {
+        "N": 700,
+        "valid": 689,
+        "invalid": 11,
+        "raw_response_available": 700,
+        "cached_metrics_only": 0
+      }
+    },
+    "ministral-14b": {
+      "Braw": {
+        "N": 700,
+        "valid": 649,
+        "invalid": 51,
+        "raw_response_available": 700,
+        "cached_metrics_only": 0
+      },
+      "Braw+E": {
+        "N": 700,
+        "valid": 687,
+        "invalid": 13,
+        "raw_response_available": 700,
+        "cached_metrics_only": 0
+      }
+    }
+  },
+  "recommendation": "Use this Core-size slice for the seven-family chart. Do not pool all available sizes by motif: size support differs (chain3-6, stars3-10, trees5-10; rhombus4/hourglass5), so that would confound motif and size composition. Mark rhombus/hourglass distinctly because they still use4/5 rather than6.",
+  "limitations": [
+    "Descriptive saved-outcome scores; no new model/judge/database call or raw-response reparse.",
+    "Raw-response availability is recorded separately; means freshly aggregated only from existing individual cached metrics.",
+    "All three model labels retained. Invalid outcomes retained in planned denominators.",
+    "No recall intervals or significance tests are supplied; F1/exact uncertainty cannot be reused for recall.",
+    "Families differ in query semantics, types and direction even at common size; no pure topology or universal ranking claim.",
+    "Base tasks/anchors/reference entities may overlap; points and models are not independent replications.",
+    "Native Raw cards are not verified to contain all needed relations; Raw+E changes evidence availability."
+  ],
+  "caption_suggestion": "Recall by task family for Raw/Raw+E at the Core sizes: six nodes for chain, stars and trees, four for rhombus and five for hourglass;100 planned paired tasks per point and25 candidates. Invalid outcomes contribute zero. Three model panels use descriptive macro recall without inferential error bars. Schematic icons retain KG edge direction and show reference motifs only; distractors are omitted."
+}

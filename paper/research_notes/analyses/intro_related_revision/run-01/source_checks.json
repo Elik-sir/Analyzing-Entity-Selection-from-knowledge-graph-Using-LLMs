@@ -1,0 +1,42 @@
+{
+  "sources": [
+    {
+      "key": "luo2024rog",
+      "title": "Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning",
+      "metadata": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/3e2aeb66481dd63a32421bf032b70384-Abstract-Conference.html",
+      "full_text": "https://proceedings.iclr.cc/paper_files/paper/2024/file/3e2aeb66481dd63a32421bf032b70384-Paper-Conference.pdf",
+      "locator": "Section 4.1: planning, retrieval, reasoning",
+      "supported": "Relation-path planning guides KG reasoning-path retrieval and answer generation.",
+      "checked_on": "2026-10-26",
+      "verification": "Primary metadata and relevant full text inspected by delegated literature-review agent; not an exhaustive novelty search."
+    },
+    {
+      "key": "wu2024stark",
+      "title": "STaRK: Benchmarking LLM Retrieval on Textual and Relational Knowledge Bases",
+      "metadata": "https://papers.nips.cc/paper_files/paper/2024/hash/e607b1419e9ae7cd5cb5b5bb60c2ad5c-Abstract-Datasets_and_Benchmarks_Track.html",
+      "full_text": "https://arxiv.org/html/2404.13207v1",
+      "locator": "Inspected preprint v1, Section 3.2; official proceedings for metadata",
+      "supported": "Answer-node retrieval under combined textual and relational query requirements.",
+      "checked_on": "2026-10-26",
+      "verification": "Primary metadata and relevant full text inspected by delegated literature-review agent; not an exhaustive novelty search."
+    },
+    {
+      "key": "he2024gretriever",
+      "title": "G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering",
+      "metadata": "https://papers.nips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html",
+      "full_text": "https://arxiv.org/html/2402.07630v3",
+      "locator": "Inspected preprint v3, Sections 5.2-5.4; official proceedings for metadata",
+      "supported": "Prize-collecting Steiner tree constructs connected textual-graph context for QA.",
+      "checked_on": "2026-10-26",
+      "verification": "Primary metadata and relevant full text inspected by delegated literature-review agent; not an exhaustive novelty search."
+    }
+  ],
+  "omitted_optional_keys": [
+    "xu2026graphomni",
+    "tian2025alignment",
+    "wu2026toporag",
+    "amiraz2025distracting",
+    "li2025selection"
+  ],
+  "omission_reason": "Short proposal keeps the most direct task comparisons; omission is editorial, not a falsity finding."
+}

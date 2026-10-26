@@ -1,0 +1,286 @@
+[
+  {
+    "path": "paper/manuscript/ACM-Reference-Format.bst",
+    "sha256": "98042401dc61795c1a056bdd6509996add6204bb67ae248ec7d69e4ca44dcec7"
+  },
+  {
+    "path": "paper/manuscript/acmart.cls",
+    "sha256": "b60c6f9a1fe06411eaefb114f2ef2d222aa25c6e4c0b81cb18ac41c13bd3fa6b"
+  },
+  {
+    "path": "paper/manuscript/main.pdf",
+    "sha256": "5e6c25c45248436cd1cabc1d99d1ec32fca85e103b007d1fd0dc4fc60efba3a7"
+  },
+  {
+    "path": "paper/manuscript/main.tex",
+    "sha256": "df9d77701aa1e668f0a1c1b07ae368c11a500d2842c110d7dc58f01b5f67b94e"
+  },
+  {
+    "path": "paper/manuscript/README.md",
+    "sha256": "a358f8031bdae4f14115731a9892e3c588dda6bd4734f906e9fcc6c1374a4c10"
+  },
+  {
+    "path": "paper/manuscript/references.bib",
+    "sha256": "ca72548dca1dbe0d8a541fd2570a40ab226efa6cc209f37b13540aed4b4efae8"
+  },
+  {
+    "path": "paper/manuscript/figures/motifs_and_raw_recall_bars_v1.pdf",
+    "sha256": "de756c2ff3ab6ac12aa012a736a840851fad75f39aa1645554001d76773733f6"
+  },
+  {
+    "path": "paper/manuscript/figures/motifs_and_raw_recall_v1.pdf",
+    "sha256": "c182c2ade647372ab07a887937ed9494b01dfde2b2ea411a8cec795c8c900c65"
+  },
+  {
+    "path": "paper/manuscript/figures/motif_profiles.pdf",
+    "sha256": "a1f172cd207503118edbcee105f0a2562b58d85d72e631fe90db5a80e4b97109"
+  },
+  {
+    "path": "paper/manuscript/figures/motif_profiles.png",
+    "sha256": "f33b2ae9881fefded2dfff7c6d27effb445932aa2aace9da3e74df477e93cade"
+  },
+  {
+    "path": "paper/manuscript/figures/motif_profiles.svg",
+    "sha256": "019ba811a2768201f1e3f2569fc459f301029858fcdefdc90eb069596fc3c72d"
+  },
+  {
+    "path": "paper/manuscript/figures/motif_schematics_v1.pdf",
+    "sha256": "8c88d8d320b54f99e880c441afdabecee43b6ae37466855e8bdcd5f1b29836d0"
+  },
+  {
+    "path": "paper/manuscript/figures/precision_motifs.pdf",
+    "sha256": "3ce6ccbdf27fe0fd9e8ac23bd75786f7157218dd3518fef4bd1b09b2aa440f36"
+  },
+  {
+    "path": "paper/manuscript/figures/precision_sizes.pdf",
+    "sha256": "e5c54f7ef5846d5055d02bab61275358793a333e33b0fbb3a02dbf847391fe1b"
+  },
+  {
+    "path": "paper/manuscript/figures/recall_motifs.pdf",
+    "sha256": "5043a2739c79c7ba096438dc962c0b17be946cb5cd99dd8705640afe0d2f1b62"
+  },
+  {
+    "path": "paper/manuscript/figures/recall_sizes.pdf",
+    "sha256": "98297b62d960b5be15f19f9748d67a4fbcc7af7af939cb7077c13d263ef0879a"
+  },
+  {
+    "path": "paper/manuscript/figures/residual_errors.pdf",
+    "sha256": "46040211531775bc082c2fcd5a4d0d108ba1674b2ad0d3b916357f573e25a13f"
+  },
+  {
+    "path": "paper/manuscript/figures/size_profiles.pdf",
+    "sha256": "fbb19b6bfee51f002bb8e8dc40275a6c0c13117614c2d03316c351ca695900bb"
+  },
+  {
+    "path": "paper/manuscript/figures/size_profiles.png",
+    "sha256": "d1cae7232147acf0487cc0d62776d48e26bd24490a97f12bce02210d58cf6900"
+  },
+  {
+    "path": "paper/manuscript/figures/size_profiles.svg",
+    "sha256": "8c1a2da313d754ccfc2c23866b570f83d28c1f488b0a6b1bf36716722fe455f2"
+  },
+  {
+    "path": "paper/manuscript/proposals/live.main.tex",
+    "sha256": "55f7ccfee1b7bb1ca60209e5704241f929bf643ddf9a9d1116f4e130bc4ddae6"
+  },
+  {
+    "path": "paper/manuscript/queries/01_export_nodes.cypher",
+    "sha256": "157a27fed5f9b7c99dbbeb931d1a5fec3ab2a0c06d7d435769ec1f8f2545f10b"
+  },
+  {
+    "path": "paper/manuscript/queries/02_export_edges.cypher",
+    "sha256": "a88c6fa99299d996d3d72c70d93ab3bbd2a1cd3c7cb9258b368bd2b5f4f61dd8"
+  },
+  {
+    "path": "paper/manuscript/queries/03_exact_induced_check.cypher",
+    "sha256": "4cfa18e8b7dc04e529d5fb574dde54142f435ff55ca42a3eb29bc4faefdef4f4"
+  },
+  {
+    "path": "paper/manuscript/queries/author_query_english_comments.cypher",
+    "sha256": "1a76e29e5c279feb723f138fb30947c478a39be51b92bb83470de5d8515b2e8a"
+  },
+  {
+    "path": "paper/manuscript/queries/author_supplied_motif_extraction.cypher",
+    "sha256": "f2d289405da337b5fade66c8ad0cc1fab1a0110679296d272523b98114786a32"
+  },
+  {
+    "path": "paper/manuscript/queries/check_chain.cypher",
+    "sha256": "8e5465ae42b2584bbc9f97472c11b3ca6753ab68e9e57b85f749bb6d1f518ec8"
+  },
+  {
+    "path": "paper/manuscript/queries/check_hourglass.cypher",
+    "sha256": "b87287a84798fe8f436a0469b736173e919be992b6654f412e5f47ce67449018"
+  },
+  {
+    "path": "paper/manuscript/queries/check_rhombus.cypher",
+    "sha256": "618c55037a766bf0f1101512e295359a7a9fbe33041e9461eac9c86e545bd9d5"
+  },
+  {
+    "path": "paper/manuscript/queries/check_star_in.cypher",
+    "sha256": "d9c1f07a3e4b58f32cb1a19c67bb1b42b3d4f13f5c0539053e90e7af279e7166"
+  },
+  {
+    "path": "paper/manuscript/queries/check_star_out.cypher",
+    "sha256": "8829665e9147a2f898e72cbb80d91f943740498cbd7a6c0a304587f3db17ba14"
+  },
+  {
+    "path": "paper/manuscript/queries/check_tree_in.cypher",
+    "sha256": "7b3918e938d3df7125a0e5d2dbf41bdfe40a1729a572801633e83cd10a62628b"
+  },
+  {
+    "path": "paper/manuscript/queries/check_tree_out.cypher",
+    "sha256": "c020de7276647c6fb3612e44fe738f9ddb6c98e355793ed8cfcba9abf39fe139"
+  },
+  {
+    "path": "paper/manuscript/queries/README.md",
+    "sha256": "452afce1f82db6432dfad848fd7716e5cffc35577e39aaded498567344a047e7"
+  },
+  {
+    "path": "paper/manuscript/sections/01_introduction.tex",
+    "sha256": "d361dacd14a6e7e419acf4ef48469ced468b74896bee68bcb8d93aafc8dcdd00"
+  },
+  {
+    "path": "paper/manuscript/sections/01_recall_introduction.tex",
+    "sha256": "6e9f8a03211ad4d68293d68138ab2e9ada0fd0aca116bf629227b4ac1688933f"
+  },
+  {
+    "path": "paper/manuscript/sections/02_recall_related_work.tex",
+    "sha256": "c2077d90758b72ffe3530d361a81c2895c19c8a4cf11ad156a5b8b27b9b70a00"
+  },
+  {
+    "path": "paper/manuscript/sections/02_related_work.tex",
+    "sha256": "9c8269c027146eea98ed1cd2357c02b26a489a47be07c5b885a0cfe755f105f6"
+  },
+  {
+    "path": "paper/manuscript/sections/03_method.tex",
+    "sha256": "bca725e41359435d34b41ab619c11cef263fbd08d00a4c18909a5a18efb08fc1"
+  },
+  {
+    "path": "paper/manuscript/sections/03_recall_method.tex",
+    "sha256": "76079bb93d70654f67c2b84af92ad0d86cfe1e690bedc97f73343b181d669bce"
+  },
+  {
+    "path": "paper/manuscript/sections/04_recall_setup.tex",
+    "sha256": "2835ea435f866b9c443f773790cba9230fe9b45866d3b3855de63f652050dd79"
+  },
+  {
+    "path": "paper/manuscript/sections/04_setup.tex",
+    "sha256": "8d003e8266e826d38e8812e12831c5d7c77fc47a215668c5a4e6e9c23d738ebf"
+  },
+  {
+    "path": "paper/manuscript/sections/05_recall_results.tex",
+    "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8"
+  },
+  {
+    "path": "paper/manuscript/sections/05_results.tex",
+    "sha256": "d21eb5c4441c6222248f88df8dc6aaae2526bf3a685f6db29ed8c6497843bd8e"
+  },
+  {
+    "path": "paper/manuscript/sections/06_discussion.tex",
+    "sha256": "019070722ef7adc88803ccac724dc1f6aa7e7fc8986c6dc5083ef2f78ba5d393"
+  },
+  {
+    "path": "paper/manuscript/sections/06_recall_discussion.tex",
+    "sha256": "826fc57febbd2a45e50ba1a2dcd32988d8ab18e1c8f1d77bffe6e1dbbe837ee3"
+  },
+  {
+    "path": "paper/manuscript/sections/07_conclusion.tex",
+    "sha256": "935801702f2d4d0a38161bc09a2e42a43de7d66f488c47f901b461cc49883c72"
+  },
+  {
+    "path": "paper/manuscript/sections/07_recall_conclusion.tex",
+    "sha256": "db0a76e90d41cb6d38f29474346f33c40abd1f297032f9faa49a72e3d5bf1844"
+  },
+  {
+    "path": "paper/manuscript/sections/08_appendix.tex",
+    "sha256": "1e5fee48c07e5175900eb08a88eb3eb37aac21261cf3e75027ee326eab4a6dba"
+  },
+  {
+    "path": "paper/manuscript/sections/08_recall_appendix.tex",
+    "sha256": "25fa2a16d23d4c5d9d681fe2c7ada6d890730af0211f901162a17860884b3133"
+  },
+  {
+    "path": "paper/manuscript/tables/analytical_baselines.tex",
+    "sha256": "49977e18711b320ab774103184d2654a791d0f43cb28b5217d770da5b7785580"
+  },
+  {
+    "path": "paper/manuscript/tables/condition_effects.tex",
+    "sha256": "eeccc511ba91bc1048272530669cdc88e71800e772e4729d6d2ca9943008b8d8"
+  },
+  {
+    "path": "paper/manuscript/tables/core_exact.tex",
+    "sha256": "7d77f6ead8bea2ef41fee49ff25f38dfa96c8b978f2d2c39933db10b6a17084f"
+  },
+  {
+    "path": "paper/manuscript/tables/core_precision.tex",
+    "sha256": "2d7c00e7eb20541ea6e9bd3cee77e09d6857843f09a2f4200b209dc249180966"
+  },
+  {
+    "path": "paper/manuscript/tables/core_recall.tex",
+    "sha256": "91aa92f96be82883e84609ad5ec1e872b07fb486423471415418f83fe52fb104"
+  },
+  {
+    "path": "paper/manuscript/tables/core_summary.tex",
+    "sha256": "ee19584435a7a8f293f655a47b2bf1b66222d4319a718f36bfd4bc9384549fc9"
+  },
+  {
+    "path": "paper/manuscript/tables/precision_effects.tex",
+    "sha256": "67e259c400659e88d5d3d99dd3133048d7c6698ffa4561ec5c91937000a277a7"
+  },
+  {
+    "path": "paper/manuscript/tables/presentation.tex",
+    "sha256": "93af2b5bec301493660e9ec7e5b63a98ccd4e77d731b52923973eeba0ab210a3"
+  },
+  {
+    "path": "paper/manuscript/tables/recall_effects.tex",
+    "sha256": "f2996c31f2e2518e9229fb295a89123b3c6d0a5700c5b6328d072398d14bed96"
+  },
+  {
+    "path": "paper/manuscript/tables/size_endpoints.tex",
+    "sha256": "181cc1d3692cad37e5cbb0862fd11f86a8dc827d8d28a42473da3bfa494d9d9a"
+  },
+  {
+    "path": "paper/manuscript/tables/treein_recall.tex",
+    "sha256": "dab338a23257962e53d62800087bccf369ffdb0cc4c50b5b3affd65e7879e7af"
+  },
+  {
+    "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.md",
+    "sha256": "e26c1a41e5f73824b9766f81ca6060e5d3baf1a4456391ff92088b1a78ccd82d"
+  },
+  {
+    "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+    "sha256": "43188ea81b890a9115ecd3464d868b21e09eaa208ab5f5b3ff0c6978dc500f85"
+  },
+  {
+    "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.md",
+    "sha256": "a06f25ed6a274ddbc71e89e9edcaaa1660b022ee674e80be9b105a8ecc283a82"
+  },
+  {
+    "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.tex",
+    "sha256": "589298b26ad0773abb7f6b4ef6339af7b47e2f2c7426e63203fb11d55214edbe"
+  },
+  {
+    "path": "paper/manuscript/proposals/transfer_intro_related_v1/03_motifs.md",
+    "sha256": "05e3a268fc71648020df975b4c38e650075dc669cf6a68799b48b976ceea5773"
+  },
+  {
+    "path": "paper/manuscript/proposals/transfer_intro_related_v1/03_motifs.tex",
+    "sha256": "6ef231426e44accb4b0f35c98e6b2dc9d3836e59f99da892075d67fa6279f2a6"
+  },
+  {
+    "path": "paper/manuscript/proposals/transfer_intro_related_v1/08_motif_appendix.md",
+    "sha256": "19e0736665d9460973c72ab51ceb9a21415a9fb3b29c82bdc34956a2c00653ab"
+  },
+  {
+    "path": "paper/manuscript/proposals/transfer_intro_related_v1/08_motif_appendix.tex",
+    "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9"
+  },
+  {
+    "path": "paper/manuscript/proposals/transfer_intro_related_v1/additional_references.bib",
+    "sha256": "ac9fd8d5b9ce68c06c0e5765ae92a152fba082d9b280405fc0546831916af87a"
+  },
+  {
+    "path": "paper/manuscript/proposals/transfer_intro_related_v1/README.md",
+    "sha256": "a5dee5a5a3c4feaa1bd03f5dcdca69ae9fcfe1d667675752630d30c31d15facd"
+  }
+]

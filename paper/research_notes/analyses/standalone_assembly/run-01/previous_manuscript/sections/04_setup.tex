@@ -1,0 +1,28 @@
+\section{Experimental Design and Evaluation}
+\label{sec:setup}
+\paragraph{Models and populations.}
+We analyze the archived Gemma-4-31B, Qwen3.6-Flash, and Ministral-14B evaluations. Model labels identify the archive, not guaranteed reproducible present-day endpoints. Core contains 700 base tasks under 13 conditions, or 9,100 planned outcomes per model. Full Raw/Raw+E has 3,400 bases per condition/model. Its size grid is chain 3--6, stars 3--10, trees 5--10, rhombus 4, and hourglass 5: 34 cells, each with 100 tasks. The separate controlled additional-size panel covers 1,100 Gemma bases per K1/K5 condition. It is a supplemental check, not the only evidence about size.
+
+The 700 Core base IDs occur in Full Raw/Raw+E for each model; panels must not be counted as independent replications. More broadly, base IDs recur across conditions and models. Within an evaluated task/model/condition, transport retries are not additional scientific replicates. Table~\ref{tab:design} reports planned bases rather than successful calls.
+
+\paragraph{Principal comparisons.}
+For RQ1, we compare Core source-card triples with disconnected (K1) and adjacent (K2) distractors. The first five motif families provide a common six-node comparison; the two remaining families retain their native sizes. RQ2 uses the complete three-model Full Raw/Raw+E size grid, without pooling across families. RQ3 uses audited Raw/overlay pairs and the two Core noise pairs, K1/K2 for triples and K5/K6 for templated prose. Rendering, placement, wording, naming, linked attributes, and additional access settings are supplementary diagnostics.
+
+\paragraph{Responses and evidence tiers.}
+The main protocol requests a JSON object with selected candidate names and an insufficient-evidence flag. Valid selections use exact, unique catalogue names. The flag does not modify set scores. Available Qwen and Ministral request records in the main comparisons specify OpenRouter, temperature zero, a 1,024-token output limit, and JSON-object formatting. We do not impute these settings to unavailable Gemma call records.
+
+The broader archive includes 12,400 Gemma Core/size/calibration/incremental outcomes with frozen inputs and cached individual scores but no original raw replies. Full Raw/Raw+E has stronger raw-response coverage; 15 Ministral Raw outcomes lack a reply after exhausted attempts and remain failures in the planned denominator. We analyze the saved outcomes and preserve these evidence tiers. Offline verification of available requests, selections, and references is distinct from rerunning a provider or authenticating missing historical records.
+
+\paragraph{Metrics.}
+For valid $S$ and a nonempty reference $W$, precision is $|S\cap W|/|S|$, recall is $|S\cap W|/|W|$, and
+\begin{equation}
+ F_1(S,W)=\frac{2|S\cap W|}{|S|+|W|}.
+\end{equation}
+An empty selection receives zero precision, recall, and F1. Exact selection is one only if $S=W$. We report means of individual task scores over all planned outcomes; invalid and missing outcomes contribute zero, with original missing individual metrics retained in the archive. The resulting mean F1 is not pooled micro-F1. Valid-only scores are supplementary because conditioning on successful output changes the population.
+
+For valid outcomes we additionally distinguish omission-only ($\mathrm{FN}>0,\mathrm{FP}=0$), inclusion-only ($\mathrm{FP}>0,\mathrm{FN}=0$), and mixed errors. Invalid responses remain separate. These observable categories do not identify a model's internal reasoning mechanism.
+
+\paragraph{Uncertainty and descriptive scope.}
+Motif profiles and size curves are descriptive slices of the accepted frozen tasks; they carry no newly fitted topology coefficients, interaction tests, or significance claims. Sizes are different sampled strata, not randomized expansions of one task. For previously audited paired condition contrasts, we use 10,000 anchor-bootstrap replicates, sharing each anchor weight across aligned tasks, models, and conditions and retaining original motif-size weights. Paired task resampling is a sensitivity check. The distinction between within-cluster dependence and independence across clusters is essential~\cite{cameron2015clusters}.
+
+Pointwise intervals are bootstrap percentiles. Exploratory simultaneous bands cover the declared family of 78 F1/exact condition effects: each panel uses a centered maximum standardized deviation at nominal 97.5\% coverage, with a two-panel union bound for combined nominal coverage of at least 95\%. This is an approximate bootstrap construction, not finite-sample coverage or a collection of p-values. The plan followed prior descriptive inspection. These bands do not cover arbitrary new motif/size comparisons. Cross-anchor shared-entity dependence remains a limitation (Section~\ref{sec:discussion}).

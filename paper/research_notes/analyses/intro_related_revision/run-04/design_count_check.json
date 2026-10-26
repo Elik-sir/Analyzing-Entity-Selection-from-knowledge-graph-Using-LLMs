@@ -1,0 +1,19 @@
+{
+  "selector": "core / K1 / disconnected, all model and motif-size rows",
+  "models": [
+    "gemma-4-31b",
+    "ministral-14b",
+    "qwen3.6-flash"
+  ],
+  "motifs": [
+    "chain",
+    "hourglass",
+    "rhombus",
+    "star_in",
+    "star_out",
+    "tree_in",
+    "tree_out"
+  ],
+  "formula": "Number of distinct model labels and motif labels in selected existing aggregate rows",
+  "independent_replicates": false
+}

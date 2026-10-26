@@ -1,0 +1,486 @@
+note: Running TeX ...
+Fontconfig error: Cannot load default config file: No such file: (null)
+warning: libertine.sty:308: 
+Requested font "[LinLibertine_R.otf]/OT" at 8.99997pt
+warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_R.otf]/OT" at 8.99997pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_R.otf]/OT" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_RBO.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZ.otf]/OT" at 8.99997pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZ.otf]/OT" at 9.00003pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZ.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:361: Requested font "[LinLibertine_DR.otf]/OT" at 8.99997pt
+warning: libertine.sty:361: Requested font "[LinLibertine_DR.otf]/OT" at 9.00003pt
+warning: libertine.sty:361: Requested font "[LinLibertine_DR.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_M.otf]/OT" at 8.99997pt
+warning: libertine.sty:435: Requested font "[LinLibertine_M.otf]/OT" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_MB.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_MO.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_MBO.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:436: Requested font "[LinBiolinum_K.otf]/OT" at 8.99997pt
+warning: libertine.sty:436: Requested font "[LinBiolinum_K.otf]/OT" at 9.00003pt
+warning: libertine.sty:436: Requested font "[LinBiolinum_K.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:437: Requested font "[LinLibertine_I.otf]/OT" at 8.99997pt
+warning: libertine.sty:437: Requested font "[LinLibertine_I.otf]/OT" at 9.00003pt
+warning: libertine.sty:437: Requested font "[LinLibertine_I.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: acmart.cls:793: 
+Requested font "[Inconsolatazi4-Regular.otf]/OT" at 8.99997pt
+warning: acmart.cls:793: Requested font "[Inconsolatazi4-Regular.otf]/OT" at 9.00003pt
+warning: acmart.cls:793: Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: acmart.cls:793: Requested font "[Inconsolatazi4-Bold.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: pifont.sty:63: 
+Requested font "pzdr" at 9.0pt
+warning: pifont.sty:63:  -> pzdr
+warning: pifont.sty:64: 
+Requested font "psyr" at 9.0pt
+warning: pifont.sty:64:  -> psyr
+warning: main.tex:13: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.26596pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.18997pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.2666pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.19043pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.26521pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.18944pt
+warning: main.tex:13: 
+Requested font "msam7" at 7.0pt
+warning: main.tex:13:  -> msam7
+warning: main.tex:13: Requested font "msam5" at 5.0pt
+warning: main.tex:13:  -> msam5
+warning: main.tex:13: 
+Requested font "msbm7" at 7.0pt
+warning: main.tex:13:  -> msbm7
+warning: main.tex:13: Requested font "msbm5" at 5.0pt
+warning: main.tex:13:  -> msbm5
+warning: main.tex:13: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.0pt
+warning: main.tex:13: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.0pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: main.tex:20: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: main.tex:20: Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 10.95pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.47354pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.60515pt
+warning: main.tex:20: Requested font "cmmi9" at 9.0pt
+warning: main.tex:20:  -> cmmi9
+warning: main.tex:20: Requested font "cmmi7" at 7.2pt
+warning: main.tex:20:  -> cmmi7
+warning: main.tex:20: Requested font "cmmi5" at 5.4pt
+warning: main.tex:20:  -> cmmi5
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;" at 9.34277pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.47421pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.60565pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;" at 9.34099pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.47278pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.60458pt
+warning: main.tex:20: Requested font "msam10" at 9.0pt
+warning: main.tex:20:  -> msam10
+warning: main.tex:20: 
+Requested font "msam7" at 7.2pt
+warning: main.tex:20:  -> msam7
+warning: main.tex:20: Requested font "msam5" at 5.4pt
+warning: main.tex:20:  -> msam5
+warning: main.tex:20: Requested font "msbm10" at 9.0pt
+warning: main.tex:20:  -> msbm10
+warning: main.tex:20: 
+Requested font "msbm7" at 7.2pt
+warning: main.tex:20:  -> msbm7
+warning: main.tex:20: Requested font "msbm5" at 5.4pt
+warning: main.tex:20:  -> msbm5
+warning: main.tex:20: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.2pt
+warning: main.tex:20: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.4pt
+warning: main.tex:20: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 8.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 8.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 8.0pt
+warning: sections/02_recall_related_work:1: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: sections/02_recall_related_work:1: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 6.0pt
+warning: sections/02_recall_related_work:6: Underfull \hbox (badness 1102) in paragraph at lines 5--6
+warning: sections/03_recall_method:5: Underfull \hbox (badness 1112) in paragraph at lines 4--5
+warning: sections/03_recall_method:18: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/03_recall_method:18: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
+warning: sections/04_recall_setup:1: Underfull \hbox (badness 1762) in paragraph at lines 21--1
+warning: sections/04_recall_setup:13: Underfull \vbox (badness 3701) has occurred while \output is active
+warning: sections/05_recall_results:23: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: sections/05_recall_results:24: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.30396pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.22797pt
+warning: tables/recall_effects:1: Requested font "cmmi8" at 8.0pt
+warning: tables/recall_effects:1:  -> cmmi8
+warning: tables/recall_effects:1: Requested font "cmmi6" at 6.0pt
+warning: tables/recall_effects:1:  -> cmmi6
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.30469pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.22852pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.3031pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.22733pt
+warning: tables/recall_effects:1: Requested font "msam10" at 8.0pt
+warning: tables/recall_effects:1:  -> msam10
+warning: tables/recall_effects:1: Requested font "msam7" at 6.0pt
+warning: tables/recall_effects:1:  -> msam7
+warning: tables/recall_effects:1: Requested font "msbm10" at 8.0pt
+warning: tables/recall_effects:1:  -> msbm10
+warning: tables/recall_effects:1: Requested font "msbm7" at 6.0pt
+warning: tables/recall_effects:1:  -> msbm7
+warning: tables/recall_effects:1: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.0pt
+warning: tables/recall_effects:1: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.0pt
+warning: sections/06_recall_discussion:11: Overfull \hbox (27.17252pt too wide) in paragraph at lines 10--11
+warning: sections/06_recall_discussion:18: Underfull \hbox (badness 1308) in paragraph at lines 17--18
+warning: main.tex:28: Underfull \vbox (badness 3291) has occurred while \output is active
+warning: main.bbl:85: Underfull \hbox (badness 2096) in paragraph at lines 75--85
+warning: main.bbl:85: Underfull \hbox (badness 4832) in paragraph at lines 75--85
+warning: main.bbl:85: Underfull \hbox (badness 5008) in paragraph at lines 75--85
+warning: main.bbl:85: Underfull \hbox (badness 7326) in paragraph at lines 75--85
+warning: main.bbl:85: Underfull \hbox (badness 10000) in paragraph at lines 75--85
+warning: main.bbl:134: Underfull \hbox (badness 2680) in paragraph at lines 125--134
+warning: sections/08_recall_appendix:64: 
+Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;+ss03;" at 9.0pt
+warning: sections/08_recall_appendix:66: Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;+ss03;" at 7.0pt
+warning: queries/author_query_english_comments.cypher:25: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: queries/author_query_english_comments.cypher:54: Underfull \vbox (badness 10000) has occurred while \output is active
+note: Running BibTeX on main.aux ...
+note: warnings were issued by BibTeX; use --print and/or --keep-logs for details.
+note: Rerunning TeX because bibtex was run ...
+warning: libertine.sty:308: 
+Requested font "[LinLibertine_R.otf]/OT" at 8.99997pt
+warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_R.otf]/OT" at 8.99997pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_R.otf]/OT" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_RBO.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZ.otf]/OT" at 8.99997pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZ.otf]/OT" at 9.00003pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZ.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:361: Requested font "[LinLibertine_DR.otf]/OT" at 8.99997pt
+warning: libertine.sty:361: Requested font "[LinLibertine_DR.otf]/OT" at 9.00003pt
+warning: libertine.sty:361: Requested font "[LinLibertine_DR.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_M.otf]/OT" at 8.99997pt
+warning: libertine.sty:435: Requested font "[LinLibertine_M.otf]/OT" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_MB.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_MO.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_MBO.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:436: Requested font "[LinBiolinum_K.otf]/OT" at 8.99997pt
+warning: libertine.sty:436: Requested font "[LinBiolinum_K.otf]/OT" at 9.00003pt
+warning: libertine.sty:436: Requested font "[LinBiolinum_K.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:437: Requested font "[LinLibertine_I.otf]/OT" at 8.99997pt
+warning: libertine.sty:437: Requested font "[LinLibertine_I.otf]/OT" at 9.00003pt
+warning: libertine.sty:437: Requested font "[LinLibertine_I.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: acmart.cls:793: 
+Requested font "[Inconsolatazi4-Regular.otf]/OT" at 8.99997pt
+warning: acmart.cls:793: Requested font "[Inconsolatazi4-Regular.otf]/OT" at 9.00003pt
+warning: acmart.cls:793: Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: acmart.cls:793: Requested font "[Inconsolatazi4-Bold.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: pifont.sty:63: 
+Requested font "pzdr" at 9.0pt
+warning: pifont.sty:63:  -> pzdr
+warning: pifont.sty:64: 
+Requested font "psyr" at 9.0pt
+warning: pifont.sty:64:  -> psyr
+warning: main.tex:13: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.26596pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.18997pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.2666pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.19043pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.26521pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.18944pt
+warning: main.tex:13: 
+Requested font "msam7" at 7.0pt
+warning: main.tex:13:  -> msam7
+warning: main.tex:13: Requested font "msam5" at 5.0pt
+warning: main.tex:13:  -> msam5
+warning: main.tex:13: 
+Requested font "msbm7" at 7.0pt
+warning: main.tex:13:  -> msbm7
+warning: main.tex:13: Requested font "msbm5" at 5.0pt
+warning: main.tex:13:  -> msbm5
+warning: main.tex:13: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.0pt
+warning: main.tex:13: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.0pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: main.tex:20: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: main.tex:20: Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 10.95pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.47354pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.60515pt
+warning: main.tex:20: Requested font "cmmi9" at 9.0pt
+warning: main.tex:20:  -> cmmi9
+warning: main.tex:20: Requested font "cmmi7" at 7.2pt
+warning: main.tex:20:  -> cmmi7
+warning: main.tex:20: Requested font "cmmi5" at 5.4pt
+warning: main.tex:20:  -> cmmi5
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;" at 9.34277pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.47421pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.60565pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;" at 9.34099pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.47278pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.60458pt
+warning: main.tex:20: Requested font "msam10" at 9.0pt
+warning: main.tex:20:  -> msam10
+warning: main.tex:20: 
+Requested font "msam7" at 7.2pt
+warning: main.tex:20:  -> msam7
+warning: main.tex:20: Requested font "msam5" at 5.4pt
+warning: main.tex:20:  -> msam5
+warning: main.tex:20: Requested font "msbm10" at 9.0pt
+warning: main.tex:20:  -> msbm10
+warning: main.tex:20: 
+Requested font "msbm7" at 7.2pt
+warning: main.tex:20:  -> msbm7
+warning: main.tex:20: Requested font "msbm5" at 5.4pt
+warning: main.tex:20:  -> msbm5
+warning: main.tex:20: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.2pt
+warning: main.tex:20: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.4pt
+warning: main.tex:20: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 8.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 8.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 8.0pt
+warning: sections/02_recall_related_work:1: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: sections/02_recall_related_work:1: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 6.0pt
+warning: sections/02_recall_related_work:6: Underfull \hbox (badness 1102) in paragraph at lines 5--6
+warning: sections/03_recall_method:5: Underfull \hbox (badness 1112) in paragraph at lines 4--5
+warning: sections/03_recall_method:18: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/03_recall_method:18: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
+warning: sections/04_recall_setup:1: Underfull \hbox (badness 1762) in paragraph at lines 21--1
+warning: sections/04_recall_setup:13: Underfull \vbox (badness 3701) has occurred while \output is active
+warning: sections/05_recall_results:23: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: sections/05_recall_results:24: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.30396pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.22797pt
+warning: tables/recall_effects:1: Requested font "cmmi8" at 8.0pt
+warning: tables/recall_effects:1:  -> cmmi8
+warning: tables/recall_effects:1: Requested font "cmmi6" at 6.0pt
+warning: tables/recall_effects:1:  -> cmmi6
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.30469pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.22852pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.3031pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.22733pt
+warning: tables/recall_effects:1: Requested font "msam10" at 8.0pt
+warning: tables/recall_effects:1:  -> msam10
+warning: tables/recall_effects:1: Requested font "msam7" at 6.0pt
+warning: tables/recall_effects:1:  -> msam7
+warning: tables/recall_effects:1: Requested font "msbm10" at 8.0pt
+warning: tables/recall_effects:1:  -> msbm10
+warning: tables/recall_effects:1: Requested font "msbm7" at 6.0pt
+warning: tables/recall_effects:1:  -> msbm7
+warning: tables/recall_effects:1: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.0pt
+warning: tables/recall_effects:1: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.0pt
+warning: sections/06_recall_discussion:11: Overfull \hbox (27.17252pt too wide) in paragraph at lines 10--11
+warning: sections/06_recall_discussion:18: Underfull \hbox (badness 1308) in paragraph at lines 17--18
+warning: main.tex:28: Underfull \vbox (badness 3291) has occurred while \output is active
+warning: main.bbl:73: Underfull \hbox (badness 1360) in paragraph at lines 63--73
+warning: main.bbl:73: Underfull \hbox (badness 3758) in paragraph at lines 63--73
+warning: main.bbl:73: Underfull \hbox (badness 3343) in paragraph at lines 63--73
+warning: main.bbl:73: Underfull \hbox (badness 4872) in paragraph at lines 63--73
+warning: main.bbl:73: Underfull \hbox (badness 7576) in paragraph at lines 63--73
+warning: main.bbl:123: Underfull \hbox (badness 10000) in paragraph at lines 112--123
+warning: main.bbl:123: Underfull \hbox (badness 1448) in paragraph at lines 112--123
+warning: main.bbl:123: Underfull \hbox (badness 10000) in paragraph at lines 112--123
+warning: main.bbl:123: Underfull \hbox (badness 10000) in paragraph at lines 112--123
+warning: main.bbl:123: Underfull \hbox (badness 10000) in paragraph at lines 112--123
+warning: main.bbl:140: Underfull \hbox (badness 1796) in paragraph at lines 131--140
+warning: main.bbl:155: Underfull \hbox (badness 10000) in paragraph at lines 145--155
+warning: main.bbl:211: Underfull \hbox (badness 2653) in paragraph at lines 201--211
+warning: main.bbl:211: Underfull \hbox (badness 6808) in paragraph at lines 201--211
+warning: main.bbl:211: Underfull \hbox (badness 2197) in paragraph at lines 201--211
+warning: main.bbl:211: Underfull \hbox (badness 1629) in paragraph at lines 201--211
+warning: main.bbl:211: Underfull \hbox (badness 1521) in paragraph at lines 201--211
+warning: main.bbl:211: Underfull \hbox (badness 10000) in paragraph at lines 201--211
+warning: sections/08_recall_appendix:64: 
+Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;+ss03;" at 9.0pt
+warning: sections/08_recall_appendix:66: Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;+ss03;" at 7.0pt
+warning: queries/author_query_english_comments.cypher:25: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: queries/author_query_english_comments.cypher:54: Underfull \vbox (badness 10000) has occurred while \output is active
+note: Rerunning TeX because "main.aux" changed ...
+warning: libertine.sty:308: 
+Requested font "[LinLibertine_R.otf]/OT" at 8.99997pt
+warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_R.otf]/OT" at 8.99997pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_R.otf]/OT" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_RI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:319: Requested font "[LinBiolinum_RBO.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZ.otf]/OT" at 8.99997pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZ.otf]/OT" at 9.00003pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZ.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:338: Requested font "[LinLibertine_RZI.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:361: Requested font "[LinLibertine_DR.otf]/OT" at 8.99997pt
+warning: libertine.sty:361: Requested font "[LinLibertine_DR.otf]/OT" at 9.00003pt
+warning: libertine.sty:361: Requested font "[LinLibertine_DR.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_M.otf]/OT" at 8.99997pt
+warning: libertine.sty:435: Requested font "[LinLibertine_M.otf]/OT" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_MB.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_MO.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:435: Requested font "[LinLibertine_MBO.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:436: Requested font "[LinBiolinum_K.otf]/OT" at 8.99997pt
+warning: libertine.sty:436: Requested font "[LinBiolinum_K.otf]/OT" at 9.00003pt
+warning: libertine.sty:436: Requested font "[LinBiolinum_K.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: libertine.sty:437: Requested font "[LinLibertine_I.otf]/OT" at 8.99997pt
+warning: libertine.sty:437: Requested font "[LinLibertine_I.otf]/OT" at 9.00003pt
+warning: libertine.sty:437: Requested font "[LinLibertine_I.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: acmart.cls:793: 
+Requested font "[Inconsolatazi4-Regular.otf]/OT" at 8.99997pt
+warning: acmart.cls:793: Requested font "[Inconsolatazi4-Regular.otf]/OT" at 9.00003pt
+warning: acmart.cls:793: Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: acmart.cls:793: Requested font "[Inconsolatazi4-Bold.otf]/OT:script=latn;language=dflt;" at 9.00003pt
+warning: pifont.sty:63: 
+Requested font "pzdr" at 9.0pt
+warning: pifont.sty:63:  -> pzdr
+warning: pifont.sty:64: 
+Requested font "psyr" at 9.0pt
+warning: pifont.sty:64:  -> psyr
+warning: main.tex:13: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.26596pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.18997pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.2666pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.19043pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.26521pt
+warning: main.tex:13: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.18944pt
+warning: main.tex:13: 
+Requested font "msam7" at 7.0pt
+warning: main.tex:13:  -> msam7
+warning: main.tex:13: Requested font "msam5" at 5.0pt
+warning: main.tex:13:  -> msam5
+warning: main.tex:13: 
+Requested font "msbm7" at 7.0pt
+warning: main.tex:13:  -> msbm7
+warning: main.tex:13: Requested font "msbm5" at 5.0pt
+warning: main.tex:13:  -> msbm5
+warning: main.tex:13: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.0pt
+warning: main.tex:13: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.0pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: main.tex:20: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: main.tex:20: Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 10.95pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.47354pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.60515pt
+warning: main.tex:20: Requested font "cmmi9" at 9.0pt
+warning: main.tex:20:  -> cmmi9
+warning: main.tex:20: Requested font "cmmi7" at 7.2pt
+warning: main.tex:20:  -> cmmi7
+warning: main.tex:20: Requested font "cmmi5" at 5.4pt
+warning: main.tex:20:  -> cmmi5
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;" at 9.34277pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.47421pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.60565pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;" at 9.34099pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.47278pt
+warning: main.tex:20: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.60458pt
+warning: main.tex:20: Requested font "msam10" at 9.0pt
+warning: main.tex:20:  -> msam10
+warning: main.tex:20: 
+Requested font "msam7" at 7.2pt
+warning: main.tex:20:  -> msam7
+warning: main.tex:20: Requested font "msam5" at 5.4pt
+warning: main.tex:20:  -> msam5
+warning: main.tex:20: Requested font "msbm10" at 9.0pt
+warning: main.tex:20:  -> msbm10
+warning: main.tex:20: 
+Requested font "msbm7" at 7.2pt
+warning: main.tex:20:  -> msbm7
+warning: main.tex:20: Requested font "msbm5" at 5.4pt
+warning: main.tex:20:  -> msbm5
+warning: main.tex:20: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;" at 7.2pt
+warning: main.tex:20: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;" at 5.4pt
+warning: main.tex:20: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: main.tex:20: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 8.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 8.0pt
+warning: main.tex:20: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 8.0pt
+warning: sections/02_recall_related_work:1: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: sections/02_recall_related_work:1: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 6.0pt
+warning: sections/02_recall_related_work:6: Underfull \hbox (badness 1102) in paragraph at lines 5--6
+warning: sections/03_recall_method:1: Underfull \vbox (badness 3229) has occurred while \output is active
+warning: sections/03_recall_method:5: Underfull \hbox (badness 1112) in paragraph at lines 4--5
+warning: sections/03_recall_method:18: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/03_recall_method:18: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
+warning: sections/04_recall_setup:1: Underfull \hbox (badness 1762) in paragraph at lines 21--1
+warning: sections/04_recall_setup:13: Underfull \vbox (badness 3701) has occurred while \output is active
+warning: sections/05_recall_results:23: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: sections/05_recall_results:24: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.30396pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.22797pt
+warning: tables/recall_effects:1: Requested font "cmmi8" at 8.0pt
+warning: tables/recall_effects:1:  -> cmmi8
+warning: tables/recall_effects:1: Requested font "cmmi6" at 6.0pt
+warning: tables/recall_effects:1:  -> cmmi6
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.30469pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.22852pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.3031pt
+warning: tables/recall_effects:1: Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.22733pt
+warning: tables/recall_effects:1: Requested font "msam10" at 8.0pt
+warning: tables/recall_effects:1:  -> msam10
+warning: tables/recall_effects:1: Requested font "msam7" at 6.0pt
+warning: tables/recall_effects:1:  -> msam7
+warning: tables/recall_effects:1: Requested font "msbm10" at 8.0pt
+warning: tables/recall_effects:1:  -> msbm10
+warning: tables/recall_effects:1: Requested font "msbm7" at 6.0pt
+warning: tables/recall_effects:1:  -> msbm7
+warning: tables/recall_effects:1: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;" at 8.0pt
+warning: tables/recall_effects:1: Requested font "[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;" at 6.0pt
+warning: sections/06_recall_discussion:11: Overfull \hbox (27.17252pt too wide) in paragraph at lines 10--11
+warning: sections/06_recall_discussion:18: Underfull \hbox (badness 1308) in paragraph at lines 17--18
+warning: main.tex:28: Underfull \vbox (badness 3291) has occurred while \output is active
+warning: main.bbl:73: Underfull \hbox (badness 1360) in paragraph at lines 63--73
+warning: main.bbl:73: Underfull \hbox (badness 3758) in paragraph at lines 63--73
+warning: main.bbl:73: Underfull \hbox (badness 3343) in paragraph at lines 63--73
+warning: main.bbl:73: Underfull \hbox (badness 4872) in paragraph at lines 63--73
+warning: main.bbl:73: Underfull \hbox (badness 7576) in paragraph at lines 63--73
+warning: main.bbl:123: Underfull \hbox (badness 10000) in paragraph at lines 112--123
+warning: main.bbl:123: Underfull \hbox (badness 1448) in paragraph at lines 112--123
+warning: main.bbl:123: Underfull \hbox (badness 10000) in paragraph at lines 112--123
+warning: main.bbl:123: Underfull \hbox (badness 10000) in paragraph at lines 112--123
+warning: main.bbl:123: Underfull \hbox (badness 10000) in paragraph at lines 112--123
+warning: main.bbl:140: Underfull \hbox (badness 1796) in paragraph at lines 131--140
+warning: main.bbl:155: Underfull \hbox (badness 10000) in paragraph at lines 145--155
+warning: main.bbl:211: Underfull \hbox (badness 2653) in paragraph at lines 201--211
+warning: main.bbl:211: Underfull \hbox (badness 6808) in paragraph at lines 201--211
+warning: main.bbl:211: Underfull \hbox (badness 2197) in paragraph at lines 201--211
+warning: main.bbl:211: Underfull \hbox (badness 1629) in paragraph at lines 201--211
+warning: main.bbl:211: Underfull \hbox (badness 1521) in paragraph at lines 201--211
+warning: main.bbl:211: Underfull \hbox (badness 10000) in paragraph at lines 201--211
+warning: sections/08_recall_appendix:64: 
+Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;+ss03;" at 9.0pt
+warning: sections/08_recall_appendix:66: Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;+ss03;" at 7.0pt
+warning: queries/author_query_english_comments.cypher:25: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: queries/author_query_english_comments.cypher:54: Underfull \vbox (badness 10000) has occurred while \output is active
+note: Running xdvipdfmx ...
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Writing `main.blg` (1.3134765625 KiB)
+note: Writing `main.log` (77.580078125 KiB)
+note: Writing `main.aux` (15.3505859375 KiB)
+note: Writing `main.out` (3.2353515625 KiB)
+note: Writing `main.bbl` (8.31640625 KiB)
+note: Writing `main.pdf` (240.2509765625 KiB)

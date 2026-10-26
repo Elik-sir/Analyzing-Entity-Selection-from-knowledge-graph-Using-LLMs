@@ -1,5 +1,33 @@
 # План подготовки статьи
 
+## Complete standalone article assembled, 2026-10-26
+
+Integrated the agreed standalone KG Introduction/Related Work, updated title/abstract/keywords/Discussion/Conclusion, retained the grouped motif bar chart and placed complete definitions in Appendix C. Active sources no longer depend on proposal paths. Fresh main.pdf has11pages (6main,1references,4appendix); article.md and portable article_sources.zip are available. Numeric/visual/source checks and previous source/PDF copies are under analyses/standalone_assembly/run-01/. No new model/judge/database run or external submission occurred.
+
+## Одна grouped bar chart вместо линий по мотивам, 26 октября 2026
+
+По уточнению автора категории мотивов показаны одной столбчатой диаграммой. Для каждого мотива — три модельные группы, внутри каждой два соседних столбца Raw/Raw+E (этот формат явно выбран автором). Модель кодируется цветом, Raw — штриховкой, Raw+E — сплошной заливкой. Числа и популяция прежние: 42 значения Full-среза 6/4/5, по 100 planned исходов на столбец. Новые assets: `paper/figures/motif_raw_recall_bars_v1/`; renderer и trace — `analyses/motif_recall_layout/run-02/`. Полные определения остаются в приложении, небольшой ключ — рядом с диаграммой. Предыдущий линейный рисунок сохранён.
+
+## Компактный ключ мотивов рядом с Raw/Raw+E recall, 26 октября 2026
+
+По запросу автора подробные определения вынесены в `08_motif_appendix.tex` / `.md`; Method сохраняет краткий `03_motifs.tex` / `.md`. В основном Results расположен общий рисунок: небольшой ключ из семи схем и три модельные панели Raw/Raw+E recall. Использован Full-срез размеров 6 для chain/star/tree, 4 для rhombus и 5 для hourglass, по 100 planned пар на точку. Core K1/K2 график и относившиеся к нему абзацы перенесены в приложение с сохранением отдельных labels. Размеры не усреднялись, разные панели не смешивались; новые confidence intervals не рассчитывались. Числа воспроизведены из сохранённых индивидуальных cached recall, без нового парсинга ответов или вызовов моделей. Assets и scope: `paper/figures/motif_raw_recall_v1/` и `analyses/motif_recall_layout/run-01/`.
+
+## Самостоятельные определения и схемы мотивов, 26 октября 2026
+
+По запросу автора добавлен подраздел Directed Motifs and Query Rules в Method через `proposals/transfer_intro_related_v1/03_motifs.tex`; версия для чтения — `03_motifs.md`. Семь схем построены по сохранённым Core K1 примерам, с точными направленными рёбрами, anchor/endpoints/intermediate roles и общими буквенными метками. Финальные assets: `paper/figures/motif_schematics_v1/` (PDF/SVG/PNG). Источники, скрипт, точные архивные локаторы и ограничение scope — `analyses/motif_description/run-01/`. Сборка существующего main с подключённым подразделом успешна; проверен сам рисунок, полная новая PDF-вёрстка не сертифицирована. Новые эксперименты не запускались.
+
+## Самостоятельная KG-постановка Introduction/Related Work, 26 октября 2026
+
+По новому запросу автора два предлагаемых раздела переписаны без ссылок на неопубликованный Tool Selection manuscript и без аргумента переноса. Основная логика: Web information access, полный отбор сущностей из фиксированного каталога, task-family/size profiles, парные evidence/presentation/noise contrasts и остаточные ошибки. Прежняя рекомендация transfer-first теперь историческая.
+
+Обновлены оба `.tex` и соответствующие `.md` в `paper/manuscript/proposals/transfer_intro_related_v1/`. Scoped validation и сохранённый предыдущий текст — `analyses/intro_related_revision/run-04/`. Никакие существующие наблюдения не объявлены вновь собранными или независимыми; прежняя provenance остаётся в research notes. Активные Title/Abstract/Discussion/Conclusion и подключённые `sections/*_recall_*` этой задачей не заменены; перед полной сборкой необходимо согласовать их с новым изложением.
+
+## Предложение transfer-first Introduction/Related Work, 26 октября 2026
+
+Автор уточнил основную цель: перенос Tool Selection на KG Entity Selection; вопросы/selection protocol предусматривают полный набор сущностей. Подготовлен отдельный английский вариант `paper/manuscript/proposals/transfer_intro_related_v1/`. Перенос — центральный вопрос, evidence/presentation — условия его проверки; Appendix O сохраняет статус предыдущих результатов. Приложенный `02_related_work_v4.tex` использован как расширенная основа, абзац Tool Selection перенесён первым. Три новые ссылки проверены и вынесены в отдельный `additional_references.bib`.
+
+Активная рукопись и PDF не заменены; после принятия формулировок потребуется согласование Abstract/Discussion и при необходимости порядка Results. Scoped evidence/claim/citation validation проходит в `analyses/intro_related_revision/run-01/`; это не проверка всей production evidence и не сертификат новизны. Предыдущая рекомендация сделать перенос только фоном скорректирована с учётом авторского замысла.
+
 ## Обновлённая статья собрана, 26 октября 2026
 
 `paper/manuscript/main.tex` теперь использует восемь новых recall-led sections. Основной текст: структурные profiles, размеры, evidence/presentation contrasts, residual errors и границы Tool-to-KG transfer. Recall основной, Precision supplementary; модели идут по строкам таблиц. Получен PDF на 10 страницах: 6 основной текст, 1 references, 3 appendix. Все страницы просмотрены; новые эксперименты не запускались. Старый черновик сохранён в `analyses/manuscript_revision/run-01/previous_manuscript/`. Текущие ограничения и авторские решения до подачи — в [recall_revision_review.md](recall_revision_review.md).

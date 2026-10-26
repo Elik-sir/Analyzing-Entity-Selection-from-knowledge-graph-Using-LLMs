@@ -9,14 +9,14 @@
 \acmYear{2027}
 \acmDOI{}
 \acmISBN{}
-\title[Structural Selection Profiles and Relational Evidence]{From Tool Selection to Knowledge-Graph Entity Selection: Structural Profiles and Relational Evidence}
+\title[Entity Selection in Knowledge Graphs]{Entity Selection in Knowledge Graphs: Structural Profiles and Relational Evidence}
 \begin{document}
 \begin{abstract}
-Tool-selection success varies with the pattern of dependencies between tools, motivating questions about which structural difficulties persist when relations are explicitly supplied. We revisit this problem through archived knowledge-graph entity selection on seven task families and three language models. Building on a prior Tool-to-KG study, we distinguish adding relational evidence from changing the presentation of matched facts and introducing adjacent distractors. Recall is the primary metric for recovery of the entity-route reference, with precision and exact recovery providing complementary diagnostics. Adding relations increases mean recall by 0.774, 0.519, and 0.567 for Gemma, Qwen, and Ministral. Residual profiles depend on task family, size, and model. On six-node incoming trees, Qwen recall is 0.603 with source-card relations and 0.802 when the same facts appear on both endpoint cards; moving them to destination cards alone leaves recall at 0.603. Output-level analyses retain both corrections and regressions under presentation changes. The findings distinguish relation availability from complete route recovery and refine hypotheses about structural selection errors without asserting a universal topology ranking or shared causal mechanism.
+Selecting connected information is a basic challenge for language-model systems that answer questions about related entities. We study exhaustive entity selection from a fixed knowledge-graph catalogue containing every reference entity, using archived tasks from seven directed families and three language models. We distinguish adding explicit relations from changing the presentation of matched facts and introducing adjacent distractors. Recall measures recovery of all required route entities, with precision and exact recovery providing complementary diagnostics. Across 3,400 matched tasks per model, adding relations increases mean recall by 0.774, 0.519, and 0.567 for Gemma, Qwen, and Ministral. Residual profiles depend on task family, reference size, and model. On controlled six-node incoming-tree tasks, Qwen recall is 0.603 with source-card relations and 0.802 when the same unique facts appear on both endpoint cards; destination-only hosting leaves recall at 0.603. Paired output analyses retain both corrections and regressions. The findings distinguish graph-fact availability from complete entity-route recovery, without asserting an isolated topology effect, an internal traversal mechanism, or downstream answer gains.
 \end{abstract}
 \ccsdesc[500]{Information systems~Information retrieval}
 \ccsdesc[300]{Computing methodologies~Natural language processing}
-\keywords{knowledge graphs, tool selection, entity selection, relational evidence, graph patterns}
+\keywords{knowledge graphs, entity selection, relational evidence, graph patterns, information retrieval}
 \maketitle
 \input{sections/01_recall_introduction}
 \input{sections/02_recall_related_work}

@@ -1,0 +1,14 @@
+% Analytical expectations, not executed model outcomes; requires booktabs.
+\begin{tabular}{llrrrr}
+\toprule
+Panel & Selection rule & Precision & Recall & F1 & Exact \\
+\midrule
+core & select\_all & 0.2229 & 1.0000 & 0.3635 & 0.0000 \\
+core & select\_named\_anchor & 1.0000 & 0.1833 & 0.3088 & 0.0000 \\
+core & uniform\_random\_k6\_expectation & 0.2229 & 0.2400 & 0.2300 & 4.03e-06 \\
+full\_braw & select\_all & 0.2600 & 1.0000 & 0.4051 & 0.0000 \\
+full\_braw & select\_named\_anchor & 1.0000 & 0.1750 & 0.2925 & 0.0000 \\
+full\_braw & uniform\_random\_k6\_expectation & 0.2600 & 0.2400 & 0.2424 & 8.30e-07 \\
+\bottomrule
+\end{tabular}
+% Uniform random selects six of 25 candidates without replacement; values are exact analytical expectations.

@@ -1,0 +1,27 @@
+# Directed Motifs and Query Rules
+
+We use seven directed task families, shown in the compact key in the compact comparison below. Each query names an anchor $a$. An arrow $u\to v$ denotes a factual KG relation from $u$ to $v$; an incoming query examines this relation from $v$ toward $u$ without changing its direction. The endpoint answer set $A$ contains the entities returned by the query rule. The evaluated selection reference $W$ additionally includes the anchor and all intermediate entities on every permitted supporting route.
+
+## Chain
+
+A directed path starts at the anchor. The query follows outgoing routes and stops at the first entity of the requested terminal type on each route. In the representative chain, the final vertex is that first matching entity; the vertices between the anchor and the final vertex are intermediate selections. The stopping rule is type-based, not a fixed two-link limit.
+
+## Star-in and star-out
+
+The anchor is the common destination of the star-in edges and the common source of the star-out edges. The query requests all immediate incoming or outgoing neighbors, respectively. These neighbors are endpoint answers, while the anchor is additionally included in $W$.
+
+## Tree-in and tree-out
+
+These families have two levels relative to the anchor, with at least two first-level branches and at least one second-level entity per branch. Tree-in edges point toward the anchor, while tree-out edges point away from it. The query inspects incoming or outgoing routes up to two links. A route ends earlier only when no further permitted unvisited neighbor is available. Second-level entities are endpoints in the representative Core examples; both levels and the anchor belong to $W$.
+
+## Rhombus
+
+Four vertices form two outgoing two-link routes, $a\to b\to d$ and $a\to c\to d$. The endpoint answer is the shared vertex $d$, while $W=\{a,b,c,d\}$. Both intermediate vertices are required by the all-route selection convention even though the routes reach the same endpoint.
+
+## Hourglass
+
+The central anchor has two incoming and two outgoing neighbors. The question requests these two one-link groups separately. The four neighbors are endpoint answers and all five vertices belong to $W$. The task does not ask for a two-link traversal from an incoming neighbor through the anchor to an outgoing neighbor.
+
+The Core panel contains 100 base tasks per family: six nodes for chain, stars, and trees, four for rhombus, and five for hourglass; the size panel varies the supported chain, star, and tree sizes. Question templates use the anchor's name/type and the traversal/stopping rule. Procedural and direct formulations express the same endpoint query. Families therefore differ in query operations as well as directed structure, so their unadjusted profiles do not isolate a causal topology effect.
+
+[Compact scheme and recall bar chart](../../../figures/motif_raw_recall_bars_v1/motifs_and_raw_recall_bars.pdf)

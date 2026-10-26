@@ -1,0 +1,750 @@
+{
+  "source": "paper/research_notes/analyses/motif_description/run-01/archive_samples.json",
+  "source_sha256": "c4aa56a32b16116d73815beeb6642ef31ddf9f8736773fa5a00334406d262dba",
+  "script_sha256": "c28e6b65e7553a43ea15b990a553b95e7a51fb467b31503d9963fdd806ed6fba",
+  "records": [
+    {
+      "motif": "chain",
+      "input_id": "596f0f7f32af69a8af5bd8d1181454943f720e6f942fed9708da8abe581a3072",
+      "selector": {
+        "series_id": "core",
+        "condition": "K1",
+        "noise": "disconnected",
+        "model": "qwen3.6-flash",
+        "motif": "chain",
+        "size": 6,
+        "selection": "First matching observation in stored JSONL order"
+      },
+      "node_mapping": [
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:22637",
+          "label": "a",
+          "role": "anchor",
+          "position": [
+            0.5,
+            0.91
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:7883",
+          "label": "b",
+          "role": "intermediate",
+          "position": [
+            0.5,
+            0.745
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:7870",
+          "label": "c",
+          "role": "intermediate",
+          "position": [
+            0.5,
+            0.5800000000000001
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:7871",
+          "label": "d",
+          "role": "intermediate",
+          "position": [
+            0.5,
+            0.41500000000000004
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:7872",
+          "label": "e",
+          "role": "intermediate",
+          "position": [
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:15251",
+          "label": "f",
+          "role": "endpoint",
+          "position": [
+            0.5,
+            0.08499999999999996
+          ]
+        }
+      ],
+      "edges_drawn": [
+        [
+          "a",
+          "NEWS_ABOUT_FUND",
+          "b"
+        ],
+        [
+          "c",
+          "LOCATED_IN",
+          "d"
+        ],
+        [
+          "d",
+          "IN_STATE",
+          "e"
+        ],
+        [
+          "e",
+          "IN_COUNTRY",
+          "f"
+        ],
+        [
+          "b",
+          "OWNS",
+          "c"
+        ]
+      ],
+      "endpoints": [
+        "f"
+      ],
+      "reference": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ]
+    },
+    {
+      "motif": "star_in",
+      "input_id": "b32c523eae0a8a2db036c7a5f0ae7518812369a055931729829825de1dc20204",
+      "selector": {
+        "series_id": "core",
+        "condition": "K1",
+        "noise": "disconnected",
+        "model": "qwen3.6-flash",
+        "motif": "star_in",
+        "size": 6,
+        "selection": "First matching observation in stored JSONL order"
+      },
+      "node_mapping": [
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:10561",
+          "label": "a",
+          "role": "anchor",
+          "position": [
+            0.5,
+            0.48
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:10501",
+          "label": "b",
+          "role": "endpoint",
+          "position": [
+            0.5,
+            0.84
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:29650",
+          "label": "c",
+          "role": "endpoint",
+          "position": [
+            0.15761965413374474,
+            0.5912461179749811
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:29652",
+          "label": "d",
+          "role": "endpoint",
+          "position": [
+            0.2883973091747096,
+            0.18875388202501897
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:29657",
+          "label": "e",
+          "role": "endpoint",
+          "position": [
+            0.7116026908252903,
+            0.18875388202501886
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:29663",
+          "label": "f",
+          "role": "endpoint",
+          "position": [
+            0.8423803458662553,
+            0.591246117974981
+          ]
+        }
+      ],
+      "edges_drawn": [
+        [
+          "b",
+          "PRODUCES",
+          "a"
+        ],
+        [
+          "c",
+          "NEWS_ABOUT_PRODUCT",
+          "a"
+        ],
+        [
+          "d",
+          "NEWS_ABOUT_PRODUCT",
+          "a"
+        ],
+        [
+          "e",
+          "NEWS_ABOUT_PRODUCT",
+          "a"
+        ],
+        [
+          "f",
+          "NEWS_ABOUT_PRODUCT",
+          "a"
+        ]
+      ],
+      "endpoints": [
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "reference": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ]
+    },
+    {
+      "motif": "star_out",
+      "input_id": "9ff3c3a8bb604bb9b9334e7bf04fe25f03876a11e48c873d0fdcbace6fce241b",
+      "selector": {
+        "series_id": "core",
+        "condition": "K1",
+        "noise": "disconnected",
+        "model": "qwen3.6-flash",
+        "motif": "star_out",
+        "size": 6,
+        "selection": "First matching observation in stored JSONL order"
+      },
+      "node_mapping": [
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:26051",
+          "label": "a",
+          "role": "anchor",
+          "position": [
+            0.5,
+            0.48
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:10520",
+          "label": "b",
+          "role": "endpoint",
+          "position": [
+            0.5,
+            0.84
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:10544",
+          "label": "c",
+          "role": "endpoint",
+          "position": [
+            0.15761965413374474,
+            0.5912461179749811
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:4022",
+          "label": "d",
+          "role": "endpoint",
+          "position": [
+            0.2883973091747096,
+            0.18875388202501897
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:9104",
+          "label": "e",
+          "role": "endpoint",
+          "position": [
+            0.7116026908252903,
+            0.18875388202501886
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:9108",
+          "label": "f",
+          "role": "endpoint",
+          "position": [
+            0.8423803458662553,
+            0.591246117974981
+          ]
+        }
+      ],
+      "edges_drawn": [
+        [
+          "a",
+          "NEWS_ABOUT_PRODUCT",
+          "b"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_PRODUCT",
+          "c"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_PRODUCT",
+          "d"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_PRODUCT",
+          "e"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_PRODUCT",
+          "f"
+        ]
+      ],
+      "endpoints": [
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "reference": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ]
+    },
+    {
+      "motif": "tree_in",
+      "input_id": "da5e4f87752ef3c82a359bf43debf20fde525a3f4ddfbd671dd54297f2b0bce9",
+      "selector": {
+        "series_id": "core",
+        "condition": "K1",
+        "noise": "disconnected",
+        "model": "qwen3.6-flash",
+        "motif": "tree_in",
+        "size": 6,
+        "selection": "First matching observation in stored JSONL order"
+      },
+      "node_mapping": [
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:1996",
+          "label": "a",
+          "role": "anchor",
+          "position": [
+            0.5,
+            0.86
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:6330",
+          "label": "b",
+          "role": "intermediate",
+          "position": [
+            0.15,
+            0.5
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:1959",
+          "label": "c",
+          "role": "intermediate",
+          "position": [
+            0.675,
+            0.5
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:6331",
+          "label": "d",
+          "role": "endpoint",
+          "position": [
+            0.15,
+            0.12
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:1961",
+          "label": "e",
+          "role": "endpoint",
+          "position": [
+            0.5,
+            0.12
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:1964",
+          "label": "f",
+          "role": "endpoint",
+          "position": [
+            0.85,
+            0.12
+          ]
+        }
+      ],
+      "edges_drawn": [
+        [
+          "c",
+          "REQUIRES",
+          "a"
+        ],
+        [
+          "e",
+          "WORKS_FOR",
+          "c"
+        ],
+        [
+          "f",
+          "WORKS_FOR",
+          "c"
+        ],
+        [
+          "b",
+          "REQUIRES",
+          "a"
+        ],
+        [
+          "d",
+          "WORKS_FOR",
+          "b"
+        ]
+      ],
+      "endpoints": [
+        "e",
+        "f",
+        "d"
+      ],
+      "reference": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ]
+    },
+    {
+      "motif": "tree_out",
+      "input_id": "9bbc184d0d0f0f905b3e7f61f22cd5aa7db4482f3d98140ec83e2ad6b3fb1618",
+      "selector": {
+        "series_id": "core",
+        "condition": "K1",
+        "noise": "disconnected",
+        "model": "qwen3.6-flash",
+        "motif": "tree_out",
+        "size": 6,
+        "selection": "First matching observation in stored JSONL order"
+      },
+      "node_mapping": [
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:14872",
+          "label": "a",
+          "role": "anchor",
+          "position": [
+            0.5,
+            0.86
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:1178",
+          "label": "b",
+          "role": "intermediate",
+          "position": [
+            0.15,
+            0.5
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:7071",
+          "label": "c",
+          "role": "intermediate",
+          "position": [
+            0.675,
+            0.5
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:1205",
+          "label": "d",
+          "role": "endpoint",
+          "position": [
+            0.15,
+            0.12
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:7083",
+          "label": "e",
+          "role": "endpoint",
+          "position": [
+            0.5,
+            0.12
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:7103",
+          "label": "f",
+          "role": "endpoint",
+          "position": [
+            0.85,
+            0.12
+          ]
+        }
+      ],
+      "edges_drawn": [
+        [
+          "b",
+          "PRODUCES",
+          "d"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_COMPANY",
+          "b"
+        ],
+        [
+          "a",
+          "NEWS_ABOUT_COMPANY",
+          "c"
+        ],
+        [
+          "c",
+          "PRODUCES",
+          "e"
+        ],
+        [
+          "c",
+          "REQUIRES",
+          "f"
+        ]
+      ],
+      "endpoints": [
+        "d",
+        "e",
+        "f"
+      ],
+      "reference": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ]
+    },
+    {
+      "motif": "rhombus",
+      "input_id": "80be0fc812928c4d1dfa4eb78151265340dac81ddddaebf5b13b79bbe87030b6",
+      "selector": {
+        "series_id": "core",
+        "condition": "K1",
+        "noise": "disconnected",
+        "model": "qwen3.6-flash",
+        "motif": "rhombus",
+        "size": 4,
+        "selection": "First matching observation in stored JSONL order"
+      },
+      "node_mapping": [
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:2283",
+          "label": "a",
+          "role": "anchor",
+          "position": [
+            0.5,
+            0.86
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:2271",
+          "label": "b",
+          "role": "intermediate",
+          "position": [
+            0.2,
+            0.49
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:9044",
+          "label": "c",
+          "role": "intermediate",
+          "position": [
+            0.8,
+            0.49
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:2272",
+          "label": "d",
+          "role": "endpoint",
+          "position": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "edges_drawn": [
+        [
+          "b",
+          "OPERATES_IN_INDUSTRY",
+          "d"
+        ],
+        [
+          "a",
+          "OWNS",
+          "b"
+        ],
+        [
+          "a",
+          "OWNS",
+          "c"
+        ],
+        [
+          "c",
+          "OPERATES_IN_INDUSTRY",
+          "d"
+        ]
+      ],
+      "endpoints": [
+        "d"
+      ],
+      "reference": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "motif": "hourglass",
+      "input_id": "efdd2b71bfc986685d6d20f606fe1233101c9b773c10375868563a138cb6db95",
+      "selector": {
+        "series_id": "core",
+        "condition": "K1",
+        "noise": "disconnected",
+        "model": "qwen3.6-flash",
+        "motif": "hourglass",
+        "size": 5,
+        "selection": "First matching observation in stored JSONL order"
+      },
+      "node_mapping": [
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:12616",
+          "label": "a",
+          "role": "anchor",
+          "position": [
+            0.5,
+            0.49
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:20417",
+          "label": "b",
+          "role": "endpoint",
+          "position": [
+            0.23,
+            0.85
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:20422",
+          "label": "c",
+          "role": "endpoint",
+          "position": [
+            0.77,
+            0.85
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:12635",
+          "label": "d",
+          "role": "endpoint",
+          "position": [
+            0.23,
+            0.13
+          ]
+        },
+        {
+          "source_id": "4:002aa201-35fa-46a4-8661-72e4560b6259:12642",
+          "label": "e",
+          "role": "endpoint",
+          "position": [
+            0.77,
+            0.13
+          ]
+        }
+      ],
+      "edges_drawn": [
+        [
+          "a",
+          "PRODUCES",
+          "d"
+        ],
+        [
+          "a",
+          "PRODUCES",
+          "e"
+        ],
+        [
+          "b",
+          "NEWS_ABOUT_COMPANY",
+          "a"
+        ],
+        [
+          "c",
+          "NEWS_ABOUT_COMPANY",
+          "a"
+        ]
+      ],
+      "endpoints": [
+        "d",
+        "e",
+        "b",
+        "c"
+      ],
+      "reference": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "paper/figures/motif_schematics_v1/motif_schematics.pdf",
+      "sha256": "bac92095c71511d9501f81f089a8c34d7a429812ca9396d2f990a8d01d0967d0"
+    },
+    {
+      "path": "paper/figures/motif_schematics_v1/motif_schematics.svg",
+      "sha256": "9bcb2f270f8962d643731dd8f33c3ecbf614905590662a94db94e38be90ff8d9"
+    },
+    {
+      "path": "paper/figures/motif_schematics_v1/motif_schematics.png",
+      "sha256": "dfc60bdaa58981f82074268472a5e8817f88a2b5efc36c8383f539e16e875a54"
+    },
+    {
+      "path": "paper/manuscript/figures/motif_schematics_v1.pdf",
+      "sha256": "bac92095c71511d9501f81f089a8c34d7a429812ca9396d2f990a8d01d0967d0"
+    }
+  ],
+  "scope": "Seven reference-induced archived Core K1 graphs with generic labels, not full 25-candidate contexts or newly generated KG tasks."
+}

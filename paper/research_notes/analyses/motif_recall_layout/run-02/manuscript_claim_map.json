@@ -1,0 +1,30 @@
+{
+  "scope": "Format-only update to grouped bars; same42means and population. Current glyph/appendix definitions unchanged.",
+  "entries": [
+    {
+      "path": "paper/manuscript/sections/05_recall_results.tex",
+      "sha256": "7c27a7548f9aeaddb20cd778c10d4a0eecddb8a5cbd1a22976ac489a0a5df6a8",
+      "locator": "Grouped-bar fig:raw_motifs and first Results paragraph",
+      "claim_ids": [
+        "C-mrl-recall",
+        "C-mrl-directions"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/03_motifs.tex",
+      "sha256": "6ef231426e44accb4b0f35c98e6b2dc9d3836e59f99da892075d67fa6279f2a6",
+      "locator": "Short Method and appendix cross-ref",
+      "claim_ids": [
+        "C-mrl-motifs"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/08_motif_appendix.tex",
+      "sha256": "cb8b0a58d37bb45eb7660c111b8e013ff0625ca3f9df85412cd0f83f6f7d3ae9",
+      "locator": "Full definitions moved from former Method",
+      "claim_ids": [
+        "C-mrl-motifs"
+      ]
+    }
+  ]
+}

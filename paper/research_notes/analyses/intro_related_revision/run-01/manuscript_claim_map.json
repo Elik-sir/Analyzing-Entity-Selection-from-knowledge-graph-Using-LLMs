@@ -1,0 +1,114 @@
+{
+  "scope": "Only the two proposed sections; grouped substantive claims. RQs are questions, motivation and metric definitions are not empirical results; this map is not an originality certificate.",
+  "entries": [
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "6eaa183a17fc40d11a8f94826bdb0b0061eed5bba2eb6a567a970dec317d8512",
+      "paragraph": 1,
+      "claim_ids": [
+        "C-ir-tool"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "6eaa183a17fc40d11a8f94826bdb0b0061eed5bba2eb6a567a970dec317d8512",
+      "paragraph": 2,
+      "claim_ids": [
+        "C-ir-tool"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "6eaa183a17fc40d11a8f94826bdb0b0061eed5bba2eb6a567a970dec317d8512",
+      "paragraph": 3,
+      "claim_ids": [
+        "C-ir-exhaustive",
+        "C-ir-kg"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "6eaa183a17fc40d11a8f94826bdb0b0061eed5bba2eb6a567a970dec317d8512",
+      "paragraph": 4,
+      "claim_ids": [
+        "C-ir-tool"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "6eaa183a17fc40d11a8f94826bdb0b0061eed5bba2eb6a567a970dec317d8512",
+      "paragraph": 5,
+      "claim_ids": [
+        "C-ir-pairs"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "6eaa183a17fc40d11a8f94826bdb0b0061eed5bba2eb6a567a970dec317d8512",
+      "paragraph": 6,
+      "claim_ids": [
+        "C-ir-tool",
+        "C-ir-pairs",
+        "C-ir-transition"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "6eaa183a17fc40d11a8f94826bdb0b0061eed5bba2eb6a567a970dec317d8512",
+      "paragraph": 7,
+      "claim_ids": [
+        "C-ir-pairs",
+        "C-ir-transition"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "6eaa183a17fc40d11a8f94826bdb0b0061eed5bba2eb6a567a970dec317d8512",
+      "paragraph": 8,
+      "claim_ids": [
+        "C-ir-gain",
+        "C-ir-transition"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.tex",
+      "sha256": "a8dbe0699e68502be0c9b3ebb5c0b05c6d0b67af8d144843d6c9ee55c1e3ddb7",
+      "paragraph": 1,
+      "claim_ids": [
+        "C-ir-tool"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.tex",
+      "sha256": "a8dbe0699e68502be0c9b3ebb5c0b05c6d0b67af8d144843d6c9ee55c1e3ddb7",
+      "paragraph": 2,
+      "claim_ids": [
+        "C-ir-luo2024rog",
+        "C-ir-wu2024stark",
+        "C-ir-he2024gretriever",
+        "C-ir-exhaustive",
+        "C-ir-kg"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.tex",
+      "sha256": "a8dbe0699e68502be0c9b3ebb5c0b05c6d0b67af8d144843d6c9ee55c1e3ddb7",
+      "paragraph": 3,
+      "claim_ids": [
+        "C-ir-talk",
+        "C-ir-pattern"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.tex",
+      "sha256": "a8dbe0699e68502be0c9b3ebb5c0b05c6d0b67af8d144843d6c9ee55c1e3ddb7",
+      "paragraph": 4,
+      "claim_ids": [
+        "C-ir-kgprompt",
+        "C-ir-walk",
+        "C-ir-pairs",
+        "C-ir-transition"
+      ]
+    }
+  ]
+}

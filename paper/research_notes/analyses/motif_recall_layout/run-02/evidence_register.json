@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-mrl-rows",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/motif_recall_layout/run-01/selected_rows.csv",
+      "sha256": "74bb9f343d23b2989e100cc6818be53ada4f308e01cebb052a1d7405d1df5a06",
+      "locator": "42 rows selected by series_id=full_braw, noise=disconnected, conditions=Braw/Braw+E, model, motif, size6/4/5",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-mrl-scope",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/motif_recall_layout/run-01/plot_scope.json",
+      "sha256": "8cf9c528c57982af6e15ee170f37fdeec7e9373514d0576361bb5912b76c9903",
+      "locator": "$.selector, $.metric, $.pairing, and verification summaries; no valid-only filter",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-mrl-shapes",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/motif_description/run-01/figure_sources.json",
+      "sha256": "f2c64efa8b37778271e2f6769111878895f5ca304b2b6d62f2241d9f8f7279dc",
+      "locator": "$.records: archived Core input IDs, generic labels and exact edges for glyphs",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-mrl-definitions",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/motif_description/run-01/core_shape_audit.json",
+      "sha256": "574e0ddaffc15f7dd71b5e3ce07a9c76a14b10206fb770eb556ec9b5b232bd2f",
+      "locator": "$.family_summaries and $.population; earlier bounded Core input audit",
+      "verification": "reported",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-mrl-render",
+      "kind": "implementation",
+      "path": "paper/research_notes/analyses/motif_recall_layout/run-02/render_bars.py",
+      "sha256": "be68f438704f3624342ffb88665f379c01ff087faf0f3cd5ae23c0d171e92656",
+      "locator": "Single grouped axis;3model pairs per motif,42bar heights asserted against retained source data; no ax.lines",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    },
+    {
+      "id": "E-mrl-figure",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/motif_recall_layout/run-02/figure_sources.json",
+      "sha256": "b7bfe3b8d08580e64395abdb495f99561c07f17256582328ca3166b8917e0bae",
+      "locator": "$.rows, $.bars, $.glyphs and $.files",
+      "verification": "inspected",
+      "checked_on": "2026-10-26"
+    }
+  ]
+}

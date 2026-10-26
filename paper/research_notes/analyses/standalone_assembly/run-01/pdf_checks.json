@@ -1,0 +1,78 @@
+{
+  "pages": 11,
+  "main_text_pages": 6,
+  "reference_pages": 1,
+  "appendix_pages": 4,
+  "fonts": {
+    "/IHAIZV+LinLibertineO-Identity-H": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/BZIVMZ+LinBiolinumOB-Identity-H": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/IXFAWU+LinLibertineOB-Identity-H": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/TQTHRL+LibertinusMath-Regular-Identity-H": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/YEUUOC+LinLibertineOI-Identity-H": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/AKHCZK+LinBiolinumO-Identity-H": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/VDVGTR+LatinModernMath-Regular-Identity-H": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/XBNOEO+DejaVuSans-Bold": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/GYJSVA+DejaVuSans": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/FZUQPH+DejaVuSans": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/CAFSZL+Inconsolatazi4-Regular-Identity-H": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/CJCKSQ+DejaVuSans": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/EOOOWF+DejaVuSans": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/HANZEA+DejaVuSans": {
+      "subtype": "/Type0",
+      "embedded": true
+    }
+  },
+  "all_fonts_embedded": true,
+  "metadata": {
+    "/Creator": "LaTeX with acmart 2026/06/27 v2.19 Typesetting articles for the Association for Computing Machinery and hyperref 2022-02-21 v7.00n Hypertext links for LaTeX",
+    "/Title": "Entity Selection in Knowledge Graphs: Structural Profiles and Relational Evidence",
+    "/Subject": "-  Information systems  ->  Information retrieval.-  Computing methodologies  ->  Natural language processing.",
+    "/Producer": "XeTeX version 0.999994",
+    "/CreationDate": "D:20261026075413-00'00'"
+  },
+  "overfull_boxes": 0,
+  "undefined_references_or_citations": 0,
+  "Web_motivation_on_first_page": true,
+  "unpublished_source_reference_absent": true,
+  "visual_review": "All11pages inspected via3contact sheets; first page, figure page, tables, references and appendix layout checked.",
+  "limits": "No submission or originality eligibility certification."
+}

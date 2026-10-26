@@ -1,0 +1,5 @@
+# Directed Task Families
+
+We study seven directed families: chain, star-in, star-out, tree-in, tree-out, rhombus, and hourglass. The figure below gives a compact key alongside a grouped Raw/Raw+E recall chart. Each motif has three model groups, with adjacent Raw and Raw+E bars in each group. Arrows denote factual KG relations; incoming queries inspect them in the reverse direction. Each query names an anchor, which belongs to the all-route selection reference together with the endpoints and intermediate entities. The Core sizes are six nodes for chain, stars, and trees, four for rhombus, and five for hourglass. Full graph definitions, traversal rules, and the distinction between endpoint answers and selected route entities appear in [the motif appendix](08_motif_appendix.md). The families also differ in query operations and entity/relation types.
+
+![Small motif key beside grouped Raw/Raw+E recall bars](C:/Users/ekurm/projects/Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs/paper/figures/motif_raw_recall_bars_v1/motifs_and_raw_recall_bars.png)

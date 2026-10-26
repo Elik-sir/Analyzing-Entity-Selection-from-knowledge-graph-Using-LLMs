@@ -1,0 +1,124 @@
+{
+  "scope": "Only the two proposed sections; grouped substantive claims. RQs are questions, motivation and metric definitions are not empirical results; this map is not an originality certificate.",
+  "entries": [
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+      "paragraph": 1,
+      "claim_ids": [
+        "C-ir-tool"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+      "paragraph": 3,
+      "claim_ids": [
+        "C-ir-tool"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+      "paragraph": 4,
+      "claim_ids": [
+        "C-ir-exhaustive",
+        "C-ir-kg"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+      "paragraph": 5,
+      "claim_ids": [
+        "C-ir-tool"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+      "paragraph": 6,
+      "claim_ids": [
+        "C-ir-pairs"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+      "paragraph": 7,
+      "claim_ids": [
+        "C-ir-tool",
+        "C-ir-pairs",
+        "C-ir-transition"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+      "paragraph": 8,
+      "claim_ids": [
+        "C-ir-pairs",
+        "C-ir-transition"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+      "paragraph": 9,
+      "claim_ids": [
+        "C-ir-gain",
+        "C-ir-transition"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.tex",
+      "sha256": "a8dbe0699e68502be0c9b3ebb5c0b05c6d0b67af8d144843d6c9ee55c1e3ddb7",
+      "paragraph": 1,
+      "claim_ids": [
+        "C-ir-tool"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.tex",
+      "sha256": "a8dbe0699e68502be0c9b3ebb5c0b05c6d0b67af8d144843d6c9ee55c1e3ddb7",
+      "paragraph": 2,
+      "claim_ids": [
+        "C-ir-luo2024rog",
+        "C-ir-wu2024stark",
+        "C-ir-he2024gretriever",
+        "C-ir-exhaustive",
+        "C-ir-kg"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.tex",
+      "sha256": "a8dbe0699e68502be0c9b3ebb5c0b05c6d0b67af8d144843d6c9ee55c1e3ddb7",
+      "paragraph": 3,
+      "claim_ids": [
+        "C-ir-talk",
+        "C-ir-pattern"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/02_related_work.tex",
+      "sha256": "a8dbe0699e68502be0c9b3ebb5c0b05c6d0b67af8d144843d6c9ee55c1e3ddb7",
+      "paragraph": 4,
+      "claim_ids": [
+        "C-ir-kgprompt",
+        "C-ir-walk",
+        "C-ir-pairs",
+        "C-ir-transition"
+      ]
+    },
+    {
+      "path": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+      "sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+      "paragraph": 2,
+      "claim_ids": [
+        "C-ir-web-fit",
+        "C-ir-kg",
+        "C-ir-exhaustive"
+      ]
+    }
+  ]
+}

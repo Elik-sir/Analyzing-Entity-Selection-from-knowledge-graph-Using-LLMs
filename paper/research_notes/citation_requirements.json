@@ -3,7 +3,7 @@
   "required_citations": [
     {
       "id": "tool_graph_complexity",
-      "required": true,
+      "required": false,
       "title": "Tool Graph Complexity for LLM Tool-Calling: A Reproducible Benchmark Auditing and Generation Framework",
       "source_path": "paper/research_notes/sources/tool_graph_complexity.pdf",
       "supplied_original_path": "C:/Users/ekurm/OneDrive/Рабочий стол/ИТМО/НИР/48958_Tool_Graph_Complexity_fo.pdf",
@@ -19,7 +19,18 @@
       "publication_year": null,
       "doi": null,
       "bibliography_status": "Mandatory inclusion recorded; obtain citation-ready public/anonymous metadata without inventing authors, date or acceptance.",
-      "comparison_priority": "Direct KG entity-selection overlap in Appendix O; compare scope, references, interventions and any reused resources/results."
+      "comparison_priority": "Direct KG entity-selection overlap in Appendix O; compare scope, references, interventions and any reused resources/results.",
+      "previous_requirement": {
+        "required": true,
+        "recorded_on": "2026-10-25",
+        "scope": "Earlier author-mandated comparison; historical source/provenance preserved."
+      },
+      "current_author_instruction": {
+        "date": "2026-10-26",
+        "scope": "Current Introduction/Related Work proposal",
+        "instruction": "Do not refer to the unpublished Tool Selection work; write self-contained KG sections.",
+        "limits": "No change to original data provenance or unverified reuse status."
+      }
     }
   ]
 }

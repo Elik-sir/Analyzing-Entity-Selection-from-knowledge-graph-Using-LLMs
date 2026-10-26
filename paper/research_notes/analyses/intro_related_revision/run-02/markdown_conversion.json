@@ -1,0 +1,7 @@
+{
+  "source": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.tex",
+  "source_sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+  "markdown": "paper/manuscript/proposals/transfer_intro_related_v1/01_introduction.md",
+  "markdown_sha256": "a727812b283f781b1e191f164742b84dc00110f52dfd9488c19794ffed5d923e",
+  "scope": "Formatting conversion only; RQs split into a list, LaTeX citations rendered as footnotes. No scientific content or TeX changes."
+}

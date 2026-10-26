@@ -1,0 +1,22 @@
+{
+  "positive_overlay_differences": [
+    {
+      "model": "gemma-4-31b",
+      "recall_delta": 0.7740743464052288,
+      "planned_N_each": 3400,
+      "formula": "failure-inclusive macro recall(Braw+E) minus macro recall(Braw); cached aggregate source; no new inference"
+    },
+    {
+      "model": "ministral-14b",
+      "recall_delta": 0.5669904295051355,
+      "planned_N_each": 3400,
+      "formula": "failure-inclusive macro recall(Braw+E) minus macro recall(Braw); cached aggregate source; no new inference"
+    },
+    {
+      "model": "qwen3.6-flash",
+      "recall_delta": 0.5192225723622783,
+      "planned_N_each": 3400,
+      "formula": "failure-inclusive macro recall(Braw+E) minus macro recall(Braw); cached aggregate source; no new inference"
+    }
+  ]
+}

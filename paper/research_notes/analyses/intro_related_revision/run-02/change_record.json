@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26",
+  "before_sha256": "6eaa183a17fc40d11a8f94826bdb0b0061eed5bba2eb6a567a970dec317d8512",
+  "after_sha256": "41eb89edf5ce927a56a93059ecb5375636855fe57c30a5f72feca0781b3fc42f",
+  "changes": [
+    "Dedicated Relevance to the Web paragraph immediately after opening motivation",
+    "Explicit Semantics and Knowledge track connection through structured knowledge consumption and LLM grounding/verification relevance",
+    "Moved existing corporate-KG/application-scope wording to that paragraph; no new empirical result"
+  ],
+  "compiler": {
+    "tool": "compile_latex_document",
+    "requested_path": "C:\\Users\\ekurm\\projects\\Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs\\paper\\manuscript\\proposals\\transfer_intro_related_v1\\01_introduction.tex",
+    "result": "success",
+    "resolved_main_document": "paper/manuscript/main.tex",
+    "scope": "Desktop tool compiled the remembered parent main document; proposal is not included by that main, so this does not establish PDF layout or citation rendering of the modified proposal section."
+  },
+  "prior_run": "run-01 remains historical; current source hashes and paragraph bindings are in run-02"
+}
