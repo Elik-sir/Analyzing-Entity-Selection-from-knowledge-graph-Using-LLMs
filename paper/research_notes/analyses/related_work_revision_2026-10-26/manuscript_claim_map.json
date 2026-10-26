@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-26",
+  "scope": "Only new Related Work v3 replacement for supplied main (2).pdf; no full-manuscript certification",
+  "source_hashes": {
+    "paper/manuscript/sections/02_related_work_v3.tex": "d104c4cc90cc20d9505368c0ddce3026666c495f9cd93140924c3132c54766aa",
+    "paper/manuscript/sections/02_related_work_v3.md": "7d12a1130014613258c5ea6a72d0d05afc5f14cc7023461a03f5bc6ddc2c3524",
+    "paper/manuscript/sections/related_work_v3.bib": "72e6af194e7775f353fb783b76816daaa04a1fb3fb0551a81d9fc53ebb56863f"
+  },
+  "entries": [
+    {
+      "paragraph": 1,
+      "sentence": 1,
+      "claim_ids": [
+        "C-RW3-1-1"
+      ],
+      "evidence_ids": [
+        "E-lit-anonymousToolGraph"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 1,
+      "sentence": 2,
+      "claim_ids": [
+        "C-RW3-1-2"
+      ],
+      "evidence_ids": [
+        "E-lit-anonymousToolGraph"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 1,
+      "sentence": 3,
+      "claim_ids": [
+        "C-RW3-1-3"
+      ],
+      "evidence_ids": [
+        "E-lit-anonymousToolGraph"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 1,
+      "sentence": 4,
+      "claim_ids": [
+        "C-RW3-1-4"
+      ],
+      "evidence_ids": [
+        "E-local-pairs",
+        "E-local-final-results"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 1,
+      "sentence": 5,
+      "claim_ids": [
+        "C-RW3-1-5"
+      ],
+      "evidence_ids": [
+        "E-local-comparison",
+        "E-lit-anonymousToolGraph"
+      ],
+      "disposition": "scope/inference explicitly bounded"
+    },
+    {
+      "paragraph": 2,
+      "sentence": 1,
+      "claim_ids": [
+        "C-RW3-2-1"
+      ],
+      "evidence_ids": [
+        "E-lit-fatemi2024talklikegraph"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 2,
+      "sentence": 2,
+      "claim_ids": [
+        "C-RW3-2-2"
+      ],
+      "evidence_ids": [
+        "E-lit-dai2025graphpatterns"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 2,
+      "sentence": 3,
+      "claim_ids": [
+        "C-RW3-2-3"
+      ],
+      "evidence_ids": [
+        "E-lit-xu2026graphomni"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 2,
+      "sentence": 4,
+      "claim_ids": [
+        "C-RW3-2-4"
+      ],
+      "evidence_ids": [
+        "E-local-pairs"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 2,
+      "sentence": 5,
+      "claim_ids": [
+        "C-RW3-2-5"
+      ],
+      "evidence_ids": [
+        "E-local-pairs",
+        "E-local-methodology"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 3,
+      "sentence": 1,
+      "claim_ids": [
+        "C-RW3-3-1"
+      ],
+      "evidence_ids": [
+        "E-lit-dai2024kgunderstanding"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 3,
+      "sentence": 2,
+      "claim_ids": [
+        "C-RW3-3-2"
+      ],
+      "evidence_ids": [
+        "E-lit-tian2025alignment"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 3,
+      "sentence": 3,
+      "claim_ids": [
+        "C-RW3-3-3"
+      ],
+      "evidence_ids": [
+        "E-local-pairs"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 3,
+      "sentence": 4,
+      "claim_ids": [
+        "C-RW3-3-4"
+      ],
+      "evidence_ids": [
+        "E-local-pairs"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 3,
+      "sentence": 5,
+      "claim_ids": [
+        "C-RW3-3-5"
+      ],
+      "evidence_ids": [
+        "E-local-pairs",
+        "E-local-methodology"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 4,
+      "sentence": 1,
+      "claim_ids": [
+        "C-RW3-4-1"
+      ],
+      "evidence_ids": [
+        "E-lit-wu2024stark"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 4,
+      "sentence": 2,
+      "claim_ids": [
+        "C-RW3-4-2"
+      ],
+      "evidence_ids": [
+        "E-lit-he2024gretriever",
+        "E-lit-luo2024rog"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 4,
+      "sentence": 3,
+      "claim_ids": [
+        "C-RW3-4-3"
+      ],
+      "evidence_ids": [
+        "E-lit-ghandi2026graphwalk"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 4,
+      "sentence": 4,
+      "claim_ids": [
+        "C-RW3-4-4"
+      ],
+      "evidence_ids": [
+        "E-local-pairs"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 4,
+      "sentence": 5,
+      "claim_ids": [
+        "C-RW3-4-5"
+      ],
+      "evidence_ids": [
+        "E-lit-wu2024stark",
+        "E-lit-he2024gretriever",
+        "E-lit-luo2024rog",
+        "E-local-pairs"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 4,
+      "sentence": 6,
+      "claim_ids": [
+        "C-RW3-4-6"
+      ],
+      "evidence_ids": [
+        "E-local-methodology",
+        "E-lit-ghandi2026graphwalk"
+      ],
+      "disposition": "scope/inference explicitly bounded"
+    },
+    {
+      "paragraph": 5,
+      "sentence": 1,
+      "claim_ids": [
+        "C-RW3-5-1"
+      ],
+      "evidence_ids": [
+        "E-lit-amiraz2025distracting"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 5,
+      "sentence": 2,
+      "claim_ids": [
+        "C-RW3-5-2"
+      ],
+      "evidence_ids": [
+        "E-lit-wu2026toporag"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 5,
+      "sentence": 3,
+      "claim_ids": [
+        "C-RW3-5-3"
+      ],
+      "evidence_ids": [
+        "E-local-pairs"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 5,
+      "sentence": 4,
+      "claim_ids": [
+        "C-RW3-5-4"
+      ],
+      "evidence_ids": [
+        "E-lit-amiraz2025distracting",
+        "E-local-pairs"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 5,
+      "sentence": 5,
+      "claim_ids": [
+        "C-RW3-5-5"
+      ],
+      "evidence_ids": [
+        "E-lit-li2025selection"
+      ],
+      "disposition": "supported"
+    },
+    {
+      "paragraph": 5,
+      "sentence": 6,
+      "claim_ids": [
+        "C-RW3-5-6"
+      ],
+      "evidence_ids": [
+        "E-local-methodology",
+        "E-local-final-results"
+      ],
+      "disposition": "supported"
+    }
+  ]
+}

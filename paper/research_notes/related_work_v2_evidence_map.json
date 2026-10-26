@@ -1,0 +1,110 @@
+{
+  "checked_on": "2026-10-25",
+  "scope": "New Related Work variant only; original manuscript section preserved",
+  "writing_gate": "workflow_state.json analysis_complete=true and full_writing_ready=true; scoped rationale inspected. research_summary.md contains older gate state.",
+  "inputs": {
+    "/Users/ivan_kirpichev/Projects/Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs/paper/research_notes/research_summary.md": "0f78d1473d7ab80ec1db92ea3513fa9891813006e20d48bfebd4a817f48544ff",
+    "/Users/ivan_kirpichev/Projects/Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs/paper/research_notes/workflow_state.json": "60a0a21ef6244d1b3c9332199b3c915fd36ac818b2ab10bd6944a4280e575059",
+    "/Users/ivan_kirpichev/Projects/Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs/paper/research_notes/contribution_comparison.md": "5382e33f6f9a3d6ac09b865844e94838387d62293020b0510cb0572bb586c256",
+    "/Users/ivan_kirpichev/Projects/Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs/paper/manuscript/sections/02_related_work_v2.md": "501383ffae21e07be58915d19a0285a6560c254164fc78ab6a419c890121a3fe",
+    "/Users/ivan_kirpichev/Projects/Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs/paper/manuscript/sections/02_related_work_v2.tex": "334d57fd7ecca5df2d7226392871f214aac8b3dec621b314dfb25cdef43f25ca",
+    "/Users/ivan_kirpichev/Projects/Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs/paper/manuscript/sections/related_work_v2.bib": "24a8cd7239f419de94388c99c3a0c8b5f1b8379dc744d471ec11d435297a955e",
+    "/Users/ivan_kirpichev/Desktop/НАУЧКА/related_work_v2_ru.md": "41277d5564ce7c15d3d525999f43db2440d4ded028bb2fda5ef60a703099fab0"
+  },
+  "paragraphs": [
+    {
+      "paragraph": "1.1",
+      "citation_keys": [
+        "wang2023nlgraph",
+        "fatemi2024talklikegraph",
+        "dai2025graphpatterns",
+        "xu2026graphomni"
+      ],
+      "text": "Graph benchmarks examine whether LLMs can recover and manipulate structure from textual inputs. NLGraph covers tasks ranging from connectivity and shortest paths to maximum flow [@wang2023nlgraph]. Talk like a Graph studies how performance varies with graph encoding, task, and graph structure [@fatemi2024talklikegraph]. Xinnan Dai et al. extend this evaluation to pattern comprehension, graph modification, and pattern discovery from terminological or topological specifications [@dai2025graphpatterns]. GraphOmni systematically combines graph types, serialization formats, and prompting schemes [@xu2026graphomni]. Together, these studies motivate evaluating structural and representational factors jointly. Our study examines entity selection for a query: the target comprises entities on the supporting routes, including intermediate entities and required branches. We use seven directed motifs to organize structural comparisons and examine size-dependent selection profiles, rather than treating motif recognition as the task."
+    },
+    {
+      "paragraph": "2.1",
+      "citation_keys": [
+        "dai2024kgunderstanding",
+        "tian2025alignment"
+      ],
+      "text": "Closely related work studies how KGs are presented to language models. Xinbang Dai et al. compare linearized triples with natural-language representations, investigate triple organization, and evaluate robustness to noisy or incomplete subgraphs [@dai2024kgunderstanding]. Tian et al. distinguish graph transformation from graph linearization and examine formats, orders, and templates, reporting model-dependent ordering preferences [@tian2025alignment]. Our evaluation distinguishes the availability of explicit relations from the presentation of relations already supplied. Adding relations to metadata-based entity cards changes the available evidence; comparing triples with templated prose or placing a relation on its source or target card examines its presentation. Entity aliases and alternative question formulations provide further sensitivity checks. These interventions support a conditional interpretation of structural performance: differences between motifs must be considered alongside the evidence visible to the model."
+    },
+    {
+      "paragraph": "3.1",
+      "citation_keys": [
+        "wu2024stark",
+        "he2024gretriever",
+        "li2025subgraphrag"
+      ],
+      "text": "STaRK evaluates entity retrieval over knowledge bases combining textual attributes and relations [@wu2024stark]. G-Retriever constructs graph context through prize-collecting Steiner tree optimization [@he2024gretriever], while SubgraphRAG scores triples using directional structural distances and supports adjustable retrieval sizes [@li2025subgraphrag]. These approaches address how to retrieve useful graph context for a query. We isolate selection within a fixed pool of 25 candidates containing all target entities. Replacing disconnected distractors with entities adjacent to the target subgraph tests whether structural proximity interferes with selection while preserving target availability."
+    },
+    {
+      "paragraph": "3.2",
+      "citation_keys": [
+        "li2025selection"
+      ],
+      "text": "Controlled RAG experiments also show that the relationship between knowledge-selection metrics and generation quality depends on the generator and task [@li2025selection]. Accordingly, we measure precision, recall, and exact entity-set recovery directly. Our reference covers the designated supporting routes; it does not establish that every selected entity card is indispensable or that the reference is a minimum sufficient evidence set. Selection completeness and final-answer correctness therefore remain separate evaluation targets."
+    },
+    {
+      "paragraph": "4.1",
+      "citation_keys": [
+        "anonymousToolGraph"
+      ],
+      "text": "Tool Graph Complexity already includes a finance-KG entity-selection study in Appendix O, with fixed candidate pools, motif and size variation, explicit relations, and adjacent distractors [@anonymousToolGraph]. These are direct methodological overlaps. The present study develops a focused analysis of KG evidence selection across structural configurations, distinguishing relation availability from controlled changes in encoding and placement. Its contribution is the empirical characterization of selection under these conditions, rather than the introduction of motif-based evaluation or adjacent distractors. This focus addresses how linked-data interfaces preserve relational evidence when exposing KG context to LLM-based agents."
+    }
+  ],
+  "sources": {
+    "wang2023nlgraph": {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/622afc4edf2824a1b6aaf5afe153fa93-Abstract-Conference.html",
+      "locator": "Sections 2–3"
+    },
+    "fatemi2024talklikegraph": {
+      "url": "https://arxiv.org/html/2310.04560",
+      "locator": "Sections 3–4; conference metadata retained from existing verified manuscript bibliography"
+    },
+    "dai2025graphpatterns": {
+      "url": "https://arxiv.org/html/2410.05298v2",
+      "locator": "Sections 2–5"
+    },
+    "xu2026graphomni": {
+      "url": "https://arxiv.org/html/2504.12764v5",
+      "locator": "Section 2; Appendix A.6; verified preprint v5, no conference status asserted"
+    },
+    "dai2024kgunderstanding": {
+      "url": "https://arxiv.org/html/2402.11541v4",
+      "locator": "Sections 3–5; citation uses verified preprint v4"
+    },
+    "tian2025alignment": {
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34716",
+      "locator": "Sections 3–4, PDF pp. 3–6"
+    },
+    "wu2024stark": {
+      "url": "https://papers.nips.cc/paper_files/paper/2024/hash/e607b1419e9ae7cd5cb5b5bb60c2ad5c-Abstract-Datasets_and_Benchmarks_Track.html",
+      "locator": "Section 2"
+    },
+    "he2024gretriever": {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html",
+      "locator": "Section 4, PCST retrieval"
+    },
+    "li2025subgraphrag": {
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/11e1900e680f5fe1893a8e27362dbe2c-Abstract-Conference.html",
+      "locator": "Section 3, directional distance encoding"
+    },
+    "li2025selection": {
+      "url": "https://aclanthology.org/2025.findings-emnlp.218/",
+      "locator": "Sections 3–4, Figures 2–4"
+    },
+    "anonymousToolGraph": {
+      "url": "../../research_notes/sources/tool_graph_complexity.pdf",
+      "locator": "Appendix O, PDF pp. 30–31; existing inspected local-source evidence"
+    }
+  },
+  "limits": [
+    "No comprehensive novelty claim.",
+    "No row-level reuse or independence claim relative to Appendix O.",
+    "No new empirical numbers or model runs.",
+    "GRAIN, Nishida et al., TopoRAG, Guo et al., Plan Then Retrieve and Amiraz et al. omitted from this bounded version; substantive verification not completed in this turn.",
+    "Prior KG construction citation remains in existing manuscript; provenance belongs in setup."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "checked_on": "2026-10-26",
+  "source_revision": "f986fa2b3698855ef6665317039fd317d251361c",
+  "inputs": [
+    {
+      "path": "/Users/ivan_kirpichev/Downloads/Telegram Desktop/main (2).pdf",
+      "sha256": "5e6c25c45248436cd1cabc1d99d1ec32fca85e103b007d1fd0dc4fc60efba3a7"
+    },
+    {
+      "path": "/Users/ivan_kirpichev/.codex/attachments/374714ef-aa6e-4a22-89d7-f90207478bc7/Вставленный текст.txt",
+      "sha256": "01c03e28c402b1920041b5b239079e95ccaf0d9fb0e457e659a0a25ae780b9fd"
+    },
+    {
+      "path": "/Users/ivan_kirpichev/Projects/Analyzing-Entity-Selection-from-knowledge-graph-Using-LLMs/paper/research_notes/workflow_state.json",
+      "sha256": "60a0a21ef6244d1b3c9332199b3c915fd36ac818b2ab10bd6944a4280e575059"
+    }
+  ],
+  "preservation": "Original PDF, active older main.tex, all v2 files and user changes preserved.",
+  "gate": "Existing analysis_complete=true and full_writing_ready=true rationale inspected; scoped Related Work revision only.",
+  "initial_working_tree": "Six pre-existing untracked files: v2 tex/md/bib, v2 evidence map/report, experiment_figures_tables_plan.md"
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    {
+      "id": "E-lit-anonymousToolGraph",
+      "kind": "literature",
+      "locator": "Sections 5.1 and 5.3, PDF pp. 7-8; Appendix O and Tables 32-33, PDF pp. 30-31",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Supplied anonymous manuscript; no current submission or acceptance status asserted.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "path": "paper/research_notes/sources/tool_graph_complexity.pdf",
+      "sha256": "467c8e2a261470e6e2293440c33169838c77df5c647c622438f222ee2ca956d9"
+    },
+    {
+      "id": "E-lit-fatemi2024talklikegraph",
+      "kind": "literature",
+      "locator": "Conference PDF Sections 3-4; Figure 2",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Conference metadata and relevant full text inspected.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/bf72f65f30eedf5d48da6980ee02b589-Abstract-Conference.html"
+    },
+    {
+      "id": "E-lit-dai2025graphpatterns",
+      "kind": "literature",
+      "locator": "Conference PDF Sections 3-5; Sections 3.2-3.3 and 4.1 inspected in detail",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Conference metadata and relevant full text inspected.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/9316da9c25ab559ba678f2fe52217a64-Abstract-Conference.html"
+    },
+    {
+      "id": "E-lit-xu2026graphomni",
+      "kind": "literature",
+      "locator": "Section 2: Graph Tasks, Graph Generators, Prompt Schemes, Serialization Formats",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Cited version is arXiv v5, March 25, 2026. Author website states ICLR 2026 acceptance; OpenReview direct access returned a browser challenge, so bibliography conservatively identifies the inspected preprint version.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "url": "https://arxiv.org/html/2504.12764v5"
+    },
+    {
+      "id": "E-lit-dai2024kgunderstanding",
+      "kind": "literature",
+      "locator": "Sections 3.1, 4 and 5; input formats, organization, noisy/incomplete KG evaluation",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Version 4 inspected; initial preprint year 2024 retained, revision January 23, 2025 identified in bibliography.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "url": "https://arxiv.org/html/2402.11541v4"
+    },
+    {
+      "id": "E-lit-tian2025alignment",
+      "kind": "literature",
+      "locator": "Publisher abstract, paragraphs 2-3; How to Cite",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Metadata and abstract verified. Full PDF resolved initially but subsequent body reads timed out; attempts via /view/ and /download/ plus direct retrieval failed. Sentence is limited to the factor taxonomy explicitly stated in the abstract; no detailed full-text result comparison is asserted.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "abstract_only",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34716"
+    },
+    {
+      "id": "E-lit-wu2024stark",
+      "kind": "literature",
+      "locator": "Conference PDF Section 2.1, PDF p. 3: output node set satisfies textual and relational requirements",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Conference metadata and full problem definition inspected.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "url": "https://papers.nips.cc/paper_files/paper/2024/hash/e607b1419e9ae7cd5cb5b5bb60c2ad5c-Abstract-Datasets_and_Benchmarks_Track.html"
+    },
+    {
+      "id": "E-lit-he2024gretriever",
+      "kind": "literature",
+      "locator": "Conference metadata; full-text https://arxiv.org/html/2402.07630v3 Sections 3 and 5.1-5.4, especially Section 5.3",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Conference PDF retrieval timed out on reread; original-author preprint full text used for the PCST description.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "url": "https://proceedings.nips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html"
+    },
+    {
+      "id": "E-lit-luo2024rog",
+      "kind": "literature",
+      "locator": "Conference PDF Sections 3 and 4.1: relation paths, instantiated reasoning paths, planning-retrieval-reasoning",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Conference metadata and relevant full text inspected.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/3e2aeb66481dd63a32421bf032b70384-Abstract-Conference.html"
+    },
+    {
+      "id": "E-lit-ghandi2026graphwalk",
+      "kind": "literature",
+      "locator": "Sections 3-4 and 5.5: incomplete exploration explicitly concerns the no-tool setting",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Inspected preprint v1, April 2, 2026. No conference status asserted.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "url": "https://arxiv.org/html/2604.01610v1"
+    },
+    {
+      "id": "E-lit-amiraz2025distracting",
+      "kind": "literature",
+      "locator": "PDF Section 3.1, PDF p. 3, Equation 1; Introduction; official .bib",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Metadata, definition and surrounding full text inspected. Passage-level semantic distraction is not equated with KG adjacency.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "url": "https://aclanthology.org/2025.acl-long.892/"
+    },
+    {
+      "id": "E-lit-wu2026toporag",
+      "kind": "literature",
+      "locator": "PDF Section 3.1-3.2, PDF p. 4, Equation 1: cardinality and induced-subgraph diameter constraints",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Metadata and full formulation inspected. No empirical performance superiority or theorem is reproduced.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "url": "https://aclanthology.org/2026.findings-acl.1703/"
+    },
+    {
+      "id": "E-lit-li2025selection",
+      "kind": "literature",
+      "locator": "PDF Sections 3.1, 4.1-4.3 and 5; Tables 1-2, Figures 2-4",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "limitations": "Metadata, experimental construction, and generator/task dependence inspected.",
+      "metadata_verification": "primary landing page or versioned original manuscript",
+      "content_verification": "relevant_full_text_inspected",
+      "url": "https://aclanthology.org/2025.findings-emnlp.218/"
+    },
+    {
+      "id": "E-local-pairs",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/reference_pairing_audit/final/summary.json",
+      "locator": "$.checks.reference_in_candidates_checked; $.checks.reference_vs_actual_witness_checked; $.checks.edge_host_placement_checked; $.pairs (Core rendering/hosting and full_braw overlay pairs)",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "sha256": "e03194a75f739cef157434023582bf05fc7b9f48f4a0317279db33fe1e933ca6",
+      "limitations": "Existing offline audit inspected; not rerun. Native-prose sufficiency and original database completeness are not certified."
+    },
+    {
+      "id": "E-local-comparison",
+      "kind": "draft",
+      "path": "paper/research_notes/contribution_comparison.md",
+      "locator": "Task/data/protocol table; What results already overlap; Reuse, limits and decision",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "sha256": "5382e33f6f9a3d6ac09b865844e94838387d62293020b0510cb0572bb586c256",
+      "limitations": "Prior scoped comparison inspected against local Tool Graph PDF; row-level independence remains unresolved."
+    },
+    {
+      "id": "E-local-methodology",
+      "kind": "draft",
+      "path": "paper/research_notes/methodology.md",
+      "locator": "Definitions to settle; RQs and evidence routes; Scoped contribution decision",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "sha256": "46f7c4b112fae8265e1b3ed86b214a017ebc6ed6313ef9a45903d36549a5a7b2",
+      "limitations": "Task/reference distinctions and inferential limits; not treated as empirical result evidence."
+    },
+    {
+      "id": "E-local-final-results",
+      "kind": "result",
+      "path": "paper/research_notes/analyses/final_results/run-01/motif_size_metrics.csv",
+      "locator": "Header and Core/full_braw rows: precision, recall, exact, N; no numerical result reproduced in revised Related Work",
+      "verification": "inspected",
+      "checked_on": "2026-10-26",
+      "sha256": "e319ce340d53885f8e67972f8f5b48c3c1ae83bee8ae3e904435416a9907c271",
+      "limitations": "Existing saved-result export; not freshly rescored in this revision."
+    }
+  ]
+}

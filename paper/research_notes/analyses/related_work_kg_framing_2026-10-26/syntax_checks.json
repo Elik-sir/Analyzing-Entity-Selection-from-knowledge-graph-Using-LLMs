@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "paragraphs": 5,
+  "sentences": 26,
+  "citation_keys": 13,
+  "unresolved_keys": [],
+  "duplicate_keys": [],
+  "braces": "balanced",
+  "full_pdf_compiled": false,
+  "note": "Static checks only; scientific support is scoped to the mapped propositions."
+}

@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-26",
+  "scope": "KG-centered Related Work v4 only; author-requested reframing of v3, not whole-paper review",
+  "entries": [
+    {
+      "paragraph": 1,
+      "sentence": 1,
+      "claim_ids": [
+        "C-RW4-1-1"
+      ],
+      "evidence_ids": [
+        "E-lit-luo2024rog",
+        "E-lit-ghandi2026graphwalk"
+      ]
+    },
+    {
+      "paragraph": 1,
+      "sentence": 2,
+      "claim_ids": [
+        "C-RW4-1-2"
+      ],
+      "evidence_ids": [
+        "E-lit-luo2024rog"
+      ]
+    },
+    {
+      "paragraph": 1,
+      "sentence": 3,
+      "claim_ids": [
+        "C-RW4-1-3"
+      ],
+      "evidence_ids": [
+        "E-lit-wu2024stark",
+        "E-lit-he2024gretriever"
+      ]
+    },
+    {
+      "paragraph": 1,
+      "sentence": 4,
+      "claim_ids": [
+        "C-RW4-1-4"
+      ],
+      "evidence_ids": [
+        "E-local-pairs"
+      ]
+    },
+    {
+      "paragraph": 1,
+      "sentence": 5,
+      "claim_ids": [
+        "C-RW4-1-5"
+      ],
+      "evidence_ids": [
+        "E-local-pairs"
+      ]
+    },
+    {
+      "paragraph": 1,
+      "sentence": 6,
+      "claim_ids": [
+        "C-RW4-1-6"
+      ],
+      "evidence_ids": [
+        "E-local-pairs",
+        "E-local-final-results"
+      ]
+    },
+    {
+      "paragraph": 2,
+      "sentence": 1,
+      "claim_ids": [
+        "C-RW4-2-1"
+      ],
+      "evidence_ids": [
+        "E-lit-fatemi2024talklikegraph",
+        "E-lit-dai2025graphpatterns",
+        "E-lit-xu2026graphomni"
+      ]
+    },
+    {
+      "paragraph": 2,
+      "sentence": 2,
+      "claim_ids": [
+        "C-RW4-2-2"
+      ],
+      "evidence_ids": [
+        "E-lit-fatemi2024talklikegraph",
+        "E-lit-dai2025graphpatterns"
+      ]
+    },
+    {
+      "paragraph": 2,
+      "sentence": 3,
+      "claim_ids": [
+        "C-RW4-2-3"
+      ],
+      "evidence_ids": [
+        "E-lit-xu2026graphomni"
+      ]
+    },
+    {
+      "paragraph": 2,
+      "sentence": 4,
+      "claim_ids": [
+        "C-RW4-2-4"
+      ],
+      "evidence_ids": [
+        "E-local-pairs",
+        "E-local-final-results",
+        "E-local-methodology"
+      ]
+    },
+    {
+      "paragraph": 3,
+      "sentence": 1,
+      "claim_ids": [
+        "C-RW4-3-1"
+      ],
+      "evidence_ids": [
+        "E-lit-dai2024kgunderstanding",
+        "E-lit-tian2025alignment"
+      ]
+    },
+    {
+      "paragraph": 3,
+      "sentence": 2,
+      "claim_ids": [
+        "C-RW4-3-2"
+      ],
+      "evidence_ids": [
+        "E-lit-dai2024kgunderstanding"
+      ]
+    },
+    {
+      "paragraph": 3,
+      "sentence": 3,
+      "claim_ids": [
+        "C-RW4-3-3"
+      ],
+      "evidence_ids": [
+        "E-lit-tian2025alignment"
+      ]
+    },
+    {
+      "paragraph": 3,
+      "sentence": 4,
+      "claim_ids": [
+        "C-RW4-3-4"
+      ],
+      "evidence_ids": [
+        "E-local-pairs"
+      ]
+    },
+    {
+      "paragraph": 3,
+      "sentence": 5,
+      "claim_ids": [
+        "C-RW4-3-5"
+      ],
+      "evidence_ids": [
+        "E-local-pairs",
+        "E-local-methodology"
+      ]
+    },
+    {
+      "paragraph": 4,
+      "sentence": 1,
+      "claim_ids": [
+        "C-RW4-4-1"
+      ],
+      "evidence_ids": [
+        "E-lit-ghandi2026graphwalk"
+      ]
+    },
+    {
+      "paragraph": 4,
+      "sentence": 2,
+      "claim_ids": [
+        "C-RW4-4-2"
+      ],
+      "evidence_ids": [
+        "E-lit-wu2026toporag",
+        "E-lit-amiraz2025distracting"
+      ]
+    },
+    {
+      "paragraph": 4,
+      "sentence": 3,
+      "claim_ids": [
+        "C-RW4-4-3"
+      ],
+      "evidence_ids": [
+        "E-local-pairs"
+      ]
+    },
+    {
+      "paragraph": 4,
+      "sentence": 4,
+      "claim_ids": [
+        "C-RW4-4-4"
+      ],
+      "evidence_ids": [
+        "E-local-pairs",
+        "E-local-methodology"
+      ]
+    },
+    {
+      "paragraph": 4,
+      "sentence": 5,
+      "claim_ids": [
+        "C-RW4-4-5"
+      ],
+      "evidence_ids": [
+        "E-lit-li2025selection"
+      ]
+    },
+    {
+      "paragraph": 4,
+      "sentence": 6,
+      "claim_ids": [
+        "C-RW4-4-6"
+      ],
+      "evidence_ids": [
+        "E-local-final-results",
+        "E-local-methodology"
+      ]
+    },
+    {
+      "paragraph": 5,
+      "sentence": 1,
+      "claim_ids": [
+        "C-RW4-5-1"
+      ],
+      "evidence_ids": [
+        "E-lit-anonymousToolGraph"
+      ]
+    },
+    {
+      "paragraph": 5,
+      "sentence": 2,
+      "claim_ids": [
+        "C-RW4-5-2"
+      ],
+      "evidence_ids": [
+        "E-lit-anonymousToolGraph"
+      ]
+    },
+    {
+      "paragraph": 5,
+      "sentence": 3,
+      "claim_ids": [
+        "C-RW4-5-3"
+      ],
+      "evidence_ids": [
+        "E-lit-anonymousToolGraph"
+      ]
+    },
+    {
+      "paragraph": 5,
+      "sentence": 4,
+      "claim_ids": [
+        "C-RW4-5-4"
+      ],
+      "evidence_ids": [
+        "E-lit-anonymousToolGraph",
+        "E-local-pairs",
+        "E-local-final-results"
+      ]
+    },
+    {
+      "paragraph": 5,
+      "sentence": 5,
+      "claim_ids": [
+        "C-RW4-5-5"
+      ],
+      "evidence_ids": [
+        "E-lit-anonymousToolGraph",
+        "E-local-comparison",
+        "E-local-methodology"
+      ]
+    }
+  ],
+  "source_hashes": {
+    "paper/manuscript/sections/02_related_work_v4.tex": "0386880f1ecbc1962947d422c68dcb5171a942dc81c023f592e7fcaf80f037aa",
+    "paper/manuscript/sections/02_related_work_v4.md": "7866ea6396a8b58c852c6091ec2f72d490915f8b61c05a55c91e2590a507edb3",
+    "paper/manuscript/sections/related_work_v4.bib": "e4632dbfc7af00f4df431c48a81db9500bf3df8ce764e52a6343a68514118af6"
+  }
+}

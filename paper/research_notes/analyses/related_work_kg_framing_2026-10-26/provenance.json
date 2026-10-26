@@ -1,0 +1,19 @@
+{
+  "checked_on": "2026-10-26",
+  "source_revision": "f986fa2b3698855ef6665317039fd317d251361c",
+  "request": "Lead with KG entity selection and LLM agents; retain tool-selection relationship in a separate later paragraph.",
+  "parent_revision": "paper/research_notes/analyses/related_work_revision_2026-10-26",
+  "inputs": {
+    "paper/research_notes/analyses/related_work_revision_2026-10-26/build_revision.py": "c5be501d7cb9ad4fccc66329ca2fe26f0d5ec2d41b38b304d6330c418108fdc4",
+    "paper/research_notes/analyses/related_work_revision_2026-10-26/evidence_register.json": "e91f314bed765bee7c238fab3b544f094ebb27ed17a706c261a74cd9415762d2",
+    "paper/manuscript/sections/02_related_work_v3.tex": "d104c4cc90cc20d9505368c0ddce3026666c495f9cd93140924c3132c54766aa",
+    "paper/manuscript/sections/related_work_v3.bib": "72e6af194e7775f353fb783b76816daaa04a1fb3fb0551a81d9fc53ebb56863f",
+    "paper/research_notes/workflow_state.json": "60a0a21ef6244d1b3c9332199b3c915fd36ac818b2ab10bd6944a4280e575059"
+  },
+  "preservation": "v3 and active older manuscript unchanged",
+  "additional_source_check": [
+    "https://arxiv.org/html/2402.07630v3 Sections 4-5",
+    "https://arxiv.org/html/2604.01610v1 Abstract/Introduction",
+    "https://proceedings.iclr.cc/paper_files/paper/2024/hash/3e2aeb66481dd63a32421bf032b70384-Abstract-Conference.html"
+  ]
+}

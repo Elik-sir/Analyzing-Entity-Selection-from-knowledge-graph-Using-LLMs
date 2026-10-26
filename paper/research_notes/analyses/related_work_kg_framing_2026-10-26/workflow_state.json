@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-25",
+  "source_revision": "3f4b7b9baccd1a369a9665507883a7c0152f52e3",
+  "analysis_complete": true,
+  "full_writing_ready": true,
+  "gate_rationale": "Author explicitly requests full English paper after completion of intended-scope archive, reference/pairing, result, Appendix O and emphasis audits. The selected descriptive scope is supported. Historical extraction is narrowed to frozen tasks; original Cypher extraction is not asserted. Native sufficiency, missing raw evidence, cross-paper reuse and dependence are explicit limits, not factual gaps filled with defaults. Verified primary sources plus an anonymous supplied-manuscript citation avoid fabricated bibliography fields. Readiness authorizes drafting this scoped manuscript, not venue submission or completed scientific review.",
+  "stages": {
+    "inventory": "initial_audit_complete",
+    "implementation": "initial_audit_complete_with_gaps",
+    "experiments": "final_saved_results_tables_figures_and_conditional_uncertainty_complete",
+    "literature": "Appendix_O_direct_comparison_complete; broader_leads_and_citation_metadata_pending",
+    "methodology": "scoped_contribution_decision_complete; no_independence_minimality_or_QA_claim",
+    "claim_verification": "27_claims_registered; manuscript_scope_map_exists; paragraph_map_finalization_pending",
+    "full_manuscript": "english_draft_written; final_claim_map_completion_pending",
+    "template": "local_unmodified_acmart_2.19_used; official_options_rechecked",
+    "manuscript_build": "Tectonic_0.17.0_success; 9_pages_total; main_6_references_1_appendix_2",
+    "scientific_review": "single_agent_review_recorded; independent_review_pending",
+    "reference_pairing": "complete_for_frozen_archive_consistency; native_prose_and_full_incremental_history_limits_retained",
+    "uncertainty": "paired_anchor_cluster_and_task_sensitivity_complete; entity_dependence_scope_limited",
+    "contribution_clarification": "complete_with_explicit_reuse_limit",
+    "outline": "structure_led_scope_selected_for_author_requested_manuscript",
+    "main_text_assets": "two_structural_figures_and_two_main_tables_in_draft",
+    "emphasis_assessment": "complete_two_paths_weighed; recommend_structure_led_condition_aware"
+  },
+  "external_actions_authorized": false,
+  "new_experiments_authorized": false,
+  "author_confirmations": {
+    "source_kg_snapshot": "Same snapshot as Kirpichev et al., unchanged; user confirmed 2026-10-25",
+    "cypher_appendix": "Author supplied nine-pattern fixed-size Cypher specification in this chat; included with executable tokens preserved; not executed and not a complete archived-grid sampling script",
+    "mandatory_reference": "Tool Graph Complexity",
+    "appendix_o_participation": "User states Appendix O was written with team participation; no anonymous identities or quantified row reuse inferred"
+  },
+  "outline_decision": {
+    "primary_rqs": [
+      "RQ1 pattern/task-family profiles at comparable size",
+      "RQ2 pattern-specific size sensitivity"
+    ],
+    "contextual_rq": "RQ3 robustness to evidence availability and adjacent distractors",
+    "main_tables": 2,
+    "main_figures": 2,
+    "status": "selected_by_agent_under_author_request; final_prose_and_layout_review_pending"
+  },
+  "writing_scope": "Descriptive structure-led English manuscript: frozen Core and all-model Full Braw size profiles; existing paired condition inference; no new motif/size significance, novelty/independence, minimality or QA claims. Cypher appendix reproduces the author-supplied fixed-size query, distinguishing it from full archived-grid sampling and from new supplementary checks."
+}
